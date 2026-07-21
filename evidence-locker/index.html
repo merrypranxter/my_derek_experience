@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE DEREK EXPERIENCE — Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+@font-face{
+  font-family:'Junegull';
+  src:url('assets/junegull-rg.woff2') format('woff2'),
+      url('https://raw.githubusercontent.com/merrypranxter/fuckyou_derek/main/assets/fonts/junegull%20rg.woff2') format('woff2');
+  font-display:swap;
+}
+/* ============================================================
+   VISUAL LAW:
+   The archive is perfectly calm and perfectly catalogued.
+   Only the subject's name refuses to hold still.
+   The record orbits him in a wide ellipse — never touching.
+   ============================================================ */
+:root{
+  --font-subject: 'Junegull', 'Arial Black', sans-serif;
+  --font-archive: 'Special Elite', 'Courier New', monospace;
+  --font-data: 'Space Mono', 'Courier New', monospace;
+
+  --atm-bg: #05030f;
+  --atm-ink: #e8e4d8;
+  --atm-dim: #6f6a80;
+  --atm-stamp: #ff3b30;
+  --atm-cyan: #35e0ff;
+  --atm-magenta: #ff2ea6;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--atm-bg);
+  color:var(--atm-ink);
+  font-family:var(--font-data);
+  min-height:100vh;
+  overflow-x:hidden;
+}
+#field{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0;}
+body::after{
+  content:"";position:fixed;inset:0;z-index:3;pointer-events:none;
+  background:repeating-linear-gradient(0deg, transparent 0 3px, rgb(0 0 0 / .12) 3px 4px);
+  mix-blend-mode:multiply;
+}
+
+.stage{
+  position:relative;z-index:2;
+  min-height:100vh;
+  display:grid;place-items:center;
+  padding:3rem 1rem 5rem;
+}
+
+/* ---------- the ellipse ---------- */
+.orbit{
+  position:relative;
+  width:min(96vw, 1200px);
+  height:min(88vh, 820px);
+  list-style:none;margin:0;padding:0;
+}
+.orbit__path{
+  position:absolute;inset:0;width:100%;height:100%;pointer-events:none;
+}
+.orbit__path ellipse{
+  fill:none;stroke:var(--atm-dim);stroke-opacity:.38;stroke-dasharray:2 7;
+}
+
+/* ---------- center docket ---------- */
+.docket{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  z-index:2;text-align:center;max-width:62%;
+  pointer-events:none;
+}
+.docket .subject,.docket a{pointer-events:auto;}
+.filetag{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--atm-dim);margin-bottom:.9rem;}
+.filetag b{color:var(--atm-stamp);font-weight:700;}
+.subject{
+  font-family:var(--font-subject);
+  font-size:100px;
+  line-height:.9;letter-spacing:.01em;
+  margin:0;color:var(--atm-ink);
+  display:inline-block;white-space:nowrap;
+  transform:scaleY(1.38);transform-origin:center 62%;
+  user-select:none;cursor:default;
+}
+.subject .letter{display:inline-block;position:relative;will-change:transform;}
+.subject .letter{
+  text-shadow:
+    calc(var(--split, 0) * -1px) 0 var(--atm-magenta),
+    calc(var(--split, 0) *  1px) 0 var(--atm-cyan);
+}
+.subject .letter.torn{animation:tear 140ms steps(2,end) 1;}
+@keyframes tear{
+  0%  {clip-path:inset(0 0 55% 0); transform:translate(-6px,2px) skewX(-12deg);}
+  50% {clip-path:inset(45% 0 0 0); transform:translate(7px,-3px) skewX(9deg);}
+  100%{clip-path:none; transform:none;}
+}
+.experience{
+  font-family:var(--font-archive);          /* grungy typewriter, still legible */
+  font-size:clamp(.78rem, 2.2vmin, 1.05rem);
+  letter-spacing:.3em;white-space:nowrap;
+  margin:1.5rem 0 0;color:var(--atm-dim);display:inline-block;
+}
+.experience em{font-style:normal;color:var(--atm-ink);}
+.caption{
+  font-family:var(--font-archive);
+  font-size:clamp(.66rem, 1.9vmin, .82rem);
+  color:var(--atm-dim);margin-top:1.1rem;min-height:1.4em;
+}
+.caption.lie{color:var(--atm-stamp);}
+.readout{font-size:.64rem;letter-spacing:.12em;color:var(--atm-cyan);margin-top:.7rem;min-height:1.2em;opacity:.85;}
+
+/* ---------- the module chips ---------- */
+.chip{position:absolute;top:50%;left:50%;z-index:1;}
+.chip a{
+  display:flex;align-items:center;gap:.55em;
+  transform:translate(-50%,-50%) translate(var(--x,0), var(--y,0));
+  font-family:var(--font-subject);
+  font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;
+  text-decoration:none;white-space:nowrap;
+  color:var(--atm-dim);
+  background:rgb(5 3 15 / .78);
+  border:1px solid rgb(111 106 128 / .42);
+  padding:.5em .9em;
+  transition:color 120ms, border-color 120ms, background 120ms, box-shadow 120ms;
+}
+.chip a b{
+  color:var(--atm-stamp);font-weight:400;letter-spacing:.06em;
+}
+.chip a:hover,.chip a:focus-visible{
+  color:var(--atm-ink);
+  border-color:var(--atm-cyan);
+  background:rgb(10 8 30 / .92);
+  box-shadow:-3px 0 0 -1px var(--atm-magenta), 3px 0 0 -1px var(--atm-cyan);
+  outline:none;
+}
+.chip a:focus-visible{box-shadow:0 0 0 2px var(--atm-cyan);}
+.chip.pulse a{animation:chipPulse 520ms ease-out 1;}
+@keyframes chipPulse{
+  0%{color:var(--atm-cyan);border-color:var(--atm-cyan);box-shadow:0 0 0 2px var(--atm-cyan);}
+  100%{color:var(--atm-dim);border-color:rgb(111 106 128 / .42);box-shadow:none;}
+}
+
+/* ---------- VISIBLE EVIDENCE stamp ---------- */
+.stamplink{
+  position:fixed;left:1.3rem;bottom:1.3rem;z-index:5;
+  font-family:var(--font-data);
+  font-size:.72rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--atm-stamp);text-decoration:none;
+  border:2px solid var(--atm-stamp);
+  padding:.7em 1.1em;
+  transform:rotate(-5deg);
+  background:rgb(5 3 15 / .6);
+  transition:transform 120ms, background 120ms;
+}
+.stamplink:hover,.stamplink:focus-visible{
+  transform:rotate(-5deg) scale(1.05);
+  background:rgb(255 59 48 / .12);
+  outline:none;
+}
+
+/* ---------- narrow path ---------- */
+@media (max-width: 719px){
+  .orbit{width:100%;height:auto;display:block;}
+  .orbit__path{display:none;}
+  .docket{position:static;transform:none;max-width:100%;margin:0 auto 2.5rem;pointer-events:auto;}
+  .chip{position:static;display:flex;justify-content:center;margin-bottom:.6rem;}
+  .chip a{transform:none;}
+}
+@media (prefers-reduced-motion: reduce){
+  .subject .letter.torn{animation:none;}
+  .chip.pulse a{animation:none;color:var(--atm-cyan);border-color:var(--atm-cyan);}
+}
+</style>
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+
+<a class="stamplink" href="https://console.cloud.google.com/storage/browser/astraltrash_other/derek?project=gen-lang-client-0646349261&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))" target="_blank" rel="noopener">Visible Evidence ↗</a>
+
+<main class="stage">
+  <ul class="orbit" id="orbit">
+    <svg class="orbit__path" viewBox="0 0 1200 820" preserveAspectRatio="none" aria-hidden="true">
+      <ellipse id="orbitPath" cx="600" cy="410" rx="528" ry="328"/>
+    </svg>
+
+    <div class="docket">
+      <p class="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
+      <h1 class="subject" id="subject" aria-label="DEREK">DEREK</h1>
+      <p class="experience">— THE <em>DEREK</em> EXPERIENCE —</p>
+      <p class="caption" id="caption">an archive in eleven modules. the record does not change.</p>
+      <p class="readout" id="readout" aria-live="polite"></p>
+    </div>
+
+    <li class="chip"><a href="module01.html" data-label="LOVE-BOMBING / CONTRACT FANTASY"><b>01</b>THE PROMISES</a></li>
+    <li class="chip"><a href="module02.html" data-label="SCARCITY AS POWER"><b>02</b>THE WITHHOLDING</a></li>
+    <li class="chip"><a href="module03.html" data-label="INTERMITTENT_REINFORCEMENT"><b>03</b>THE RUG-PULLS</a></li>
+    <li class="chip"><a href="module04.html" data-label="DENY · ATTACK · REVERSE VICTIM &amp; OFFENDER"><b>04</b>THE GASLIGHTING</a></li>
+    <li class="chip"><a href="module05.html" data-label="THIRD-PARTY INSECURITY INDUCTION"><b>05</b>THE TRIANGULATION</a></li>
+    <li class="chip"><a href="module06.html" data-label="EXTRACTION WITHOUT RECIPROCITY"><b>06</b>THE EXPLOITATION</a></li>
+    <li class="chip"><a href="module07.html" data-label="PUBLIC REPLACEMENT"><b>07</b>THE ERASURE</a></li>
+    <li class="chip"><a href="#m08" data-label="THE FINAL TRANSMISSION"><b>08</b>THE LAST WORDS</a></li>
+    <li class="chip"><a href="#m09" data-label="CAPTURED IN THE MOMENT"><b>09</b>THE RECORDINGS</a></li>
+    <li class="chip"><a href="#m10" data-label="WORK MADE FOR TWO"><b>10</b>THE DUET ART</a></li>
+    <li class="chip"><a href="module11.html" data-label="NODE_771 — INDEPENDENT FORENSIC AUDIT"><b>11</b>THE GHOST ANALYSIS</a></li>
+  </ul>
+</main>
+
+<script>
+/* ============================================================
+   THE HAUNTING
+   1. AMBIENT  — rare glitch tears in the subject's name
+   2. DIRECT   — letters recoil near the pointer;
+                 chips answer hover with the evidence readout
+   3. OUTCOME  — the name denies itself, then a correction
+                 pulse travels the ellipse in module order
+   The ellipse itself drifts, slowly, always.
+   ============================================================ */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- split the name ---------- */
+const subject = document.getElementById('subject');
+const NAME = subject.textContent.trim();
+subject.textContent = '';
+const letters = [...NAME].map(ch => {
+  const s = document.createElement('span');
+  s.className = 'letter';
+  s.textContent = ch;
+  s.setAttribute('aria-hidden', 'true');
+  subject.appendChild(s);
+  return s;
+});
+
+/* ---------- 1. DIRECT: pointer proximity warp ---------- */
+const state = letters.map(() => ({x:0, y:0, sk:0, sp:0}));
+let pointer = null;
+addEventListener('pointermove', e => { pointer = {x:e.clientX, y:e.clientY}; }, {passive:true});
+addEventListener('pointerleave', () => pointer = null);
+
+const RADIUS = 220, AMP = 26;
+function warpTick(){
+  letters.forEach((el, i) => {
+    const st = state[i];
+    let tx=0, ty=0, tsk=0, tsp=1.4;
+    if (pointer && !reduceMotion){
+      const r = el.getBoundingClientRect();
+      const cx = r.left + r.width/2, cy = r.top + r.height/2;
+      const dx = cx - pointer.x, dy = cy - pointer.y;
+      const d = Math.hypot(dx, dy);
+      if (d < RADIUS){
+        const f = (1 - d/RADIUS);
+        const n = Math.max(d, 1);
+        tx = (dx/n) * f * AMP;
+        ty = (dy/n) * f * AMP * .6;
+        tsk = (dx/n) * f * -14;
+        tsp = 1.4 + f * 7;
+      }
+    }
+    st.x += (tx-st.x)*.14; st.y += (ty-st.y)*.14;
+    st.sk += (tsk-st.sk)*.14; st.sp += (tsp-st.sp)*.14;
+    el.style.transform = `translate(${st.x.toFixed(2)}px, ${st.y.toFixed(2)}px) skewX(${st.sk.toFixed(2)}deg)`;
+    el.style.setProperty('--split', st.sp.toFixed(2));
+  });
+  requestAnimationFrame(warpTick);
+}
+requestAnimationFrame(warpTick);
+
+/* ---------- the ellipse: chips on a wide orbit, slow drift ---------- */
+const chips = [...document.querySelectorAll('.chip')];
+const orbit = document.getElementById('orbit');
+let drift = 0;                 // radians of slow orbital drift
+let driftPaused = false;
+const DRIFT_SPEED = (Math.PI * 2) / 95;  // one revolution ≈ 95 seconds
+
+function layoutEllipse(){
+  const wide = matchMedia('(min-width: 720px)').matches;
+  if (!wide){
+    chips.forEach(c => { c.style.removeProperty('--x'); c.style.removeProperty('--y'); });
+    return;
+  }
+  const W = orbit.clientWidth, H = orbit.clientHeight;
+  const a = Math.min(W * .44, W / 2 - 130);   // horizontal radius — wide, clears the center
+  const b = Math.min(H * .40, H / 2 - 60);    // vertical radius — top/bottom clear the title
+  const path = document.getElementById('orbitPath');
+  if (path){ path.setAttribute('rx', a); path.setAttribute('ry', b); }
+  chips.forEach((c, i) => {
+    const t = (-90 + i * (360 / chips.length)) * Math.PI / 180 + drift;
+    c.style.setProperty('--x', (Math.cos(t) * a).toFixed(1) + 'px');
+    c.style.setProperty('--y', (Math.sin(t) * b).toFixed(1) + 'px');
+  });
+}
+function driftTick(){
+  if (!reduceMotion && !driftPaused && !document.hidden){
+    drift += DRIFT_SPEED / 60;
+    layoutEllipse();
+  }
+  requestAnimationFrame(driftTick);
+}
+addEventListener('resize', layoutEllipse);
+layoutEllipse();
+requestAnimationFrame(driftTick);
+/* hold still while someone is reading a chip */
+chips.forEach(c => {
+  c.addEventListener('pointerenter', () => driftPaused = true);
+  c.addEventListener('pointerleave', () => driftPaused = false);
+  c.addEventListener('focus', () => driftPaused = true);
+  c.addEventListener('blur', () => driftPaused = false);
+});
+
+/* ---------- helpers ---------- */
+const GLYPHS = 'ÐΣЯƎKΞ#/█▓?%';
+const rnd = n => Math.floor(Math.random()*n);
+function ellipsePulse(){
+  chips.forEach((c, i) => {
+    setTimeout(() => {
+      c.classList.remove('pulse'); void c.offsetWidth; c.classList.add('pulse');
+    }, i * 75); // the correction travels the record in order
+  });
+}
+
+/* ---------- 2. AMBIENT: rare tears ---------- */
+function tearLetter(){
+  if (!reduceMotion && !document.hidden){
+    const el = letters[rnd(letters.length)];
+    const orig = el.textContent;
+    el.textContent = GLYPHS[rnd(GLYPHS.length)];
+    el.classList.add('torn');
+    setTimeout(() => { el.textContent = orig; el.classList.remove('torn'); }, 90 + rnd(80));
+  }
+  setTimeout(tearLetter, 2500 + rnd(5000));
+}
+setTimeout(tearLetter, 3000);
+
+/* ---------- 3. OUTCOME: the name denies itself, the record corrects it ---------- */
+function denial(){
+  if (!reduceMotion && !document.hidden){
+    const scrambled = [...NAME].sort(() => Math.random() - .5).join('');
+    letters.forEach((el, i) => { el.textContent = scrambled[i]; el.classList.add('torn'); });
+    setTimeout(() => {
+      letters.forEach((el, i) => { el.textContent = NAME[i]; el.classList.remove('torn'); });
+      ellipsePulse();
+    }, 160);
+  }
+  setTimeout(denial, 18000 + rnd(14000));
+}
+setTimeout(denial, 9000);
+
+/* ---------- the caption gaslights, then recants ---------- */
+const caption = document.getElementById('caption');
+const TRUTH = caption.textContent;
+const LIE = 'you are remembering it wrong.';
+function captionLie(){
+  if (!reduceMotion && !document.hidden){
+    caption.textContent = LIE;
+    caption.classList.add('lie');
+    setTimeout(() => { caption.textContent = TRUTH; caption.classList.remove('lie'); }, 340);
+  }
+  setTimeout(captionLie, 22000 + rnd(16000));
+}
+setTimeout(captionLie, 14000);
+
+/* ---------- chip hover/focus: readout + the subject flinches ---------- */
+const readout = document.getElementById('readout');
+chips.forEach(c => {
+  const a = c.querySelector('a');
+  const show = () => {
+    readout.textContent = '▸ ' + a.textContent.trim() + ' — ' + a.dataset.label;
+    if (!reduceMotion) subject.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
+  };
+  const hide = () => { readout.textContent = ''; subject.style.filter = ''; };
+  a.addEventListener('pointerenter', show);
+  a.addEventListener('focus', show);
+  a.addEventListener('pointerleave', hide);
+  a.addEventListener('blur', hide);
+});
+
+/* ---------- fit DEREK to the EXPERIENCE line ---------- */
+function fitSubject(){
+  const exp = document.querySelector('.experience');
+  const target = exp.getBoundingClientRect().width;
+  if (!target) return;
+  let size = parseFloat(getComputedStyle(subject).fontSize);
+  for (let i = 0; i < 3; i++){
+    const w = subject.getBoundingClientRect().width;
+    if (!w) break;
+    size = size * (target / w);
+    subject.style.fontSize = size.toFixed(1) + 'px';
+  }
+}
+if (document.fonts && document.fonts.ready){ document.fonts.ready.then(fitSubject); }
+else { addEventListener('load', fitSubject); }
+addEventListener('resize', fitSubject);
+
+/* ---------- background: LED static ---------- */
+(function(){
+  const canvas = document.getElementById('field');
+  const gl = canvas.getContext('webgl');
+  if (!gl) return;
+  const vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+  const fs = `
+precision highp float;
+uniform vec2 u_res; uniform float u_time;
+float hash(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}
+vec3 hash3(vec2 p){return vec3(hash(p),hash(p+17.17),hash(p+31.31));}
+void main(){
+  vec2 frag=gl_FragCoord.xy; vec2 uv=frag/u_res;
+  vec3 base=vec3(0.075,0.095,0.155);
+  vec2 g=uv-vec2(0.5,0.45); g.x*=u_res.x/u_res.y;
+  float glow=exp(-dot(g,g)*3.0);
+  base*=0.85+0.35*glow;
+  float tQ=floor(u_time*7.0);
+  vec3 n=hash3(frag+vec2(tQ*0.0,tQ*13.7));
+  vec3 n2=hash3(frag+vec2(tQ*7.3,0.0));
+  vec3 static_rgb=(mix(n,n2,0.5)-0.5)*0.11;
+  base+=static_rgb*vec3(1.0,1.0,1.3);
+  vec2 cellmod=mod(frag,3.0);
+  float seam=1.0;
+  if(cellmod.x<0.8) seam*=0.92;
+  if(cellmod.y<0.8) seam*=0.92;
+  base*=seam;
+  float vig=1.0-0.45*dot(g,g);
+  gl_FragColor=vec4(base*vig,1.0);
+}`;
+  function sh(t,s){const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);return o;}
+  const prog=gl.createProgram();
+  gl.attachShader(prog,sh(gl.VERTEX_SHADER,vs));
+  gl.attachShader(prog,sh(gl.FRAGMENT_SHADER,fs));
+  gl.linkProgram(prog);gl.useProgram(prog);
+  const buf=gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER,buf);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  const loc=gl.getAttribLocation(prog,'p');
+  gl.enableVertexAttribArray(loc);
+  gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+  const uRes=gl.getUniformLocation(prog,'u_res'),uTime=gl.getUniformLocation(prog,'u_time');
+  function resize(){
+    const dpr=Math.min(devicePixelRatio||1,1.5);
+    canvas.width=innerWidth*dpr;canvas.height=innerHeight*dpr;
+    gl.viewport(0,0,canvas.width,canvas.height);
+  }
+  addEventListener('resize',resize);resize();
+  const t0=performance.now();
+  function frame(){
+    gl.uniform2f(uRes,canvas.width,canvas.height);
+    gl.uniform1f(uTime,(performance.now()-t0)/1000);
+    gl.drawArrays(gl.TRIANGLES,0,3);
+    if(!reduceMotion && !document.hidden) requestAnimationFrame(frame);
+    else setTimeout(frame, 500);
+  }
+  frame();
+})();
+</script>
+</body>
+</html>
