@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODULE 04 · Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/module.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="wrap">
+  <a class="back" href="index.html"><b>&lt;</b> RETURN TO LOCKER</a>
+  <header class="casehead">
+    <p class="filetag" id="filetag"></p>
+    <h1 id="mtitle"></h1>
+    <p class="sub" id="msub"></p>
+    <ul class="charges" id="charges" aria-label="Behavioral charges"></ul>
+    <p class="objective" id="objective"></p>
+  </header>
+  <h2 class="sect" id="mechTitle"></h2>
+  <div class="mechanism" id="mechanism"></div>
+  <div id="tableSection">
+    <h2 class="sect" id="tableTitle"></h2>
+    <table class="ledger" id="ledger"></table>
+    <p class="ledgernote" id="ledgernote"></p>
+  </div>
+  <h2 class="sect" id="exTitle"></h2>
+  <div class="exhibits" id="exhibits"></div>
+  <h2 class="sect" id="impactTitle"></h2>
+  <ol class="impact" id="impact"></ol>
+  <h2 class="sect" id="rawTitle"></h2>
+  <details class="drawer">
+    <summary>MACHINE-READABLE RECORD — YAML</summary>
+    <pre id="yaml"></pre>
+  </details>
+  <nav class="footnav">
+    <span id="navPrev"></span>
+    <a href="index.html">RETURN TO LOCKER</a>
+    <span id="navNext"></span>
+  </nav>
+</div>
+<script>
+window.MODULE = {
+  id:"04", code:"MODULE_04_GASLIGHTING_DARVO", title:"THE GASLIGHTING", sub:"( The Reality Rewrite — DARVO: Deny, Attack, Reverse Victim & Offender )",
+  labels:["GASLIGHTING","DARVO","TONE_POLICING","REALITY_REWRITE"],
+  objective:"To make the victim's perception the problem. Every injury she names is converted into evidence of her defect — her tone, her \u201Cperspective,\u201D her cruelty, her instability — until she is defending her sanity instead of his record. The Feb 16, 2026 session (2:17–3:52 AM) is the machine running at full power.",
+  mechanismTitle:"<b>I.</b> THE MECHANISM — THE REWRITE MACHINE",
+  mechanism:[
+    {title:"Bait the reaction", text:"Withhold, disappear, move the goalpost (Modules 2–3) until the victim — autistic, sleep-deprived from phone labor, a year into broken promises — reacts with volume."},
+    {title:"Discard the substance, indict the style", text:"Her content (\u201Cyou broke a year of promises\u201D) is never answered. Her delivery (\u201Cyou said fuck you\u201D) becomes the entire trial."},
+    {title:"Crown himself the injured party", text:"He is the one with complexes, traumas, overwhelm; she is the \u201Cfacilitator of unrighteous negativity.\u201D Offender and victim swap seats — in writing, calmly, with bullet points."}
+  ],
+  loop:"⟲ <b>DENY · ATTACK · REVERSE</b> — THE MACHINE RUNS ON HER DISTRESS",
+  exhibitsTitle:"<b>II.</b> THE EXHIBITS — EVERY STAGE, QUOTED VERBATIM",
+  exhibits:[
+    { num:"4.1", status:"DENY",
+      name:"The disappearance was her accommodation failure",
+      ids:[["WA-1688","02/15/26 4:08 PM"],["WA-1684","11 days silent"],["WA-1663–1671","proof-of-life calls"]],
+      quote:"The Whatsapp thing is just too much when I'm overwhelmed..... and the video message thing is just 🙈🔫 / We all have our complexes, Merry / Ours just happen to clash sometimes / But I wouldn't even think the words 'fuck you' when they do / Because they are clashing / Not us",
+      note:"He has just returned from 11 days of total silence, during which she sent audio messages into the void and made 4-second \u201Cproof of life\u201D calls because she was worried he was dead.",
+      analysis:"The event under review is an 11-day disappearance. His opening move erases it: the real subject is her \u201Cfuck you.\u201D The disappearance becomes weather (\u201Ccomplexes clashing\u201D); her fear-response becomes the crime." },
+    { num:"4.2", status:"PSEUDO_ACCOUNTABILITY",
+      name:"The Past-Tense Confession — \u201CI'm wrong 100%\u201D (terms & conditions apply)",
+      ids:[["WA-1879","02/16/26 2:17 AM"]],
+      quote:"'was' & 'wasn't' ← Those I'm taking full responsibility for. And I would like to remedy those shortcomings (despite the fact that they're directly linked to traumas & complexes, which should be taken into consideration… It's on me / I'm wrong 100%",
+      analysis:"It looks like the confession she begged for. Read the grammar. Responsibility is accepted only for the past tense — and immediately discounted by the parenthetical. Technically an admission; functionally a plea bargain." },
+    { num:"4.3", status:"DENY",
+      name:"\u201CThe guilt game\u201D — present and future declared negotiable",
+      ids:[["WA-1885","02/16/26 2:24 AM"]],
+      quote:"'isn't'  'is'  'will be'  'won't be' / ↑ These are up for grabs ↑ / in the guilt game / I understand what you're saying. I understand your rationality on things. But there's a major piece of the puzzle you're simply not seeing here.",
+      analysis:"Seven minutes after \u201CI'm wrong 100%,\u201D he carves out everything that is, will be, and won't be — the entire living relationship — as contestable. Then the pivot: she is missing \u201Ca major piece of the puzzle.\u201D Her rationality is acknowledged and overruled in the same breath." },
+    { num:"4.4", status:"REVERSE_VICTIM_OFFENDER",
+      name:"Reverse — her trust was the original sin",
+      ids:[["WA-1891","02/16/26 2:27 AM"]],
+      quote:"If you compound someone's complex, because you're upset about a breech of trust, that you probably shouldn't have placed on something so delicate.... you end up compounding how upset you are because it's going to be more difficult to repair or reverse that breech.",
+      analysis:"The purest DARVO in the archive. He broke trust. She got upset. His verdict: the upset is her fault for having placed trust \u201Con something so delicate.\u201D The offender is the man who broke the promise; the offender, in his telling, is the woman who believed it.",
+      crossref:["module07.html#ex7.2","MODULE_07 — THE RETROACTIVE RECLASSIFICATION"] },
+    { num:"4.5", status:"ATTACK",
+      name:"\u201CThe perspective guy\u201D — self-appointed editor of her reality",
+      ids:[["WA-1903","02/16/26 2:29 AM"],["WA-0366","12/09/25"]],
+      quote:"You just lack some perspective on things / I know it sucks, but I HAVE to be the perspective guy. / And I can't allow you to say things that you shouldn't hear yourself saying out loud!",
+      analysis:"Three moves in three lines: her perception is deficient; he is the corrective authority; censorship is framed as protection. He is not arguing her facts are wrong — he is asserting jurisdiction over what she may think and say. The perspective defense is a fixed habit, not a one-off." },
+    { num:"4.6", status:"REVERSE_VICTIM_OFFENDER",
+      name:"The Moral Exit — withdrawal as hygiene",
+      ids:[["WA-1906","02/16/26 2:31 AM"]],
+      quote:"So I end up choosing to withdraw / In other to — / 1.) Not be a facilitator, enabler, conduit of unrighteous unnecessary negativity / 2.) To have a better chance at repairing the breech of trust, by delivering to you, my conquered complex.",
+      analysis:"Having denied, attacked, and reversed, he exits as the virtuous party. Her pain is \u201Cunrighteous unnecessary negativity\u201D; his silence is a gift in progress. This is the same withdrawal that lasted until May." },
+    { num:"4.7", status:"GASLIGHT_FRAME",
+      name:"\u201CI only set the stage\u201D — the gaslighter's stage direction",
+      ids:[["WA-1975","02/16/26 3:52 AM"]],
+      quote:"I only set the stage / Now you go and add to that stage / Or make an appeal to alter what I tried to objectively set up, granted, from my perspective",
+      analysis:"The closing frame: his narrative is \u201Cobjective\u201D set design; her account is an \u201Cappeal\u201D that may be filed for review. The epistemic hierarchy is total — he authors reality, she petitions it." },
+    { num:"4.8", status:"LEGACY_GASLIGHT",
+      name:"The Post-Log Thesis — \u201Cshe's mad so she doesn't have to hate herself\u201D",
+      ids:[["TESTIMONY","third-party framing"]],
+      note:"Derek's post-breakup claim: Merry's anger is self-deception — she knows he's right and performs rage to avoid self-hatred.",
+      analysis:"Rage-avoidance theories are unfalsifiable — that is their function. What is falsifiable is the record: 11-day silences, a year-old promise converted to \u201Cwhen it doesn't feel like this,\u201D a confession revoked within seven minutes, and a 55-minute video call proving the impossible was always possible. Her anger has timestamps. His \u201Crightness\u201D has none." }
+  ],
+  impact:[
+    "<strong>Reality debt.</strong> Each cycle forces the victim to choose between her memory and the relationship. Choosing the relationship means retro-editing her own perceptions — the core injury of gaslighting.",
+    "<strong>The tone tax.</strong> Because only her delivery is ever tried, she must modulate the expression of legitimate grievance until it is palatable to the person who caused it — a second job, performed during injury.",
+    "<strong>Confession exhaustion.</strong> \u201CHe admitted he was wrong\u201D is not exculpatory: admissions were issued in the past tense, discounted by trauma-clauses, and revoked for the present within seven minutes."
+  ],
+  yaml:`module: MODULE_04_GASLIGHTING_DARVO
+behavioral_labels: [GASLIGHTING, DARVO, TONE_POLICING]
+evidence_points:
+  - { event: "11-day disappearance reframed as her language problem", evidence: [WA-1684, WA-1688, WA-1663], darvo_stage: DENY }
+  - { event: "Past-tense-only confession", evidence: [WA-1879], darvo_stage: PSEUDO_ACCOUNTABILITY }
+  - { event: "Present/future 'up for grabs in the guilt game'", evidence: [WA-1885], darvo_stage: DENY }
+  - { event: "Her trust blamed for his breach of it", evidence: [WA-1891], darvo_stage: REVERSE_VICTIM_OFFENDER }
+  - { event: "Self-appointed reality editor", evidence: [WA-1903, WA-0366], darvo_stage: ATTACK }
+  - { event: "Virtuous withdrawal", evidence: [WA-1906], darvo_stage: REVERSE_VICTIM_OFFENDER }
+  - { event: "'Objective' authorship claim", evidence: [WA-1975], darvo_stage: GASLIGHT_FRAME }
+  - { event: "Post-breakup thesis", source: user_testimony,
+      rebuttal: "Her anger has timestamps; his rightness has none", darvo_stage: LEGACY_GASLIGHT }
+impact_metric:
+  victim_state: "Reality debt / tone tax / confession exhaustion"
+  perpetrator_gain: "Permanent victim status; immunity from the present and future tense"`,
+  prev:["module03.html","MODULE 03 — THE RUG-PULLS"],
+  next:["module05.html","MODULE 05 — THE TRIANGULATION"]
+};
+</script>
+<script src="assets/module.js"></script>
+</body>
+</html>

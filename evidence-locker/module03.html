@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODULE 03 · Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/module.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="wrap">
+  <a class="back" href="index.html"><b>&lt;</b> RETURN TO LOCKER</a>
+  <header class="casehead">
+    <p class="filetag" id="filetag"></p>
+    <h1 id="mtitle"></h1>
+    <p class="sub" id="msub"></p>
+    <ul class="charges" id="charges" aria-label="Behavioral charges"></ul>
+    <p class="objective" id="objective"></p>
+  </header>
+  <h2 class="sect" id="mechTitle"></h2>
+  <div class="mechanism" id="mechanism"></div>
+  <div id="tableSection">
+    <h2 class="sect" id="tableTitle"></h2>
+    <table class="ledger" id="ledger"></table>
+    <p class="ledgernote" id="ledgernote"></p>
+  </div>
+  <h2 class="sect" id="exTitle"></h2>
+  <div class="exhibits" id="exhibits"></div>
+  <h2 class="sect" id="impactTitle"></h2>
+  <ol class="impact" id="impact"></ol>
+  <h2 class="sect" id="rawTitle"></h2>
+  <details class="drawer">
+    <summary>MACHINE-READABLE RECORD — YAML</summary>
+    <pre id="yaml"></pre>
+  </details>
+  <nav class="footnav">
+    <span id="navPrev"></span>
+    <a href="index.html">RETURN TO LOCKER</a>
+    <span id="navNext"></span>
+  </nav>
+</div>
+<script>
+window.MODULE = {
+  id:"03", code:"MODULE_03_RUG_PULLS", title:"THE RUG-PULLS", sub:"( The Neurological Trigger )",
+  labels:["GOALPOST_MOVING","INTERMITTENT_REINFORCEMENT","PUNITIVE_RESET"],
+  objective:"To convert every concrete promise into a moving target, so that fulfillment is always one apology, one behavior-fix, one \u201Cright feeling\u201D away — and to weaponize the resulting destabilization (especially against a neurodivergent need for predictability) as proof that the victim is \u201Ctoo much.\u201D",
+  mechanismTitle:"<b>I.</b> THE MECHANISM — FOUR MOVING PARTS, ONE LOOP",
+  mechanism:[
+    {title:"Offer unprompted", text:"Derek himself raises the video call, unprompted — establishing that he controls the promise's existence."},
+    {title:"Attach a condition", text:"When the promise comes due, a new requirement materializes that was never part of the original agreement."},
+    {title:"Punitive reset", text:"When Merry protests the moved goalpost, the protest itself becomes the new reason for delay. Time owed resets to zero. Or to infinity."},
+    {title:"Reframe the meltdown", text:"The distress produced by steps 1–3 is quoted back as evidence of why she can't have the thing. The reaction to the abuse becomes the justification for the abuse."}
+  ],
+  loop:"⟲ <b>AND THE LOOP RESTARTS</b> — A RUG-PULL IS NOT AN EVENT, IT IS A SYSTEM",
+  exhibitsTitle:"<b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
+  exhibits:[
+    { num:"3.1", status:"BAIT",
+      name:"The Unprompted Offer",
+      ids:[["WA-0241","12/08/25 2:55 PM"]],
+      quote:"Video call late tonight?",
+      note:"After a 28-day disappearance (Nov 6 → Dec 5), Derek resurfaces, does multiple voice calls across Dec 6–8, and then — unprompted — dangles a video call that same night. No record of it occurring. The offer functioned as a re-entry gift: instant re-escalation of intimacy at zero cost to him.",
+      analysis:"The offer is the reward. It was never an appointment; it was a dopamine token to reboot her investment after a month of silence." },
+    { num:"3.2", status:"GOALPOST_DISSOLVED",
+      name:"The Condition Appears",
+      ids:[["WA-0560","12/12/25 9:09 AM"],["SC-28","the hand-circled page"]],
+      quote:"It will happen when it doesn't feel like this.  Period",
+      note:"Morning of the Dec 12 confrontation. Merry, after ~11 months of waiting, states the promise is due. Derek's response converts a year-old commitment into a behavioral contingency: the call happens when the vibe is right — a condition that is unmeasurable, unverifiable, and defined entirely by him.",
+      analysis:"This is the goalpost literally dissolving. There is no date to miss when the date is \u201Cwhen I feel like it.\u201D She circled this exchange in the screenshot dossier because it is the whole system in one line." },
+    { num:"3.3", status:"PROMISE_LAUNDERING",
+      name:"The \u201CConsideration\u201D Speech — the promise becomes a wage (and then a confession)",
+      ids:[["WA-0605","12/12/25 9:23 AM"]],
+      quote:"When you can make, / or even just display, / one single consideration / in an outward direction / then I will continue to make sure someone is placing considerations into this pre-existing complex [...] I will PROMISE just as readily, that a video call will never happen between us, to protect my progress from you.",
+      note:"Fourteen minutes after WA-0560, Derek formalizes the contingency into a contract of emotional labor: display consideration → earn a promise. But the full sentence is worse than a wage. Buried mid-clause he states the actual endgame — her need is, in his own words, the thing his \u201Cprogress\u201D must be protected from.",
+      analysis:"Promise-laundering with a confession inside. The original debt is written off and replaced with a new currency in which she must now earn his willingness to re-promise — while the sentence itself quietly converts \u201Cnot yet\u201D into \u201Cnever.\u201D The arrears vanish; the ledger resets with her in the red; and the goalpost was never on the field at all." },
+    { num:"3.4", status:"TRIANGULATION_THREAT",
+      name:"The Replacement Threat",
+      ids:[["WA-0654","12/12/25 9:36 AM"]],
+      quote:"I'll tell you what.....I'll find a FRIEND who will help me work on my complexes, not make them worse. Then once I'm comfortable on camera, I'll come back & chat & sing & be well-adjusted & happy",
+      analysis:"The rug-pull now has teeth. Not only is the promise withdrawn — it will be fulfilled with someone else first, and she will watch. (He follows through on exactly this: see MODULE_07, the duets with other women.) The threat converts her protest into a competition she can lose.",
+      crossref:["module07.html","MODULE_07 — THE ERASURE"] },
+    { num:"3.5", status:"PUNITIVE_RESET",
+      name:"The Punitive Freeze — 8 days of silence after the confrontation",
+      ids:[["WA-0958","emoji wall"],["WA-0995–0996","double missed calls"],["WA-1018","12/24"]],
+      note:"After the Dec 12 confrontation, Derek goes silent for 8 days, then resurfaces Dec 20–23 with emoji walls and double missed calls — no acknowledgment of the confrontation, the promise, or the freeze. On Dec 24: \u201COr a dropped call...\u201D",
+      analysis:"The punitive reset executed in calendar form. The confrontation cost her 8 days; its resolution cost him nothing — he re-enters as if continuity were never broken. The emoji wall is a presence-token: minimum viable contact, maximum plausible deniability." },
+    { num:"3.6", status:"CAPABILITY_RECEIPT",
+      name:"The Capability Receipts — TWO video calls after a year of \u201Cthe complex\u201D",
+      ids:[["WA-1135","12/29/25 9:53 PM"],["WA-1494","01/22/26 1:17 AM"],["WA-1496","voice, 7 min"],["WA-1499","voice, 39 min"]],
+      quote:"Video call, 1 hr  —  system record WA-1135\nVideo call, 55 min —  system record WA-1494",
+      note:"After a full year in which a video call was structurally impossible due to \u201Cthe complex\u201D — and just 17 days after the Dec 12 speeches in which the call would only happen \u201Cwhen it doesn't feel like this\u201D (WA-0560) and would in fact \u201Cnever happen between us\u201D (WA-0605) — Derek gets on a one-hour video call. Then, mid-January-thaw, a second one at 1 AM.",
+      analysis:"The single most corrosive fact for the \u201Ccomplex\u201D narrative — twice over. The barrier was never capability; it was leverage. The calls happened when they cost him nothing and bought maximum goodwill — and could be withheld again the moment each thaw ended. Which they were." },
+    { num:"3.7", status:"GOALPOST_REMOVED_FROM_FIELD",
+      name:"The Final Dissolution — withdrawal as \u201Cdelivering my conquered complex\u201D",
+      ids:[["WA-1906","02/16/26 2:31 AM"]],
+      quote:"So I end up choosing to withdraw / In other to — / 1.) Not be a facilitator, enabler, conduit of unrighteous unnecessary negativity / 2.) To have a better chance at repairing the breech of trust, by delivering to you, my conquered complex.",
+      analysis:"The end-state of the system: disappearance rebranded as progress on the promise itself. He is not ghosting her — he is \u201Cworking on the complex,\u201D offstage, indefinitely, and any objection is \u201Cunrighteous unnecessary negativity.\u201D The goalpost has left the field entirely." }
+  ],
+  impact:[
+    "<strong>Manufactured instability.</strong> Each cycle (offer → condition → reset → reframe) teaches the nervous system that stated plans are fiction. For a neurodivergent person this is not metaphorically destabilizing — it is a direct attack on the mechanism used to regulate.",
+    "<strong>The meltdown as product.</strong> The Dec 12 logs (SC-01–28) show the output: hours of escalating distress from Merry, met with calm, formatted, sermon-like paragraphs from Derek. The asymmetry is then harvested — her volume becomes his evidence.",
+    "<strong>The debt that can never be called in.</strong> By Feb 2026 the promise has been so thoroughly laundered (offer → condition → wage → threat → freeze → offstage \u201Cconquering\u201D) that any demand for fulfillment sounds, in his framing, like cruelty toward a man \u201Cworking on himself.\u201D"
+  ],
+  yaml:`module: MODULE_03_RUG_PULLS
+behavioral_labels: [GOALPOST_MOVING, INTERMITTENT_REINFORCEMENT, PUNITIVE_RESET]
+evidence_points:
+  - { event: "Unprompted offer after 28-day silence", evidence: [WA-0241], status: BAIT }
+  - { event: "Promise converted to behavioral contingency", evidence: [WA-0560, SC-28], status: GOALPOST_DISSOLVED }
+  - { event: "Consideration speech — promise becomes a wage", evidence: [WA-0605], status: PROMISE_LAUNDERING }
+  - { event: "Replacement threat", evidence: [WA-0654], status: TRIANGULATION_THREAT, cross_ref: MODULE_07 }
+  - { event: "Punitive freeze, 8 days", evidence: [WA-0958, WA-0995, WA-0996, WA-1018], status: PUNITIVE_RESET }
+  - { event: "1hr video call 17 days after 'never happen'", evidence: [WA-1135], status: CAPABILITY_RECEIPT }
+  - { event: "55min video call, second falsification", evidence: [WA-1494, WA-1496, WA-1499], status: CAPABILITY_RECEIPT }
+  - { event: "Withdrawal rebranded as progress", evidence: [WA-1906], status: GOALPOST_REMOVED_FROM_FIELD }
+impact_metric:
+  victim_state: "Manufactured instability / meltdown cycles harvested as evidence against her"
+  perpetrator_gain: "A promise that can never be called due, and a permanent excuse for its non-fulfillment"`,
+  prev:["module02.html","MODULE 02 — THE WITHHOLDING"],
+  next:["module04.html","MODULE 04 — THE GASLIGHTING"]
+};
+</script>
+<script src="assets/module.js"></script>
+</body>
+</html>
