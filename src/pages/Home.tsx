@@ -9,11 +9,14 @@ const MODULES = [
   { id: "05", title: "THE TRIANGULATION", label: "THIRD-PARTY INSECURITY INDUCTION" },
   { id: "06", title: "THE EXPLOITATION", label: "EXTRACTION WITHOUT RECIPROCITY" },
   { id: "07", title: "THE ERASURE", label: "PUBLIC REPLACEMENT" },
+  { id: "08", title: "THE LAST WORDS", label: "THE FINAL TRANSMISSION" },
+  { id: "09", title: "THE RECORDINGS", label: "CAPTURED IN THE MOMENT" },
+  { id: "10", title: "THE DUET ART", label: "WORK MADE FOR TWO" }
 ];
 
 const GLYPHS = 'ÐΣЯƎKΞ#/█▓?%';
 const NAME = "DEREK";
-const TRUTH = "an archive in seven modules. the record does not change.";
+const TRUTH = "an archive in ten modules. the record does not change.";
 const LIE = "you are remembering it wrong.";
 
 export default function Home() {
@@ -22,7 +25,7 @@ export default function Home() {
   const chipsRef = useRef<(HTMLLIElement | null)[]>([]);
   const captionRef = useRef<HTMLParagraphElement>(null);
   const readoutRef = useRef<HTMLParagraphElement>(null);
-  const docketRef = useRef<HTMLDivElement>(null);
+  const orbitRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -47,7 +50,7 @@ export default function Home() {
     function warpTick(){
       letters.forEach((el, i) => {
         const st = state[i];
-        let tx=0, ty=0, tsk=0, tsp=0;
+        let tx=0, ty=0, tsk=0, tsp=1.4;
         if (pointer && !reduceMotion){
           const r = el.getBoundingClientRect();
           const cx = r.left + r.width/2, cy = r.top + r.height/2;
@@ -59,7 +62,7 @@ export default function Home() {
             tx = (dx/n) * f * AMP;
             ty = (dy/n) * f * AMP * .6;
             tsk = (dx/n) * f * -14;
-            tsp = f * 7;
+            tsp = 1.4 + f * 7;
           }
         }
         st.x += (tx-st.x)*.14; st.y += (ty-st.y)*.14;
@@ -71,14 +74,69 @@ export default function Home() {
     }
     animFrame = requestAnimationFrame(warpTick);
 
+    /* ---------- the ellipse: 10 chips, wide orbit, slow drift ---------- */
+    let drift = 0;
+    let driftPaused = false;
+    const DRIFT_SPEED = (Math.PI * 2) / 95;
+    let driftFrame: number;
+
+    function layoutEllipse(){
+      const orbit = orbitRef.current;
+      if (!orbit) return;
+      const wide = window.matchMedia('(min-width: 720px)').matches;
+      if (!wide){
+        chipsRef.current.forEach(c => { 
+          if(c) {
+            c.style.removeProperty('--x'); 
+            c.style.removeProperty('--y'); 
+          }
+        });
+        return;
+      }
+      const W = orbit.clientWidth, H = orbit.clientHeight;
+      const a = Math.min(W * .44, W / 2 - 130);
+      const b = Math.min(H * .40, H / 2 - 60);
+      const path = document.getElementById('orbitPath');
+      if (path){ path.setAttribute('rx', a.toString()); path.setAttribute('ry', b.toString()); }
+      
+      chipsRef.current.forEach((c, i) => {
+        if (!c) return;
+        const t = (-90 + i * (360 / MODULES.length)) * Math.PI / 180 + drift;
+        c.style.setProperty('--x', (Math.cos(t) * a).toFixed(1) + 'px');
+        c.style.setProperty('--y', (Math.sin(t) * b).toFixed(1) + 'px');
+      });
+    }
+
+    function driftTick(){
+      if (!reduceMotion && !driftPaused && !document.hidden){
+        drift += DRIFT_SPEED / 60;
+        layoutEllipse();
+      }
+      driftFrame = requestAnimationFrame(driftTick);
+    }
+    window.addEventListener('resize', layoutEllipse);
+    layoutEllipse();
+    driftFrame = requestAnimationFrame(driftTick);
+
+    const onChipEnter = () => { driftPaused = true; };
+    const onChipLeave = () => { driftPaused = false; };
+
+    chipsRef.current.forEach(c => {
+      if(!c) return;
+      c.addEventListener('pointerenter', onChipEnter);
+      c.addEventListener('focus', onChipEnter, true);
+      c.addEventListener('pointerleave', onChipLeave);
+      c.addEventListener('blur', onChipLeave, true);
+    });
+
     /* ---------- helpers ---------- */
     const rnd = (n: number) => Math.floor(Math.random()*n);
-    function pulseRing(){
+    function ellipsePulse(){
       chipsRef.current.forEach((c, i) => {
         if (!c) return;
         setTimeout(() => {
           c.classList.remove('pulse'); void c.offsetWidth; c.classList.add('pulse');
-        }, i * 60);
+        }, i * 75);
       });
     }
 
@@ -106,7 +164,7 @@ export default function Home() {
         letters.forEach((el, i) => { el.textContent = scrambled[i]; el.classList.add('torn'); });
         setTimeout(() => {
           letters.forEach((el, i) => { el.textContent = NAME[i]; el.classList.remove('torn'); });
-          pulseRing();
+          ellipsePulse();
         }, 160);
       }
       denialTimeout = setTimeout(denial, 18000 + rnd(14000));
@@ -126,45 +184,54 @@ export default function Home() {
     }
     captionTimeout = setTimeout(captionLie, 14000);
 
-    /* ---------- orbit layout: modules on a 360° ring (wide) / stacked path (narrow) ---------- */
-    const docket = docketRef.current;
-    function layoutOrbit(){
-      if (!docket) return;
-      const wide = window.matchMedia('(min-width: 720px)').matches;
-      if (!wide){ 
-        chipsRef.current.forEach(c => { 
-          if(c) {
-            c.style.removeProperty('--x'); 
-            c.style.removeProperty('--y'); 
-          }
-        }); 
-        return; 
+    /* ---------- fit subject ---------- */
+    function fitSubject(){
+      const exp = document.querySelector('.experience') as HTMLElement;
+      if (!exp || !subject) return;
+      const target = exp.getBoundingClientRect().width;
+      if (!target) return;
+      let size = parseFloat(getComputedStyle(subject).fontSize);
+      for (let i = 0; i < 3; i++){
+        const w = subject.getBoundingClientRect().width;
+        if (!w) break;
+        size = size * (target / w);
+        subject.style.fontSize = size.toFixed(1) + 'px';
       }
-      const r = docket.clientWidth / 2;
-      chipsRef.current.forEach((c, i) => {
-        if(!c) return;
-        const a = (-90 + i * (360 / MODULES.length)) * Math.PI / 180;
-        c.style.setProperty('--x', (Math.cos(a) * r).toFixed(1) + 'px');
-        c.style.setProperty('--y', (Math.sin(a) * r).toFixed(1) + 'px');
-      });
     }
-    window.addEventListener('resize', layoutOrbit);
-    layoutOrbit();
+    if (document.fonts && document.fonts.ready){ document.fonts.ready.then(fitSubject); }
+    else { window.addEventListener('load', fitSubject); }
+    window.addEventListener('resize', fitSubject);
+    fitSubject();
 
     return () => {
       window.removeEventListener('pointermove', onPointerMove);
       window.removeEventListener('pointerleave', onPointerLeave);
-      window.removeEventListener('resize', layoutOrbit);
+      window.removeEventListener('resize', layoutEllipse);
+      window.removeEventListener('resize', fitSubject);
+      window.removeEventListener('load', fitSubject);
       cancelAnimationFrame(animFrame);
+      cancelAnimationFrame(driftFrame);
       clearTimeout(tearTimeout);
       clearTimeout(denialTimeout);
       clearTimeout(captionTimeout);
+      chipsRef.current.forEach(c => {
+        if(!c) return;
+        c.removeEventListener('pointerenter', onChipEnter);
+        c.removeEventListener('focus', onChipEnter, true);
+        c.removeEventListener('pointerleave', onChipLeave);
+        c.removeEventListener('blur', onChipLeave, true);
+      });
     };
   }, []);
 
   return (
     <main className="stage">
-      <div className="docket" ref={docketRef}>
+      <ul className="orbit" id="orbit" ref={orbitRef}>
+        <svg className="orbit__ring" viewBox="0 0 1200 820" preserveAspectRatio="none" aria-hidden="true">
+          <ellipse id="orbitPath" cx="600" cy="410" rx="528" ry="328" style={{ fill:"none", stroke:"var(--atm-dim)", strokeOpacity:.38, strokeDasharray:"2 7" }} />
+        </svg>
+
+        <div className="docket">
           <div className="docket__inner">
             <p className="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
             <h1 className="subject" ref={subjectRef} aria-label="DEREK">
@@ -176,50 +243,39 @@ export default function Home() {
             <p className="caption" ref={captionRef}>{TRUTH}</p>
             <p className="readout" ref={readoutRef} aria-live="polite"></p>
           </div>
-
-          <ul className="orbit" id="orbit">
-            <svg className="orbit__ring" viewBox="0 0 100 100" aria-hidden="true">
-              <circle cx="50" cy="50" r="49"/>
-            </svg>
-            {MODULES.map((mod, i) => (
-              <li 
-                key={mod.id} 
-                className="chip" 
-                ref={el => { chipsRef.current[i] = el; }}
-              >
-                <button 
-                  onClick={() => navigate(`/module/${mod.id}`)}
-                  onPointerEnter={() => {
-                    if (readoutRef.current) {
-                      readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
-                    }
-                    if (subjectRef.current) {
-                      subjectRef.current.style.filter = 'brightness(1.35)';
-                    }
-                  }}
-                  onFocus={() => {
-                    if (readoutRef.current) {
-                      readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
-                    }
-                    if (subjectRef.current) {
-                      subjectRef.current.style.filter = 'brightness(1.35)';
-                    }
-                  }}
-                  onPointerLeave={() => {
-                    if (readoutRef.current) readoutRef.current.textContent = '';
-                    if (subjectRef.current) subjectRef.current.style.filter = '';
-                  }}
-                  onBlur={() => {
-                    if (readoutRef.current) readoutRef.current.textContent = '';
-                    if (subjectRef.current) subjectRef.current.style.filter = '';
-                  }}
-                >
-                  <b>{mod.id}</b>{mod.title}
-                </button>
-              </li>
-            ))}
-          </ul>
         </div>
-      </main>
+
+        {MODULES.map((mod, i) => (
+          <li 
+            key={mod.id} 
+            className="chip" 
+            ref={el => { chipsRef.current[i] = el; }}
+          >
+            <button 
+              
+              onClick={() => navigate(`/module/${mod.id}`)}
+              onPointerEnter={() => {
+                if (readoutRef.current) readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
+                if (subjectRef.current) subjectRef.current.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
+              }}
+              onFocus={() => {
+                if (readoutRef.current) readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
+                if (subjectRef.current) subjectRef.current.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
+              }}
+              onPointerLeave={() => {
+                if (readoutRef.current) readoutRef.current.textContent = '';
+                if (subjectRef.current) subjectRef.current.style.filter = '';
+              }}
+              onBlur={() => {
+                if (readoutRef.current) readoutRef.current.textContent = '';
+                if (subjectRef.current) subjectRef.current.style.filter = '';
+              }}
+            >
+              <b>{mod.id}</b>{mod.title}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </main>
   );
 }
