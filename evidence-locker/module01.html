@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODULE 01 · Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/module.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="wrap">
+  <a class="back" href="index.html"><b>&lt;</b> RETURN TO LOCKER</a>
+  <header class="casehead">
+    <p class="filetag" id="filetag"></p>
+    <h1 id="mtitle"></h1>
+    <p class="sub" id="msub"></p>
+    <ul class="charges" id="charges" aria-label="Behavioral charges"></ul>
+    <p class="objective" id="objective"></p>
+  </header>
+  <h2 class="sect" id="mechTitle"></h2>
+  <div class="mechanism" id="mechanism"></div>
+  <div id="tableSection">
+    <h2 class="sect" id="tableTitle"></h2>
+    <table class="ledger" id="ledger"></table>
+    <p class="ledgernote" id="ledgernote"></p>
+  </div>
+  <h2 class="sect" id="exTitle"></h2>
+  <div class="exhibits" id="exhibits"></div>
+  <h2 class="sect" id="impactTitle"></h2>
+  <ol class="impact" id="impact"></ol>
+  <h2 class="sect" id="rawTitle"></h2>
+  <details class="drawer">
+    <summary>MACHINE-READABLE RECORD — YAML</summary>
+    <pre id="yaml"></pre>
+  </details>
+  <nav class="footnav">
+    <span id="navPrev"></span>
+    <a href="index.html">RETURN TO LOCKER</a>
+    <span id="navNext"></span>
+  </nav>
+</div>
+<script>
+window.MODULE = {
+  id:"01", code:"MODULE_01_PROMISES", title:"THE PROMISES", sub:"( The Hook & The Bait )",
+  labels:["LOVE_BOMBING","FUTURE_FAKING"],
+  objective:"The establishment of an emotional contract designed to secure maximum investment from the victim while providing zero tangible commitment from the perpetrator. (Pre-log era: user testimony + StarMaker profile + third-party reports; log-era receipts cross-referenced in MODULE_03.)",
+  mechanismTitle:"<b>I.</b> THE MECHANISM — THE BLUEPRINT OF THE SCAM",
+  mechanism:[
+    {title:"Find the void", text:"An eight-year aspiration for a creative and emotional anchor is identified. Derek positions himself as the sole provider of its fulfillment."},
+    {title:"Offer a status, not a collaboration", text:"The 'Dedicated Duet Partner' title creates an 'unofficially official' bond that feels exclusive and special — classic future-faking. Defenses drop; emotional and sexual labor rises."},
+    {title:"Stack the secondary hooks", text:"Once the primary hook is set, he adds the promise of video calls (visual intimacy) and a shared living situation (physical stability)."},
+    {title:"Promises become payments", text:"Each promise functions as a 'payment' for Merry's continued patience and tolerance of his increasingly erratic behavior."}
+  ],
+  loop:"⟲ <b>EVERY PROMISE BUYS MORE PATIENCE</b> — YOU CANNOT PULL A RUG THAT WAS NEVER LAID. HE LAID IT.",
+  exhibitsTitle:"<b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
+  exhibits:[
+    { num:"1.1", status:"FRAUDULENT",
+      name:"The \u201CDedicated Duet Partner\u201D Contract",
+      ids:[["TESTIMONY"],["STARMAKER"],["DOSSIER §1"]],
+      note:"Derek asked Merry to be his dedicated duet partner, framed as a mutual commitment to sing together and build a friendship. He performed exactly one (1) duet — \u201CThe Bedrock Anthem\u201D — then ceased all collaborative effort for an entire year.",
+      analysis:"By granting one single \u201Cwin\u201D early on, he proved the promise was possible, making a year of silence read as a \u201Ctemporary hurdle.\u201D This manufactured the Sunk Cost Fallacy: she stayed because she had already invested so much in the idea of the partnership." },
+    { num:"1.2", status:"MANIPULATED",
+      name:"The \u201CTwo-Week\u201D Video Call Timeline",
+      ids:[["TESTIMONY"],["WA-0560"],["WA-0605"]],
+      note:"Derek explicitly stated that within \u201Ca couple of weeks\u201D they would have a face-to-face video call. The couple of weeks became months, then became a \u201Crule\u201D where the date was pushed back indefinitely — corroborated in-log by WA-0560 and WA-0605.",
+      analysis:"The carrot on a stick. A specific but fake timeline keeps the victim in anticipatory anxiety. The promise was never intended to be kept; it was intended to be negotiated. This is the origin of the goalpost system.",
+      crossref:["module03.html","MODULE_03 — THE RUG-PULLS"] },
+    { num:"1.3", status:"FANTASY_CONTROL",
+      name:"The \u201CMove-In\u201D Fantasy",
+      ids:[["TESTIMONY"]],
+      note:"Discussions occurred regarding Merry moving to Atlantic City to live with Derek. No concrete plans were ever finalized, and Derek remained unhoused and unstable throughout.",
+      analysis:"High-stakes future-faking. Suggesting a shared household escalated the perceived seriousness of the relationship, ensuring she felt a level of commitment that justified providing extreme emotional support and sexual content." }
+  ],
+  impact:[
+    "<strong>The Dopamine Loop.</strong> Every mention of the \u201Cfuture\u201D (the duet, the call, the move) triggered a dopamine release; every withholding created withdrawal. The cycle is identical to the mechanics of gambling addiction.",
+    "<strong>The Erasure of Self.</strong> Because the \u201Cpartnership\u201D was the center of the relationship, Merry began to define her value by her ability to \u201Cearn\u201D the duet or the call. She transitioned from a creator to a supplicant.",
+    "<strong>The Setup for the Rug-Pull.</strong> You cannot pull a rug if there is no rug. By promising the duet and the video call, he laid it, waited for her to put all her weight on it — and created the exact conditions MODULE_03 documents."
+  ],
+  yaml:`module: MODULE_01_PROMISES
+behavioral_labels: [LOVE_BOMBING, FUTURE_FAKING, INTERMITTENT_REINFORCEMENT]
+evidence_points:
+  - { event: "Duet Partnership Agreement", promise: "Dedicated duet partner",
+      reality: "One song performed; zero collaboration for 12 months", status: FRAUDULENT }
+  - { event: "Video Call Timeline", promise: "Face-to-face within 'a couple of weeks'",
+      reality: "Delayed indefinitely; used as punishment tool", status: MANIPULATED,
+      log_corroboration: [WA-0560, WA-0605] }
+  - { event: "Relocation Proposal", promise: "Merry moving to Atlantic City",
+      reality: "Derek remained unhoused; no viable plan ever existed", status: FANTASY_CONTROL }
+impact_metric:
+  victim_state: "Hyper-investment / Anticipatory Anxiety"
+  perpetrator_gain: "Maximum emotional labor / Sexual compliance"`,
+  prev:null,
+  next:["module02.html","MODULE 02 — THE WITHHOLDING"]
+};
+</script>
+<script src="assets/module.js"></script>
+</body>
+</html>
