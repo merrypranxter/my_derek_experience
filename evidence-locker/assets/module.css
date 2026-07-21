@@ -69,6 +69,24 @@ body::after{
   font-size:.62rem;letter-spacing:.3em;color:var(--atm-dim);margin-bottom:.5rem;
 }
 
+/* ---------- epigraphs: the record opens in its own voices ---------- */
+.epigraphs{margin:0 0 1.8rem;max-width:72ch;}
+.epigraph{
+  margin:0 0 1rem;padding:.9rem 1.1rem;
+  font-family:var(--font-archive);font-size:clamp(.9rem,2.4vw,1.02rem);line-height:1.65;
+  white-space:pre-line;background:rgb(13 10 32 / .7);
+}
+.epigraph p{margin:0;}
+.epigraph.him{border-left:3px solid var(--atm-stamp);color:var(--atm-ink);}
+.epigraph.her{border-left:3px solid var(--atm-cyan);color:var(--atm-ink);}
+.epigraph cite{
+  display:block;margin-top:.55rem;
+  font-family:var(--font-data);font-style:normal;
+  font-size:.6rem;letter-spacing:.22em;
+}
+.epigraph.him cite{color:var(--atm-stamp);}
+.epigraph.her cite{color:var(--atm-cyan);}
+
 .sect{
   font-size:.7rem;letter-spacing:.35em;text-transform:uppercase;color:var(--atm-dim);
   margin:4.5rem 0 1.6rem;display:flex;align-items:center;gap:1rem;
