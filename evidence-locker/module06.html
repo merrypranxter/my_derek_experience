@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODULE 06 · Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/module.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="wrap">
+  <a class="back" href="index.html"><b>&lt;</b> RETURN TO LOCKER</a>
+  <header class="casehead">
+    <p class="filetag" id="filetag"></p>
+    <h1 id="mtitle"></h1>
+    <p class="sub" id="msub"></p>
+    <ul class="charges" id="charges" aria-label="Behavioral charges"></ul>
+    <p class="objective" id="objective"></p>
+  </header>
+  <h2 class="sect" id="mechTitle"></h2>
+  <div class="mechanism" id="mechanism"></div>
+  <div id="tableSection">
+    <h2 class="sect" id="tableTitle"></h2>
+    <table class="ledger" id="ledger"></table>
+    <p class="ledgernote" id="ledgernote"></p>
+  </div>
+  <h2 class="sect" id="exTitle"></h2>
+  <div class="exhibits" id="exhibits"></div>
+  <h2 class="sect" id="impactTitle"></h2>
+  <ol class="impact" id="impact"></ol>
+  <h2 class="sect" id="rawTitle"></h2>
+  <details class="drawer">
+    <summary>MACHINE-READABLE RECORD — YAML</summary>
+    <pre id="yaml"></pre>
+  </details>
+  <nav class="footnav">
+    <span id="navPrev"></span>
+    <a href="index.html">RETURN TO LOCKER</a>
+    <span id="navNext"></span>
+  </nav>
+</div>
+<script>
+window.MODULE = {
+  id:"06", code:"MODULE_06_EXPLOITATION", title:"THE EXPLOITATION", sub:"( Emotional & Sexual Labor )",
+  labels:["LABOR_EXTRACTION","ASYMMETRIC_INVESTMENT","SERVICE_RELATIONSHIP"],
+  objective:"To run the relationship as a one-way service economy: maximum emotional, domestic, and sexual output extracted from the victim; minimum — approaching zero — returned. The labor claims from the pre-log era are testimony; the log era supplies the arithmetic.",
+  mechanismTitle:"<b>I.</b> THE MECHANISM — THE SERVICE ECONOMY",
+  mechanism:[
+    {title:"Nightly phone labor", text:"Hours on the phone every night, including sleeping on the phone — despite her stated 'caged animal' sensory aversion to telephone calls. She did it anyway. That is not a preference; that is a shift."},
+    {title:"Morning wake-up calls", text:"An alarm-clock function performed daily, on his schedule."},
+    {title:"Sexual labor", text:"Sexual content and flirtation provided on demand, sold as the intimacy of the 'unofficially official' bond."},
+    {title:"The Alabama housing offer", text:"Actual residency offered — a roof, a state line, a life. The single largest asset class a person can put on a table."}
+  ],
+  loop:"⟲ RETURNED THE OTHER WAY: <b>ONE DUET, PHOTO \u201CRATIONS,\u201D A 55-MINUTE CALL, AND A 63% SILENCE RATE</b>",
+  table:{
+    title:"<b>II.</b> THE ARITHMETIC — FROM CHAT_INDEX.CSV, NOV 5 2025 – FEB 16 2026",
+    head:["METRIC","VALUE"],
+    rows:[
+      ["Total messages","2,105"],
+      ["Sent by Merry","1,726 (82.0%)"],
+      ["Sent by Derek","379 (18.0%)"],
+      ["Days in main span","104"],
+      ["Days Derek sent anything","38"],
+      ["Derek's silence rate","~63% of days"],
+      ["Longest documented silence","28 days (Nov 6 → Dec 5, 2025)"],
+      ["Second longest","11 days (Feb 3 → Feb 15, 2026)"]
+    ],
+    note:"Read the first rows again in the context of the \u201Ccomplex\u201D: the man who found WhatsApp \u201Cjust too much when I'm overwhelmed\u201D (WA-1688) was the recipient of <b>4.5×</b> more messages than he sent. The overwhelm was selective. It never once prevented him from <b>receiving</b> the labor."
+  },
+  exhibitsTitle:"<b>III.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
+  exhibits:[
+    { num:"6.1", status:"ONE_WAY_ACCOMMODATION",
+      name:"The Phone Labor",
+      ids:[["TESTIMONY"],["WA-0212","1 hr"],["WA-1226","2 hr"],["WA-1419","4 hr"],["WA-1538","2 hr"],["WA-1494–1499","Jan 22 cluster"]],
+      note:"Hours-long nightly calls, overnight sleep calls, wake-up calls — performed despite a documented sensory aversion to phone communication.",
+      analysis:"The call durations alone refute the framing that contact burdened him. When the contact was audio — the format that served him and strained her — he had unlimited capacity. The burden only ever materialized around the format that served her (video)." },
+    { num:"6.2", status:"EXTRACTION_AGAINST_UNDELIVERED_COLLATERAL",
+      name:"The Sexual Labor & False Exclusivity",
+      ids:[["TESTIMONY"]],
+      note:"Sexual content and flirtation on demand, framed as the special currency of their exclusive bond.",
+      analysis:"Sexual labor was the highest-interest payment in the economy — extracted against collateral (the duet, the call, the move-in) that was never delivered. In lending terms: he collected on a loan he never issued.",
+      crossref:["module05.html","MODULE_05 — THE EXCLUSIVITY FRAUD"] },
+    { num:"6.3", status:"RESCUE_DIRECTION_REVERSAL",
+      name:"The Alabama Offer",
+      ids:[["TESTIMONY"]],
+      note:"Actual housing — Merry offered Derek a place to live in Alabama while he was unhoused and unstable.",
+      analysis:"Note the direction of rescue. The relationship's mythology cast Derek as the provider of stability. In material reality, the only concrete housing offer ever made in this relationship ran from the victim to the perpetrator — and even that was not honored with follow-through." },
+    { num:"6.4", status:"EXTRACTION_REFLEX",
+      name:"The Reunion Extraction Attempt",
+      ids:[["WA-1987–2032","05/16/26"],["WA-2063","24-hr deadline"],["WA-2094","expired"]],
+      quote:"First of all — You look great 💯 Like.......you look really healthy.\nThat 13 second clip will become a feature-length video if i play it enough times. 😅",
+      note:"After three months of silence, Merry reopens the channel. Derek's entire substantive engagement: a compliment on her body and confirmation he is replaying her video content. No acknowledgment of the rupture, no apology, no answers.",
+      analysis:"The extraction reflex survives even the relationship: immediate re-consumption of her image and labor. When she issues a 24-hour deadline for an actual response (WA-2063), he lets it expire (WA-2094)." }
+  ],
+  impact:[
+    "<strong>Caregiver capture.</strong> Performing daily service functions (alarm clock, overnight presence, emotional regulator) rewires attachment into obligation. Leaving starts to feel like abandoning a dependent — which is precisely the trap.",
+    "<strong>Investment escalation.</strong> Every unpaid labor shift raises the sunk cost, raising the required eventual payoff, raising the willingness to tolerate further non-payment. The economy is self-sealing.",
+    "<strong>The asymmetry becomes invisible.</strong> Because the labor was framed as love, its scale only becomes visible in aggregate — which is why this module is built from arithmetic rather than anecdote."
+  ],
+  yaml:`module: MODULE_06_EXPLOITATION
+behavioral_labels: [LABOR_EXTRACTION, ASYMMETRIC_INVESTMENT, SERVICE_RELATIONSHIP]
+evidence_points:
+  - { event: "Nightly/overnight phone labor despite sensory aversion",
+      source: user_testimony, log_corroboration: [WA-0212, WA-1226, WA-1419, WA-1538],
+      status: ONE_WAY_ACCOMMODATION }
+  - { event: "Message asymmetry 4.5:1 (1726 vs 379); Derek silent 63% of days",
+      source: chat_index_csv, status: ASYMMETRY_ARITHMETIC }
+  - { event: "28-day and 11-day in-log disappearances", source: chat_index_csv, status: WITHDRAWAL_PATTERN }
+  - { event: "Sexual labor under false exclusivity", source: user_testimony,
+      cross_ref: MODULE_05_TRIANGULATION, status: EXTRACTION_AGAINST_UNDELIVERED_COLLATERAL }
+  - { event: "Alabama housing offer (victim → perpetrator)", source: user_testimony,
+      status: RESCUE_DIRECTION_REVERSAL }
+  - { event: "Reunion re-consumption without repair",
+      evidence: [WA-1987, WA-2032, WA-2063, WA-2094], status: EXTRACTION_REFLEX }
+impact_metric:
+  victim_state: "Caregiver capture / escalating sunk cost"
+  perpetrator_gain: "Full-service support at ~2% performance rate (per Forensic Audit Dossier scoreboard)"`,
+  prev:["module05.html","MODULE 05 — THE TRIANGULATION"],
+  next:["module07.html","MODULE 07 — THE ERASURE"]
+};
+</script>
+<script src="assets/module.js"></script>
+</body>
+</html>

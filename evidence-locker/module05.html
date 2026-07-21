@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODULE 05 · Evidence Locker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/module.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="wrap">
+  <a class="back" href="index.html"><b>&lt;</b> RETURN TO LOCKER</a>
+  <header class="casehead">
+    <p class="filetag" id="filetag"></p>
+    <h1 id="mtitle"></h1>
+    <p class="sub" id="msub"></p>
+    <ul class="charges" id="charges" aria-label="Behavioral charges"></ul>
+    <p class="objective" id="objective"></p>
+  </header>
+  <h2 class="sect" id="mechTitle"></h2>
+  <div class="mechanism" id="mechanism"></div>
+  <div id="tableSection">
+    <h2 class="sect" id="tableTitle"></h2>
+    <table class="ledger" id="ledger"></table>
+    <p class="ledgernote" id="ledgernote"></p>
+  </div>
+  <h2 class="sect" id="exTitle"></h2>
+  <div class="exhibits" id="exhibits"></div>
+  <h2 class="sect" id="impactTitle"></h2>
+  <ol class="impact" id="impact"></ol>
+  <h2 class="sect" id="rawTitle"></h2>
+  <details class="drawer">
+    <summary>MACHINE-READABLE RECORD — YAML</summary>
+    <pre id="yaml"></pre>
+  </details>
+  <nav class="footnav">
+    <span id="navPrev"></span>
+    <a href="index.html">RETURN TO LOCKER</a>
+    <span id="navNext"></span>
+  </nav>
+</div>
+<script>
+window.MODULE = {
+  id:"05", code:"MODULE_05_TRIANGULATION", title:"THE TRIANGULATION", sub:"( The Jay Hierarchy )",
+  labels:["TRIANGULATION","HIERARCHY_GAMES","JEALOUSY_INDUCTION"],
+  objective:"To keep the victim in a permanent audition for a rank she can never confirm, by maintaining a visible third party above her on the ladder. (Evidence status: primarily testimony and third-party reports — the Jay material lives mostly in the missing first-ten-months era; log receipts cited where they exist.)",
+  mechanismTitle:"<b>I.</b> THE MECHANISM — THE LADDER",
+  mechanism:[
+    {title:"Name the ranks", text:"\u201CThe Couple Spot\u201D on top — public, romantic, where duets and visible affection live. \u201CThe Best Friend Spot\u201D below — intimate, private, load-bearing. Merry's rank."},
+    {title:"Install the third party", text:"Jay occupies (or claims) the couple spot: the woman in the visible position, recipient of the flirtatious energy Merry was told was reserved for her."},
+    {title:"Shield the design", text:"Jay is reportedly dying of cancer — making any objection to her priority position an act of monstrous insensitivity. Grievances arrive pre-convicted."},
+    {title:"Make each position police the other", text:"Jay gets the public romance; Merry gets told she's the real confidante, the deeper connection. Each woman's position is used to explain why she can't have the other's."}
+  ],
+  loop:"⟲ <b>A PERMANENT AUDITION</b> — FOR A RANK SHE CAN NEVER CONFIRM",
+  exhibitsTitle:"<b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
+  exhibits:[
+    { num:"5.1", status:"HIERARCHY_MANAGEMENT",
+      name:"The Named Ranks",
+      ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
+      note:"Derek articulated a hierarchy of attachment — \u201Ccouple spot\u201D vs. \u201Cbest friend spot\u201D — and placed Merry in the lower one while extracting couple-tier labor from her (nightly calls, sexual content, future-planning; see MODULE_06).",
+      analysis:"Naming the ranks is the tell. Casual favoritism happens; a titled hierarchy is a management system. It converts jealousy from an emotion into a job description — she now knows exactly which promotion she's working toward, and exactly who holds it." },
+    { num:"5.2", status:"GRIEVANCE_IMMUNITY_DEVICE",
+      name:"The Cancer Shield",
+      ids:[["TESTIMONY"]],
+      note:"Jay was described as dying of cancer — making any objection to her priority position an act of monstrous insensitivity.",
+      analysis:"The shield does double duty. It excuses Derek's attention to Jay (\u201Chow could I abandon a dying woman?\u201D) and pre-convicts Merry (\u201Cyou'd begrudge a dying woman?\u201D). Any grievance about the hierarchy becomes proof of her cruelty — the same reversal machinery as MODULE_04, run through a third party." },
+    { num:"5.3", status:"EXCLUSIVITY_FRAUD",
+      name:"The Flirtation Contrast",
+      ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
+      note:"Sexual and flirtatious messages directed at Jay, contrasted against the framing that Merry's own sexual labor was special and exclusive.",
+      analysis:"The exclusivity was the product being sold to Merry — the \u201Cunofficially official\u201D bond. The contrast is the invoice: the same currency was circulating elsewhere. Discovery doesn't end the arrangement; it intensifies it, because now she must compete." },
+    { num:"5.4", status:"TRIANGULATION_ON_RECORD",
+      name:"The Replacement Threat Made Concrete",
+      ids:[["WA-0654","12/12/25 9:36 AM"]],
+      quote:"I'll find a FRIEND who will help me work on my complexes, not make them worse. Then once I'm comfortable on camera, I'll come back & chat & sing & be well-adjusted & happy",
+      analysis:"In the middle of the Dec 12 confrontation, Derek reaches directly for the triangulation lever: your slot is fillable, and the next occupant will get the camera time you bled for. It is the Jay hierarchy re-declared on the record — the promise that replacement is always one \u201Cfriend\u201D away. He later fulfills it visibly.",
+      crossref:["module07.html","MODULE_07 — THE ERASURE"] }
+  ],
+  impact:[
+    "<strong>Permanent audition.</strong> A titled rank below the top converts attachment into performance review. The victim's question shifts from \u201Cis this relationship good?\u201D to \u201Chow do I get promoted?\u201D — a question the perpetrator alone grades.",
+    "<strong>Split loyalty, split blame.</strong> The cancer shield meant legitimate grievances arrived pre-labeled as cruelty. She learned to swallow hierarchy injuries whole — training for the larger reality-rewrite in MODULE_04.",
+    "<strong>Competitive bonding.</strong> Intermittent glimpses of rival affection function as scarcity marketing: the product never changes, but its perceived value spikes every time someone else appears to hold it."
+  ],
+  yaml:`module: MODULE_05_TRIANGULATION
+behavioral_labels: [TRIANGULATION, HIERARCHY_GAMES, JEALOUSY_INDUCTION]
+evidence_points:
+  - { event: "Named rank structure (couple spot vs. best friend spot)",
+      detail: "Merry in lower rank while providing couple-tier labor",
+      source: user_testimony, status: HIERARCHY_MANAGEMENT }
+  - { event: "The cancer shield",
+      detail: "Jay's priority protected by terminal-illness framing",
+      source: user_testimony, status: GRIEVANCE_IMMUNITY_DEVICE }
+  - { event: "Flirtation contrast",
+      detail: "Sexual energy at Jay while exclusivity sold to Merry",
+      source: user_testimony, status: EXCLUSIVITY_FRAUD }
+  - { event: "Replacement threat during Dec 12 confrontation",
+      evidence: [WA-0654], status: TRIANGULATION_ON_RECORD,
+      cross_ref: [MODULE_03_RUG_PULLS, MODULE_07_ERASURE] }
+impact_metric:
+  victim_state: "Permanent audition / swallowed grievances / competitive bonding"
+  perpetrator_gain: "Two-directional loyalty extraction; grievances neutralized by the shield"`,
+  prev:["module04.html","MODULE 04 — THE GASLIGHTING"],
+  next:["module06.html","MODULE 06 — THE EXPLOITATION"]
+};
+</script>
+<script src="assets/module.js"></script>
+</body>
+</html>
