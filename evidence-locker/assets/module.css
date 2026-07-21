@@ -209,3 +209,31 @@ body::after{
   .exhibit{opacity:1;transform:none;transition:none;}
   .mnode:hover{transform:none;}
 }
+
+/* ---------- source tags: linked chips + GHOST ANALYSIS ---------- */
+a.eid{text-decoration:none;cursor:pointer;}
+a.eid:hover,a.eid:focus-visible{background:var(--atm-cyan);color:#02030a;outline:none;}
+a.eid:hover .d,a.eid:focus-visible .d{color:#02030a;}
+.eid .ext{font-size:.85em;opacity:.65;}
+.eid.doc{color:var(--atm-ink);border-color:rgb(232 228 216 / .35);}
+.eid.ga{color:var(--atm-magenta);border-color:rgb(255 46 166 / .45);}
+.eid.ga.linked,a.eid.ga:hover,a.eid.ga:focus-visible{background:var(--atm-magenta);color:#02030a;}
+.eid.ga.linked .d,a.eid.ga:hover .d,a.eid.ga:focus-visible .d{color:#02030a;}
+
+/* ---------- source key drawer ---------- */
+.sourcekey{margin:0 0 2.2rem;}
+.sourcekey ul{margin:0;padding:0 1.2rem 1.2rem;list-style:none;}
+.sourcekey li{
+  display:flex;gap:1.1rem;align-items:baseline;
+  padding:.45rem 0;border-top:1px dashed rgb(111 106 128 / .25);
+  font-size:.72rem;line-height:1.55;
+}
+.sourcekey li > b{flex:0 0 12.5rem;color:var(--atm-cyan);letter-spacing:.08em;font-weight:700;}
+.sourcekey li span{color:var(--atm-dim);}
+.sourcekey li a{color:inherit;text-decoration:none;border-bottom:1px dotted rgb(111 106 128 / .5);}
+.sourcekey li a:hover{color:var(--atm-ink);border-bottom-color:var(--atm-cyan);}
+.sourcekey li a b{color:var(--atm-cyan);}
+@media (max-width: 719px){
+  .sourcekey li{flex-direction:column;gap:.15rem;}
+  .sourcekey li > b{flex:none;}
+}
