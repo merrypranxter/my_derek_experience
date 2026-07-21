@@ -39,6 +39,19 @@ document.getElementById('mtitle').textContent = M.title;
 document.getElementById('msub').textContent = M.sub || '';
 document.getElementById('charges').innerHTML =
   M.labels.map(l => `<li style="--tilt:${(rnd(25)-12)/10}deg">${l}</li>`).join('');
+
+/* ---------- epigraphs: the voices, before the analysis ---------- */
+if (M.epigraphs && M.epigraphs.length){
+  const box = document.createElement('div');
+  box.className = 'epigraphs';
+  box.innerHTML = M.epigraphs.map(q => `
+    <blockquote class="epigraph ${q.who === 'Derek' ? 'him' : 'her'}">
+      <p>${q.text}</p>
+      <cite>— ${q.who.toUpperCase()} · ${q.src}</cite>
+    </blockquote>`).join('');
+  const obj = document.getElementById('objective');
+  obj.parentNode.insertBefore(box, obj);
+}
 document.getElementById('objective').textContent = M.objective;
 
 /* ---------- mechanism ---------- */
