@@ -11,6 +11,27 @@ const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const rnd = n => Math.floor(Math.random()*n);
 document.title = `MODULE ${M.id} — ${M.title} · Evidence Locker`;
 
+/* ---------- source tags: what they mean + where they lead ---------- */
+const EVIDENCE_BUCKET = 'https://console.cloud.google.com/storage/browser/astraltrash_other/derek?project=gen-lang-client-0646349261&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))';
+const SOURCE_REGISTRY = {
+  'WA':    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:EVIDENCE_BUCKET },
+  'SC':    { label:'SC-####', meaning:'StarMaker record — post, comment, or duet ID.', url:EVIDENCE_BUCKET },
+  'STARMAKER': { label:'STARMAKER', meaning:'StarMaker app record — the public profile and its posts.', url:EVIDENCE_BUCKET },
+  'DOSSIER':   { label:'DOSSIER §', meaning:'The Forensic Audit Dossier — the full compiled report.', url:EVIDENCE_BUCKET },
+  'FORENSIC_PATTERN_ANALYSIS': { label:'FORENSIC PATTERN ANALYSIS', meaning:'Cross-case forensic pattern analysis document.', url:EVIDENCE_BUCKET },
+  'GA':    { label:'GA — GHOST ANALYSIS', meaning:'Independent AI forensic audit of the original chat export — NODE_771, GHOST_FRAGMENT v2.6. Source file pending upload.', url:EVIDENCE_BUCKET },
+  'TESTIMONY': { label:'TESTIMONY', meaning:'First-person account of the Operative — events from the era the log does not recover.' }
+};
+function sourceClass(id){
+  if (id.startsWith('WA-')) return 'WA';
+  if (id.startsWith('SC-')) return 'SC';
+  if (id.startsWith('DOSSIER')) return 'DOSSIER';
+  if (id === 'GA' || id.startsWith('GA-')) return 'GA';
+  if (id === 'STARMAKER') return 'STARMAKER';
+  if (id === 'FORENSIC_PATTERN_ANALYSIS') return 'FORENSIC_PATTERN_ANALYSIS';
+  return 'TESTIMONY';
+}
+
 /* ---------- header ---------- */
 document.getElementById('filetag').innerHTML =
   `EVIDENCE LOCKER · MODULE <b>${M.id}</b> · <b>${M.code}</b>`;
@@ -73,8 +94,12 @@ M.exhibits.forEach((ex, i) => {
   el.style.setProperty('--deal', (i % 2 ? -1.4 : 1.4) + 'deg');
   const ids = (ex.ids || []).map(pair => {
     const [id, d] = Array.isArray(pair) ? pair : [pair, ''];
-    const cls = id.startsWith('WA') || id.startsWith('SC') ? 'eid' : 'eid testimony';
-    return `<button class="${cls}" data-eid="${id.split('–')[0]}" type="button">${id}${d ? ` <span class="d">· ${d}</span>` : ''}</button>`;
+    const sc = sourceClass(id);
+    const cls = sc === 'WA' || sc === 'SC' ? 'eid' : sc === 'GA' ? 'eid ga' : sc === 'TESTIMONY' ? 'eid testimony' : 'eid doc';
+    const reg = SOURCE_REGISTRY[sc];
+    const inner = `${id}${d ? ` <span class="d">· ${d}</span>` : ''}${reg && reg.url ? ' <span class="ext">↗</span>' : ''}`;
+    if (reg && reg.url) return `<a class="${cls}" data-eid="${id.split('–')[0]}" href="${reg.url}" target="_blank" rel="noopener">${inner}</a>`;
+    return `<button class="${cls}" data-eid="${id.split('–')[0]}" type="button">${inner}</button>`;
   }).join('');
   el.innerHTML = `
     <div class="exhibit__top">
@@ -90,6 +115,26 @@ M.exhibits.forEach((ex, i) => {
   `;
   holder.appendChild(el);
 });
+
+/* ---------- source key drawer (only the tags this page uses) ---------- */
+(function(){
+  const used = [];
+  M.exhibits.forEach(ex => (ex.ids || []).forEach(pair => {
+    const id = Array.isArray(pair) ? pair[0] : pair;
+    const sc = sourceClass(id);
+    if (!used.includes(sc)) used.push(sc);
+  }));
+  if (!used.length) return;
+  const det = document.createElement('details');
+  det.className = 'drawer sourcekey';
+  det.innerHTML = '<summary>SOURCE KEY — WHAT THE TAGS MEAN · CLICK A TAG TO OPEN ITS SOURCE</summary><ul>' +
+    used.map(k => {
+      const s = SOURCE_REGISTRY[k];
+      const body = s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.meaning} <b>↗</b></a>` : s.meaning;
+      return `<li><b>${s.label}</b><span>${body}</span></li>`;
+    }).join('') + '</ul>';
+  document.getElementById('exTitle').after(det);
+})();
 
 /* ---------- impact + yaml + nav ---------- */
 document.getElementById('impactTitle').innerHTML = M.impactTitle || 'DAMAGE ASSESSMENT';
@@ -127,6 +172,7 @@ eidBtns.forEach(btn => {
   btn.addEventListener('pointerleave',() => kin.forEach(b => b.classList.remove('linked')));
   btn.addEventListener('blur',        () => kin.forEach(b => b.classList.remove('linked')));
   btn.addEventListener('click', () => {
+    if (btn.tagName === 'A') return; // a linked tag opens its source instead
     const other = kin.find(b => b !== btn);
     if (other) other.closest('.exhibit').scrollIntoView({behavior: reduceMotion ? 'auto' : 'smooth', block:'center'});
   });
