@@ -174,6 +174,21 @@ if (reduceMotion){
   cards.forEach(c => io.observe(c));
 }
 
+/* ---------- 1b. her-words addendum sections dealt in ---------- */
+const dsecs = [...document.querySelectorAll('.dsec')];
+if (dsecs.length){
+  if (reduceMotion){
+    dsecs.forEach(s => s.classList.add('dealt'));
+  } else {
+    const dio = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting){ en.target.classList.add('dealt'); dio.unobserve(en.target); }
+      });
+    }, {threshold: .12});
+    dsecs.forEach(s => dio.observe(s));
+  }
+}
+
 /* ---------- 2. evidence cross-highlight ---------- */
 const eidBtns = [...document.querySelectorAll('.eid')];
 eidBtns.forEach(btn => {
