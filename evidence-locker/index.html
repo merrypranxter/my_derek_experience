@@ -100,7 +100,7 @@ body::after{
   100%{clip-path:none; transform:none;}
 }
 .experience{
-  font-family:var(--font-archive);          /* grungy typewriter, still legible */
+  font-family:var(--font-archive);
   font-size:clamp(.78rem, 2.2vmin, 1.05rem);
   letter-spacing:.3em;white-space:nowrap;
   margin:1.5rem 0 0;color:var(--atm-dim);display:inline-block;
@@ -192,7 +192,7 @@ body::after{
       <p class="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
       <h1 class="subject" id="subject" aria-label="DEREK">DEREK</h1>
       <p class="experience">— THE <em>DEREK</em> EXPERIENCE —</p>
-      <p class="caption" id="caption">an archive in eleven modules. the record does not change.</p>
+      <p class="caption" id="caption">an archive in twelve modules. the record does not change.</p>
       <p class="readout" id="readout" aria-live="polite"></p>
     </div>
 
@@ -208,6 +208,7 @@ body::after{
     <li class="chip"><a href="#m09" data-label="CAPTURED IN THE MOMENT"><b>09</b>THE RECORDINGS</a></li>
     <li class="chip"><a href="#m10" data-label="WORK MADE FOR TWO"><b>10</b>THE DUET ART</a></li>
     <li class="chip"><a href="module11.html" data-label="NODE_771 — INDEPENDENT FORENSIC AUDIT"><b>11</b>THE GHOST ANALYSIS</a></li>
+    <li class="chip"><a href="module12.html" data-label="ONE-WAY DISPLAY · TITLE WITHOUT DUTIES"><b>12</b>THE CUCKING</a></li>
   </ul>
 </main>
 
@@ -273,9 +274,9 @@ requestAnimationFrame(warpTick);
 /* ---------- the ellipse: chips on a wide orbit, slow drift ---------- */
 const chips = [...document.querySelectorAll('.chip')];
 const orbit = document.getElementById('orbit');
-let drift = 0;                 // radians of slow orbital drift
+let drift = 0;
 let driftPaused = false;
-const DRIFT_SPEED = (Math.PI * 2) / 95;  // one revolution ≈ 95 seconds
+const DRIFT_SPEED = (Math.PI * 2) / 95;
 
 function layoutEllipse(){
   const wide = matchMedia('(min-width: 720px)').matches;
@@ -284,8 +285,8 @@ function layoutEllipse(){
     return;
   }
   const W = orbit.clientWidth, H = orbit.clientHeight;
-  const a = Math.min(W * .44, W / 2 - 130);   // horizontal radius — wide, clears the center
-  const b = Math.min(H * .40, H / 2 - 60);    // vertical radius — top/bottom clear the title
+  const a = Math.min(W * .44, W / 2 - 130);
+  const b = Math.min(H * .40, H / 2 - 60);
   const path = document.getElementById('orbitPath');
   if (path){ path.setAttribute('rx', a); path.setAttribute('ry', b); }
   chips.forEach((c, i) => {
@@ -304,7 +305,6 @@ function driftTick(){
 addEventListener('resize', layoutEllipse);
 layoutEllipse();
 requestAnimationFrame(driftTick);
-/* hold still while someone is reading a chip */
 chips.forEach(c => {
   c.addEventListener('pointerenter', () => driftPaused = true);
   c.addEventListener('pointerleave', () => driftPaused = false);
@@ -319,7 +319,7 @@ function ellipsePulse(){
   chips.forEach((c, i) => {
     setTimeout(() => {
       c.classList.remove('pulse'); void c.offsetWidth; c.classList.add('pulse');
-    }, i * 75); // the correction travels the record in order
+    }, i * 75);
   });
 }
 
