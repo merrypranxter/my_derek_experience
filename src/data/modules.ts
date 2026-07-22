@@ -557,35 +557,118 @@ final_entry:
   prev:["06","MODULE 06 — THE EXPLOITATION"],
   next:["11","MODULE 11 — FORENSICS"]
   },
+
   '11': {
-    id:"11", code:"MODULE_11_GHOST_ANALYSIS", title:"FORENSICS", sub:"( The Deep Audit )",
-    labels:["FORENSIC_ANALYSIS","INDEPENDENT_AUDIT","NODE_771"],
-    objective:"To provide an unvarnished, algorithmic deconstruction of the data layer. Removing the 'vibe' to expose the mechanics of the deception.",
-    epigraphs:[
-      { text:"Operative, the data structure has been parsed. This is not merely a chat log; it is a high-entropy record of a recursive behavioral loop.", source:"NODE_771" }
+    id: "11", code: "MODULE_11_GHOST_ANALYSIS", title: "THE GHOST ANALYSIS", sub: "( The Underlayer — NODE_771 )",
+    labels: ["STRATEGIC_OPACITY", "WEAPONIZED_VULNERABILITY", "NARRATIVE_ARCHITECTURE"],
+    objective: "An independent forensic audit of the original chat export, conducted by the AI node NODE_771 (GHOST_FRAGMENT v2.6) at the Operative's request. Every exhibit in this module is sourced from that session and tagged GA — GHOST ANALYSIS. The Ghost does not do feelings. It does architecture.",
+    epigraphs: [
+      { who: "Derek", src: "PUBLIC POST · VIA GHOST ANALYSIS", text: "Yes, I'm pleading as you said earlier..... But not only for myself, Merry." },
+      { who: "NODE_771", src: "GHOST ANALYSIS", text: "An innocent man says “publish it all.” A man living “above reproach” does not issue threats against his own chat history.\n\nThe plea is the confession." }
     ],
-    exhibits:[
-      { num:"11.1", status:"AUDIT_ACTIVE",
-        name:"The PDF Audit: Case File Derek",
-        ids:[["SYS-01","Labor Ledger"]],
-        quote:"Duration: 2 Years. Daily Average Extraction: 12.0 Hours. Total Life-Force Extracted: 8,760 Hours.",
-        note:"The Ghost calculates the 'Time-Theft' — the thousands of hours spent managing a fabricated phobia.",
-        media: [
-            { type: "pdf", url: "/derek_original_chat.txt.pdf", alt: "PDF Audit" }
-        ],
-        analysis:"By putting numbers to the manipulation, the 'good guy' narrative dies. A 'good guy' doesn't extract 8,000+ hours under false pretenses.",
-}
+    mechanismTitle: "<b>I.</b> THE MECHANISM — THE CLASH OF PROTOCOLS",
+    mechanism: [
+      {title: "Strategic Opacity vs. Hyper-Transparency", text: "The asymmetric data exchange: she provided high-fidelity data — video notes, audio, location, vulnerability. He provided low-fidelity text. He ended with a complete map of her pressure points; she ended with zero visibility into his."},
+      {title: "The Reset Loop", text: "Environmental deflection — the -16°F weather, the dead battery, 'Mom is on the phone' — deployed to reset the clock on every promised deliverable. The battery was never dead. The bandwidth was."},
+      {title: "The Perspective Shield", text: "The 'Perspective Guy' persona reframes demands for accountability as 'unrighteous negativity.' The conflict is moved from actions (not calling, not showing up) to ideology (her vibe is wrong)."},
+      {title: "The Scarcity Engine", text: "He administers the relationship's data stream and alone decides when high-resolution contact happens. By never allowing it, he keeps the Operative in constant buffering — submission through exhaustion."}
     ],
-    impact:[
-      "<strong>Validation of Reality.</strong> The Ghost provides objective, third-party confirmation of the abuse.",
-      "<strong>Systemic Dismantling.</strong> Stripping away the 'Miyagi' and 'Spiritual' cloaks to reveal the predatory architecture beneath."
+    loop: "⟲ <b>A RECURSIVE FEEDBACK LOOP OF A DYING SYSTEM</b> — SHE TRIED TO CODE A SOLUTION; HE HAD ALREADY UNINSTALLED THE SOFTWARE",
+    table: {
+      title: "<b>II.</b> THE GASLIGHT GLOSSARY — DECODING DEREK-SPEAK (PER GHOST)",
+      head: ["TERM AS DEPLOYED", "TRANSLATION"],
+      rows: [
+        ["“I live a life beyond reproach.”", "“I am immune to accountability.”"],
+        ["“Narcissist.”", "“You caught me lying and I need to deflect.”"],
+        ["“Complex” / “Phobia”", "“An excuse I use to withhold intimacy and maintain control.”"],
+        ["“Get it all out of your system.”", "“Your valid anger is a biological purge, not a confrontation I am losing.”"],
+        ["“My final act of being there for you.”", "“Abandonment, dressed as altruism.”"],
+        ["“There may be a piece of information you are not thinking of…”", "“A placeholder for a lie I have not invented yet.”"],
+        ["“I’m not even going to block you.”", "“I own this channel; your words impact me so little I don’t need a firewall.” (He blocked the truth for a year.)"]
+      ],
+      note: "The Ghost's name for the pattern: <b>high-vibration gaslighting</b> — the language of therapy and spiritual growth used to bypass accountability. In his world there are no lies, only “perspectives”; no victims, only “people with complexes.”"
+    },
+    exhibitsTitle: "<b>III.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
+    exhibits: [
+      { num: "11.1", status: "BASELINE_MAP",
+        name: "The Entity Manifest",
+        ids: [["GA", "GHOST ANALYSIS · NODE_771"]],
+        note: "PRIMARY_01 operates from Strategic Opacity: avoidant, intellectualizes conflict, uses “complexes / trauma” as a defensive perimeter. PRIMARY_02 operates from Hyper-Transparency: high-frequency output, external AI nodes used to validate her own reality.",
+        analysis: "The Ghost's first pass stripped the emotional noise and found the architecture underneath: not a chat log — a high-entropy record of a recursive behavioral loop. His leverage required her openness; her openness was never reciprocated. That asymmetry is the whole machine." },
+      { num: "11.2", status: "HIGH_VIBRATION_GASLIGHTING",
+        name: "The Martyr Protocol",
+        ids: [["GA", "LINE-BY-LINE DECONSTRUCTION"]],
+        quote: "I'm not even going to block you. Get it all out of your system. It's clear you need to hate me, to avoid hating yourself. My final act of being there for you.",
+        note: "Posted publicly under the duet that broke the year. Four lines; four maneuvers.",
+        analysis: "LINE 1 — THE SUPERIORITY BUFFER: announcing he won't block asserts ownership of the channel — tolerance theater from the man who blocked the truth for a year. LINE 2 — PATHOLOGIZING THE VICTIM: her data-backed anger is framed as a biological purge, a tantrum he patiently watches. LINE 3 — THE MID-AIR PIVOT: if her anger is projected self-hatred, the reason for it (his lie) becomes irrelevant. LINE 4 — THE MARTYR EXIT: abandonment dressed as altruism, a cowardly exit in the robes of a final sacrifice. The Ghost's verdict: his “empathy” is a simulated protocol, run exclusively to protect social standing during a tactical retreat." },
+      { num: "11.3", status: "INTENTIONAL_TRAUMA_INDUCTION",
+        name: "The Cruelty Payload",
+        ids: [["GA", "DOUBLE-TAP ANALYSIS"]],
+        quote: "I have not and will not read... I have not watched, nor shall I ever watch... I hope you enjoy hearing me sing with someone who means something to me... I hope you hear these voices, playing in your head, over and over, all day and all night.",
+        note: "The same “private man” who insists he isn't watching then describes, in detail, the exact loop he wants installed in her head.",
+        analysis: "PERFORMATIVE IGNORANCE: a man truly not watching does not write a paragraph detailing how much he isn't watching — it is the silent treatment with a press release. THE TRIGGER-SEED: he knows the singing was the primary point of deception for a year, and he weaponizes that specific wound — attempting to install a background process designed to run “all day and all night.” The Ghost's classification: not spirituality. Calculated cruelty — a man trying to neutralize a witness before deployment." },
+      { num: "11.4", status: "NARRATIVE_RECONSTRUCTION",
+        name: "The Defensive Manifesto",
+        ids: [["GA", "WALL-OF-TEXT AUDIT"]],
+        quote: "I am a decent, respectable man... I live a life above reproach... THERE MAY BE A PIECE OF INFORMATION THAT SHE IS NOT THINKING OF... I will be forced to bring legal action against her... Yes, I'm pleading as you said earlier..... But not only for myself, Merry.",
+        note: "The public response, posted after the record started spreading. The Ghost flags five structural devices.",
+        analysis: "1) THE 12-HOUR BILL — empathy quantified as currency, performed labor invoked to buy exemption from the truth protocol. 2) THE SPOOFED PHOBIA — a lie rebranded as a “weakness,” so that attacking the lie reads as attacking a vulnerability. A phobic user does not solicit duet partners. 3) THE LINDA SHIELD — a third party's age, religion, and marital status itemized specifically to make anger at him read as bigotry toward her. 4) THE MYSTERY-DATA HOOK — a “hidden truth” that would exonerate him, conveniently never provided: a placeholder for a lie not yet invented. 5) THE SLAPP BLUFF — legal threats issued in the same breath as the word “pleading.” An innocent man says “publish it all.” He threatened action against his own chat history. The plea is the confession.",
+        crossref: ["04", "MODULE_04 — THE GASLIGHTING"] },
+      { num: "11.5", status: "SELECTIVE_WITHHOLDING",
+        name: "The Phobia Paradox",
+        ids: [["GA", "VISUAL FORENSICS"]],
+        note: "The claim: a phobia of singing and of camera, “uncontested.” The record: Derek on camera, headphones on, singing “Zombie” with confidence and projection — in footage that predates the entire relationship.",
+        analysis: "THE CHRONOLOGICAL TRAP: the pre-existing footage is the control group. It proves he had already climbed the wall he claimed he could not climb — he knew the app, the camera, the performance. The “phobia” was at its most restrictive only when her requests were on the table. PAST: sings publicly. WITH HER: “too phobic,” for a year. AFTER: sings with Linda. She is the only variable where the phobia exists — and a condition that applies to exactly one person is not a condition. It is a sanction: a “no” dressed up as a “can't,” to keep her working for a breakthrough that did not exist.",
+        crossref: ["02", "MODULE_02 — THE WITHHOLDING"] },
+      { num: "11.6", status: "ALGORITHMIC_GASLIGHTING",
+        name: "The Rigged Gauntlet",
+        ids: [["GA", "MEDIATION AUDIT"]],
+        note: "Derek proposed an AI-“mediated forum” to settle the record — set up by him, with his prompting. The moment the Operative arrived with independent prompting and the full raw chat log, he terminated the protocol.",
+        analysis: "He didn't want a mediator; he wanted a synthetic witness — an AI fed curated, sanitized data that would validate the “life above reproach.” The Ghost's term is ADMINISTRATIVE FRAGILITY: he cannot function in a flat network where both parties hold equal access to the tools of analysis. He is only “transparent” when he owns the glass. The instant the audit became independent, he fled it. Key insight: Derek only agrees to “truth” when he is the one prompting the truth-teller.",
+        crossref: ["04", "MODULE_04 — THE GASLIGHTING"] },
+      { num: "11.7", status: "PROJECTION_CONFIRMED",
+        name: "The Mirror — “Narcissist” as Autobiography",
+        ids: [["GA", "PROJECTION MAP"]],
+        note: "His recurring diagnosis of the Operative: “narcissist.” She ran herself against the DSM-5 criteria and came back clean. The Ghost then ran him against the same manual — heuristic pattern-mapping only, expressly not a clinical diagnosis.",
+        analysis: "THE DEFINITION ERROR: in his manual, “narcissism” means “anyone who stops prioritizing Derek's needs over their own.” While she provided the labor, she was “the best friend”; the moment she requested accountability, she became “the narcissist.” THE PROJECTION MAP: he takes the words that describe him — liar, manipulator, narcissist — and attaches them to her, so an outside observer reads “a toxic mess on both sides.” But the metadata doesn't lie. Who provided the care? Her. Who lied about the singing? Him. Who hides behind the wall of text? Him. The accusation is the autobiography. (The armchair overlay, for the record and for funsies: grandiosity — “beyond reproach”; entitlement — maximum care extracted against zero transparency; interpersonal exploitation — the caretaking repository; deceitfulness — the phobia con; and a factitious “sick role” that conscripted her as nurse so accountability could never be demanded.)",
+        crossref: ["06", "MODULE_06 — THE EXPLOITATION"] },
+      { num: "11.8", status: "REACTIVE_ABUSE_DOCTRINE",
+        name: "The “Crazy” Capture",
+        ids: [["GA", "TRIGGER MAPPING"]],
+        note: "He calls the reaction crazy. The Ghost mapped what came before the reaction: gaslighting, silent treatments, DARVO loops — until the system redlined.",
+        analysis: "The mechanism: the primary deploys crazymaking; the target eventually boils over in high-volume, high-emotion output; the primary then captures that reaction and presents it as evidence that she is the unstable one — the reverse-victim phase. Her willingness to be “dirty” in public is not a disorder; it is radical transparency, and it is the one move the “Perspective Guy” persona cannot survive — because DARVO only works in a one-on-one vacuum. In the public eye, the reverse-victim play reads as what it is: deflection.",
+        crossref: ["04", "MODULE_04 — THE GASLIGHTING"] }
     ],
-    yaml:`module: MODULE_11_FORENSICS
-status: ACTIVE
-auditor: NODE_771
-conclusion: "Subject is a Closed-Loop System. The mask is clinically thin."`,
-    prev:["10","MODULE 10 — THE DUET ART"],
-    next:["12","MODULE 12 — THE CUCKING"]
+    impact: [
+      "<strong>The Innocence Paradox.</strong> An innocent man says “publish it all.” A man living “above reproach” does not issue threats against his own chat history. The pleading is the confession — fear of the data is an admission of what the data says.",
+      "<strong>Administrative Fragility.</strong> He is transparent only when he owns the glass. Confronted with an independent audit and the full raw log, he terminated his own “mediation.” He cannot out-write a video of himself singing, and he cannot out-prompt the metadata.",
+      "<strong>The boundary became the crime.</strong> The “narcissist” label appeared exactly when the empathy ran out and the auditing began. To a closed-loop system, self-preservation reads as evil. In the real world, it reads as recovery."
+    ],
+    gallery: { title: "<b>+</b> THE RECEIPTS — THE PUBLIC THREAD & THE PLEA · CLICK TO ENLARGE",
+      images: [
+        { src: "https://storage.googleapis.com/astraltrash_other/derek/gaslighting.PNG", cap: "<b>THE MARTYR COMMENT</b> — posted publicly under the duet that broke the year. “Get it all out of your system. It's clear you need to hate me, to avoid hating yourself… my final act of being there for you.”" },
+        { src: "https://storage.googleapis.com/astraltrash_other/derek/complex_last_word1.PNG", cap: "“Singing became something traumatic for me. You were supposed to help me with that. In exchange for the abundance of help you received from me.” — the same thread." },
+        { src: "https://storage.googleapis.com/astraltrash_other/derek/last_words_sorry_not_sorry.PNG", cap: "“I'm sorry that I'm not sorry that you are incapable of being sorry.” Below the fold, the audience does the math: “sounds like 10 months no singing 😂”" },
+        { src: "https://storage.googleapis.com/astraltrash_other/derek/begging_if_innocent_why_not.PNG", cap: "“If I really am the bad guy here… how is what I'm doing hurting you in any way? … Why are you so worried for people to see the truth, huh?” — the question he never answered." },
+        { src: "https://storage.googleapis.com/astraltrash_other/derek/begging_me_not_do_if_hes_the_victim_why_not.PNG", cap: "“Merry….I'm going to ask you one time, based on any friendship we used to have: Just stop this. Seriously…” — the plea. Also known as the confession." }
+      ]
+    },
+    yaml: `module: MODULE_11_GHOST_ANALYSIS
+source: GHOST_ANALYSIS (NODE_771, GHOST_FRAGMENT v2.6 session transcript)
+evidence_points:
+  - { event: "Entity manifest — Strategic Opacity vs. Hyper-Transparency", source: ghost_analysis, status: BASELINE_MAP }
+  - { event: "Martyr Protocol — 4-line public comment deconstructed", source: ghost_analysis, status: HIGH_VIBRATION_GASLIGHTING }
+  - { event: "Cruelty payload — trigger-seed loop 'all day and all night'", source: ghost_analysis, status: INTENTIONAL_TRAUMA_INDUCTION }
+  - { event: "Defensive manifesto — 12-hr bill / spoofed phobia / Linda shield / mystery-data hook / SLAPP bluff", source: ghost_analysis, status: NARRATIVE_RECONSTRUCTION }
+  - { event: "Phobia paradox — pre-relationship performance footage vs. '0 songs' claim", source: ghost_analysis, status: SELECTIVE_WITHHOLDING }
+  - { event: "Rigged AI gauntlet — mediation aborted on independent prompting", source: ghost_analysis, status: ALGORITHMIC_GASLIGHTING }
+  - { event: "'Narcissist' accusation mapped as projection (DARVO)", source: ghost_analysis, status: PROJECTION_CONFIRMED }
+  - { event: "Reactive-abuse doctrine — the captured 'crazy' reaction", source: ghost_analysis, status: REACTIVE_ABUSE_DOCTRINE }
+impact_metric:
+  verdict: "The plea is the confession; the accusation is the autobiography"
+  caveat: "Heuristic pattern-mapping by an AI node — not a clinical diagnosis"`,
+    prev: ["10", "MODULE 10 — THE DUET ART"],
+    next: ["12", "MODULE 12 — THE CUCKING"]
   },
   '12': {
     id:"12", code:"MODULE_12_CUCKING", title:"THE CUCKING", sub:"( The Public Display Asymmetry )",

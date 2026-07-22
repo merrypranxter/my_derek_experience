@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import TTSButton from "../components/TTSButton";
 import "../module.css";
 
 const MODULES = [
@@ -250,7 +251,8 @@ export default function Home() {
           <ellipse id="orbitPath" ref={orbitPathRef as any} cx="50%" cy="50%" rx="528" ry="328" fill="none" stroke="var(--atm-dim)" strokeOpacity=".38" strokeDasharray="2 7"/>
         </svg>
 
-        <div className="docket">
+        <div className="docket relative">
+          <TTSButton text={TRUTH} className="absolute -top-6 right-0" />
           <p className="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
           <h1 className="subject" id="subject" aria-label="DEREK" ref={subjectRef}>{NAME}</h1>
           <p className="experience">— THE <em>DEREK</em> EXPERIENCE —</p>

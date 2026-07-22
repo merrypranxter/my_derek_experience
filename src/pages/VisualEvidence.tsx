@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useNavigate } from "react-router-dom";
 import evidenceFiles from "../data/evidenceFiles.json";
+import TTSButton from "../components/TTSButton";
 
 interface EvidenceFile {
   name: string;
@@ -42,11 +43,14 @@ export default function VisualEvidence() {
             The Record
           </h1>
           
-          <p className="text-neutral-400 font-data text-sm max-w-2xl mb-12 border-l border-cyan-500/50 pl-4">
-            Direct feed from cloud storage established. The images below contain receipts, chat logs, and art files provided for cross-referencing.
-            <br/><br/>
-            <span className="text-cyan-400">Notice:</span> Original bucket filenames are preserved below each asset.
-          </p>
+          <div className="relative">
+            <TTSButton text="Direct feed from cloud storage established. The images below contain receipts, chat logs, and art files provided for cross-referencing. Notice: Original bucket filenames are preserved below each asset." className="absolute -top-4 -left-4" />
+            <p className="text-neutral-400 font-data text-sm max-w-2xl mb-12 border-l border-cyan-500/50 pl-4 relative">
+              Direct feed from cloud storage established. The images below contain receipts, chat logs, and art files provided for cross-referencing.
+              <br/><br/>
+              <span className="text-cyan-400">Notice:</span> Original bucket filenames are preserved below each asset.
+            </p>
+          </div>
 
           <div className="flex flex-wrap gap-4 mb-12 font-data text-xs uppercase tracking-widest">
             <button 

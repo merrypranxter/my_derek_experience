@@ -1,16 +1,22 @@
 import { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import { MODULE_DATA } from "../data/modules";
+import TTSButton from "../components/TTSButton";
 import "../module.css";
 
-const EVIDENCE_BUCKET = '/derek_original_chat.txt.pdf';
+const EVIDENCE_BUCKET = 'https://console.cloud.google.com/storage/browser/astraltrash_other/derek?project=gen-lang-client-0646349261&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))';
+const SOURCE_REPO = 'https://github.com/merrypranxter/fuckyou_derek';
+
 const SOURCE_REGISTRY: Record<string, {label: string, meaning: string, url?: string}> = {
-  'WA':    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:EVIDENCE_BUCKET },
-  'SC':    { label:'SC-####', meaning:'StarMaker record — post, comment, or duet ID.', url:EVIDENCE_BUCKET },
+  'WA':
+    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:SOURCE_REPO + '/tree/main/evidence/whatsapp' },
+  'SC':
+    { label:'SC-####', meaning:'StarMaker record — post, comment, or duet ID.', url:EVIDENCE_BUCKET },
   'STARMAKER': { label:'STARMAKER', meaning:'StarMaker app record — the public profile and its posts.', url:EVIDENCE_BUCKET },
-  'DOSSIER':   { label:'DOSSIER §', meaning:'The Forensic Audit Dossier — the full compiled report.', url:EVIDENCE_BUCKET },
-  'FORENSIC_PATTERN_ANALYSIS': { label:'FORENSIC PATTERN ANALYSIS', meaning:'Cross-case forensic pattern analysis document.', url:EVIDENCE_BUCKET },
-  'GA':    { label:'GA — GHOST ANALYSIS', meaning:'Independent AI forensic audit of the original chat export — NODE_771, GHOST_FRAGMENT v2.6. Source file pending upload.', url:EVIDENCE_BUCKET },
+  'DOSSIER':   { label:'DOSSIER §', meaning:'The Forensic Audit Dossier — the full compiled report.', url:SOURCE_REPO + '/blob/main/reports/FORENSIC_AUDIT_DOSSIER.md' },
+  'FORENSIC_PATTERN_ANALYSIS': { label:'FORENSIC PATTERN ANALYSIS', meaning:'Cross-case forensic pattern analysis document.', url:SOURCE_REPO + '/blob/main/reports/FORENSIC_PATTERN_ANALYSIS.md' },
+  'GA':
+    { label:'GA — GHOST ANALYSIS', meaning:'Independent AI forensic audit of the original chat export — NODE_771, GHOST_FRAGMENT v2.6. Full session transcript on file.', url:SOURCE_REPO + '/tree/main/forensics' },
   'TESTIMONY': { label:'TESTIMONY', meaning:'First-person account of the Operative — events from the era the log does not recover.' }
 };
 
@@ -223,7 +229,8 @@ export default function ModulePage() {
         {parsed.epigraphs?.length > 0 && (
           <div className="epigraphs">
             {parsed.epigraphs.map((q: any, i: number) => (
-              <blockquote key={i} className={`epigraph ${q.who === 'Derek' ? 'him' : 'her'}`}>
+              <blockquote key={i} className={`epigraph ${q.who === 'Derek' ? 'him' : 'her'} relative`}>
+                <TTSButton text={q.text} className="absolute top-2 right-2" />
                 <p>{q.text}</p>
                 <cite>— {q.who ? `${q.who.toUpperCase()} · ` : ''}{q.src || q.source}</cite>
               </blockquote>
@@ -231,21 +238,22 @@ export default function ModulePage() {
           </div>
         )}
         
-        <p className="objective">{parsed.objective}</p>
+        <div className="relative"><TTSButton text={parsed.objective} className="absolute -top-4 right-0" /><p className="objective">{parsed.objective}</p></div>
       </header>
       
       <h2 className="sect" dangerouslySetInnerHTML={{ __html: parsed.mechanismTitle }}></h2>
       <div className="mechanism">
         {parsed.mechanism?.map((n: any, i: number) => (
           <div key={i} className="flex contents-wrapper" style={{display: 'contents'}}>
-            <div 
-              className="mnode" 
-              tabIndex={0} 
-              onPointerEnter={() => handleMechHover(n.text)}
+                        <div 
+               className="mnode relative" 
+               tabIndex={0} 
+               onPointerEnter={() => handleMechHover(n.text)}
               onFocus={() => handleMechHover(n.text)}
               onPointerLeave={handleMechLeave}
               onBlur={handleMechLeave}
             >
+              <TTSButton text={n.text} className="absolute top-2 right-2 opacity-50 hover:opacity-100" />
               <div className="n">{i + 1}</div>
               <h3>{n.title}</h3>
             </div>
@@ -308,7 +316,8 @@ export default function ModulePage() {
         {parsed.exhibits?.map((ex: any, i: number) => {
           const dealAngle = (i % 2 ? -1.4 : 1.4) + 'deg';
           return (
-            <article key={i} className="exhibit" style={{ "--deal": dealAngle } as React.CSSProperties}>
+            <article key={i} className="exhibit relative" style={{ "--deal": dealAngle } as React.CSSProperties}>
+              <TTSButton text={[ex.quote ? `Quote: ${ex.quote}` : '', ex.note ? `Note: ${ex.note}` : '', ex.analysis ? `Analysis: ${ex.analysis}` : '', ex.desc || ''].filter(Boolean).join('. ').replace(/<[^>]*>?/gm, '')} className="absolute top-4 right-4" />
               <div className="exhibit__top">
                 <span className="exhibit__num">EXHIBIT {ex.num}</span>
                 <span className="stamp" style={{"--tilt": `${Math.floor(Math.random() * 5) - 2}deg`} as React.CSSProperties}>{ex.status}</span>
@@ -389,11 +398,14 @@ export default function ModulePage() {
       </div>
 
       <h2 className="sect">{parsed.impactTitle || 'DAMAGE ASSESSMENT'}</h2>
-      <ol className="impact">
-        {parsed.impact?.map((imp: string, i: number) => (
+      <div className="relative">
+        <TTSButton text={parsed.impact?.join('. ').replace(/<[^>]*>?/gm, '')} className="absolute -top-10 right-0" />
+        <ol className="impact">
+          {parsed.impact?.map((imp: string, i: number) => (
           <li key={i} dangerouslySetInnerHTML={{ __html: imp }}></li>
         ))}
       </ol>
+      </div>
 
 
       {parsed.addendum?.length > 0 && (
@@ -404,7 +416,8 @@ export default function ModulePage() {
             <div className="document">
               <span className="docstamp">HER OWN WORDS</span>
               {parsed.addendum.map((sec: any, i: number) => (
-                <section key={i} className="dsec dealt">
+                <section key={i} className="dsec dealt relative">
+                  <TTSButton text={sec.text.replace(/<[^>]*>?/gm, '')} className="absolute top-2 right-2" />
                   <h2>{sec.title}</h2>
                   {sec.text.split('\n\n').map((p: string, j: number) => (
                     <p key={j} dangerouslySetInnerHTML={{__html: p.replace(/\*([^*]+)\*/g, '<em>$1</em>')}}></p>
