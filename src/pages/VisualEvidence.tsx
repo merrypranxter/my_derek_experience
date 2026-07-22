@@ -98,7 +98,7 @@ export default function VisualEvidence() {
                       />
                     ) : (
                       <img 
-                        src={`https://wsrv.nl/?url=${encodeURIComponent(file.url)}&w=300&q=70&output=webp`} 
+                        src={file.url} 
                         alt={file.name} 
                         className="object-cover w-full h-full opacity-60 group-hover:opacity-100 transition-opacity mix-blend-screen grayscale group-hover:grayscale-0" 
                         loading="lazy" 

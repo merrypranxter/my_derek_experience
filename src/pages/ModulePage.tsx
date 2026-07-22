@@ -1,250 +1,469 @@
 import { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
-import { motion, AnimatePresence } from "motion/react";
+import { MODULE_DATA } from "../data/modules";
+import "../module.css";
 
-const MODULE_MAP: Record<string, string> = {
-  "01": "MODULE_01_PROMISES",
-  "02": "MODULE_02_WITHHOLDING",
-  "03": "MODULE_03_RUG_PULLS",
-  "04": "MODULE_04_GASLIGHTING_DARVO",
-  "05": "MODULE_05_TRIANGULATION",
-  "06": "MODULE_06_EXPLOITATION",
-  "07": "MODULE_07_ERASURE",
+const EVIDENCE_BUCKET = '/derek_original_chat.txt.pdf';
+const SOURCE_REGISTRY: Record<string, {label: string, meaning: string, url?: string}> = {
+  'WA':    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:EVIDENCE_BUCKET },
+  'SC':    { label:'SC-####', meaning:'StarMaker record — post, comment, or duet ID.', url:EVIDENCE_BUCKET },
+  'STARMAKER': { label:'STARMAKER', meaning:'StarMaker app record — the public profile and its posts.', url:EVIDENCE_BUCKET },
+  'DOSSIER':   { label:'DOSSIER §', meaning:'The Forensic Audit Dossier — the full compiled report.', url:EVIDENCE_BUCKET },
+  'FORENSIC_PATTERN_ANALYSIS': { label:'FORENSIC PATTERN ANALYSIS', meaning:'Cross-case forensic pattern analysis document.', url:EVIDENCE_BUCKET },
+  'GA':    { label:'GA — GHOST ANALYSIS', meaning:'Independent AI forensic audit of the original chat export — NODE_771, GHOST_FRAGMENT v2.6. Source file pending upload.', url:EVIDENCE_BUCKET },
+  'TESTIMONY': { label:'TESTIMONY', meaning:'First-person account of the Operative — events from the era the log does not recover.' }
 };
 
-interface MechanismNode {
-  title: string;
-  description: string;
-}
-
-interface Exhibit {
-  num: string;
-  name: string;
-  source: string;
-  quote: string;
-  happened: string;
-  analysis: string;
-}
-
-interface ParsedModule {
-  id: string;
-  title: string;
-  projectCode: string;
-  behavioralLabels: string[];
-  coreObjective: string;
-  mechanismDesc: string;
-  mechanismNodes: MechanismNode[];
-  exhibits: Exhibit[];
-  impact: string[];
-  rawYaml: string;
-}
-
-function parseModule(id: string, rawText: string): ParsedModule {
-  const titleMatch = rawText.match(/^#\s+(.*)/m);
-  const title = titleMatch ? titleMatch[1].replace(`MODULE ${id}: `, '') : 'Unknown Module';
-  
-  const projectCodeMatch = rawText.match(/\*\*Project Code:\*\*\s+`([^`]+)`/);
-  const projectCode = projectCodeMatch ? projectCodeMatch[1] : '';
-  
-  const labelMatch = rawText.match(/\*\*Behavioral Label(?:s)?:\*\*\s+([^\n]+)/);
-  const behavioralLabels = labelMatch ? labelMatch[1].split('/').map(s => s.trim()) : [];
-  
-  const objectiveMatch = rawText.match(/\*\*Core Objective:\*\*\s+([^\n]+)/);
-  const coreObjective = objectiveMatch ? objectiveMatch[1] : '';
-
-  // Extract mechanism list
-  const mechNodes: MechanismNode[] = [];
-  let mechanismDesc = "";
-  const narrativeMatch = rawText.match(/## I\. THE NARRATIVE[^\n]*\n([\s\S]*?)(?=## II\.)/);
-  if (narrativeMatch) {
-    const lines = narrativeMatch[1].split('\n');
-    let currentDesc = "";
-    let inList = false;
-    for (const line of lines) {
-      const listMatch = line.match(/^\d+\.\s+\*\*([^\*]+)\*\*(.*)/);
-      if (listMatch) {
-        mechNodes.push({ title: listMatch[1].trim(), description: listMatch[2].trim() });
-        inList = true;
-      } else if (inList && line.trim().startsWith('-')) {
-        // Handle list continuation if any
-      } else if (!inList && line.trim() !== '') {
-        currentDesc += line + " ";
-      }
-    }
-    mechanismDesc = currentDesc.trim();
-  }
-
-  // Extract exhibits
-  const exhibits: Exhibit[] = [];
-  const exhibitsBlock = rawText.match(/## II\. DETAILED INSTANCE ANALYSIS([\s\S]*?)(?=## III\.)/);
-  if (exhibitsBlock) {
-    const instances = exhibitsBlock[1].split('### Instance ').filter(s => s.trim());
-    for (const inst of instances) {
-      const headerMatch = inst.match(/^([\d\.]+):\s+(.*)/);
-      if (!headerMatch) continue;
-      
-      const ex: Exhibit = {
-        num: headerMatch[1],
-        name: headerMatch[2].trim().replace(/ —.*/, ''), // strip off quote from name if present
-        source: '',
-        quote: '',
-        happened: '',
-        analysis: ''
-      };
-      
-      const lines = inst.split('\n');
-      for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-        if (line.startsWith('- **Source:**')) ex.source = line.replace('- **Source:**', '').trim();
-        if (line.startsWith('- **Direct Quote:**')) ex.quote = line.replace('- **Direct Quote:**', '').replace(/^"|"$/g, '').trim();
-        if (line.startsWith('- **What happened:**')) ex.happened = line.replace('- **What happened:**', '').trim();
-        if (line.startsWith('- **Analysis:**')) ex.analysis = line.replace('- **Analysis:**', '').trim();
-      }
-      exhibits.push(ex);
-    }
-  }
-
-  // Extract impact
-  const impact: string[] = [];
-  const impactBlock = rawText.match(/## III\. DAMAGE ASSESSMENT([\s\S]*?)(?=## IV\.|$)/);
-  if (impactBlock) {
-    const lines = impactBlock[1].split('\n');
-    for (const line of lines) {
-      if (line.match(/^\d+\.\s/)) {
-        impact.push(line.replace(/^\d+\.\s/, '').trim());
-      }
-    }
-  }
-
-  return {
-    id,
-    title,
-    projectCode,
-    behavioralLabels,
-    coreObjective,
-    mechanismDesc,
-    mechanismNodes: mechNodes,
-    exhibits,
-    impact,
-    rawYaml: rawText
-  };
+function sourceClass(id: string) {
+  if (id.startsWith('WA-')) return 'WA';
+  if (id.startsWith('SC-')) return 'SC';
+  if (id.startsWith('DOSSIER')) return 'DOSSIER';
+  if (id === 'GA' || id.startsWith('GA-')) return 'GA';
+  if (id === 'STARMAKER') return 'STARMAKER';
+  if (id === 'FORENSIC_PATTERN_ANALYSIS') return 'FORENSIC_PATTERN_ANALYSIS';
+  return 'TESTIMONY';
 }
 
 export default function ModulePage() {
   const { id } = useParams<{ id: string }>();
-  const [parsed, setParsed] = useState<ParsedModule | null>(null);
+  const [parsed, setParsed] = useState<any | null>(null);
+  const [lightbox, setLightbox] = useState<any | null>(null);
   const mreadRef = useRef<HTMLParagraphElement>(null);
 
   useEffect(() => {
-    if (!id || !MODULE_MAP[id]) return;
-    const fetchMod = async () => {
-      try {
-        const res = await fetch(`/modules/${MODULE_MAP[id]}.md?t=${Date.now()}`);
-        if (!res.ok) throw new Error("not found");
-        const text = await res.text();
-        setParsed(parseModule(id, text));
-      } catch (e) {
-        console.error(e);
-      }
-    };
-    fetchMod();
+    if (!id || !MODULE_DATA[id]) return;
+    setParsed(MODULE_DATA[id]);
   }, [id]);
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setLightbox(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  useEffect(() => {
+    if (parsed) {
+      document.title = `MODULE ${parsed.id} — ${parsed.title} · Evidence Locker`;
+    }
+  }, [parsed]);
+
+  useEffect(() => {
+    const cards = Array.from(document.querySelectorAll('.exhibit, .dsec'));
+    const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion){
+      cards.forEach(c => c.classList.add('dealt'));
+    } else {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(en => {
+          if (en.isIntersecting){
+            const idx = cards.indexOf(en.target as Element);
+            setTimeout(() => en.target.classList.add('dealt'), (idx % 2) * 120);
+            io.unobserve(en.target);
+          }
+        });
+      }, {threshold: .15});
+      cards.forEach(c => io.observe(c));
+    }
+  }, [parsed]);
+
+  const handleMechHover = (text: string) => {
+    if (mreadRef.current) mreadRef.current.textContent = '▸ ' + text;
+  };
+  const handleMechLeave = () => {
+    if (mreadRef.current) mreadRef.current.textContent = '';
+  };
+
+  const handleEidEnter = (key: string) => {
+    document.querySelectorAll(`.eid[data-eid="${key}"]`).forEach(el => el.classList.add('linked'));
+  };
+  const handleEidLeave = (key: string) => {
+    document.querySelectorAll(`.eid[data-eid="${key}"]`).forEach(el => el.classList.remove('linked'));
+  };
+  const handleEidClick = (e: React.MouseEvent, key: string, isLink: boolean) => {
+    if (isLink) return;
+    const elements = Array.from(document.querySelectorAll(`.eid[data-eid="${key}"]`));
+    const other = elements.find(el => el !== e.currentTarget);
+    const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (other) {
+      const exhibit = other.closest('.exhibit');
+      if (exhibit) exhibit.scrollIntoView({behavior: reduceMotion ? 'auto' : 'smooth', block:'center'});
+    }
+  };
+
+  if (!parsed && !MODULE_DATA[id || '']) return <div className="text-white p-12 font-mono">EVIDENCE MISSING: Module {id} not found in the archive record.</div>;
   if (!parsed) return <div className="text-white p-12 font-mono">Loading module {id}...</div>;
+
+  // Custom renderer for intro.html (module 00)
+  if (parsed.id === "00") {
+    return (
+      <div className="wrap">
+        <Link className="back" to="/"><b>&lt;</b> RETURN TO LOCKER</Link>
+        <header className="casehead">
+          <p className="filetag">EVIDENCE LOCKER · FILE <b>000</b> · <b>STATEMENT OF RECORD</b></p>
+          <h1>THE INTRODUCTION</h1>
+          <p className="sub">( in her own words — read this first )</p>
+        </header>
+
+        <div className="docwrap">
+          <span className="doctab">ATTACHED TO FILE <b>001</b> — SUBJECT: DEREK</span>
+          <div className="document">
+            <span className="docstamp">HER OWN WORDS</span>
+
+            <section className="dsec">
+              <h2>§ 1 — THE SHORT VERSION</h2>
+              <p>I hate to have to do this, but he's forced me to it. This site is a record of my experience as Derek's best friend — or at least that's what I thought. He was my best friend, I do know that. I loved him. I loved Derek. I loved Derek a lot. I would have done anything for Derek for a long time there.</p>
+            </section>
+            
+            <section className="dsec" style={{ display: 'flow-root' }}>
+              <h2>§ 2 — THE THING I ALWAYS WANTED</h2>
+              <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px' }}>
+                <img 
+                  src="/DUET_PARTNER_ORIGINAL.PNG" 
+                  alt="Duet Partner Offer" 
+                  style={{ width: '100%', border: '1px solid var(--atm-paper-edge)', opacity: 0.95, filter: 'grayscale(0.15) contrast(1.1) sepia(0.2)' }} 
+                  className="archival-scanlines"
+                />
+                <figcaption className="docnote" style={{ marginTop: '0.4rem', borderTop: 'none', paddingTop: 0, textAlign: 'right', opacity: 0.8 }}>EXHIBIT: DUET_PARTNER_ORIGINAL</figcaption>
+              </figure>
+              <p>When he came into my life, it was by asking me if I would be his duet partner. And one thing I've always wanted on StarMaker is a duet partner. Like, I've been on StarMaker a long time, it was a very important part of my life, and I've just always really wanted a duet partner. And if it could be a cute boy, that would be a bonus. And then Derek popped up and asked me to be his duet partner.</p>
+              <p>And he asked me — he had a hard time, he doesn't like being on video. I do understand that he doesn't like being on video. Just like I don't like being on the telephone, but we'll get into that. He asked me to help him. He thought that by being my duet partner, it would help him want to be on video more. And I was to try and help him and talk him into it and influence him to do it more and things. And I tried.</p>
+              <p>And I was so excited. I was so excited. I gushed to so many people. I was so excited. The thing I'd always wanted, a duet partner on StarMaker — I finally had gotten it. And here's the thing: in my head it was mine. I had a duet partner. I like built a whole future in my brain around this promise that Derek made me of being my duet partner.</p>
+            </section>
+      
+            <section className="dsec">
+              <h2>§ 3 — THE WORK</h2>
+              <p>And we planned a bunch of duets together. And for me, planning a duet's not just sitting there talking about it — which there was a lot of sitting there talking about it. Picking out songs, what songs we would want to do together, who would do what parts in each song, stuff like that. And then I would have to go get or find a karaoke version of the song that was acceptable, that didn't have background singers. I would decide who does what parts in the song and rewrite the lyrics based on who does what part, and I'd upload it to StarMaker. That took a lot of time. Sometimes uploading that stuff got confusing and it would take like hours to finally get it to upload right.</p>
+              <p>But anyways, I uploaded like five or six songs for us. And I opened three or four duets for us, and that meant that I picked out an outfit, put on a pretty dress or something, did my makeup, fixed my hair. Because when I do these things, I <em>do</em> these things. And if he was going to be doing it with me, I wanted it to look really good. So like I went through all this effort, planning these things out and setting these things up.</p>
+              <p>And he joined one right there at the beginning. He joined one of my duets. And over the course of the next year, I just never could talk him into joining another. Even though he still thought of himself as my duet partner, he just never joined another one. And every time I tried to talk him into it, he just shut me down.</p>
+            </section>
+      
+            <section className="dsec">
+              <h2>§ 4 — I DO NOT COME OUT CLEAN</h2>
+              <p>And I did become a bitch about it. I do not come out clean in this record that you're going to read. You're going to find that I react to him like a crazy bitch a lot. I'm a huge cunt a lot. I act absolutely nut balls a lot.</p>
+              <p>But here's the thing. I don't do that with other people — except maybe my mother from time to time. Because nobody else pushes me to that point. Nobody else does this particular thing that Derek does that just breaks — absolutely breaks — my brain.</p>
+              <p>It's also important to note that I am autistic and ADHD. He had a way of tipping me over into autistic meltdown over and over and over again by the way of promising me things. Joining duets, singing songs, playing with me in party rooms. Like when I make a plan — if you tell me we're going to do a thing, and I make a plan in my head and I decide, oh, this is a fun thing and I'm excited about it, we're going to do the thing — and then you yank the rug out from under me at the last second, my brain breaks. And it's very irrational. It's irrational, but I can't control it. Like, it's dumb. It's like in Rain Man when it's time for Wapner and he can't find Wapner and he's just like, it's time for Wapner, it's time for Wapner. That's what my brain does. I have no control over that.</p>
+              <p>I cried so many tears. I had so many autistic meltdowns. Just so much frustration, so much just like rage and anger. But if I dared have a negative emotional reaction to the fact that he had reneged on his promise to me — yes, again — the blame in the whole situation was redirected to me. Suddenly I was the problem because of my reaction. And he was never the problem for causing the reaction by not doing what he promised me. Again.</p>
+            </section>
+      
+            <section className="dsec">
+              <h2>§ 5 — FORTY PERCENT</h2>
+              <p>Like, he would promise me a video call because, like, okay — I can't understand a word that comes out of his face. He has a Jersey accent. I'm from Alabama. I already have auditory processing issues. I have to watch TV with the captions on. All I hear is mumbling. But if I can see your lips move, I can understand you.</p>
+              <p>I just kept telling him. I mean, I asked ChatGPT after I put our chat log in, how much percentage-wise of our conversations of me was spent saying I cannot understand you, or huh, or what, or something like that. <em>40%. 40 fucking percent</em> of our conversation was spent with me going, huh, huh, what, huh? And he still would not put his face on a camera so I could see his lips move to help me out. He wouldn't throw me a bone there.</p>
+              <p>Because see, he knew I thought his face was pretty. It felt like he had to lord that over me. I had to earn it. I had to earn the privilege of seeing his face. We called the pictures he sent of himself to me rations. It was a big joke at the time, but now it makes me angry as fuck when I think about it. My rations. Which I got rations like once every two or three months. It was supposed to be a lot more often than that, but of course, he never kept his fucking promises.</p>
+              <p>And when we first met, we were supposed to have a video call in two weeks. Two weeks turned into two months. Two months turned into eight months. He did pop up on video call sometimes, but usually he was showing me New Jersey. He didn't show me his face much. He would, like, show it for a second. I just wanted to have a face-to-face conversation with my friend. And at first, it was about that. At the end of the whole relationship, it was just that I was angry that he had promised me a thing, and I was just being a bitch about it because I wanted him to do the thing he promised me. Everything just evolved because I got angry, really. But he made me angry for good reason. I had good reason to be angry.</p>
+            </section>
+      
+            <section className="dsec">
+              <h2>§ 6 — THE JAY SITUATION</h2>
+              <p>And then there was the Jay situation. I didn't have a problem with Jay. I didn't have a problem with the fact that he had a female friend who existed before me and he was tight with. We could have all been friends together. It could have been fun.</p>
+              <p>But no. I went to her profile one day on StarMaker just to see who she was, like, two months after we met. And she had me blocked. And I asked about it. He asked her about it. And she said — well, basically, she had a huge problem with the fact that I existed, and she was very jealous of me just getting to be Derek's friend.</p>
+              <p>And, like — Derek's little— oh my God, there's just so much. Just go look at this stuff. There's so much.</p>
+            </section>
+      
+            <section className="dsec">
+              <h2>§ 7 — WHY THIS IS PUBLIC</h2>
+              <p>And now he's trying to DARVO me. So I have to make this all public. Because he's trying to turn all this around on me and make it out like I just have to hate him so I don't hate myself. And I don't know if he really believes that or not, but all I know to do is to make everything public so he can't manipulate the situation anymore. He's trying to rewrite my psychological reality of what took place, and he's not gonna do that. And the only way I know to do that is make all this public.</p>
+              <p>And it doesn't make me look good. It makes me look bad too. But it makes him look worse. And I am willing to go there.</p>
+              <p>Because see, I don't care what y'all think about me. Y'all can think I'm crazy — but <em>he does care</em>. And until he apologizes to me the way I specified — he knows the deal, on TikTok, on camera — this is what he gets: the consequences for his actions. Because apparently until now, no one has ever done that before. Apparently the last person he did this to did not give him memorable consequences for his actions, and that's why he did it again to me.</p>
+              <p>And I'm gonna give him something to remember — so maybe he'll think twice about doing it to anyone else in the future.</p>
+              <p className="docsig">— the operative</p>
+              <p className="docnote">ARCHIVIST'S NOTE — section markers and paragraphing were added for the file, and obvious dictation slips smoothed. <b>The words are hers. Nothing was rewritten.</b></p>
+            </section>
+          </div>
+        </div>
+
+        {lightbox && (
+        <div className="lightbox open" role="dialog" aria-modal="true" onClick={(e) => {
+          if (e.target === e.currentTarget) setLightbox(null);
+        }}>
+          <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
+          <img src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+          <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
+        </div>
+      )}
+
+      <nav className="footnav">
+          <span></span>
+          <Link to="/">RETURN TO LOCKER</Link>
+          <span><Link to={`/module/${parsed.next[0]}`}>{parsed.next[1]} <b>&gt;</b></Link></span>
+        </nav>
+      </div>
+    );
+  }
+
+  // Find used sources for the drawer
+  const usedSources: string[] = [];
+  parsed.exhibits?.forEach((ex: any) => {
+    (ex.ids || []).forEach((pair: any) => {
+      const id = Array.isArray(pair) ? pair[0] : pair;
+      const sc = sourceClass(id);
+      if (!usedSources.includes(sc)) usedSources.push(sc);
+    });
+  });
 
   return (
     <div className="wrap">
       <Link className="back" to="/"><b>&lt;</b> RETURN TO LOCKER</Link>
-
+      
       <header className="casehead">
-        <p className="filetag">EVIDENCE LOCKER · MODULE <b>{id}</b> · <b>{parsed.projectCode}</b></p>
+        <p className="filetag">
+          EVIDENCE LOCKER · MODULE <b>{parsed.id}</b> · <b>{parsed.code}</b>
+        </p>
         <h1>{parsed.title}</h1>
-        <p className="sub">( The Neurological Trigger )</p>
+        <p className="sub">{parsed.sub}</p>
+        
         <ul className="charges" aria-label="Behavioral charges">
-          {parsed.behavioralLabels.map((lbl, idx) => (
-            <li key={idx} style={{ '--tilt': `${(idx % 2 === 0 ? -1.2 : 0.8)}deg` } as any}>{lbl}</li>
+          {parsed.labels.map((l: string, i: number) => (
+            <li key={i} style={{"--tilt": `${(Math.floor(Math.random() * 25) - 12) / 10}deg`} as React.CSSProperties}>{l}</li>
           ))}
         </ul>
-        <p className="objective">{parsed.coreObjective}</p>
+        
+        {parsed.epigraphs?.length > 0 && (
+          <div className="epigraphs">
+            {parsed.epigraphs.map((q: any, i: number) => (
+              <blockquote key={i} className={`epigraph ${q.who === 'Derek' ? 'him' : 'her'}`}>
+                <p>{q.text}</p>
+                <cite>— {q.who ? `${q.who.toUpperCase()} · ` : ''}{q.src || q.source}</cite>
+              </blockquote>
+            ))}
+          </div>
+        )}
+        
+        <p className="objective">{parsed.objective}</p>
       </header>
-
-      {parsed.mechanismNodes.length > 0 && (
-        <>
-          <h2 className="sect"><b>I.</b> THE MECHANISM</h2>
-          <p className="font-mono text-sm text-neutral-400 mb-6">{parsed.mechanismDesc}</p>
-          <div className="mechanism" id="mechanism">
-            {parsed.mechanismNodes.map((node, i) => (
-              <div key={i} className="flex contents-node">
-                <div 
-                  className="mnode" 
-                  tabIndex={0} 
-                  onPointerEnter={() => { if(mreadRef.current) mreadRef.current.textContent = `▸ ${node.description}`; }}
-                  onPointerLeave={() => { if(mreadRef.current) mreadRef.current.textContent = ''; }}
-                >
-                  <div className="n">{i + 1}</div>
-                  <h3>{node.title}</h3>
-                </div>
-                {i < parsed.mechanismNodes.length - 1 && <div className="marrow">→</div>}
-              </div>
-            ))}
-            <div className="mloop">⟲ <b>AND THE LOOP RESTARTS</b> — A SYSTEM IN MOTION</div>
-            <p className="mread" ref={mreadRef} aria-live="polite"></p>
-          </div>
-        </>
-      )}
-
-      {parsed.exhibits.length > 0 && (
-        <>
-          <h2 className="sect"><b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD</h2>
-          <div className="exhibits" id="exhibits">
-            {parsed.exhibits.map((ex, i) => (
-              <motion.article 
-                key={i}
-                initial={{ opacity: 0, y: 46 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-10%" }}
-                transition={{ duration: 0.55, ease: [0.2, 0.8, 0.2, 1], delay: (i % 2) * 0.12 }}
-                className="exhibit"
-              >
-                <div className="exhibit__top">
-                  <span className="exhibit__num">EXHIBIT {ex.num}</span>
-                  <span className="stamp" style={{ '--tilt': `${(i % 3 === 0 ? -2 : 1.5)}deg` } as any}>LOGGED</span>
-                </div>
-                <h3>{ex.name}</h3>
-                <div className="ids">
-                  <button className="eid" type="button">{ex.source.split('·')[0].trim()} <span className="d">· {ex.source.split('·')[1]?.trim() || ''}</span></button>
-                </div>
-                {ex.quote && <blockquote className="receipt">{ex.quote}</blockquote>}
-                {ex.happened && <p className="note">{ex.happened}</p>}
-                {ex.analysis && <p className="analysis"><b>ANALYSIS —</b> {ex.analysis.replace(/^\*\*(.*?)\*\*/, '')}</p>}
-              </motion.article>
-            ))}
-          </div>
-        </>
-      )}
-
-      {parsed.impact.length > 0 && (
-        <>
-          <h2 className="sect"><b>III.</b> DAMAGE ASSESSMENT</h2>
-          <ol className="impact">
-            {parsed.impact.map((imp, i) => {
-              const boldMatch = imp.match(/^\*\*([^\*]+)\*\*(.*)/);
-              if (boldMatch) {
-                return <li key={i}><strong>{boldMatch[1]}</strong>{boldMatch[2]}</li>;
-              }
-              return <li key={i}>{imp}</li>;
-            })}
-          </ol>
-        </>
-      )}
-
-      <h2 className="sect"><b>IV.</b> RAW DATA OUTPUT</h2>
-      <details className="drawer mb-8">
-        <summary>MACHINE-READABLE RECORD — RAW MARKDOWN</summary>
-        <pre className="whitespace-pre-wrap">{parsed.rawYaml}</pre>
-      </details>
       
-      <div className="h-16"></div>
+      <h2 className="sect" dangerouslySetInnerHTML={{ __html: parsed.mechanismTitle }}></h2>
+      <div className="mechanism">
+        {parsed.mechanism?.map((n: any, i: number) => (
+          <div key={i} className="flex contents-wrapper" style={{display: 'contents'}}>
+            <div 
+              className="mnode" 
+              tabIndex={0} 
+              onPointerEnter={() => handleMechHover(n.text)}
+              onFocus={() => handleMechHover(n.text)}
+              onPointerLeave={handleMechLeave}
+              onBlur={handleMechLeave}
+            >
+              <div className="n">{i + 1}</div>
+              <h3>{n.title}</h3>
+            </div>
+            {i < parsed.mechanism.length - 1 && (
+              <div className="marrow" aria-hidden="true">→</div>
+            )}
+          </div>
+        ))}
+        {parsed.loop && (
+          <div className="mloop" dangerouslySetInnerHTML={{ __html: parsed.loop }}></div>
+        )}
+        <p className="mread" aria-live="polite" ref={mreadRef}></p>
+      </div>
+
+      {parsed.table && (
+        <div id="tableSection">
+          <h2 className="sect" dangerouslySetInnerHTML={{ __html: parsed.table.title }}></h2>
+          <table className="ledger">
+            <tbody>
+              <tr>
+                {parsed.table.head.map((h: string, i: number) => <th key={i}>{h}</th>)}
+              </tr>
+              {parsed.table.rows.map((r: string[], i: number) => (
+                <tr key={i}>
+                  {r.map((c: string, j: number) => <td key={j}>{c}</td>)}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p className="ledgernote" dangerouslySetInnerHTML={{ __html: parsed.table.note }}></p>
+        </div>
+      )}
+
+      <h2 className="sect" dangerouslySetInnerHTML={{ __html: parsed.exhibitsTitle }}></h2>
+      
+      {usedSources.length > 0 && (
+        <details className="drawer sourcekey">
+          <summary>SOURCE KEY — WHAT THE TAGS MEAN · CLICK A TAG TO OPEN ITS SOURCE</summary>
+          <ul>
+            {usedSources.map(k => {
+              const s = SOURCE_REGISTRY[k];
+              return (
+                <li key={k}>
+                  <b>{s.label}</b>
+                  <span>
+                    {s.url ? (
+                      <a href={s.url} target="_blank" rel="noopener noreferrer">{s.meaning} <b>↗</b></a>
+                    ) : (
+                      s.meaning
+                    )}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </details>
+      )}
+
+      <div className="exhibits">
+        {parsed.exhibits?.map((ex: any, i: number) => {
+          const dealAngle = (i % 2 ? -1.4 : 1.4) + 'deg';
+          return (
+            <article key={i} className="exhibit" style={{ "--deal": dealAngle } as React.CSSProperties}>
+              <div className="exhibit__top">
+                <span className="exhibit__num">EXHIBIT {ex.num}</span>
+                <span className="stamp" style={{"--tilt": `${Math.floor(Math.random() * 5) - 2}deg`} as React.CSSProperties}>{ex.status}</span>
+              </div>
+              <h3>{ex.name}</h3>
+              {ex.ids?.length > 0 && (
+                <div className="ids">
+                  {ex.ids.map((pair: any, idx: number) => {
+                    const id = Array.isArray(pair) ? pair[0] : pair;
+                    const d = Array.isArray(pair) ? pair[1] : '';
+                    const sc = sourceClass(id);
+                    const cls = sc === 'WA' || sc === 'SC' ? 'eid' : sc === 'GA' ? 'eid ga' : sc === 'TESTIMONY' ? 'eid testimony' : 'eid doc';
+                                        const reg = SOURCE_REGISTRY[sc];
+                    const dataEid = id.split('–')[0]; // For WA-1234–1235 types
+                    
+                    let linkHref = reg && reg.url ? reg.url : null;
+                    if (sc === 'WA') {
+                      linkHref = `/chat?id=${dataEid}`;
+                    }
+                    
+                    const innerHTML = `${id}${d ? ` <span class="d">· ${d}</span>` : ''}${linkHref ? ' <span class="ext">↗</span>' : ''}`;
+                    
+                    if (linkHref) {
+                      return (
+                        <a 
+                           key={idx}
+                           className={cls}
+                           data-eid={dataEid}
+                           href={linkHref}
+                           target={sc === 'WA' ? undefined : "_blank"}
+                           rel={sc === 'WA' ? undefined : "noopener noreferrer"}
+                          onPointerEnter={() => handleEidEnter(dataEid)}
+                          onPointerLeave={() => handleEidLeave(dataEid)}
+                        >
+                          <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
+                        </a>
+                      );
+                    }
+                    return <span key={idx} className={cls} dangerouslySetInnerHTML={{ __html: innerHTML }} />;
+                  })}
+                </div>
+              )}
+              
+              {ex.crossref && (
+                 <>
+                   <p className="exhibit__desc" dangerouslySetInnerHTML={{ __html: ex.desc }}></p>
+                   <div className="crossref-section">
+                     <h4>See Module {ex.crossref.id}</h4>
+                     <Link to={`/module/${ex.crossref.id}`}>Open Module {ex.crossref.id} ↗</Link>
+                   </div>
+                 </>
+              )}
+              
+              {!ex.crossref && (
+                <p className="exhibit__desc" dangerouslySetInnerHTML={{ __html: ex.desc }}></p>
+              )}
+
+              {ex.media && ex.media.length > 0 && (
+                <div className="exhibit__media" style={{marginTop: '20px', display: 'flex', gap: '10px', flexWrap: 'wrap', alignItems: 'flex-start'}}>
+                  {ex.media.map((m: any, mIdx: number) => (
+                    <div key={mIdx} style={{marginBottom: '15px', flex: '1 1 300px'}}>
+                      {m.type === 'image' || !m.type ? (
+                        <div className="img-wrap" style={{border: '1px solid var(--atm-dim)', padding: '5px', background: 'rgba(0,0,0,0.2)'}}>
+                          <img src={m.url} alt={m.alt || "Exhibit Evidence"} loading="lazy" onClick={() => setLightbox({src: m.url, cap: m.alt})} style={{cursor: 'zoom-in', width: '100%', display: 'block'}} />
+                        </div>
+                      ) : m.type === 'pdf' ? (
+                        <a href={m.url} target="_blank" rel="noreferrer" style={{display: 'inline-block', padding: '10px 15px', border: '1px solid var(--atm-cyan)', background: 'var(--atm-bg)', color: 'var(--atm-cyan)', fontWeight: 'bold', textDecoration: 'none'}}>
+                          📄 VIEW PDF DOCUMENT: {m.alt || "Document"}
+                        </a>
+                      ) : null}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </article>
+          );
+        })}
+      </div>
+
+      <h2 className="sect">{parsed.impactTitle || 'DAMAGE ASSESSMENT'}</h2>
+      <ol className="impact">
+        {parsed.impact?.map((imp: string, i: number) => (
+          <li key={i} dangerouslySetInnerHTML={{ __html: imp }}></li>
+        ))}
+      </ol>
+
+
+      {parsed.addendum?.length > 0 && (
+        <>
+          <h2 className="sect"><b>+</b> ADDENDUM — IN HER OWN WORDS</h2>
+          <div className="docwrap">
+            <span className="doctab">ADDED TO MODULE <b>{parsed.id}</b> — AFTER THE RECORD</span>
+            <div className="document">
+              <span className="docstamp">HER OWN WORDS</span>
+              {parsed.addendum.map((sec: any, i: number) => (
+                <section key={i} className="dsec dealt">
+                  <h2>{sec.title}</h2>
+                  {sec.text.split('\n\n').map((p: string, j: number) => (
+                    <p key={j} dangerouslySetInnerHTML={{__html: p.replace(/\*([^*]+)\*/g, '<em>$1</em>')}}></p>
+                  ))}
+                  {i === parsed.addendum.length - 1 && (
+                    <p className="docnote">ARCHIVIST'S NOTE — paragraphing added for the file; obvious dictation slips smoothed. <b>The words are hers. Nothing was rewritten.</b></p>
+                  )}
+                </section>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+
+      {parsed.gallery && parsed.gallery.images?.length > 0 && (
+        <>
+          <h2 className="sect" dangerouslySetInnerHTML={{ __html: parsed.gallery.title || '<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE' }}></h2>
+          <div className="receipts">
+            {parsed.gallery.images.map((im: any, i: number) => (
+              <figure key={i} className="receiptimg">
+                <button type="button" onClick={() => setLightbox(im)} aria-label="enlarge image">
+                  <img src={im.src} alt={im.cap ? im.cap.replace(/<[^>]*>?/gm, '') : 'evidence image'} loading="lazy" />
+                </button>
+                <figcaption dangerouslySetInnerHTML={{ __html: im.cap || '' }}></figcaption>
+              </figure>
+            ))}
+          </div>
+        </>
+      )}
+
+      <h2 className="sect">{parsed.rawTitle || 'RAW DATA OUTPUT'}</h2>
+      <details className="drawer">
+        <summary>MACHINE-READABLE RECORD — YAML</summary>
+        <pre>{parsed.yaml}</pre>
+      </details>
+
+      {lightbox && (
+        <div className="lightbox open" role="dialog" aria-modal="true" onClick={(e) => {
+          if (e.target === e.currentTarget) setLightbox(null);
+        }}>
+          <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
+          <img src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+          <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
+        </div>
+      )}
+
+      <nav className="footnav">
+        <span>
+          {parsed.prev ? (
+            <Link to={`/module/${parsed.prev[0]}`}><b>&lt;</b> {parsed.prev[1]}</Link>
+          ) : null}
+        </span>
+        <Link to="/">RETURN TO LOCKER</Link>
+        <span>
+          {parsed.next ? (
+            <Link to={`/module/${parsed.next[0]}`}>{parsed.next[1]} <b>&gt;</b></Link>
+          ) : null}
+        </span>
+      </nav>
     </div>
   );
 }

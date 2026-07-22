@@ -2,21 +2,33 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-do
 import Home from "./pages/Home";
 import ModulePage from "./pages/ModulePage";
 import VisualEvidence from "./pages/VisualEvidence";
+import ChatLog from "./pages/ChatLog";
 import ShaderBackground from "./components/ShaderBackground";
+import "./module.css";
 
 function GlobalStamp() {
   const location = useLocation();
   if (location.pathname !== "/") return null;
-
   return (
     <Link 
       to="/evidence" 
-      className="fixed top-8 left-8 z-[100] group transform hover:scale-105 transition-transform"
+      className="fixed bottom-6 left-6 z-[100] group transform hover:scale-105 transition-transform"
+      style={{
+        fontFamily: "var(--font-data)",
+        fontSize: ".72rem",
+        fontWeight: 700,
+        letterSpacing: ".3em",
+        textTransform: "uppercase",
+        color: "var(--atm-stamp)",
+        textDecoration: "none",
+        border: "2px solid var(--atm-stamp)",
+        padding: ".7em 1.1em",
+        transform: "rotate(-5deg)",
+        background: "rgb(5 3 15 / .6)",
+        transition: "transform 120ms, background 120ms"
+      }}
     >
-      <div className="border-4 border-red-600 px-4 py-2 -rotate-[12deg] text-red-600 font-black text-2xl md:text-3xl tracking-tighter uppercase opacity-80 mix-blend-screen shadow-[0_0_20px_rgba(220,38,38,0.3)] group-hover:opacity-100 group-hover:border-red-500 group-hover:text-red-500 group-hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] backdrop-blur-sm pointer-events-auto">
-        <div className="absolute inset-0 border border-red-600/50 m-1 pointer-events-none"></div>
-        Visual Evidence
-      </div>
+      Visible Evidence ↗
     </Link>
   );
 }
@@ -34,6 +46,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/module/:id" element={<ModulePage />} />
             <Route path="/evidence" element={<VisualEvidence />} />
+            <Route path="/chat" element={<ChatLog />} />
           </Routes>
         </div>
       </div>

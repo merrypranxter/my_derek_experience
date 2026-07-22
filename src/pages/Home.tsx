@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "../module.css";
 
 const MODULES = [
+  { id: "00", title: "THE INTRODUCTION", label: "START HERE — THE OPERATIVE'S STATEMENT" },
   { id: "01", title: "THE PROMISES", label: "LOVE-BOMBING / CONTRACT FANTASY" },
   { id: "02", title: "THE WITHHOLDING", label: "SCARCITY AS POWER" },
   { id: "03", title: "THE RUG-PULLS", label: "INTERMITTENT_REINFORCEMENT" },
@@ -9,44 +11,53 @@ const MODULES = [
   { id: "05", title: "THE TRIANGULATION", label: "THIRD-PARTY INSECURITY INDUCTION" },
   { id: "06", title: "THE EXPLOITATION", label: "EXTRACTION WITHOUT RECIPROCITY" },
   { id: "07", title: "THE ERASURE", label: "PUBLIC REPLACEMENT" },
-  { id: "08", title: "THE LAST WORDS", label: "THE FINAL TRANSMISSION" },
-  { id: "09", title: "THE RECORDINGS", label: "CAPTURED IN THE MOMENT" },
-  { id: "10", title: "THE DUET ART", label: "WORK MADE FOR TWO" }
+  { id: "08", title: "THE LAST WORDS", label: "THE FINAL TRANSMISSION", disabled: true },
+  { id: "09", title: "THE RECORDINGS", label: "CAPTURED IN THE MOMENT", disabled: true },
+  { id: "10", title: "THE DUET ART", label: "WORK MADE FOR TWO", disabled: true },
+  { id: "11", title: "FORENSICS", label: "NODE_771 — INDEPENDENT FORENSIC AUDIT" },
+  { id: "12", title: "THE CUCKING", label: "ONE-WAY DISPLAY · TITLE WITHOUT DUTIES" }
 ];
 
 const GLYPHS = 'ÐΣЯƎKΞ#/█▓?%';
 const NAME = "DEREK";
-const TRUTH = "an archive in ten modules. the record does not change.";
+const TRUTH = "an archive in thirteen modules. the record does not change.";
 const LIE = "you are remembering it wrong.";
 
 export default function Home() {
-  const navigate = useNavigate();
   const subjectRef = useRef<HTMLHeadingElement>(null);
   const chipsRef = useRef<(HTMLLIElement | null)[]>([]);
   const captionRef = useRef<HTMLParagraphElement>(null);
   const readoutRef = useRef<HTMLParagraphElement>(null);
   const orbitRef = useRef<HTMLUListElement>(null);
+  const orbitPathRef = useRef<SVGEllipseElement>(null);
 
   useEffect(() => {
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const subject = subjectRef.current;
-    if (!subject) return;
+    document.title = `THE DEREK EXPERIENCE — Evidence Locker`;
+    const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    // Set up letters
+    if (!subjectRef.current) return;
+    subjectRef.current.innerHTML = '';
+    const letters = [...NAME].map(ch => {
+      const s = document.createElement('span');
+      s.className = 'letter';
+      s.textContent = ch;
+      s.setAttribute('aria-hidden', 'true');
+      subjectRef.current!.appendChild(s);
+      return s;
+    });
 
-    const letters = Array.from(subject.querySelectorAll('.letter')) as HTMLElement[];
-
-    /* ---------- 1. DIRECT: pointer proximity warp ---------- */
+    // 1. DIRECT: pointer proximity warp
     const state = letters.map(() => ({x:0, y:0, sk:0, sp:0}));
     let pointer: {x: number, y: number} | null = null;
     
-    const onPointerMove = (e: PointerEvent) => { pointer = {x:e.clientX, y:e.clientY}; };
-    const onPointerLeave = () => { pointer = null; };
-    
-    window.addEventListener('pointermove', onPointerMove, {passive:true});
-    window.addEventListener('pointerleave', onPointerLeave);
+    const handleMove = (e: PointerEvent) => { pointer = {x:e.clientX, y:e.clientY}; };
+    const handleLeave = () => { pointer = null; };
+    window.addEventListener('pointermove', handleMove, {passive:true});
+    window.addEventListener('pointerleave', handleLeave);
 
     const RADIUS = 220, AMP = 26;
-    let animFrame: number;
-    
+    let warpFrameId: number;
     function warpTick(){
       letters.forEach((el, i) => {
         const st = state[i];
@@ -70,94 +81,86 @@ export default function Home() {
         el.style.transform = `translate(${st.x.toFixed(2)}px, ${st.y.toFixed(2)}px) skewX(${st.sk.toFixed(2)}deg)`;
         el.style.setProperty('--split', st.sp.toFixed(2));
       });
-      animFrame = requestAnimationFrame(warpTick);
+      warpFrameId = requestAnimationFrame(warpTick);
     }
-    animFrame = requestAnimationFrame(warpTick);
+    warpFrameId = requestAnimationFrame(warpTick);
 
-    /* ---------- the ellipse: 10 chips, wide orbit, slow drift ---------- */
+    // the ellipse: chips on a wide orbit, slow drift
+    const chips = chipsRef.current.filter(Boolean) as HTMLLIElement[];
     let drift = 0;
     let driftPaused = false;
     const DRIFT_SPEED = (Math.PI * 2) / 95;
-    let driftFrame: number;
 
     function layoutEllipse(){
-      const orbit = orbitRef.current;
-      if (!orbit) return;
-      const wide = window.matchMedia('(min-width: 720px)').matches;
+      const wide = matchMedia('(min-width: 720px)').matches;
       if (!wide){
-        chipsRef.current.forEach(c => { 
-          if(c) {
-            c.style.removeProperty('--x'); 
-            c.style.removeProperty('--y'); 
-          }
-        });
+        chips.forEach(c => { c.style.removeProperty('--x'); c.style.removeProperty('--y'); });
         return;
       }
-      const W = orbit.clientWidth, H = orbit.clientHeight;
-      const a = Math.min(W * .44, W / 2 - 130);
-      const b = Math.min(H * .40, H / 2 - 60);
-      const path = document.getElementById('orbitPath');
+      if (!orbitRef.current) return;
+      const W = orbitRef.current.clientWidth, H = orbitRef.current.clientHeight;
+      
+      // Oval that fits on the page with nice breathing room around the title
+      // Oval that fits on the page with nice breathing room around the title
+      const a = Math.min(W * 0.44, W / 2 - 110);
+      const b = Math.min(H * 0.40, H / 2 - 60);
+      
+      const path = orbitPathRef.current;
       if (path){ path.setAttribute('rx', a.toString()); path.setAttribute('ry', b.toString()); }
       
-      chipsRef.current.forEach((c, i) => {
-        if (!c) return;
-        const t = (-90 + i * (360 / MODULES.length)) * Math.PI / 180 + drift;
+      chips.forEach((c, i) => {
+        const t = (-90 + i * (360 / chips.length)) * Math.PI / 180 + drift;
         c.style.setProperty('--x', (Math.cos(t) * a).toFixed(1) + 'px');
         c.style.setProperty('--y', (Math.sin(t) * b).toFixed(1) + 'px');
       });
     }
-
+    
+    let driftFrameId: number;
     function driftTick(){
       if (!reduceMotion && !driftPaused && !document.hidden){
         drift += DRIFT_SPEED / 60;
         layoutEllipse();
       }
-      driftFrame = requestAnimationFrame(driftTick);
+      driftFrameId = requestAnimationFrame(driftTick);
     }
     window.addEventListener('resize', layoutEllipse);
     layoutEllipse();
-    driftFrame = requestAnimationFrame(driftTick);
+    driftFrameId = requestAnimationFrame(driftTick);
 
-    const onChipEnter = () => { driftPaused = true; };
-    const onChipLeave = () => { driftPaused = false; };
-
-    chipsRef.current.forEach(c => {
-      if(!c) return;
-      c.addEventListener('pointerenter', onChipEnter);
-      c.addEventListener('focus', onChipEnter, true);
-      c.addEventListener('pointerleave', onChipLeave);
-      c.addEventListener('blur', onChipLeave, true);
+    const onEnter = () => driftPaused = true;
+    const onLeave = () => driftPaused = false;
+    chips.forEach(c => {
+      c.addEventListener('pointerenter', onEnter);
+      c.addEventListener('pointerleave', onLeave);
+      c.addEventListener('focus', onEnter);
+      c.addEventListener('blur', onLeave);
     });
 
-    /* ---------- helpers ---------- */
     const rnd = (n: number) => Math.floor(Math.random()*n);
     function ellipsePulse(){
-      chipsRef.current.forEach((c, i) => {
-        if (!c) return;
+      chips.forEach((c, i) => {
         setTimeout(() => {
           c.classList.remove('pulse'); void c.offsetWidth; c.classList.add('pulse');
         }, i * 75);
       });
     }
 
-    /* ---------- 2. AMBIENT: rare tears in individual letters ---------- */
-    let tearTimeout: ReturnType<typeof setTimeout>;
+    // 2. AMBIENT: rare tears
+    let tearTimeout: NodeJS.Timeout;
     function tearLetter(){
       if (!reduceMotion && !document.hidden){
         const el = letters[rnd(letters.length)];
-        if (el) {
-          const orig = el.textContent || "";
-          el.textContent = GLYPHS[rnd(GLYPHS.length)];
-          el.classList.add('torn');
-          setTimeout(() => { el.textContent = orig; el.classList.remove('torn'); }, 90 + rnd(80));
-        }
+        const orig = el.textContent || '';
+        el.textContent = GLYPHS[rnd(GLYPHS.length)];
+        el.classList.add('torn');
+        setTimeout(() => { el.textContent = orig; el.classList.remove('torn'); }, 90 + rnd(80));
       }
       tearTimeout = setTimeout(tearLetter, 2500 + rnd(5000));
     }
     tearTimeout = setTimeout(tearLetter, 3000);
 
-    /* ---------- 3. OUTCOME: the name denies itself, then the archive corrects it ---------- */
-    let denialTimeout: ReturnType<typeof setTimeout>;
+    // 3. OUTCOME: the name denies itself, the record corrects it
+    let denialTimeout: NodeJS.Timeout;
     function denial(){
       if (!reduceMotion && !document.hidden){
         const scrambled = [...NAME].sort(() => Math.random() - .5).join('');
@@ -171,108 +174,102 @@ export default function Home() {
     }
     denialTimeout = setTimeout(denial, 9000);
 
-    /* ---------- the caption gaslights, then recants ---------- */
-    const caption = captionRef.current;
-    let captionTimeout: ReturnType<typeof setTimeout>;
+    // the caption gaslights, then recants
+    let captionTimeout: NodeJS.Timeout;
     function captionLie(){
-      if (!reduceMotion && !document.hidden && caption){
-        caption.textContent = LIE;
-        caption.classList.add('lie');
-        setTimeout(() => { caption.textContent = TRUTH; caption.classList.remove('lie'); }, 340);
+      if (!reduceMotion && !document.hidden && captionRef.current){
+        captionRef.current.textContent = LIE;
+        captionRef.current.classList.add('lie');
+        setTimeout(() => { 
+          if(captionRef.current) {
+            captionRef.current.textContent = TRUTH; 
+            captionRef.current.classList.remove('lie'); 
+          }
+        }, 340);
       }
       captionTimeout = setTimeout(captionLie, 22000 + rnd(16000));
     }
     captionTimeout = setTimeout(captionLie, 14000);
 
-    /* ---------- fit subject ---------- */
+    // fit DEREK to the EXPERIENCE line
     function fitSubject(){
-      const exp = document.querySelector('.experience') as HTMLElement;
-      if (!exp || !subject) return;
+      const exp = document.querySelector('.experience');
+      if (!exp || !subjectRef.current) return;
       const target = exp.getBoundingClientRect().width;
       if (!target) return;
-      let size = parseFloat(getComputedStyle(subject).fontSize);
+      let size = parseFloat(getComputedStyle(subjectRef.current).fontSize);
       for (let i = 0; i < 3; i++){
-        const w = subject.getBoundingClientRect().width;
+        const w = subjectRef.current.getBoundingClientRect().width;
         if (!w) break;
         size = size * (target / w);
-        subject.style.fontSize = size.toFixed(1) + 'px';
+        subjectRef.current.style.fontSize = size.toFixed(1) + 'px';
       }
     }
     if (document.fonts && document.fonts.ready){ document.fonts.ready.then(fitSubject); }
-    else { window.addEventListener('load', fitSubject); }
     window.addEventListener('resize', fitSubject);
     fitSubject();
 
     return () => {
-      window.removeEventListener('pointermove', onPointerMove);
-      window.removeEventListener('pointerleave', onPointerLeave);
+      window.removeEventListener('pointermove', handleMove);
+      window.removeEventListener('pointerleave', handleLeave);
       window.removeEventListener('resize', layoutEllipse);
       window.removeEventListener('resize', fitSubject);
-      window.removeEventListener('load', fitSubject);
-      cancelAnimationFrame(animFrame);
-      cancelAnimationFrame(driftFrame);
+      cancelAnimationFrame(warpFrameId);
+      cancelAnimationFrame(driftFrameId);
       clearTimeout(tearTimeout);
       clearTimeout(denialTimeout);
       clearTimeout(captionTimeout);
-      chipsRef.current.forEach(c => {
-        if(!c) return;
-        c.removeEventListener('pointerenter', onChipEnter);
-        c.removeEventListener('focus', onChipEnter, true);
-        c.removeEventListener('pointerleave', onChipLeave);
-        c.removeEventListener('blur', onChipLeave, true);
+      chips.forEach(c => {
+        c.removeEventListener('pointerenter', onEnter);
+        c.removeEventListener('pointerleave', onLeave);
+        c.removeEventListener('focus', onEnter);
+        c.removeEventListener('blur', onLeave);
       });
     };
   }, []);
 
+  const handleChipHover = (m: typeof MODULES[0]) => {
+    if (readoutRef.current) {
+      readoutRef.current.textContent = `▸ ${m.id} ${m.title} — ${m.label}`;
+    }
+    if (subjectRef.current) {
+      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if(!reduceMotion) subjectRef.current.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
+    }
+  };
+
+  const handleChipLeave = () => {
+    if (readoutRef.current) readoutRef.current.textContent = '';
+    if (subjectRef.current) subjectRef.current.style.filter = '';
+  };
+
   return (
     <main className="stage">
       <ul className="orbit" id="orbit" ref={orbitRef}>
-        <svg className="orbit__ring" viewBox="0 0 1200 820" preserveAspectRatio="none" aria-hidden="true">
-          <ellipse id="orbitPath" cx="600" cy="410" rx="528" ry="328" style={{ fill:"none", stroke:"var(--atm-dim)", strokeOpacity:.38, strokeDasharray:"2 7" }} />
+                <svg className="orbit__path" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', pointerEvents: 'none' }} aria-hidden="true">
+          <ellipse id="orbitPath" ref={orbitPathRef as any} cx="50%" cy="50%" rx="528" ry="328" fill="none" stroke="var(--atm-dim)" strokeOpacity=".38" strokeDasharray="2 7"/>
         </svg>
 
         <div className="docket">
-          <div className="docket__inner">
-            <p className="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
-            <h1 className="subject" ref={subjectRef} aria-label="DEREK">
-              {Array.from(NAME).map((ch, i) => (
-                <span key={i} className="letter" aria-hidden="true">{ch}</span>
-              ))}
-            </h1>
-            <p className="experience">— THE <em>DEREK</em> EXPERIENCE —</p>
-            <p className="caption" ref={captionRef}>{TRUTH}</p>
-            <p className="readout" ref={readoutRef} aria-live="polite"></p>
-          </div>
+          <p className="filetag">EVIDENCE LOCKER · FILE <b>001</b> · SUBJECT</p>
+          <h1 className="subject" id="subject" aria-label="DEREK" ref={subjectRef}>{NAME}</h1>
+          <p className="experience">— THE <em>DEREK</em> EXPERIENCE —</p>
+          <p className="caption" id="caption" ref={captionRef}>{TRUTH}</p>
+          <p className="readout" id="readout" aria-live="polite" ref={readoutRef}></p>
         </div>
 
-        {MODULES.map((mod, i) => (
-          <li 
-            key={mod.id} 
-            className="chip" 
-            ref={el => { chipsRef.current[i] = el; }}
-          >
-            <button 
-              
-              onClick={() => navigate(`/module/${mod.id}`)}
-              onPointerEnter={() => {
-                if (readoutRef.current) readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
-                if (subjectRef.current) subjectRef.current.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
-              }}
-              onFocus={() => {
-                if (readoutRef.current) readoutRef.current.textContent = `▸ ${mod.id} ${mod.title} — ${mod.label}`;
-                if (subjectRef.current) subjectRef.current.style.filter = 'brightness(1.3) hue-rotate(-14deg) saturate(1.6)';
-              }}
-              onPointerLeave={() => {
-                if (readoutRef.current) readoutRef.current.textContent = '';
-                if (subjectRef.current) subjectRef.current.style.filter = '';
-              }}
-              onBlur={() => {
-                if (readoutRef.current) readoutRef.current.textContent = '';
-                if (subjectRef.current) subjectRef.current.style.filter = '';
-              }}
+        {MODULES.map((m, i) => (
+          <li className="chip" key={m.id} ref={el => { chipsRef.current[i] = el; }}>
+            <Link 
+              to={m.disabled ? `#m${m.id}` : `/module/${m.id}`}
+              data-label={m.label}
+              onPointerEnter={() => handleChipHover(m)}
+              onPointerLeave={handleChipLeave}
+              onFocus={() => handleChipHover(m)}
+              onBlur={handleChipLeave}
             >
-              <b>{mod.id}</b>{mod.title}
-            </button>
+              <b>{m.id}</b>{m.title}
+            </Link>
           </li>
         ))}
       </ul>
