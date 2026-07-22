@@ -105,7 +105,7 @@ export default function VisualEvidence() {
                         src={file.url} 
                         alt={file.name} 
                         className="object-cover w-full h-full opacity-60 group-hover:opacity-100 transition-opacity mix-blend-screen grayscale group-hover:grayscale-0" 
-                        loading="lazy" 
+                        loading="lazy" referrerPolicy="no-referrer" 
                       />
                     )}
                     <div className="absolute top-1 right-1 bg-black/80 px-1 py-0.5 text-[8px] font-data text-cyan-500 uppercase tracking-widest border border-cyan-500/20">
@@ -151,7 +151,7 @@ export default function VisualEvidence() {
                 {selectedMedia.type.startsWith('video') ? (
                   <video src={selectedMedia.url} className="w-full h-full object-contain" controls autoPlay />
                 ) : (
-                  <img src={selectedMedia.url} alt={selectedMedia.name} className="w-full h-full object-contain" />
+                  <img src={selectedMedia.url} alt={selectedMedia.name} className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                 )}
               </div>
             </div>

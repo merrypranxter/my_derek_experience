@@ -21,9 +21,9 @@ export const MODULE_DATA: Record<string, any> = {
   '01': {
     id:"01", code:"MODULE_01_PROMISES", title:"THE PROMISES", sub:"( The Hook & The Bait )",
   addendum: [
-    { title: "THE SPOT ON HIS PROFILE", text: `And it wasn't just about the duet or seeing his face. There was the whole thing about getting to be in the little spot on his StarMaker profile. The one where Jay was all the time, in the couple spot. I did not want to replace Jay. I didn't want to be there all the time. I just wanted a little representation on his profile here and there, seeing as he was plastered all over mine, and I had joined like a billion of his duets, and he hadn't joined any of mine. I just wanted something when people clicked on the little face next to mine on my StarMaker profile, and it sent me to his profile, just there to be something there. Something of me there. Anything of me there.\n\nAnd I only wanted five days on his little spot as his best friend. I didn't want the couple spot. I didn't want to replace Jay. She was fine. I just wanted him to like, let me up on his profile thingy for like five days here and there, or a day here and there. Fuck, I never got anything. And in the beginning, he promised me. He promised me. And every time I brought it up, it was pushed back farther and farther and farther. If I had to bring it up, that meant the goalpost got moved. Because I got punished, because he saw me as some stupid little grasshopper to his Mr. Miyagi. And that pissed me the fuck off, because it wasn't like that. But he seemed to think it was. So there was that. I never got to be in that spot.\n\nThe whole thing about just put some of my artwork, put a picture of me in your little photo gallery thing back there. Anything, anything. He finally made a collage of art that I'd made with our names together. No pictures or anything. I got a picture up there sometimes. But like it was always replaced very quickly by some picture Jay added that wasn't even nearly as good or creative as the one that I made that she bitched at him and demanded he put in place because she didn't like the fact that mine was there. That's how it was. Jay got catered to. When Jay threw a fit, it got catered to. When I threw a fit, I was the problem. And I needed to correct my attitude, is how that worked. Okay, well we'll go into Jay in another module.` },
+    { title: "THE SPOT ON HIS PROFILE", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/jay_profile_pic_thing_2.png" }, text: `And it wasn\'t just about the duet or seeing his face. There was the whole thing about getting to be in the little spot on his StarMaker profile. The one where Jay was all the time, in the couple spot. I did not want to replace Jay. I didn't want to be there all the time. I just wanted a little representation on his profile here and there, seeing as he was plastered all over mine, and I had joined like a billion of his duets, and he hadn't joined any of mine. I just wanted something when people clicked on the little face next to mine on my StarMaker profile, and it sent me to his profile, just there to be something there. Something of me there. Anything of me there.\n\nAnd I only wanted five days on his little spot as his best friend. I didn't want the couple spot. I didn't want to replace Jay. She was fine. I just wanted him to like, let me up on his profile thingy for like five days here and there, or a day here and there. Fuck, I never got anything. And in the beginning, he promised me. He promised me. And every time I brought it up, it was pushed back farther and farther and farther. If I had to bring it up, that meant the goalpost got moved. Because I got punished, because he saw me as some stupid little grasshopper to his Mr. Miyagi. And that pissed me the fuck off, because it wasn't like that. But he seemed to think it was. So there was that. I never got to be in that spot.\n\nThe whole thing about just put some of my artwork, put a picture of me in your little photo gallery thing back there. Anything, anything. He finally made a collage of art that I'd made with our names together. No pictures or anything. I got a picture up there sometimes. But like it was always replaced very quickly by some picture Jay added that wasn't even nearly as good or creative as the one that I made that she bitched at him and demanded he put in place because she didn't like the fact that mine was there. That's how it was. Jay got catered to. When Jay threw a fit, it got catered to. When I threw a fit, I was the problem. And I needed to correct my attitude, is how that worked. Okay, well we'll go into Jay in another module.` },
     { title: "THE PRECIPICE", text: "Let me think if there were any other promises. Just, I always felt like I was on the edge of a precipice. Like a thing, a good, exciting thing was about to happen, but it never did. And then I would like get excited about it. As ChatGPT put it, I inhabited these futures in my brain, and they never came true. They just never happened." },
-    { title: "NICE FIRST", text: "And like at first I would try to talk him into it. I tried to be nice. I tried, I tried everything nicely I could, and it didn't work. And it's like he doesn't remember that. All he remembers is me being a bitch. I didn't resort to being a bitch till after being nice didn't work a million times. I just couldn't make him keep his promises. It's like he didn't want to. It felt like he didn't want to. It felt like I had to earn everything, but it was impossible to earn.\n\nAnd then when I had my inevitable emotional reaction slash autistic meltdown slash traumatic fucking response to the rug pull, to the yoink of it all, I was blamed for it all. It was my fault it wasn't happening because of my response to the fact that it didn't happen, which doesn't really seem to make sense, but somehow he made it make sense at the time. And for a while there, I went along with it, and I thought he was right. But now I realize he was fucking wrong the whole time, and *he can kiss my ass*." }
+    { title: "NICE FIRST", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/preparing%20a%20duet%20for%20derek.jpg" }, text: "And like at first I would try to talk him into it. I tried to be nice. I tried, I tried everything nicely I could, and it didn't work. And it's like he doesn't remember that. All he remembers is me being a bitch. I didn't resort to being a bitch till after being nice didn't work a million times. I just couldn't make him keep his promises. It's like he didn't want to. It felt like he didn't want to. It felt like I had to earn everything, but it was impossible to earn.\n\nAnd then when I had my inevitable emotional reaction slash autistic meltdown slash traumatic fucking response to the rug pull, to the yoink of it all, I was blamed for it all. It was my fault it wasn't happening because of my response to the fact that it didn't happen, which doesn't really seem to make sense, but somehow he made it make sense at the time. And for a while there, I went along with it, and I thought he was right. But now I realize he was fucking wrong the whole time, and *he can kiss my ass*." }
   ],
   gallery: { title:"<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE · CLICK TO ENLARGE",
     images:[
@@ -100,22 +100,26 @@ impact_metric:
     ],
     mechanismTitle:"<b>I.</b> THE MECHANISM — THE ARCHITECTURE OF ABSENCE",
     mechanism:[
-      {title:"Map the sensory requirements", text:"For a neurodivergent person, visual cues — microexpressions, lip-reading, body language — are not bonuses. They are essential data for processing human interaction."},
-      {title:"Restrict the channel", text:"Communication is confined to audio-only, muffled, thick-accented calls — effectively blindfolding her social intuition and forcing total reliance on his verbal framing of reality."},
+      {title:"Map the sensory requirements", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/face.gif" }, text:"For a neurodivergent person, visual cues — microexpressions, lip-reading, body language — are not bonuses. They are essential data for processing human interaction."},
+
+      {title:"Restrict the channel", media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/face_ultimatum_after_thanksgiving_promise.mp4" }, text:"Communication is confined to audio-only, muffled, thick-accented calls — effectively blindfolding her social intuition and forcing total reliance on his verbal framing of reality."},
+
       {title:"The 'complex' cover story", text:"The refusal is framed as a psychological struggle, transforming an act of control into a request for sympathy — and her needs into a test of her patience."},
-      {title:"Rations", text:"Occasional old photos provide just enough reward to keep the dopamine loop alive and prevent her from giving up entirely."}
+      {title:"Rations", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/face2.gif" }, text:"Occasional old photos provide just enough reward to keep the dopamine loop alive and prevent her from giving up entirely."}
     ],
     loop:"⟲ <b>STARVATION BY DESIGN</b> — ABSENCE AS ARCHITECTURE",
     exhibitsTitle:"<b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
     exhibits:[
       { num:"2.1", status:"SABOTAGE",
         name:"The Auditory Processing Blockade",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/face_request.jpg" },
         ids:[["TESTIMONY"],["WA-1688"],["WA-0790"]],
         quote:"the video message thing is just 🙈🔫",
         note:"Merry requires visual input to overcome auditory processing issues and a thick New Jersey accent. Derek refused video calls, bubbles, or any visual accompaniment — allowing her to spend 40% of their hours-long conversations saying “Huh? What? Say that again” without offering the simplest solution.",
         analysis:"Cognitive sabotage. Constant low-grade confusion is a prime state for manipulation: he limited the data she could receive to make her dependent on his interpretation of it." },
       { num:"2.2", status:"FRAUDULENT_VULNERABILITY",
         name:"The “Complex” as a Shield",
+        media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/his_complex_he_quits.mp4" },
         ids:[["TESTIMONY"],["STARMAKER"],["WA-1135","12/29/25"],["WA-1494","01/22/26"]],
         quote:"Video call, 1 hr  —  system record WA-1135\nVideo call, 55 min —  system record WA-1494",
         note:"He claimed a “complex” made camera performance impossible. He was visible on camera in old StarMaker videos, later performed duets with other women — and held two long video calls with Merry, one just seventeen days after declaring a video call would “never happen between us.”",
@@ -170,12 +174,14 @@ impact_metric:
     exhibits:[
       { num:"3.1", status:"BAIT",
         name:"The Unprompted Offer",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/video_call_promise.jpg" },
         ids:[["WA-0241","12/08/25 2:55 PM"]],
         quote:"Video call late tonight?",
         note:"After a 28-day disappearance (Nov 6 → Dec 5), Derek resurfaces, does multiple voice calls across Dec 6–8, and then — unprompted — dangles a video call that same night. No record of it occurring. The offer functioned as a re-entry gift: instant re-escalation of intimacy at zero cost to him.",
         analysis:"The offer is the reward. It was never an appointment; it was a dopamine token to reboot her investment after a month of silence." },
       { num:"3.2", status:"GOALPOST_DISSOLVED",
         name:"The Condition Appears",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/requesting%20time%20to%20hang%20out.PNG" },
         ids:[["WA-0560","12/12/25 9:09 AM"],["SC-28","the hand-circled page"]],
         quote:"It will happen when it doesn't feel like this.  Period",
         note:"Morning of the Dec 12 confrontation. Merry, after ~11 months of waiting, states the promise is due. Derek's response converts a year-old commitment into a behavioral contingency: the call happens when the vibe is right — a condition that is unmeasurable, unverifiable, and defined entirely by him.",
@@ -209,6 +215,7 @@ impact_metric:
         analysis:"The single most corrosive fact for the “complex” narrative — twice over, but with the asymmetry rigorously enforced. The barrier was never capability; it was leverage. Even when conceding the format, the one-way mirror remained intact: her visibility against his darkness. The calls happened when they cost him nothing, bought maximum goodwill, and could be withheld again the moment each thaw ended. Which they were." },
       { num:"3.7", status:"GOALPOST_REMOVED_FROM_FIELD",
         name:"The Final Dissolution — withdrawal as “delivering my conquered complex”",
+        media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/complex_quits2.mp4" },
         ids:[["WA-1906","02/16/26 2:31 AM"]],
         quote:"So I end up choosing to withdraw / In other to — / 1.) Not be a facilitator, enabler, conduit of unrighteous unnecessary negativity / 2.) To have a better chance at repairing the breech of trust, by delivering to you, my conquered complex.",
         analysis:"The end-state of the system: disappearance rebranded as progress on the promise itself. He is not ghosting her — he is “working on the complex,” offstage, indefinitely, and any objection is “unrighteous unnecessary negativity.” The goalpost has left the field entirely." }
@@ -263,9 +270,11 @@ impact_metric:
     ],
     mechanismTitle:"<b>I.</b> THE MECHANISM — THE REWRITE MACHINE",
     mechanism:[
-      {title:"Bait the reaction", text:"Withhold, disappear, move the goalpost (Modules 2–3) until the victim — autistic, sleep-deprived from phone labor, a year into broken promises — reacts with volume."},
-      {title:"Discard the substance, indict the style", text:"Her content (“you broke a year of promises”) is never answered. Her delivery (“you said fuck you”) becomes the entire trial."},
-      {title:"Crown himself the injured party", text:"He is the one with complexes, traumas, overwhelm; she is the “facilitator of unrighteous negativity.” Offender and victim swap seats — in writing, calmly, with bullet points."}
+      {title:"Bait the reaction", media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/near_the_end_im_fed_up.mp4" }, text:"Withhold, disappear, move the goalpost (Modules 2–3) until the victim — autistic, sleep-deprived from phone labor, a year into broken promises — reacts with volume."},
+
+      {title:"Discard the substance, indict the style", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/ugh1.jpg" }, text:"Her content (“you broke a year of promises”) is never answered. Her delivery (“you said fuck you”) becomes the entire trial."},
+
+      {title:"Crown himself the injured party", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/ugh2.jpg" }, text:"He is the one with complexes, traumas, overwhelm; she is the “facilitator of unrighteous negativity.” Offender and victim swap seats — in writing, calmly, with bullet points."}
     ],
     loop:"⟲ <b>DENY · ATTACK · REVERSE</b> — THE MACHINE RUNS ON HER DISTRESS",
     exhibitsTitle:"<b>II.</b> THE EXHIBITS — EVERY STAGE, QUOTED VERBATIM",
@@ -277,12 +286,14 @@ impact_metric:
         note:"He has just returned from 11 days of total silence, during which she sent audio messages into the void and made 4-second “proof of life” calls because she was worried he was dead.",
         analysis:"The event under review is an 11-day disappearance. His opening move erases it: the real subject is her “fuck you.” The disappearance becomes weather (“complexes clashing”); her fear-response becomes the crime." },
       { num:"4.2", status:"PSEUDO_ACCOUNTABILITY",
-        name:"The Past-Tense Confession — “I'm wrong 100%” (terms & conditions apply)",
+        name:"The Past-Tense Confession — “I\'m wrong 100%” (terms & conditions apply)",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/gaslighting_pain_level15.PNG" },
         ids:[["WA-1879","02/16/26 2:17 AM"]],
         quote:"'was' & 'wasn't' ← Those I'm taking full responsibility for. And I would like to remedy those shortcomings (despite the fact that they're directly linked to traumas & complexes, which should be taken into consideration… It's on me / I'm wrong 100%",
         analysis:"It looks like the confession she begged for. Read the grammar. Responsibility is accepted only for the past tense — and immediately discounted by the parenthetical. Technically an admission; functionally a plea bargain." },
       { num:"4.3", status:"DENY",
         name:"“The guilt game” — present and future declared negotiable",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/gaslighting222.PNG" },
         ids:[["WA-1885","02/16/26 2:24 AM"]],
         quote:"'isn't'  'is'  'will be'  'won't be' / ↑ These are up for grabs ↑ / in the guilt game / I understand what you're saying. I understand your rationality on things. But there's a major piece of the puzzle you're simply not seeing here.",
         analysis:"Seven minutes after “I'm wrong 100%,” he carves out everything that is, will be, and won't be — the entire living relationship — as contestable. Then the pivot: she is missing “a major piece of the puzzle.” Her rationality is acknowledged and overruled in the same breath." },
@@ -356,17 +367,20 @@ impact_metric:
   exhibits:[
     { num:"5.1", status:"HIERARCHY_MANAGEMENT",
       name:"The Named Ranks",
-      ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/jay_profile_pic_thing_1.png" },
+        ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
       note:"Derek articulated a hierarchy of attachment — “couple spot” vs. “best friend spot” — and placed Merry in the lower one while extracting couple-tier labor from her (nightly calls, future-planning, emotional caretaking; see MODULE_06).",
       analysis:"Naming the ranks is the tell. Casual favoritism happens; a titled hierarchy is a management system. It converts jealousy from an emotion into a job description — she now knows exactly which promotion she's working toward, and exactly who holds it." },
     { num:"5.2", status:"GRIEVANCE_IMMUNITY_DEVICE",
       name:"The Cancer Shield",
-      ids:[["TESTIMONY"]],
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/cuck1.png" },
+        ids:[["TESTIMONY"]],
       note:"Jay was described as dying of cancer — making any objection to her priority position an act of monstrous insensitivity.",
       analysis:"The shield does double duty. It excuses Derek's attention to Jay (“how could I abandon a dying woman?”) and pre-convicts Merry (“you'd begrudge a dying woman?”). Any grievance about the hierarchy becomes proof of her cruelty — the same reversal machinery as MODULE_04, run through a third party." },
     { num:"5.3", status:"EXCLUSIVITY_FRAUD",
       name:"The Flirtation Contrast",
-      ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/my_most_representation%20on_his_page.jpg" },
+        ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
       note:"Flirtatious messages directed at Jay, while Merry was told the special, exclusive bond was hers alone.",
       analysis:"The exclusivity was the product being sold to Merry — the “unofficially official” bond. The contrast is the invoice: what was framed as reserved for her was circulating elsewhere. Discovery doesn't end the arrangement; it intensifies it, because now she must compete." },
     { num:"5.4", status:"TRIANGULATION_ON_RECORD",
@@ -412,7 +426,8 @@ impact_metric:
   ],
   mechanismTitle:"<b>I.</b> THE MECHANISM — THE SERVICE ECONOMY",
   mechanism:[
-    {title:"Nightly phone labor", text:"Hours on the phone every night, including sleeping on the phone — despite her stated 'caged animal' sensory aversion to telephone calls. She did it anyway. That is not a preference; that is a shift."},
+    {title:"Nightly phone labor", media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/acknowledgemeho.jpg" }, text:"Hours on the phone every night, including sleeping on the phone — despite her stated \'caged animal\' sensory aversion to telephone calls. She did it anyway. That is not a preference; that is a shift."},
+
     {title:"Intimacy, freely given", text:"Shared freely — her idea, her initiative. He never asked. He did not complain. Put it that way and no other way. No transaction occurred; a gift is not a line item."},
     {title:"The Alabama housing offer", text:"Actual residency offered — a roof, a state line, a life. The single largest asset class a person can put on a table."}
   ],
@@ -494,39 +509,45 @@ impact_metric:
   ],
   mechanismTitle:"<b>I.</b> THE MECHANISM — DELETE AND REPLACE",
   mechanism:[
-    {title:"Replace the function publicly", text:"The thing Merry was promised for a year — on-camera duet partnership — begins happening with other women, on the same platform where the promise was born, where she can see it."},
+    {title:"Replace the function publicly", media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/leaving6.mp4" }, text:"The thing Merry was promised for a year — on-camera duet partnership — begins happening with other women, on the same platform where the promise was born, where she can see it."},
+
     {title:"Reclassify retroactively", text:"What was 'unofficially official' becomes, in his telling, never that serious — and her belief that it was becomes her error."},
-    {title:"Reassign the villain role", text:"She is not the creditor; she is the harasser. Not the woman who waited a year; the woman who 'hates.' Her documented grievances are redefined as symptoms."}
+    {title:"Reassign the villain role", media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/leaving2.mp4" }, text:"She is not the creditor; she is the harasser. Not the woman who waited a year; the woman who \'hates.\' Her documented grievances are redefined as symptoms."}
   ],
   loop:"⟲ <b>PAY, OR DISCREDIT THE LEDGER</b> — HE CHOSE THE SECOND",
   exhibitsTitle:"<b>II.</b> THE EXHIBITS — DEALT ONTO THE RECORD",
   exhibits:[
     { num:"7.1", status:"PROMISE_REDIRECTED",
       name:"The Duets With Other Women",
-      ids:[["TESTIMONY"],["STARMAKER"],["WA-1494","corroboration"]],
+        media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/PERFECT_duets_thisone.mp4" },
+        ids:[["TESTIMONY"],["STARMAKER"],["WA-1494","corroboration"]],
       note:"Derek performs duets with other women on StarMaker — the exact deliverable withheld from Merry for twelve months — and is visible on camera doing it.",
       analysis:"This is not moving on; moving on is private. This is display. Each public duet retroactively testifies that the “complex” never blocked camera performance — it blocked camera performance for her. The promise wasn't broken; it was redirected. That is the definition of the erasure: the function continues, the person is swapped." },
     { num:"7.2", status:"LEDGER_VOIDING",
       name:"The Retroactive Reclassification",
-      ids:[["WA-1891","02/16/26 2:27 AM"]],
+        media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/leaving5.mp4" },
+        ids:[["WA-1891","02/16/26 2:27 AM"]],
       quote:"...because you're upset about a breech of trust, that you probably shouldn't have placed on something so delicate....",
       analysis:"A year of “unofficially official,” move-in talk, nightly sleep calls and wake-up calls is rewritten as a soap bubble she carelessly gripped. If the relationship was never substantial, then nothing was owed, and her ledger is void.",
       crossref:["04#ex4.4","MODULE_04 — THE PUREST DARVO"] },
     { num:"7.3", status:"ERASURE_IN_MINIATURE",
       name:"The Gibberish Verdict",
-      ids:[["WA-2027–2032","05/16/26 11:32–11:45 PM"]],
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/last_words3.PNG" },
+        ids:[["WA-2027–2032","05/16/26 11:32–11:45 PM"]],
       quote:"🫠\n😮 tdkyti ited hjjvh t bnhfdgv gdfiufh jgj j y gdyuhkjhhj-red4yjjo\n🥴 itdfh y o u   s u c k ursjootdvj motfb\nThat 13 second clip will become a feature-length video if i play it enough times. 😅",
       note:"May 16. Three months after his last substantive contact, hours after promising “Give me a little while to gather my thoughts. I'll respond ASAP.” (WA-1988), this is the gathered thought: keyboard-mash with “you suck” spelled out inside it, plus confirmation he's replaying her videos.",
       analysis:"The erasure in miniature. Her reopening message — serious, vulnerable, months in the making — is answered with noise. The one intelligible English phrase embedded in the noise is an insult. Even the finale runs through the same asymmetry: she composes; he smears." },
     { num:"7.4", status:"CLOSURE_WITHHELD",
-      name:"The Expired Deadline — the archive's final entry",
-      ids:[["WA-2063","05/18/26 10:02 AM"],["WA-2094","05/18/26 10:24 AM"]],
+      name:"The Expired Deadline — the archive\'s final entry",
+        media: { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/argument_waiting_for_apology_ga.mp4" },
+        ids:[["WA-2063","05/18/26 10:02 AM"],["WA-2094","05/18/26 10:24 AM"]],
       quote:"U have 24 hours to respond. U acknowledged I'm in here- u KNOW I'm in here just waiting. U are aware. If u ain't said IM SORRY or anything else by 10am… I will be blocking u again",
       note:"The deadline passed. The final entry in the entire archive is a system line — a pinned message — because Derek never sent another word.",
       analysis:"He was offered the cheapest possible exit from a year of documented debt: two words, “I'm sorry,” on a 24-hour clock he acknowledged. He declined. The erasure is total: he would rather lose the channel entirely than produce the one sentence that would validate her ledger." },
     { num:"7.5", status:"SEALED_EPISTEMOLOGY",
-      name:"The Legacy Narrative — “she's mad so she doesn't have to hate herself”",
-      ids:[["TESTIMONY","third-party framing"]],
+      name:"The Legacy Narrative — “she\'s mad so she doesn\'t have to hate herself”",
+        media: { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/gaslighting.PNG" },
+        ids:[["TESTIMONY","third-party framing"]],
       note:"The endgame of the rewrite: once the victim's anger is defined as a symptom of her secret agreement with him, no evidence can ever reach him again — every receipt becomes proof of her denial.",
       analysis:"A perfectly sealed epistemology. Its weakness: it is unfalsifiable, and unfalsifiable claims are not insights, they are fortifications. Against it stands this repository: 2,105 messages, 28 screenshot pages, three independent forensic analyses, and a timeline in which his own words — “I'm wrong 100%” (WA-1879) — are on the record." }
   ],

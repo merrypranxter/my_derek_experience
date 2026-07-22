@@ -1,38 +1,10 @@
-import re
-
-with open('src/index.css', 'r') as f:
+with open("src/module.css", "r") as f:
     content = f.read()
 
-# Replace .docket
-content = re.sub(r'\.docket \{[^}]+\}', """.docket{
-  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  z-index:2;text-align:center;max-width:62%;
-  pointer-events:none;
-}
-.docket .subject,.docket a{pointer-events:auto;}""", content)
+content = content.replace("a.eid, button.eid:hover,a.eid, button.eid:focus-visible", "a.eid:hover, button.eid:hover, a.eid:focus-visible, button.eid:focus-visible")
+content = content.replace("a.eid, button.eid:hover .d,a.eid, button.eid:focus-visible .d", "a.eid:hover .d, button.eid:hover .d, a.eid:focus-visible .d, button.eid:focus-visible .d")
+content = content.replace(".eid.ga.linked,a.eid, button.eid.ga:hover,a.eid, button.eid.ga:focus-visible", ".eid.ga.linked, a.eid.ga:hover, button.eid.ga:hover, a.eid.ga:focus-visible, button.eid.ga:focus-visible")
+content = content.replace(".eid.ga.linked .d,a.eid, button.eid.ga:hover .d,a.eid, button.eid.ga:focus-visible .d", ".eid.ga.linked .d, a.eid.ga:hover .d, button.eid.ga:hover .d, a.eid.ga:focus-visible .d, button.eid.ga:focus-visible .d")
 
-# Replace .orbit
-content = re.sub(r'\.orbit \{[^}]+\}', """.orbit{
-  position:relative;
-  width:min(96vw, 1200px);
-  height:min(88vh, 820px);
-  list-style:none;margin:0;padding:0;
-}""", content)
-
-# Replace .docket__inner if it exists
-content = re.sub(r'\.docket__inner \{[^}]+\}', "", content)
-
-# Replace media queries
-mq_replacement = """@media (max-width: 719px){
-  .orbit{width:100%;height:auto;display:block;}
-  .orbit__ring{display:none;}
-  .docket{position:static;transform:none;max-width:100%;margin:0 auto 2.5rem;pointer-events:auto;}
-  .chip{position:static;display:flex;justify-content:center;margin-bottom:.6rem;}
-  .chip button{transform:none;}
-}"""
-
-# Remove old media max-width 719px
-content = re.sub(r'@media \(max-width: 719px\)\s*\{[^\}]+\}\s*\}', mq_replacement, content, flags=re.MULTILINE|re.DOTALL)
-
-with open('src/index.css', 'w') as f:
+with open("src/module.css", "w") as f:
     f.write(content)

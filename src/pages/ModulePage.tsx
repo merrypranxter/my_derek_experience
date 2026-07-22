@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import { MODULE_DATA } from "../data/modules";
 import TTSButton from "../components/TTSButton";
+import ChatModal from "../components/ChatModal";
 import "../module.css";
 
 const EVIDENCE_BUCKET = 'https://console.cloud.google.com/storage/browser/astraltrash_other/derek?project=gen-lang-client-0646349261&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))';
@@ -9,7 +10,7 @@ const SOURCE_REPO = 'https://github.com/merrypranxter/fuckyou_derek';
 
 const SOURCE_REGISTRY: Record<string, {label: string, meaning: string, url?: string}> = {
   'WA':
-    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:SOURCE_REPO + '/tree/main/evidence/whatsapp' },
+    { label:'WA-####', meaning:'WhatsApp chat export — message ID in the captured log (Nov 5 2025 – Feb 16 2026).', url:'https://github.com/merrypranxter/fuckyou_derek/blob/main/evidence/combined/derek_whatsapp_combined.md' },
   'SC':
     { label:'SC-####', meaning:'StarMaker record — post, comment, or duet ID.', url:EVIDENCE_BUCKET },
   'STARMAKER': { label:'STARMAKER', meaning:'StarMaker app record — the public profile and its posts.', url:EVIDENCE_BUCKET },
@@ -30,14 +31,36 @@ function sourceClass(id: string) {
   return 'TESTIMONY';
 }
 
+
+const MediaEmbed = ({ media, setLightbox }: { media: any, setLightbox: any }) => {
+  if (!media) return null;
+  if (media.type === 'video') {
+    return (
+      <div className="my-3 overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)]">
+        <video src={media.url} controls playsInline className="w-full h-auto" />
+      </div>
+    );
+  }
+  return (
+    <div className="my-3 overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)] cursor-zoom-in hover:border-[var(--atm-cyan)] transition-colors" onClick={() => setLightbox({ src: media.url, cap: media.alt || '' })}>
+      <img src={media.url} alt={media.alt || 'evidence'} className="w-full h-auto block filter saturate-90 hover:saturate-100 transition-all" referrerPolicy="no-referrer" />
+    </div>
+  );
+};
+
 export default function ModulePage() {
+
+
+  console.log('MODULE_DATA keys:', Object.keys(MODULE_DATA));
   const { id } = useParams<{ id: string }>();
   const [parsed, setParsed] = useState<any | null>(null);
   const [lightbox, setLightbox] = useState<any | null>(null);
+  const [activeChatId, setActiveChatId] = useState<string | null>(null);
   const mreadRef = useRef<HTMLParagraphElement>(null);
 
   useEffect(() => {
     if (!id || !MODULE_DATA[id]) return;
+    console.log('Setting parsed:', MODULE_DATA[id]);
     setParsed(MODULE_DATA[id]);
   }, [id]);
 
@@ -125,8 +148,8 @@ export default function ModulePage() {
             <section className="dsec" style={{ display: 'flow-root' }}>
               <h2>§ 2 — THE THING I ALWAYS WANTED</h2>
               <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px' }}>
-                <img 
-                  src="/DUET_PARTNER_ORIGINAL.PNG" 
+                <img referrerPolicy="no-referrer" 
+                  src="https://storage.googleapis.com/astraltrash_other/derek/DUET_PARTNER_ORIGINAL.PNG" 
                   alt="Duet Partner Offer" 
                   style={{ width: '100%', border: '1px solid var(--atm-paper-edge)', opacity: 0.95, filter: 'grayscale(0.15) contrast(1.1) sepia(0.2)' }} 
                   className="archival-scanlines"
@@ -185,7 +208,7 @@ export default function ModulePage() {
           if (e.target === e.currentTarget) setLightbox(null);
         }}>
           <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
-          <img src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+          <img referrerPolicy="no-referrer" src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
           <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
         </div>
       )}
@@ -256,6 +279,8 @@ export default function ModulePage() {
               <TTSButton text={n.text} className="absolute top-2 right-2 opacity-50 hover:opacity-100" />
               <div className="n">{i + 1}</div>
               <h3>{n.title}</h3>
+              <MediaEmbed media={n.media} setLightbox={setLightbox} />
+              <MediaEmbed media={n.media} setLightbox={setLightbox} />
             </div>
             {i < parsed.mechanism.length - 1 && (
               <div className="marrow" aria-hidden="true">→</div>
@@ -323,6 +348,8 @@ export default function ModulePage() {
                 <span className="stamp" style={{"--tilt": `${Math.floor(Math.random() * 5) - 2}deg`} as React.CSSProperties}>{ex.status}</span>
               </div>
               <h3>{ex.name}</h3>
+              <MediaEmbed media={ex.media} setLightbox={setLightbox} />
+              <MediaEmbed media={ex.media} setLightbox={setLightbox} />
               {ex.ids?.length > 0 && (
                 <div className="ids">
                   {ex.ids.map((pair: any, idx: number) => {
@@ -333,23 +360,35 @@ export default function ModulePage() {
                                         const reg = SOURCE_REGISTRY[sc];
                     const dataEid = id.split('–')[0]; // For WA-1234–1235 types
                     
-                    let linkHref = reg && reg.url ? reg.url : null;
-                    if (sc === 'WA') {
-                      linkHref = `/chat?id=${dataEid}`;
-                    }
+                                        let linkHref = reg && reg.url ? reg.url : null;
+                    const isWA = sc === 'WA';
                     
-                    const innerHTML = `${id}${d ? ` <span class="d">· ${d}</span>` : ''}${linkHref ? ' <span class="ext">↗</span>' : ''}`;
+                    const innerHTML = `${id}${d ? ` <span class="d">· ${d}</span>` : ''}${(linkHref || isWA) ? ' <span class="ext">↗</span>' : ''}`;
                     
-                    if (linkHref) {
+                    if (isWA) {
+                      return (
+                        <button
+                          key={idx}
+                          type="button"
+                          className={cls}
+                          data-eid={dataEid}
+                          onClick={() => setActiveChatId(id)}
+                          onPointerEnter={() => handleEidEnter(dataEid)}
+                          onPointerLeave={() => handleEidLeave(dataEid)}
+                        >
+                          <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
+                        </button>
+                      );
+                    } else if (linkHref) {
                       return (
                         <a 
                            key={idx}
                            className={cls}
                            data-eid={dataEid}
                            href={linkHref}
-                           target={sc === 'WA' ? undefined : "_blank"}
-                           rel={sc === 'WA' ? undefined : "noopener noreferrer"}
-                          onPointerEnter={() => handleEidEnter(dataEid)}
+                           target="_blank"
+                           rel="noopener noreferrer" 
+                           onPointerEnter={() => handleEidEnter(dataEid)}
                           onPointerLeave={() => handleEidLeave(dataEid)}
                         >
                           <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
@@ -381,7 +420,7 @@ export default function ModulePage() {
                     <div key={mIdx} style={{marginBottom: '15px', flex: '1 1 300px'}}>
                       {m.type === 'image' || !m.type ? (
                         <div className="img-wrap" style={{border: '1px solid var(--atm-dim)', padding: '5px', background: 'rgba(0,0,0,0.2)'}}>
-                          <img src={m.url} alt={m.alt || "Exhibit Evidence"} loading="lazy" onClick={() => setLightbox({src: m.url, cap: m.alt})} style={{cursor: 'zoom-in', width: '100%', display: 'block'}} />
+                          <img referrerPolicy="no-referrer" src={m.url} alt={m.alt || "Exhibit Evidence"} loading="lazy" onClick={() => setLightbox({src: m.url, cap: m.alt})} style={{cursor: 'zoom-in', width: '100%', display: 'block'}} />
                         </div>
                       ) : m.type === 'pdf' ? (
                         <a href={m.url} target="_blank" rel="noreferrer" style={{display: 'inline-block', padding: '10px 15px', border: '1px solid var(--atm-cyan)', background: 'var(--atm-bg)', color: 'var(--atm-cyan)', fontWeight: 'bold', textDecoration: 'none'}}>
@@ -419,6 +458,8 @@ export default function ModulePage() {
                 <section key={i} className="dsec dealt relative">
                   <TTSButton text={sec.text.replace(/<[^>]*>?/gm, '')} className="absolute top-2 right-2" />
                   <h2>{sec.title}</h2>
+                  <MediaEmbed media={sec.media} setLightbox={setLightbox} />
+                  <MediaEmbed media={sec.media} setLightbox={setLightbox} />
                   {sec.text.split('\n\n').map((p: string, j: number) => (
                     <p key={j} dangerouslySetInnerHTML={{__html: p.replace(/\*([^*]+)\*/g, '<em>$1</em>')}}></p>
                   ))}
@@ -439,7 +480,7 @@ export default function ModulePage() {
             {parsed.gallery.images.map((im: any, i: number) => (
               <figure key={i} className="receiptimg">
                 <button type="button" onClick={() => setLightbox(im)} aria-label="enlarge image">
-                  <img src={im.src} alt={im.cap ? im.cap.replace(/<[^>]*>?/gm, '') : 'evidence image'} loading="lazy" />
+                  <img referrerPolicy="no-referrer" src={im.src} alt={im.cap ? im.cap.replace(/<[^>]*>?/gm, '') : 'evidence image'} loading="lazy" />
                 </button>
                 <figcaption dangerouslySetInnerHTML={{ __html: im.cap || '' }}></figcaption>
               </figure>
@@ -459,7 +500,7 @@ export default function ModulePage() {
           if (e.target === e.currentTarget) setLightbox(null);
         }}>
           <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
-          <img src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+          <img referrerPolicy="no-referrer" src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
           <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
         </div>
       )}
@@ -477,6 +518,7 @@ export default function ModulePage() {
           ) : null}
         </span>
       </nav>
+      <ChatModal chatId={activeChatId} onClose={() => setActiveChatId(null)} />
     </div>
   );
 }

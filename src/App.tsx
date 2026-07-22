@@ -3,14 +3,16 @@ import Home from "./pages/Home";
 import ModulePage from "./pages/ModulePage";
 import VisualEvidence from "./pages/VisualEvidence";
 import ChatLog from "./pages/ChatLog";
+import Legalities from "./pages/Legalities";
 import ShaderBackground from "./components/ShaderBackground";
 import "./module.css";
 
 function GlobalStamp() {
   const location = useLocation();
-  if (location.pathname !== "/") return null;
   return (
-    <Link 
+    <>
+    {location.pathname === "/" && (
+      <Link 
       to="/evidence" 
       className="fixed bottom-6 left-6 z-[100] group transform hover:scale-105 transition-transform"
       style={{
@@ -29,7 +31,23 @@ function GlobalStamp() {
       }}
     >
       Visible Evidence ↗
+      </Link>
+    )}
+    <Link
+      to="/legalities"
+      className="fixed bottom-6 right-6 z-[100] opacity-30 hover:opacity-100 transition-opacity"
+      style={{
+        fontFamily: "var(--font-data)",
+        fontSize: ".6rem",
+        letterSpacing: ".2em",
+        textTransform: "uppercase",
+        color: "#fff",
+        textDecoration: "none"
+      }}
+    >
+      LEGALITIES
     </Link>
+    </>
   );
 }
 
@@ -47,6 +65,7 @@ export default function App() {
             <Route path="/module/:id" element={<ModulePage />} />
             <Route path="/evidence" element={<VisualEvidence />} />
             <Route path="/chat" element={<ChatLog />} />
+            <Route path="/legalities" element={<Legalities />} />
           </Routes>
         </div>
       </div>

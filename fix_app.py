@@ -1,20 +1,42 @@
-import re
-
 with open("src/App.tsx", "r") as f:
     content = f.read()
 
-import_target = 'import VisualEvidence from "./pages/VisualEvidence";'
-import_replacement = 'import VisualEvidence from "./pages/VisualEvidence";\nimport ChatLog from "./pages/ChatLog";'
+content = content.replace(
+    'import ChatLog from "./pages/ChatLog";',
+    'import ChatLog from "./pages/ChatLog";\nimport Legalities from "./pages/Legalities";'
+)
 
-route_target = '<Route path="/evidence" element={<VisualEvidence />} />'
-route_replacement = '<Route path="/evidence" element={<VisualEvidence />} />\n            <Route path="/chat" element={<ChatLog />} />'
+content = content.replace(
+    '<Route path="/chat" element={<ChatLog />} />',
+    '<Route path="/chat" element={<ChatLog />} />\n            <Route path="/legalities" element={<Legalities />} />'
+)
 
-if import_target in content and route_target in content:
-    content = content.replace(import_target, import_replacement)
-    content = content.replace(route_target, route_replacement)
-    print("Replaced App.tsx")
-else:
-    print("Target not found in App.tsx")
+content = content.replace(
+    'Visible Evidence ↗\n    </Link>\n  );',
+    """Visible Evidence ↗
+    </Link>
+    <Link
+      to="/legalities"
+      className="fixed bottom-6 right-6 z-[100] opacity-30 hover:opacity-100 transition-opacity"
+      style={{
+        fontFamily: "var(--font-data)",
+        fontSize: ".6rem",
+        letterSpacing: ".2em",
+        textTransform: "uppercase",
+        color: "#fff",
+        textDecoration: "none"
+      }}
+    >
+      LEGALITIES
+    </Link>
+    </>
+  );"""
+)
+
+content = content.replace(
+    'return (\n    <Link',
+    'return (\n    <>\n    <Link'
+)
 
 with open("src/App.tsx", "w") as f:
     f.write(content)

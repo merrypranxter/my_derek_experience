@@ -199,14 +199,14 @@
 }
 
 /* ---------- source tags: linked chips + GHOST ANALYSIS ---------- */
-a.eid{text-decoration:none;cursor:pointer;}
-a.eid:hover,a.eid:focus-visible{background:var(--atm-cyan);color:#02030a;outline:none;}
-a.eid:hover .d,a.eid:focus-visible .d{color:#02030a;}
+a.eid, button.eid{text-decoration:none;cursor:pointer;}
+a.eid:hover, button.eid:hover, a.eid:focus-visible, button.eid:focus-visible{background:var(--atm-cyan);color:#02030a;outline:none;}
+a.eid:hover .d, button.eid:hover .d, a.eid:focus-visible .d, button.eid:focus-visible .d{color:#02030a;}
 .eid .ext{font-size:.85em;opacity:.65;}
 .eid.doc{color:var(--atm-ink);border-color:rgb(232 228 216 / .35);}
 .eid.ga{color:var(--atm-magenta);border-color:rgb(255 46 166 / .45);}
-.eid.ga.linked,a.eid.ga:hover,a.eid.ga:focus-visible{background:var(--atm-magenta);color:#02030a;}
-.eid.ga.linked .d,a.eid.ga:hover .d,a.eid.ga:focus-visible .d{color:#02030a;}
+.eid.ga.linked, a.eid.ga:hover, button.eid.ga:hover, a.eid.ga:focus-visible, button.eid.ga:focus-visible{background:var(--atm-magenta);color:#02030a;}
+.eid.ga.linked .d, a.eid.ga:hover .d, button.eid.ga:hover .d, a.eid.ga:focus-visible .d, button.eid.ga:focus-visible .d{color:#02030a;}
 
 /* ---------- source key drawer ---------- */
 .sourcekey{margin:0 0 2.2rem;}
