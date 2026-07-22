@@ -39,7 +39,6 @@ document.getElementById('mtitle').textContent = M.title;
 document.getElementById('msub').textContent = M.sub || '';
 document.getElementById('charges').innerHTML =
   M.labels.map(l => `<li style="--tilt:${(rnd(25)-12)/10}deg">${l}</li>`).join('');
-
 /* ---------- epigraphs: the voices, before the analysis ---------- */
 if (M.epigraphs && M.epigraphs.length){
   const box = document.createElement('div');
@@ -148,6 +147,45 @@ M.exhibits.forEach((ex, i) => {
     }).join('') + '</ul>';
   document.getElementById('exTitle').after(det);
 })();
+
+/* ---------- receipts gallery (visible evidence — click to enlarge) ---------- */
+if (M.gallery && M.gallery.images && M.gallery.images.length){
+  const gh = document.createElement('h2');
+  gh.className = 'sect';
+  gh.innerHTML = M.gallery.title || '<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE';
+  const grid = document.createElement('div');
+  grid.className = 'receipts';
+  grid.innerHTML = M.gallery.images.map(im => `
+    <figure class="receiptimg">
+      <button type="button" data-full="${im.src}" data-cap="${(im.cap || '').replace(/"/g, '&quot;')}" aria-label="enlarge image">
+        <img src="${im.src}" alt="${(im.cap || 'evidence image').replace(/"/g, '&quot;')}" loading="lazy">
+      </button>
+      <figcaption>${im.cap || ''}</figcaption>
+    </figure>`).join('');
+  const impactTitle = document.getElementById('impactTitle');
+  impactTitle.parentNode.insertBefore(grid, impactTitle);
+  impactTitle.parentNode.insertBefore(gh, grid);
+
+  const lb = document.createElement('div');
+  lb.className = 'lightbox';
+  lb.setAttribute('role', 'dialog');
+  lb.setAttribute('aria-modal', 'true');
+  lb.innerHTML = '<button class="lightbox__close" type="button" aria-label="close">&times;</button><img alt=""><p class="lightbox__cap"></p>';
+  document.body.appendChild(lb);
+  const lbImg = lb.querySelector('img'), lbCap = lb.querySelector('.lightbox__cap');
+  const closeLb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
+  grid.addEventListener('click', e => {
+    const b = e.target.closest('button[data-full]');
+    if (!b) return;
+    lbImg.src = b.dataset.full;
+    lbImg.alt = b.dataset.cap;
+    lbCap.textContent = b.dataset.cap;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  lb.addEventListener('click', closeLb);
+  addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+}
 
 /* ---------- impact + yaml + nav ---------- */
 document.getElementById('impactTitle').innerHTML = M.impactTitle || 'DAMAGE ASSESSMENT';
