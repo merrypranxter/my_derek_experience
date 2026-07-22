@@ -69,24 +69,6 @@ body::after{
   font-size:.62rem;letter-spacing:.3em;color:var(--atm-dim);margin-bottom:.5rem;
 }
 
-/* ---------- epigraphs: the record opens in its own voices ---------- */
-.epigraphs{margin:0 0 1.8rem;max-width:72ch;}
-.epigraph{
-  margin:0 0 1rem;padding:.9rem 1.1rem;
-  font-family:var(--font-archive);font-size:clamp(.9rem,2.4vw,1.02rem);line-height:1.65;
-  white-space:pre-line;background:rgb(13 10 32 / .7);
-}
-.epigraph p{margin:0;}
-.epigraph.him{border-left:3px solid var(--atm-stamp);color:var(--atm-ink);}
-.epigraph.her{border-left:3px solid var(--atm-cyan);color:var(--atm-ink);}
-.epigraph cite{
-  display:block;margin-top:.55rem;
-  font-family:var(--font-data);font-style:normal;
-  font-size:.6rem;letter-spacing:.22em;
-}
-.epigraph.him cite{color:var(--atm-stamp);}
-.epigraph.her cite{color:var(--atm-cyan);}
-
 .sect{
   font-size:.7rem;letter-spacing:.35em;text-transform:uppercase;color:var(--atm-dim);
   margin:4.5rem 0 1.6rem;display:flex;align-items:center;gap:1rem;
@@ -256,6 +238,24 @@ a.eid:hover .d,a.eid:focus-visible .d{color:#02030a;}
   .sourcekey li > b{flex:none;}
 }
 
+/* ---------- epigraphs: the record opens in its own voices ---------- */
+.epigraphs{margin:0 0 1.8rem;max-width:72ch;}
+.epigraph{
+  margin:0 0 1rem;padding:.9rem 1.1rem;
+  font-family:var(--font-archive);font-size:clamp(.9rem,2.4vw,1.02rem);line-height:1.65;
+  white-space:pre-line;background:rgb(13 10 32 / .7);
+}
+.epigraph p{margin:0;}
+.epigraph.him{border-left:3px solid var(--atm-stamp);color:var(--atm-ink);}
+.epigraph.her{border-left:3px solid var(--atm-cyan);color:var(--atm-ink);}
+.epigraph cite{
+  display:block;margin-top:.55rem;
+  font-family:var(--font-data);font-style:normal;
+  font-size:.6rem;letter-spacing:.22em;
+}
+.epigraph.him cite{color:var(--atm-stamp);}
+.epigraph.her cite{color:var(--atm-cyan);}
+
 /* ---------- her-words addendum: the statement sheet ---------- */
 .docwrap{max-width:62rem;margin:0 auto;}
 .doctab{
@@ -310,4 +310,50 @@ a.eid:hover .d,a.eid:focus-visible .d{color:#02030a;}
 }
 @media (prefers-reduced-motion: reduce){
   .dsec{opacity:1;transform:none;transition:none;}
+}
+
+/* ============================================================
+   RECEIPTS GALLERY — visible evidence thumbnails + lightbox
+   ============================================================ */
+.receipts{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:1.1rem;margin:0 0 3.2rem;
+}
+.receiptimg{
+  margin:0;background:rgb(13 10 32 / .6);
+  border:1px solid rgb(111 106 128 / .35);
+  padding:.55rem;display:flex;flex-direction:column;gap:.55rem;
+}
+.receiptimg button{padding:0;border:0;background:none;cursor:zoom-in;display:block;}
+.receiptimg img{
+  width:100%;height:230px;object-fit:cover;object-position:top;display:block;
+  filter:saturate(.92) brightness(.94);
+  transition:filter 120ms, transform 160ms;
+}
+.receiptimg button:hover img,.receiptimg button:focus-visible img{
+  filter:none;transform:scale(1.02);outline:1px solid var(--atm-cyan);
+}
+.receiptimg figcaption{
+  font-family:var(--font-data);font-size:.66rem;line-height:1.6;color:var(--atm-dim);
+}
+.receiptimg figcaption b{color:var(--atm-cyan);font-weight:400;}
+.lightbox{
+  position:fixed;inset:0;z-index:60;display:none;place-items:center;
+  background:rgb(3 2 10 / .93);padding:2rem;cursor:zoom-out;
+}
+.lightbox.open{display:grid;}
+.lightbox img{
+  max-width:min(94vw,860px);max-height:80vh;object-fit:contain;
+  border:1px solid rgb(111 106 128 / .45);background:#000;
+  box-shadow:0 30px 80px rgb(0 0 0 / .6);
+}
+.lightbox__cap{
+  margin:1rem 0 0;max-width:min(94vw,860px);
+  font-family:var(--font-data);font-size:.78rem;line-height:1.6;
+  color:var(--atm-ink);text-align:center;
+}
+.lightbox__close{
+  position:fixed;top:1rem;right:1.3rem;z-index:61;
+  font-size:2.2rem;line-height:1;background:none;border:0;
+  color:var(--atm-stamp);cursor:pointer;
 }
