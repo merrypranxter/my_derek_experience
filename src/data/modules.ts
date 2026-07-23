@@ -166,7 +166,7 @@ impact_metric:
     id:"03", code:"MODULE_03_RUG_PULLS", title:"THE RUG-PULLS", sub:"( The Neurological Trigger )",
     sidebarMedia: [
       { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/complex_quits2.mp4", filename:"complex_quits2.mp4 — “I’m not going to sing anymore with anyone”" },
-      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/argument_waiting_for_apology_ga.mp4", filename:"argument_waiting_for_apology.mp4 — “I’ll be back at 5pm 👋”" }
+      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/argument_waiting_for_apology_ga.mp4", filename:"argument_waiting_for_apology_ga.mp4 — “I’ll be back at 5pm 👋”" }
     ],
     gallery:{ title:"<b>+</b> MORE RECEIPTS — THE MOVING GOALPOST · CLICK TO ENLARGE",
       images:[
