@@ -59,7 +59,7 @@ export default function ChatModal({ chatId, onClose }: ChatModalProps) {
           const isTarget = i >= startLine && i <= endLine;
           
           // Match timestamp and author
-          // Example: [11/5/25, 9:06:09 PM] Derek Vasilakis: ...
+          // Example: [11/5/25, 9:06:09 PM] Derek ********: ...
           // Note there might be hidden characters like LRM at the start
           const match = rawLine.match(/^.?\[(.*?)\] (.*?): (.*)$/);
           
@@ -137,7 +137,7 @@ export default function ChatModal({ chatId, onClose }: ChatModalProps) {
               const prevMsg = idx > 0 ? messages[idx - 1] : null;
               const isNewAuthor = !prevMsg || prevMsg.author !== msg.author;
               
-              const isDerek = msg.author === "Derek Vasilakis";
+              const isDerek = msg.author === "Derek ********";
               const isMerry = msg.author === "Merry";
               
               // Decorative styles
