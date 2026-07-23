@@ -2,11 +2,9 @@ with open("src/pages/ModulePage.tsx", "r") as f:
     lines = f.readlines()
 
 for i, line in enumerate(lines):
-    if '<div className="marrow" aria-hidden="true">→</div>' in line:
-        # The next line is `                </div>`
-        # We need to insert `            )}` before it.
+    if '<p className="ledgernote"' in line:
         if '</div>' in lines[i+1]:
-            lines.insert(i+1, '            )}\n')
+            lines.insert(i+2, '      )}\n')
             break
 
 with open("src/pages/ModulePage.tsx", "w") as f:

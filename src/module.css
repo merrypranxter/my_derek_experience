@@ -465,3 +465,23 @@ a.eid:hover .d, button.eid:hover .d, a.eid:focus-visible .d, button.eid:focus-vi
   border-color: var(--atm-cyan);
   background: rgba(0,0,0,0.5);
 }
+
+.exhibit__note {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--atm-text);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.exhibit__analysis {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--atm-cyan);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 1px dashed var(--atm-cyan);
+}

@@ -3,47 +3,18 @@ import re
 with open("src/pages/ModulePage.tsx", "r") as f:
     content = f.read()
 
-target = """                    if (linkHref) {
-                      return (
-                        <a 
-                           key={idx}
-                           className={cls}
-                           data-eid={dataEid}
-                           href={linkHref}
-                           target={sc === 'WA' ? undefined : "_blank"}
-                           rel={sc === 'WA' ? undefined : "noopener noreferrer"}
-                          onPointerEnter={() => handleEidEnter(dataEid)}
-                          onPointerLeave={() => handleEidLeave(dataEid)}
-                        >
-                          <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
-                        </a>
-                      );
-                    })}"""
+target = """          </div>
+        
+        <div className="relative"><TTSButton text={parsed.objective} className="absolute -top-4 right-0" /><p className="objective">{parsed.objective}</p></div>
+      </header>"""
 
-replacement = """                    if (linkHref) {
-                      return (
-                        <a 
-                           key={idx}
-                           className={cls}
-                           data-eid={dataEid}
-                           href={linkHref}
-                           target={sc === 'WA' ? undefined : "_blank"}
-                           rel={sc === 'WA' ? undefined : "noopener noreferrer"}
-                          onPointerEnter={() => handleEidEnter(dataEid)}
-                          onPointerLeave={() => handleEidLeave(dataEid)}
-                        >
-                          <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
-                        </a>
-                      );
-                    }
-                    return <span key={idx} className={cls} dangerouslySetInnerHTML={{ __html: innerHTML }} />;
-                  })}"""
+replacement = """          </div>
+        )}
+        
+        <div className="relative"><TTSButton text={parsed.objective} className="absolute -top-4 right-0" /><p className="objective">{parsed.objective}</p></div>
+      </header>"""
 
-if target in content:
-    content = content.replace(target, replacement)
-    print("Fixed syntax")
-else:
-    print("Target not found")
+content = content.replace(target, replacement)
 
 with open("src/pages/ModulePage.tsx", "w") as f:
     f.write(content)

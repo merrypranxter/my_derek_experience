@@ -36,14 +36,14 @@ const MediaEmbed = ({ media, setLightbox }: { media: any, setLightbox: any }) =>
   if (!media) return null;
   if (media.type === 'video') {
     return (
-      <div className="my-3 overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)]">
+      <div className="my-5 w-full md:max-w-[50%] overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)]">
         <video src={media.url} controls playsInline className="w-full h-auto" />
       </div>
     );
   }
   return (
-    <div className="my-3 overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)] cursor-zoom-in hover:border-[var(--atm-cyan)] transition-colors" onClick={() => setLightbox({ src: media.url, cap: media.alt || '' })}>
-      <img src={media.url} alt={media.alt || 'evidence'} className="w-full h-auto block filter saturate-90 hover:saturate-100 transition-all" referrerPolicy="no-referrer" />
+    <div className="my-5 w-full md:max-w-[50%] overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)] cursor-zoom-in hover:border-[var(--atm-cyan)] transition-colors" onClick={() => setLightbox({ src: media.url, cap: media.alt || '' })}>
+      <img src={media.url} alt={media.alt || 'evidence'} loading="lazy" className="w-full h-auto block filter saturate-90 hover:saturate-100 transition-all" referrerPolicy="no-referrer" />
     </div>
   );
 };
@@ -147,12 +147,13 @@ export default function ModulePage() {
             
             <section className="dsec" style={{ display: 'flow-root' }}>
               <h2>§ 2 — THE THING I ALWAYS WANTED</h2>
-              <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px' }}>
+              <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px', cursor: 'zoom-in' }} onClick={() => setLightbox({ src: 'https://storage.googleapis.com/astraltrash_other/derek/DUET_PARTNER_ORIGINAL.PNG', cap: '<b>THE ORIGINAL ASK</b> — “Will you be my officially unofficial video duet partner? 💍”' })}>
                 <img referrerPolicy="no-referrer" 
                   src="https://storage.googleapis.com/astraltrash_other/derek/DUET_PARTNER_ORIGINAL.PNG" 
                   alt="Duet Partner Offer" 
-                  style={{ width: '100%', border: '1px solid var(--atm-paper-edge)', opacity: 0.95, filter: 'grayscale(0.15) contrast(1.1) sepia(0.2)' }} 
-                  className="archival-scanlines"
+                  style={{ width: '100%', border: '1px solid var(--atm-paper-edge)', opacity: 0.95, filter: 'grayscale(0.15) contrast(1.1) sepia(0.2)', transition: 'filter 0.2s', pointerEvents: 'none' }} 
+                  className="archival-scanlines hover:filter-none"
+                  loading="lazy"
                 />
                 <figcaption className="docnote" style={{ marginTop: '0.4rem', borderTop: 'none', paddingTop: 0, textAlign: 'right', opacity: 0.8 }}>EXHIBIT: DUET_PARTNER_ORIGINAL</figcaption>
               </figure>
@@ -203,15 +204,7 @@ export default function ModulePage() {
           </div>
         </div>
 
-        {lightbox && (
-        <div className="lightbox open" role="dialog" aria-modal="true" onClick={(e) => {
-          if (e.target === e.currentTarget) setLightbox(null);
-        }}>
-          <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
-          <img referrerPolicy="no-referrer" src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
-          <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
-        </div>
-      )}
+
 
       <nav className="footnav">
           <span></span>
@@ -233,7 +226,9 @@ export default function ModulePage() {
   });
 
   return (
-    <div className="wrap">
+    <div className="max-w-[1400px] mx-auto px-4 lg:px-8 py-8 flex flex-col lg:flex-row gap-8 items-start">
+      <div className="flex-1 w-full max-w-[1100px] relative z-10 pb-[8rem]">
+      
       <Link className="back" to="/"><b>&lt;</b> RETURN TO LOCKER</Link>
       
       <header className="casehead">
@@ -245,7 +240,7 @@ export default function ModulePage() {
         
         <ul className="charges" aria-label="Behavioral charges">
           {parsed.labels.map((l: string, i: number) => (
-            <li key={i} style={{"--tilt": `${(Math.floor(Math.random() * 25) - 12) / 10}deg`} as React.CSSProperties}>{l}</li>
+            <li key={i} style={({"--tilt": `${(Math.floor(Math.random() * 25) - 12) / 10}deg`}) as React.CSSProperties}>{l}</li>
           ))}
         </ul>
         
@@ -268,10 +263,10 @@ export default function ModulePage() {
       <div className="mechanism">
         {parsed.mechanism?.map((n: any, i: number) => (
           <div key={i} className="flex contents-wrapper" style={{display: 'contents'}}>
-                        <div 
-               className="mnode relative" 
-               tabIndex={0} 
-               onPointerEnter={() => handleMechHover(n.text)}
+            <div 
+              className="mnode relative"
+              tabIndex={0}
+              onPointerEnter={() => handleMechHover(n.text)}
               onFocus={() => handleMechHover(n.text)}
               onPointerLeave={handleMechLeave}
               onBlur={handleMechLeave}
@@ -279,7 +274,6 @@ export default function ModulePage() {
               <TTSButton text={n.text} className="absolute top-2 right-2 opacity-50 hover:opacity-100" />
               <div className="n">{i + 1}</div>
               <h3>{n.title}</h3>
-              <MediaEmbed media={n.media} setLightbox={setLightbox} />
               <MediaEmbed media={n.media} setLightbox={setLightbox} />
             </div>
             {i < parsed.mechanism.length - 1 && (
@@ -341,15 +335,15 @@ export default function ModulePage() {
         {parsed.exhibits?.map((ex: any, i: number) => {
           const dealAngle = (i % 2 ? -1.4 : 1.4) + 'deg';
           return (
-            <article key={i} className="exhibit relative" style={{ "--deal": dealAngle } as React.CSSProperties}>
+            <article key={i} className="exhibit relative" style={({"--deal": dealAngle}) as React.CSSProperties}>
               <TTSButton text={[ex.quote ? `Quote: ${ex.quote}` : '', ex.note ? `Note: ${ex.note}` : '', ex.analysis ? `Analysis: ${ex.analysis}` : '', ex.desc || ''].filter(Boolean).join('. ').replace(/<[^>]*>?/gm, '')} className="absolute top-4 right-4" />
               <div className="exhibit__top">
                 <span className="exhibit__num">EXHIBIT {ex.num}</span>
-                <span className="stamp" style={{"--tilt": `${Math.floor(Math.random() * 5) - 2}deg`} as React.CSSProperties}>{ex.status}</span>
+                <span className="stamp" style={({"--tilt": `${Math.floor(Math.random() * 5) - 2}deg`}) as React.CSSProperties}>{ex.status}</span>
               </div>
               <h3>{ex.name}</h3>
               <MediaEmbed media={ex.media} setLightbox={setLightbox} />
-              <MediaEmbed media={ex.media} setLightbox={setLightbox} />
+              
               {ex.ids?.length > 0 && (
                 <div className="ids">
                   {ex.ids.map((pair: any, idx: number) => {
@@ -357,10 +351,10 @@ export default function ModulePage() {
                     const d = Array.isArray(pair) ? pair[1] : '';
                     const sc = sourceClass(id);
                     const cls = sc === 'WA' || sc === 'SC' ? 'eid' : sc === 'GA' ? 'eid ga' : sc === 'TESTIMONY' ? 'eid testimony' : 'eid doc';
-                                        const reg = SOURCE_REGISTRY[sc];
-                    const dataEid = id.split('–')[0]; // For WA-1234–1235 types
+                    const reg = SOURCE_REGISTRY[sc];
+                    const dataEid = id.split('–')[0]; 
                     
-                                        let linkHref = reg && reg.url ? reg.url : null;
+                    let linkHref = reg && reg.url ? reg.url : null;
                     const isWA = sc === 'WA';
                     
                     const innerHTML = `${id}${d ? ` <span class="d">· ${d}</span>` : ''}${(linkHref || isWA) ? ' <span class="ext">↗</span>' : ''}`;
@@ -389,7 +383,7 @@ export default function ModulePage() {
                            target="_blank"
                            rel="noopener noreferrer" 
                            onPointerEnter={() => handleEidEnter(dataEid)}
-                          onPointerLeave={() => handleEidLeave(dataEid)}
+                           onPointerLeave={() => handleEidLeave(dataEid)}
                         >
                           <span dangerouslySetInnerHTML={{ __html: innerHTML }} />
                         </a>
@@ -400,24 +394,25 @@ export default function ModulePage() {
                 </div>
               )}
               
+              {ex.quote && (
+                <blockquote className="exhibit__quote relative">
+                  "{ex.quote}"
+                </blockquote>
+              )}
+              {ex.note && <p className="exhibit__note" dangerouslySetInnerHTML={{ __html: ex.note }}></p>}
+              {ex.analysis && <p className="exhibit__analysis" dangerouslySetInnerHTML={{ __html: `<strong>ANALYSIS:</strong> ${ex.analysis}` }}></p>}
+              
               {ex.crossref && (
-                 <>
-                   <p className="exhibit__desc" dangerouslySetInnerHTML={{ __html: ex.desc }}></p>
-                   <div className="crossref-section">
-                     <h4>See Module {ex.crossref.id}</h4>
-                     <Link to={`/module/${ex.crossref.id}`}>Open Module {ex.crossref.id} ↗</Link>
-                   </div>
-                 </>
+                 <div className="crossref-section" style={{marginTop: '20px', padding: '15px', borderLeft: '4px solid var(--atm-cyan)', background: 'rgba(53, 224, 255, 0.05)'}}>
+                   <h4 style={{fontSize: '0.8rem', color: 'var(--atm-cyan)', margin: '0 0 10px 0', letterSpacing: '0.1em'}}>SEE {ex.crossref[1]}</h4>
+                   <Link to={`/module/${ex.crossref[0]}`} style={{color: '#fff', textDecoration: 'none', fontWeight: 'bold'}}>Open Module {ex.crossref[0]} ↗</Link>
+                 </div>
               )}
               
-              {!ex.crossref && (
-                <p className="exhibit__desc" dangerouslySetInnerHTML={{ __html: ex.desc }}></p>
-              )}
-
               {ex.media && ex.media.length > 0 && (
                 <div className="exhibit__media" style={{marginTop: '20px', display: 'flex', gap: '10px', flexWrap: 'wrap', alignItems: 'flex-start'}}>
                   {ex.media.map((m: any, mIdx: number) => (
-                    <div key={mIdx} style={{marginBottom: '15px', flex: '1 1 300px'}}>
+                    <div key={mIdx} style={{marginBottom: '15px', flex: '1 1 300px', maxWidth: '50%', minWidth: '300px'}}>
                       {m.type === 'image' || !m.type ? (
                         <div className="img-wrap" style={{border: '1px solid var(--atm-dim)', padding: '5px', background: 'rgba(0,0,0,0.2)'}}>
                           <img referrerPolicy="no-referrer" src={m.url} alt={m.alt || "Exhibit Evidence"} loading="lazy" onClick={() => setLightbox({src: m.url, cap: m.alt})} style={{cursor: 'zoom-in', width: '100%', display: 'block'}} />
@@ -441,11 +436,10 @@ export default function ModulePage() {
         <TTSButton text={parsed.impact?.join('. ').replace(/<[^>]*>?/gm, '')} className="absolute -top-10 right-0" />
         <ol className="impact">
           {parsed.impact?.map((imp: string, i: number) => (
-          <li key={i} dangerouslySetInnerHTML={{ __html: imp }}></li>
-        ))}
-      </ol>
+            <li key={i} dangerouslySetInnerHTML={{ __html: imp }}></li>
+          ))}
+        </ol>
       </div>
-
 
       {parsed.addendum?.length > 0 && (
         <>
@@ -458,7 +452,6 @@ export default function ModulePage() {
                 <section key={i} className="dsec dealt relative">
                   <TTSButton text={sec.text.replace(/<[^>]*>?/gm, '')} className="absolute top-2 right-2" />
                   <h2>{sec.title}</h2>
-                  <MediaEmbed media={sec.media} setLightbox={setLightbox} />
                   <MediaEmbed media={sec.media} setLightbox={setLightbox} />
                   {sec.text.split('\n\n').map((p: string, j: number) => (
                     <p key={j} dangerouslySetInnerHTML={{__html: p.replace(/\*([^*]+)\*/g, '<em>$1</em>')}}></p>
@@ -500,7 +493,13 @@ export default function ModulePage() {
           if (e.target === e.currentTarget) setLightbox(null);
         }}>
           <button className="lightbox__close" type="button" aria-label="close" onClick={() => setLightbox(null)}>×</button>
-          <img referrerPolicy="no-referrer" src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+          {lightbox.src?.endsWith('.mp4') || lightbox.type === 'video' ? (
+            <video src={lightbox.src} controls autoPlay className="max-w-[94vw] max-h-[80vh] border border-[var(--atm-cyan)]/40 shadow-[0_30px_80px_rgba(0,0,0,0.6)] bg-black" />
+          ) : (
+            <a href={lightbox.src} target="_blank" rel="noopener noreferrer" style={{ cursor: 'alias', display: 'block' }}>
+              <img referrerPolicy="no-referrer" src={lightbox.src} alt={lightbox.cap ? lightbox.cap.replace(/<[^>]*>?/gm, '') : ''} />
+            </a>
+          )}
           <p className="lightbox__cap" dangerouslySetInnerHTML={{ __html: lightbox.cap || '' }}></p>
         </div>
       )}
@@ -518,7 +517,44 @@ export default function ModulePage() {
           ) : null}
         </span>
       </nav>
+
       <ChatModal chatId={activeChatId} onClose={() => setActiveChatId(null)} />
+      
+      </div>
+
+      {parsed.sidebarMedia && parsed.sidebarMedia.length > 0 && (
+        <aside className="w-full lg:w-48 flex-shrink-0 flex flex-col gap-4 sticky top-8">
+          <h3 className="font-data text-[10px] tracking-widest text-[var(--atm-cyan)] border-b border-[var(--atm-cyan)]/30 pb-2 mb-2">
+            MEDIA EVIDENCE
+          </h3>
+          <div className="flex flex-row lg:flex-col gap-2 overflow-auto lg:max-h-[85vh] pb-4 lg:pb-0 pr-2 custom-scrollbar">
+            {parsed.sidebarMedia.map((m: any, idx: number) => (
+              <div 
+                key={idx} 
+                className="group relative border border-[var(--atm-dim)] hover:border-[var(--atm-cyan)] bg-black/40 p-1 cursor-zoom-in transition-colors w-[120px] lg:w-full flex-shrink-0"
+                onClick={() => setLightbox({ src: m.url, cap: m.filename, type: m.type })}
+              >
+                {m.type === 'video' ? (
+                  <video src={m.url} preload="none" className="w-full h-[100px] object-cover filter saturate-75 opacity-80 group-hover:saturate-100 group-hover:opacity-100 transition-all pointer-events-none" />
+                ) : (
+                  <img src={m.url} alt={m.filename} loading="lazy" referrerPolicy="no-referrer" className="w-full h-[100px] object-cover filter saturate-75 opacity-80 group-hover:saturate-100 group-hover:opacity-100 transition-all" />
+                )}
+                
+                <div className="absolute inset-x-0 bottom-0 bg-black/80 p-1.5 opacity-0 group-hover:opacity-100 transition-opacity border-t border-[var(--atm-cyan)]/30 backdrop-blur-sm">
+                  <p className="font-data text-[9px] text-[var(--atm-cyan)] break-all leading-tight">
+                    {m.filename}
+                  </p>
+                </div>
+                
+                <div className="absolute top-1 right-1 bg-black/80 px-1 py-0.5 text-[8px] font-data text-white border border-white/10 uppercase">
+                  {m.type}
+                </div>
+              </div>
+            ))}
+          </div>
+        </aside>
+      )}
+
     </div>
   );
 }

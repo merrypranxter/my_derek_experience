@@ -1,16 +1,28 @@
 import re
-with open("src/data/modules.ts", "r") as f:
+
+with open("src/pages/ModulePage.tsx", "r") as f:
     content = f.read()
 
-# Replace }; MODULE_DATA['XX'] = { with }, 'XX': {
-content = re.sub(r'\s*\};\s*MODULE_DATA\[\'(\d+)\'\] = \{', r'\n  },\n  \'\1\': {', content)
+# 1. Epigraphs
+# Original:
+#            ))}
+#          </div>
+#
+#        <div className="relative">
+# Should be:
+#            ))}
+#          </div>
+#        )}
+content = re.sub(
+    r'(</cite>\s*</blockquote>\s*\)\)}\s*</div>)',
+    r'\1\n        )}',
+    content
+)
 
-# And make sure the file ends with a proper object closure
-# First remove all trailing }; or }
-content = re.sub(r'[\s\}]+;?$', '', content)
-# Then append the proper closing
-content += '\n  }\n};\n'
-
-with open("src/data/modules.ts", "w") as f:
-    f.write(content)
-print("fixed all objects to be inside one object")
+# 2. Mechanism Map
+# Original:
+#            {i < parsed.mechanism.length - 1 && (
+#              <div className="marrow" aria-hidden="true">→</div>
+#                </div>
+#        ))}
+# Wait, let's look at the actual code in the file.

@@ -151,7 +151,9 @@ export default function VisualEvidence() {
                 {selectedMedia.type.startsWith('video') ? (
                   <video src={selectedMedia.url} className="w-full h-full object-contain" controls autoPlay />
                 ) : (
-                  <img src={selectedMedia.url} alt={selectedMedia.name} className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+                  <a href={selectedMedia.url} target="_blank" rel="noopener noreferrer" className="block w-full h-full flex items-center justify-center cursor-alias">
+                    <img src={selectedMedia.url} alt={selectedMedia.name} className="max-w-full max-h-full object-contain" referrerPolicy="no-referrer" />
+                  </a>
                 )}
               </div>
             </div>
