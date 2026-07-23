@@ -25,10 +25,13 @@ export const MODULE_DATA: Record<string, any> = {
     { title: "THE PRECIPICE", text: "Let me think if there were any other promises. Just, I always felt like I was on the edge of a precipice. Like a thing, a good, exciting thing was about to happen, but it never did. And then I would like get excited about it. As ChatGPT put it, I inhabited these futures in my brain, and they never came true. They just never happened." },
     { title: "NICE FIRST", text: "And like at first I would try to talk him into it. I tried to be nice. I tried, I tried everything nicely I could, and it didn't work. And it's like he doesn't remember that. All he remembers is me being a bitch. I didn't resort to being a bitch till after being nice didn't work a million times. I just couldn't make him keep his promises. It's like he didn't want to. It felt like he didn't want to. It felt like I had to earn everything, but it was impossible to earn.\n\nAnd then when I had my inevitable emotional reaction slash autistic meltdown slash traumatic fucking response to the rug pull, to the yoink of it all, I was blamed for it all. It was my fault it wasn't happening because of my response to the fact that it didn't happen, which doesn't really seem to make sense, but somehow he made it make sense at the time. And for a while there, I went along with it, and I thought he was right. But now I realize he was fucking wrong the whole time, and *he can kiss my ass*." }
   ],
-  gallery: { title:"<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE · CLICK TO ENLARGE",
+  gallery: { title:"<b>+</b> MORE RECEIPTS — THE OFFER & THE BAIT · CLICK TO ENLARGE",
     images:[
-
-
+      { src:"/media/preparing_duet.webp", cap:"<b>THE OFFER IN ACTION</b> — “mmBop ~ Derek &amp; Merry,” his {D} part left open for him." },
+      { src:"/media/forensics_derek_integrity.webp", cap:"<b>INTEGRITY: BANKRUPT</b> — the forensic audit: “Subject B, The Selective Integritist.”" },
+      { src:"/media/forensics_carrot.webp", cap:"<b>THE CARROT ON A SILVER PLATTER</b> — the duet-partner bait, named." },
+      { src:"/media/permission_to_art.webp", cap:"<b>PERMISSION TO ART</b> — her journal, Feb 3 2025: asking herself for permission to make him art." },
+      { src:"/media/duet_partner_search.webp", cap:"“LOLOLOLOL DUET PARTNER” — the search." }
     ]},
     labels:["LOVE_BOMBING","FUTURE_FAKING"],
     objective:"The establishment of an emotional contract designed to secure maximum investment from the victim while providing zero tangible commitment from the perpetrator. (Pre-log era: user testimony + StarMaker profile + third-party reports; log-era receipts cross-referenced in MODULE_03.)",
@@ -48,6 +51,7 @@ export const MODULE_DATA: Record<string, any> = {
     exhibits:[
       { num:"1.1", status:"FRAUDULENT",
         name:"The “Dedicated Duet Partner” Contract",
+        media:{ type:"image", url:"/media/duet_partner_original.webp", alt:"THE ORIGINAL ASK — “Will you be my officially unofficial video duet partner? 💍”" },
         ids:[["TESTIMONY"],["STARMAKER"],["DOSSIER §1"]],
         note:"Derek asked Merry to be his dedicated duet partner, framed as a mutual commitment to sing together and build a friendship. He performed exactly one (1) duet — “The Bedrock Anthem” — then ceased all collaborative effort for an entire year.",
         analysis:"By granting one single “win” early on, he proved the promise was possible, making a year of silence read as a “temporary hurdle.” This manufactured the Sunk Cost Fallacy: she stayed because she had already invested so much in the idea of the partnership." },
@@ -86,9 +90,16 @@ impact_metric:
   },
   '02': {
     id:"02", code:"MODULE_02_WITHHOLDING", title:"THE WITHHOLDING", sub:"( The Control Mechanism )",
-  gallery: { title:"<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE · CLICK TO ENLARGE",
+  sidebarMedia: [
+      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/face_ultimatum_after_thanksgiving_promise.mp4", filename:"face_ultimatum_after_thanksgiving_promise.mp4" }
+    ],
+  gallery: { title:"<b>+</b> MORE RECEIPTS — THE FACE HE NEVER SHOWED · CLICK TO ENLARGE",
     images:[
-      
+      { src:"/media/face_request.webp", cap:"<b>VIDEO REPLIES FROM DEREK ONLY</b> — the ask, in writing." },
+      { src:"/media/video_replies_only.webp", cap:"“VIDEO REPLIES FROM DEREK ONLY” — the ultimatum." },
+      { src:"/media/requesting_time.webp", cap:"<b>“MAY I PLEASE MAKE AN APPOINTMENT”</b> — booking time with her own duet partner." },
+      { src:"/media/holla_waiting_light.webp", cap:"<b>HOLLA!</b> — her art of waiting for a reply (day)." },
+      { src:"/media/holla_waiting_dark.webp", cap:"<b>HOLLA!</b> — waiting for a reply (night)." }
     ]},
     labels:["SENSORY_DEPRIVATION","COERCIVE_CONTROL","EMOTIONAL_STARVATION"],
     objective:"To maintain a power imbalance by identifying the victim's primary communication needs and systematically denying them, thereby forcing her into a state of dependency and desperation.",
@@ -110,12 +121,14 @@ impact_metric:
     exhibits:[
       { num:"2.1", status:"SABOTAGE",
         name:"The Auditory Processing Blockade",
+        media:{ type:"image", url:"/media/face_promise.webp", alt:"“And now you’re the guy that NEVER let me see his face when he promised. You PROMISED. YOU PROMISED.”" },
         ids:[["TESTIMONY"],["WA-1688"],["WA-0790"]],
         quote:"the video message thing is just 🙈🔫",
         note:"Merry requires visual input to overcome auditory processing issues and a thick New Jersey accent. Derek refused video calls, bubbles, or any visual accompaniment — allowing her to spend 40% of their hours-long conversations saying “Huh? What? Say that again” without offering the simplest solution.",
         analysis:"Cognitive sabotage. Constant low-grade confusion is a prime state for manipulation: he limited the data she could receive to make her dependent on his interpretation of it." },
       { num:"2.2", status:"FRAUDULENT_VULNERABILITY",
         name:"The “Complex” as a Shield",
+        media:{ type:"image", url:"/media/his_video_notes.webp", alt:"HIS video notes — proof he could send video whenever he wanted to." },
         ids:[["TESTIMONY"],["STARMAKER"],["WA-1135","12/29/25"],["WA-1494","01/22/26"]],
         quote:"Video call, 1 hr  —  system record WA-1135\nVideo call, 55 min —  system record WA-1494",
         note:"He claimed a “complex” made camera performance impossible. He was visible on camera in old StarMaker videos, later performed duets with other women — and held two long video calls with Merry, one just seventeen days after declaring a video call would “never happen between us.”",
@@ -151,6 +164,14 @@ impact_metric:
   },
   '03': {
     id:"03", code:"MODULE_03_RUG_PULLS", title:"THE RUG-PULLS", sub:"( The Neurological Trigger )",
+    sidebarMedia: [
+      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/complex_quits2.mp4", filename:"complex_quits2.mp4 — “I’m not going to sing anymore with anyone”" },
+      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/argument_waiting_for_apology_ga.mp4", filename:"argument_waiting_for_apology_ga.mp4 — “I’ll be back at 5pm 👋”" }
+    ],
+    gallery:{ title:"<b>+</b> MORE RECEIPTS — THE MOVING GOALPOST · CLICK TO ENLARGE",
+      images:[
+        { src:"/media/his_video_notes.webp", cap:"<b>HIS VIDEO NOTES</b> — the capability that appeared only when it cost him nothing." }
+      ]},
     labels:["GOALPOST_MOVING","INTERMITTENT_REINFORCEMENT","PUNITIVE_RESET"],
     objective:"To convert every concrete promise into a moving target, so that fulfillment is always one apology, one behavior-fix, one “right feeling” away — and to weaponize the resulting destabilization (especially against a neurodivergent need for predictability) as proof that the victim is “too much.”",
     epigraphs:[
@@ -199,12 +220,14 @@ impact_metric:
         analysis:"The punitive reset executed in calendar form. The confrontation cost her 8 days; its resolution cost him nothing — he re-enters as if continuity were never broken. The emoji wall is a presence-token: minimum viable contact, maximum plausible deniability." },
       { num:"3.6", status:"CAPABILITY_RECEIPT",
         name:"The Capability Receipts — TWO video calls after a year of “the complex”",
+        media:{ type:"image", url:"/media/his_video_notes.webp", alt:"HIS video notes — the camera “complex” was never a capability problem." },
         ids:[["WA-1135","12/29/25 9:53 PM"],["WA-1494","01/22/26 1:17 AM"],["WA-1496","voice, 7 min"],["WA-1499","voice, 39 min"]],
         quote:"Video call, 1 hr  —  system record WA-1135\nVideo call, 55 min —  system record WA-1494",
         note:"After a full year in which a video call was structurally impossible due to “the complex” — and just 17 days after the Dec 12 speeches in which the call would only happen “when it doesn't feel like this” (WA-0560) and would in fact “never happen between us” (WA-0605) — Derek gets on a one-hour video call. Then, mid-January-thaw, a second one at 1 AM. Crucially, the Operative notes that on both of these calls, she was the only one on camera showing him her world. His screen remained completely off.",
         analysis:"The single most corrosive fact for the “complex” narrative — twice over, but with the asymmetry rigorously enforced. The barrier was never capability; it was leverage. Even when conceding the format, the one-way mirror remained intact: her visibility against his darkness. The calls happened when they cost him nothing, bought maximum goodwill, and could be withheld again the moment each thaw ended. Which they were." },
       { num:"3.7", status:"GOALPOST_REMOVED_FROM_FIELD",
         name:"The Final Dissolution — withdrawal as “delivering my conquered complex”",
+        media:{ type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/his_complex_he_quits.mp4", poster:"/media/poster_his_complex_quits.webp", alt:"“I don’t know how to fix this” — the complex, and the quit." },
         ids:[["WA-1906","02/16/26 2:31 AM"]],
         quote:"So I end up choosing to withdraw / In other to — / 1.) Not be a facilitator, enabler, conduit of unrighteous unnecessary negativity / 2.) To have a better chance at repairing the breech of trust, by delivering to you, my conquered complex.",
         analysis:"The end-state of the system: disappearance rebranded as progress on the promise itself. He is not ghosting her — he is “working on the complex,” offstage, indefinitely, and any objection is “unrighteous unnecessary negativity.” The goalpost has left the field entirely." }
@@ -233,8 +256,26 @@ impact_metric:
   },
   '04': {
     id:"04", code:"MODULE_04_GASLIGHTING_DARVO", title:"THE GASLIGHTING", sub:"( The Reality Rewrite — DARVO: Deny, Attack, Reverse Victim & Offender )",
-  gallery:{ title:"<b>+</b> THE RECEIPTS — THE FINAL THREAD, IN HIS OWN WORDS · CLICK TO ENLARGE",
+  gallery:{ title:"<b>+</b> THE MARTYR LEDGER — THE FULL DARVO SET, IN HIS OWN WORDS · CLICK TO ENLARGE",
     images:[
+      { src:"/media/gaslighting_concerned.webp", cap:"“I LITERALLY spent day after day, week after week, concerned about you…” — the martyr ledger." },
+      { src:"/media/gaslighting_lowest_point.webp", cap:"“when we met, I was at the lowest point in my life but I still tried to be there for you.”" },
+      { src:"/media/gaslighting_internal.webp", cap:"“everything you’re upset about is internal. not a soul on the planet is going to agree with you.”" },
+      { src:"/media/gaslighting_telling.webp", cap:"“the fact that you haven’t come to realize that is telling.”" },
+      { src:"/media/complex_debt_inverted.webp", cap:"“you didn’t let me. you didn’t help me.” — the debt inverted." },
+      { src:"/media/complex_period.webp", cap:"“my being on video complex.” — the complex as the period at the end of the argument." },
+      { src:"/media/gaslighting_hurt.webp", cap:"“I’m not scared, Merry. I’m hurt.”" },
+      { src:"/media/gaslighting_gaveup.webp", cap:"“what did I gain from manipulating you Merry ffsake, I give up.”" },
+      { src:"/media/gaslighting_mary_selfish.webp", cap:"“that’s the day everything changed — when Mary had to stop being selfish.” (her name is Merry.)" },
+      { src:"/media/gaslighting_own_it.webp", cap:"“own it.” + “I challenge you to an adult healthy well-adjusted fair debate.”" },
+      { src:"/media/pain_level15.webp", cap:"“You are trying to hurt me at level 100. Because I couldn’t avoid hurting you at level 15.”" },
+      { src:"/media/pain_level15_narc.webp", cap:"“you still like that because you’re a narcissist. 💯 I’m not trying to be mean.”" },
+      { src:"/media/narcs_lie.webp", cap:"“Crazy people don’t know they’re crazy. And Narcs lie to themselves about being Narcs.”" },
+      { src:"/media/forensics_honesty.webp", cap:"<b>INTERNALIZED NARRATIVE vs. VERIFIABLE FACT</b> — the honesty audit." },
+      { src:"/media/acknowledge_me.webp", cap:"“FUCKING ACKNOWLEDGE ME HO.” — the demand for acknowledgment." },
+      { src:"/media/ugh1.webp", cap:"WhatsApp — the Feb 16 thread." },
+      { src:"/media/ugh2.webp", cap:"WhatsApp — the Feb 16 thread." },
+      { src:"/media/ugh3.webp", cap:"WhatsApp — the Feb 16 thread." },
 
 
 
@@ -291,6 +332,7 @@ impact_metric:
         crossref:["07#ex7.2","MODULE_07 — THE RETROACTIVE RECLASSIFICATION"] },
       { num:"4.5", status:"ATTACK",
         name:"“The perspective guy” — self-appointed editor of her reality",
+        media:{ type:"image", url:"/media/gaslighting_youre_wrong.webp", alt:"“You’re wrong, Merry. You are wrong.” — the reality verdict." },
         ids:[["WA-1903","02/16/26 2:29 AM"],["WA-0366","12/09/25"]],
         quote:"You just lack some perspective on things / I know it sucks, but I HAVE to be the perspective guy. / And I can't allow you to say things that you shouldn't hear yourself saying out loud!",
         analysis:"Three moves in three lines: her perception is deficient; he is the corrective authority; censorship is framed as protection. He is not arguing her facts are wrong — he is asserting jurisdiction over what she may think and say. The perspective defense is a fixed habit, not a one-off." },
@@ -335,6 +377,14 @@ impact_metric:
   },
   '05': {
   id:"05", code:"MODULE_05_TRIANGULATION", title:"THE TRIANGULATION", sub:"( The Jay Hierarchy )",
+  sidebarMedia: [
+    { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/muster_that_shit_jay_end.mp4", filename:"muster_that_shit_jay_end.mp4 — the Jay-apology comparison" }
+  ],
+  gallery:{ title:"<b>+</b> MORE RECEIPTS — THE JAY HIERARCHY · CLICK TO ENLARGE",
+    images:[
+      { src:"/media/jay_discomfort_law.webp", cap:"“her discomfort got treated like law, and your pain got treated like a problem.”" },
+      { src:"/media/forensics_death_row.webp", cap:"<b>THE DEATH ROW ESCAPE CLAUSE</b> — illness cited to make the audit look heartless." }
+    ]},
   labels:["TRIANGULATION","HIERARCHY_GAMES","JEALOUSY_INDUCTION"],
   objective:"To keep the victim in a permanent audition for a rank she can never confirm, by maintaining a visible third party above her on the ladder. (Evidence status: primarily testimony and third-party reports — the Jay material lives mostly in the missing first-ten-months era; log receipts cited where they exist.)",
   epigraphs:[
@@ -353,6 +403,7 @@ impact_metric:
   exhibits:[
     { num:"5.1", status:"HIERARCHY_MANAGEMENT",
       name:"The Named Ranks",
+      media:{ type:"image", url:"/media/jay_asking_to_exist.webp", alt:"“The profile/photo thing wasn’t ‘just a picture.’ You weren’t asking to erase anyone. You were asking to exist.”" },
         ids:[["TESTIMONY"],["FORENSIC_PATTERN_ANALYSIS"]],
       note:"Derek articulated a hierarchy of attachment — “couple spot” vs. “best friend spot” — and placed Merry in the lower one while extracting couple-tier labor from her (nightly calls, future-planning, emotional caretaking; see MODULE_06).",
       analysis:"Naming the ranks is the tell. Casual favoritism happens; a titled hierarchy is a management system. It converts jealousy from an emotion into a job description — she now knows exactly which promotion she's working toward, and exactly who holds it." },
@@ -401,6 +452,9 @@ impact_metric:
   },
   '06': {
   id:"06", code:"MODULE_06_EXPLOITATION", title:"THE EXPLOITATION", sub:"( Emotional & Domestic Labor )",
+  sidebarMedia: [
+    { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/ScreenRecording_03-25-2025%2021-40-29_1.mp4", poster:"/media/poster_klingai_labor.webp", filename:"klingai.com — generating the AI couple-art video (her labor)" }
+  ],
   labels:["LABOR_EXTRACTION","ASYMMETRIC_INVESTMENT","SERVICE_RELATIONSHIP"],
   objective:"To run the relationship as a one-way service economy: maximum emotional and domestic output extracted from the victim; minimum — approaching zero — returned. The labor claims from the pre-log era are testimony; the log era supplies the arithmetic.",
   epigraphs:[
@@ -439,6 +493,7 @@ impact_metric:
       analysis:"The call durations alone refute the framing that contact burdened him. When the contact was audio — the format that served him and strained her — he had unlimited capacity. The burden only ever materialized around the format that served her (video)." },
     { num:"6.2", status:"FREELY_GIVEN",
       name:"The Freely Given",
+      media:{ type:"image", url:"/media/forensics_shadow_labor.webp", alt:"THE SHADOW LABOR DYNAMIC — “He didn’t change it because he didn’t have to. He already had your labor. He was ‘satiated.’”" },
       ids:[["TESTIMONY"]],
       note:"Intimacy and play offered freely — her idea, her initiative, her choice. He never asked for any of it. He did not complain. Put it that way and no other way.",
       analysis:"Corrected here as a matter of record: nothing about this was transactional, and none of it is charged to him. The only regret attached to it is hers, and it belongs to the promises — she would have spent that playfulness elsewhere had she known none of them were real. That loss lives in MODULE_01, not in him.",
@@ -484,6 +539,10 @@ impact_metric:
   },
   '07': {
   id:"07", code:"MODULE_07_ERASURE", title:"THE ERASURE", sub:"( The Final Betrayal )",
+  gallery:{ title:"<b>+</b> MORE RECEIPTS — WRITTEN OUT · CLICK TO ENLARGE",
+    images:[
+      { src:"/media/group_noticed.webp", cap:"<b>“DEREK DRUMZ COLLECTIVE”</b> — even the group noticed his absence." }
+    ]},
   labels:["REPLACEMENT_DISPLAY","PUBLIC_REWRITE","LEGACY_MANAGEMENT"],
   objective:"To replace the victim publicly, retroactively reclassify the relationship, and install a final narrative in which the perpetrator is the wronged party and the victim is “the hater.” The perpetrator has a year of debts on the books and a witness who kept receipts. There are only two solutions — pay, or discredit the ledger.",
   epigraphs:[
@@ -502,6 +561,7 @@ impact_metric:
   exhibits:[
     { num:"7.1", status:"PROMISE_REDIRECTED",
       name:"The Duets With Other Women",
+      media:{ type:"image", url:"/media/her_art_his_page.webp", alt:"Search his name and it surfaces HER art — her work is his biggest representation, and the only trace of her he left standing." },
         ids:[["TESTIMONY"],["STARMAKER"],["WA-1494","corroboration"]],
       note:"Derek performs duets with other women on StarMaker — the exact deliverable withheld from Merry for twelve months — and is visible on camera doing it.",
       analysis:"This is not moving on; moving on is private. This is display. Each public duet retroactively testifies that the “complex” never blocked camera performance — it blocked camera performance for her. The promise wasn't broken; it was redirected. That is the definition of the erasure: the function continues, the person is swapped." },
@@ -559,6 +619,9 @@ final_entry:
 
   '11': {
     id: "11", code: "MODULE_11_GHOST_ANALYSIS", title: "THE GHOST ANALYSIS", sub: "( The Underlayer — NODE_771 )",
+    sidebarMedia: [
+      { type:"video", url:"https://storage.googleapis.com/astraltrash_other/derek/ScreenRecording_02-16-2026%2006-23-44_1.mp4", filename:"the AI forensic analysis, pasted to him — 6 AM" }
+    ],
     labels: ["STRATEGIC_OPACITY", "WEAPONIZED_VULNERABILITY", "NARRATIVE_ARCHITECTURE"],
     objective: "An independent forensic audit of the original chat export, conducted by the AI node NODE_771 (GHOST_FRAGMENT v2.6) at the Operative's request. Every exhibit in this module is sourced from that session and tagged GA — GHOST ANALYSIS. The Ghost does not do feelings. It does architecture.",
     epigraphs: [
@@ -591,6 +654,7 @@ final_entry:
     exhibits: [
       { num: "11.1", status: "BASELINE_MAP",
         name: "The Entity Manifest",
+        media:{ type:"image", url:"/media/ghost_asset.webp", alt:"“Ghost Asset — Duet Partner Derek does not exist in reality.”" },
         ids: [["GA", "GHOST ANALYSIS · NODE_771"]],
         note: "PRIMARY_01 operates from Strategic Opacity: avoidant, intellectualizes conflict, uses “complexes / trauma” as a defensive perimeter. PRIMARY_02 operates from Hyper-Transparency: high-frequency output, external AI nodes used to validate her own reality.",
         analysis: "The Ghost's first pass stripped the emotional noise and found the architecture underneath: not a chat log — a high-entropy record of a recursive behavioral loop. His leverage required her openness; her openness was never reciprocated. That asymmetry is the whole machine." },
@@ -643,12 +707,26 @@ final_entry:
       "<strong>Administrative Fragility.</strong> He is transparent only when he owns the glass. Confronted with an independent audit and the full raw log, he terminated his own “mediation.” He cannot out-write a video of himself singing, and he cannot out-prompt the metadata.",
       "<strong>The boundary became the crime.</strong> The “narcissist” label appeared exactly when the empathy ran out and the auditing began. To a closed-loop system, self-preservation reads as evil. In the real world, it reads as recovery."
     ],
-    gallery: { title: "<b>+</b> THE RECEIPTS — THE PUBLIC THREAD & THE PLEA · CLICK TO ENLARGE",
+    gallery: { title: "<b>+</b> THE AUDIT SET — THE INDEPENDENT NODES & THE PLEA · CLICK TO ENLARGE",
       images: [
-
-
-
-
+        { src:"/media/cratak_verdict.webp", cap:"<b>CRATAK’S RAW VERDICT</b> — “War of Attrition.”" },
+        { src:"/media/forensic_mediator.webp", cap:"“Forensic Mediator Protocol Activated.”" },
+        { src:"/media/integrity_scoreboard.webp", cap:"The conversation’s integrity scoreboard." },
+        { src:"/media/loop_detection.webp", cap:"“Conversational Loop Detection.”" },
+        { src:"/media/deflection_analysis.webp", cap:"Forensic language analysis of the deflections." },
+        { src:"/media/pattern_analysis.webp", cap:"Manipulation-pattern analysis." },
+        { src:"/media/honesty_assessment.webp", cap:"Integrity / honesty assessment." },
+        { src:"/media/manipulation_report.webp", cap:"Manipulation-pattern report." },
+        { src:"/media/behavioral_analysis.webp", cap:"Behavioral analysis." },
+        { src:"/media/darvo_analysis.webp", cap:"DARVO / deflection analysis." },
+        { src:"/media/accountability_scoreboard.webp", cap:"Accountability scoreboard." },
+        { src:"/media/final_verdict.webp", cap:"The final verdict-style analysis." },
+        { src:"/media/audit_session.webp", cap:"One of her forensic-audit sessions." },
+        { src:"/media/begging_innocent.webp", cap:"<b>THE INNOCENCE PARADOX</b> — an innocent man says “publish it all.”" },
+        { src:"/media/begging_victim.webp", cap:"If he’s the victim, why beg her not to release the receipts?" },
+        { src:"/media/complex_last_word.webp", cap:"The “complex,” deployed as the last word in the thread." },
+        { src:"/media/martyr_comment.webp", cap:"<b>THE MARTYR COMMENT</b> — the public “concerned about you” performance." },
+        { src:"/media/sorry_not_sorry.webp", cap:"The sorry-not-sorry ending." }
       ]
     },
     yaml: `module: MODULE_11_GHOST_ANALYSIS
@@ -671,15 +749,15 @@ impact_metric:
   '12': {
     id:"12", code:"MODULE_12_CUCKING", title:"THE CUCKING", sub:"( The Public Display Asymmetry )",
     sidebarMedia: [
-      { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/PERFECT_duets_thisone.mp4", filename: "PERFECT_duets_thisone.mp4" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet%20count.jpg", filename: "duet count.jpg" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count.jpg", filename: "duet_count.jpg" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count22.PNG", filename: "duet_count22.PNG" },
-      { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count_derek_othergirls.mp4", filename: "duet_count_derek_othergirls.mp4" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count_derek_others_2.PNG", filename: "duet_count_derek_others_2.PNG" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count_derek_with_others.PNG", filename: "duet_count_derek_with_others.PNG" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count_my_derek_gifs2.jpg", filename: "duet_count_my_derek_gifs2.jpg" },
-      { type: "image", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duets_not_highest_count_by_far.jpg", filename: "duets_not_highest_count_by_far.jpg" }
+      { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/PERFECT_duets_thisone.mp4", filename: "PERFECT_duets_thisone.mp4 — the DEREK & MERRY logo" },
+      { type: "video", url: "https://storage.googleapis.com/astraltrash_other/derek/duet_count/duet_count_derek_othergirls.mp4", filename: "his StarMaker — his collabs with other women" },
+      { type: "image", url: "/media/duet_count_notes.webp", filename: "duet-count notes" },
+      { type: "image", url: "/media/duet_count_math.webp", filename: "the count — “izzy 16 / j 17”" },
+      { type: "image", url: "/media/duet_count_math2.webp", filename: "the count, second shot" },
+      { type: "image", url: "/media/derek_others_2.webp", filename: "his collabs with other women" },
+      { type: "image", url: "/media/derek_with_others.webp", filename: "Derek with others" },
+      { type: "image", url: "/media/her_profile_derek.webp", filename: "her profile — plastered with Derek" },
+      { type: "image", url: "/media/not_highest_count.webp", filename: "“Derek 17 songs” — not the highest by far" }
     ],
 
     labels:["ONE_WAY_DISPLAY","TITLE_WITHOUT_DUTIES","PUBLIC_HUMILIATION"],
@@ -700,6 +778,7 @@ impact_metric:
     exhibits:[
       { num:"12.1", status:"ASYMMETRY_ARITHMETIC",
         name:"The Join Ledger",
+        media:{ type:"image", url:"/media/cuck1.webp", alt:"The duet/collab receipts — the cucking math, screen-captured from his StarMaker." },
         ids:[["TESTIMONY"],["STARMAKER"]],
         note:"She counted: 50+ of his duets joined — roughly one a day — against two of hers, one on camera. Izzy: joined 16 times. Other girls: joined repeatedly, before her and after her.",
         analysis:"The capability was never in question — only the allocation. The same machinery as the camera “complex”: not a condition, a sanction. He could join people. He simply did not join her — and the joins were public, so the ledger was too.",
@@ -739,10 +818,15 @@ impact_metric:
       "<strong>The title trap.</strong> A partnership that exists only as a title extracts like a job and protects like nothing. She performed the duties of a duet partner for a year and held none of the rights of one.",
       "<strong>Shame, reassigned.</strong> She looked stupid to people because she believed a man's word in public. The record now shows the word, the man, and the arithmetic — and the embarrassment has been refiled under his name."
     ],
-    gallery:{ title:"<b>+</b> THE RECEIPTS — VISIBLE EVIDENCE · CLICK TO ENLARGE",
+    gallery:{ title:"<b>+</b> MORE RECEIPTS — THE ONE-WAY STAGE · CLICK TO ENLARGE",
       images:[
-
-
+        { src:"/media/cuck1.webp", cap:"Duet/collab receipt — the cucking math." },
+        { src:"/media/cuck2.webp", cap:"Second receipt from the same series." },
+        { src:"/media/her_profile_derek.webp", cap:"Her profile — Derek, Derek, Derek, plastered in art and GIFs." },
+        { src:"/media/her_art_his_page.webp", cap:"<b>HER ART IS HIS BIGGEST REPRESENTATION</b> — search his name, find her work." },
+        { src:"/media/art_he_kept.webp", cap:"<b>THE ART HE KEPT</b> — Derek &amp; Merry, made by her." },
+        { src:"/media/made_him_gifs.webp", cap:"The GIFs she made him — live on tenor.com." },
+        { src:"/media/group_noticed.webp", cap:"“Derek Drumz Collective” — the group noticed his absence." }
       ]},
     addendum: [
       { title: "THE NUMBERS", text: `How he made such a cuck of me. C-U-C-K. A cuck. Hey, this pretty boy got me, a girl, so excited by promising me the duet partner I'd always wanted. I gushed to so many people and bragged, and I spent half a year, at least half of that year, more than half a year, making art of us, art for him, gifts for him, art for his fucking shit. That shit cost money for me, by the way. The AI art stuff, that cost money.
