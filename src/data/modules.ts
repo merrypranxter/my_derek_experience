@@ -33,8 +33,8 @@ export const MODULE_DATA: Record<string, any> = {
     labels:["LOVE_BOMBING","FUTURE_FAKING"],
     objective:"The establishment of an emotional contract designed to secure maximum investment from the victim while providing zero tangible commitment from the perpetrator. (Pre-log era: user testimony + StarMaker profile + third-party reports; log-era receipts cross-referenced in MODULE_03.)",
     epigraphs:[
-      { who:"Merry", src:"WA-1851", text:"I wasn’t the one that put the idea in MY head. That was you. I was fine. I didn’t have a duet partner never had never would as far as I was concerned before you came up to me and offered yourself to be the thing I’d ALWAYS WANTED so bad on a silver fucking platter" },
-      { who:"Derek", src:"WA-0605", text:"When you can make, or even just display, one single consideration in an outward direction — then I will continue to make sure someone is placing considerations into this pre-existing complex…" }
+      { who:"Merry", src:"WA-2386", text:"I wasn’t the one that put the idea in MY head. That was you. I was fine. I didn’t have a duet partner never had never would as far as I was concerned before you came up to me and offered yourself to be the thing I’d ALWAYS WANTED so bad on a silver fucking platter" },
+      { who:"Derek", src:"WA-0671", text:"When you can make, or even just display, one single consideration in an outward direction — then I will continue to make sure someone is placing considerations into this pre-existing complex…" }
     ],
     mechanismTitle:"<b>I.</b> THE MECHANISM — THE BLUEPRINT OF THE SCAM",
     mechanism:[
@@ -53,8 +53,8 @@ export const MODULE_DATA: Record<string, any> = {
         analysis:"By granting one single “win” early on, he proved the promise was possible, making a year of silence read as a “temporary hurdle.” This manufactured the Sunk Cost Fallacy: she stayed because she had already invested so much in the idea of the partnership." },
       { num:"1.2", status:"MANIPULATED",
         name:"The “Two-Week” Video Call Timeline",
-        ids:[["TESTIMONY"],["WA-0560"],["WA-0605"]],
-        note:"Derek explicitly stated that within “a couple of weeks” they would have a face-to-face video call. The couple of weeks became months, then became a “rule” where the date was pushed back indefinitely — corroborated in-log by WA-0560 and WA-0605.",
+        ids:[["TESTIMONY"],["WA-0626"],["WA-0671"]],
+        note:"Derek explicitly stated that within “a couple of weeks” they would have a face-to-face video call. The couple of weeks became months, then became a “rule” where the date was pushed back indefinitely — corroborated in-log by WA-0626 and WA-0671.",
         analysis:"The carrot on a stick. A specific but fake timeline keeps the victim in anticipatory anxiety. The promise was never intended to be kept; it was intended to be negotiated. This is the origin of the goalpost system.",
         crossref:["03","MODULE_03 — THE RUG-PULLS"] },
       { num:"1.3", status:"FANTASY_CONTROL",
@@ -75,7 +75,7 @@ evidence_points:
       reality: "One song performed; zero collaboration for 12 months", status: FRAUDULENT }
   - { event: "Video Call Timeline", promise: "Face-to-face within 'a couple of weeks'",
       reality: "Delayed indefinitely; used as punishment tool", status: MANIPULATED,
-      log_corroboration: [WA-0560, WA-0605] }
+      log_corroboration: [WA-0626, WA-0671] }
   - { event: "Relocation Proposal", promise: "Merry moving to Atlantic City",
       reality: "Derek remained unhoused; no viable plan ever existed", status: FANTASY_CONTROL }
 impact_metric:
