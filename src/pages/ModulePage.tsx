@@ -37,7 +37,7 @@ const MediaEmbed = ({ media, setLightbox }: { media: any, setLightbox: any }) =>
   if (media.type === 'video') {
     return (
       <div className="my-5 w-full md:max-w-[50%] overflow-hidden rounded border border-[var(--atm-cyan)]/30 shadow-[0_0_15px_rgba(53,224,255,0.1)]">
-        <video src={media.url} controls playsInline className="w-full h-auto" />
+        <video src={media.url} poster={media.poster} controls playsInline preload="none" className="w-full h-auto" />
       </div>
     );
   }
@@ -147,9 +147,9 @@ export default function ModulePage() {
             
             <section className="dsec" style={{ display: 'flow-root' }}>
               <h2>§ 2 — THE THING I ALWAYS WANTED</h2>
-              <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px', cursor: 'zoom-in' }} onClick={() => setLightbox({ src: 'https://storage.googleapis.com/astraltrash_other/derek/DUET_PARTNER_ORIGINAL.PNG', cap: '<b>THE ORIGINAL ASK</b> — “Will you be my officially unofficial video duet partner? 💍”' })}>
-                <img referrerPolicy="no-referrer" 
-                  src="https://storage.googleapis.com/astraltrash_other/derek/DUET_PARTNER_ORIGINAL.PNG" 
+              <figure style={{ float: 'right', marginLeft: '1.5rem', marginBottom: '1rem', width: '38%', minWidth: '220px', cursor: 'zoom-in' }} onClick={() => setLightbox({ src: '/media/duet_partner_original.webp', cap: '<b>THE ORIGINAL ASK</b> — “Will you be my officially unofficial video duet partner? 💍”' })}>
+                <img referrerPolicy="no-referrer"
+                  src="/media/duet_partner_original.webp"
                   alt="Duet Partner Offer" 
                   style={{ width: '100%', border: '1px solid var(--atm-paper-edge)', opacity: 0.95, filter: 'grayscale(0.15) contrast(1.1) sepia(0.2)', transition: 'filter 0.2s', pointerEvents: 'none' }} 
                   className="archival-scanlines hover:filter-none"
@@ -535,7 +535,7 @@ export default function ModulePage() {
                 onClick={() => setLightbox({ src: m.url, cap: m.filename, type: m.type })}
               >
                 {m.type === 'video' ? (
-                  <video src={m.url} preload="none" className="w-full h-[100px] object-cover filter saturate-75 opacity-80 group-hover:saturate-100 group-hover:opacity-100 transition-all pointer-events-none" />
+                  <video src={m.url} poster={m.poster} preload="none" className="w-full h-[100px] object-cover filter saturate-75 opacity-80 group-hover:saturate-100 group-hover:opacity-100 transition-all pointer-events-none" />
                 ) : (
                   <img src={m.url} alt={m.filename} loading="lazy" referrerPolicy="no-referrer" className="w-full h-[100px] object-cover filter saturate-75 opacity-80 group-hover:saturate-100 group-hover:opacity-100 transition-all" />
                 )}
