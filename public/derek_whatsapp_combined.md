@@ -1,47 +1,47 @@
-[11/5/25, 9:06:09 PM] Derek Vasilakis: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
-[11/5/25, 9:06:09 PM] Derek Vasilakis: ‎Derek is a contact.
-[11/5/25, 3:20:21 PM] Derek Vasilakis: Hey chica 👋
-[11/5/25, 11:11:56 PM] Derek Vasilakis: My security code with you changed?  🤔 
+[11/5/25, 9:06:09 PM] Derek ********: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[11/5/25, 9:06:09 PM] Derek ********: ‎Derek is a contact.
+[11/5/25, 3:20:21 PM] Derek ********: Hey chica 👋
+[11/5/25, 11:11:56 PM] Derek ********: My security code with you changed?  🤔 
 Did you get a new device?
-[11/5/25, 11:11:56 PM] Derek Vasilakis: LOL 😆
-[11/5/25, 11:11:56 PM] Derek Vasilakis: Never
-[11/5/25, 11:11:57 PM] Derek Vasilakis: Hello Miss Merry 👋
-[11/5/25, 11:11:57 PM] Derek Vasilakis: I've been sleeping
-[11/5/25, 11:11:57 PM] Derek Vasilakis: Mini-coma day
-[11/5/25, 11:11:57 PM] Derek Vasilakis: It's been overdue 😂
-[11/5/25, 11:11:57 PM] Derek Vasilakis: Fuck
-[11/5/25, 11:11:57 PM] Derek Vasilakis: No reception again??
-[11/5/25, 11:11:58 PM] Derek Vasilakis: Uvghhhhh&h&ggg
-[11/5/25, 11:11:58 PM] Derek Vasilakis: Well, just wanted to say hi between naps
+[11/5/25, 11:11:56 PM] Derek ********: LOL 😆
+[11/5/25, 11:11:56 PM] Derek ********: Never
+[11/5/25, 11:11:57 PM] Derek ********: Hello Miss Merry 👋
+[11/5/25, 11:11:57 PM] Derek ********: I've been sleeping
+[11/5/25, 11:11:57 PM] Derek ********: Mini-coma day
+[11/5/25, 11:11:57 PM] Derek ********: It's been overdue 😂
+[11/5/25, 11:11:57 PM] Derek ********: Fuck
+[11/5/25, 11:11:57 PM] Derek ********: No reception again??
+[11/5/25, 11:11:58 PM] Derek ********: Uvghhhhh&h&ggg
+[11/5/25, 11:11:58 PM] Derek ********: Well, just wanted to say hi between naps
 Hibernation is in the air
-[11/5/25, 11:11:58 PM] Derek Vasilakis: I miss chatting with you
-[11/5/25, 11:11:58 PM] Derek Vasilakis: Your voice is much sweeter & nicer to me than my own voice is
-[11/5/25, 11:12:06 PM] Derek Vasilakis: ‎Advanced chat privacy was turned on. No one can auto-save media, export history, ask Meta AI questions, or summarize unread messages in this chat.
-[11/6/25, 8:03:27 AM] Derek Vasilakis: https://www.tiktok.com/t/ZTMpGJgAK
-[11/6/25, 9:40:44 AM] Derek Vasilakis: I think it's hot that it doesn't move
-[11/6/25, 9:41:18 AM] Derek Vasilakis: Now that zip is hot
+[11/5/25, 11:11:58 PM] Derek ********: I miss chatting with you
+[11/5/25, 11:11:58 PM] Derek ********: Your voice is much sweeter & nicer to me than my own voice is
+[11/5/25, 11:12:06 PM] Derek ********: ‎Advanced chat privacy was turned on. No one can auto-save media, export history, ask Meta AI questions, or summarize unread messages in this chat.
+[11/6/25, 8:03:27 AM] Derek ********: https://www.tiktok.com/t/ZTMpGJgAK
+[11/6/25, 9:40:44 AM] Derek ********: I think it's hot that it doesn't move
+[11/6/25, 9:41:18 AM] Derek ********: Now that zip is hot
 [11/6/25, 9:41:26 AM] Merry: zip?
-[11/6/25, 9:42:00 AM] Derek Vasilakis: Super cute!
-[11/6/25, 9:44:58 AM] Derek Vasilakis: Warms the cockles of my cock
+[11/6/25, 9:42:00 AM] Derek ********: Super cute!
+[11/6/25, 9:44:58 AM] Derek ********: Warms the cockles of my cock
 [11/6/25, 9:45:10 AM] Merry: ooo can i see?
-[11/6/25, 9:46:02 AM] Derek Vasilakis: 😂
-[11/6/25, 9:47:25 AM] Derek Vasilakis: https://youtube.com/shorts/WoYZ4pT8amE?si=XN5-GY13kdpXEZU2
-[11/6/25, 9:47:37 AM] Derek Vasilakis: Reminded me of this  😂
+[11/6/25, 9:46:02 AM] Derek ********: 😂
+[11/6/25, 9:47:25 AM] Derek ********: https://youtube.com/shorts/WoYZ4pT8amE?si=XN5-GY13kdpXEZU2
+[11/6/25, 9:47:37 AM] Derek ********: Reminded me of this  😂
 [11/6/25, 9:51:53 AM] Merry: lol
 [11/6/25, 9:52:02 AM] Merry: how is derek tout
 [11/6/25, 9:52:04 AM] Merry: rosy
 [11/6/25, 9:52:06 AM] Merry: TODH
 [11/6/25, 9:52:09 AM] Merry: TODAYYYY WTF
-[11/6/25, 10:11:28 AM] Derek Vasilakis: 😂
-[11/6/25, 10:11:35 AM] Derek Vasilakis: You have vyvanse fingers
-[11/6/25, 10:12:09 AM] Derek Vasilakis: Derek is good enough today
+[11/6/25, 10:11:28 AM] Derek ********: 😂
+[11/6/25, 10:11:35 AM] Derek ********: You have vyvanse fingers
+[11/6/25, 10:12:09 AM] Derek ********: Derek is good enough today
 How is Merry?
-[11/6/25, 10:12:33 AM] Derek Vasilakis: vyvanse fingers Typing
-[11/6/25, 10:12:59 AM] Derek Vasilakis: Exciting
+[11/6/25, 10:12:33 AM] Derek ********: vyvanse fingers Typing
+[11/6/25, 10:12:59 AM] Derek ********: Exciting
 [11/6/25, 10:13:14 AM] Merry: yeah but ima be broke af
-[11/6/25, 10:14:37 AM] Derek Vasilakis: For now....
-[11/6/25, 10:15:04 AM] Derek Vasilakis: I slept 30 of the last 48 hours 🫩
-[11/6/25, 10:15:16 AM] Derek Vasilakis: And I still don't wanna get up
+[11/6/25, 10:14:37 AM] Derek ********: For now....
+[11/6/25, 10:15:04 AM] Derek ********: I slept 30 of the last 48 hours 🫩
+[11/6/25, 10:15:16 AM] Derek ********: And I still don't wanna get up
 [11/6/25, 10:17:46 AM] Merry: bc i literally just do not have his stupid rinkydink bluetooth speaker  lol
 [11/6/25, 10:17:56 AM] Merry: so tough shut can’t guve it back idiot
 [11/6/25, 10:18:03 AM] Merry: oh and this is fun
@@ -49,26 +49,26 @@ How is Merry?
 [11/6/25, 10:20:23 AM] Merry:
 ‎[11/6/25, 10:20:26 AM] Merry: ‎video omitted
 ‎[11/6/25, 10:20:29 AM] Merry: ‎video omitted
-[11/6/25, 5:09:40 PM] Derek Vasilakis: Wow!  
+[11/6/25, 5:09:40 PM] Derek ********: Wow!  
 Brandon answered her!?
 
 Unbelievable....
 [11/6/25, 5:14:25 PM] Merry: still am feeling daily many times a day
-[11/6/25, 5:14:52 PM] Derek Vasilakis: Unreal
+[11/6/25, 5:14:52 PM] Derek ********: Unreal
 [11/6/25, 5:15:27 PM] Merry: i actually plan to be subtly but surely WAY MORE ANNOYING for a while after i actually am in possession of my belingungs just for funsies bc i know what a paranoid weirdo he is now
-[11/6/25, 6:27:29 PM] Derek Vasilakis: My God, it's so hot in this casino right now 🥵
-[11/6/25, 6:28:16 PM] Derek Vasilakis: Yeah, that would work really well
-[11/6/25, 6:29:13 PM] Derek Vasilakis: Just tryin to what?  😂
+[11/6/25, 6:27:29 PM] Derek ********: My God, it's so hot in this casino right now 🥵
+[11/6/25, 6:28:16 PM] Derek ********: Yeah, that would work really well
+[11/6/25, 6:29:13 PM] Derek ********: Just tryin to what?  😂
 ‎[11/6/25, 6:29:16 PM] Merry: ‎video omitted
 ‎[11/6/25, 6:29:18 PM] Merry: ‎video omitted
 [11/6/25, 6:29:25 PM] Merry: trying to help man
-[11/6/25, 6:30:53 PM] Derek Vasilakis: Wtf am I watching 😳
-[11/6/25, 6:32:43 PM] Derek Vasilakis: Is that you busy at work?
+[11/6/25, 6:30:53 PM] Derek ********: Wtf am I watching 😳
+[11/6/25, 6:32:43 PM] Derek ********: Is that you busy at work?
 [11/6/25, 6:32:50 PM] Merry: yes lol
-[11/6/25, 6:33:15 PM] Derek Vasilakis: You're a 🥜
-[11/6/25, 6:33:18 PM] Derek Vasilakis: 💯
-[11/6/25, 6:33:41 PM] Derek Vasilakis: Choose an animal
-[11/6/25, 6:36:09 PM] Derek Vasilakis: I would say i could give you a call but you never hear me in a million years
+[11/6/25, 6:33:15 PM] Derek ********: You're a 🥜
+[11/6/25, 6:33:18 PM] Derek ********: 💯
+[11/6/25, 6:33:41 PM] Derek ********: Choose an animal
+[11/6/25, 6:36:09 PM] Derek ********: I would say i could give you a call but you never hear me in a million years
 ‎[11/6/25, 7:42:35 PM] Merry: ‎sticker omitted
 ‎[11/7/25, 2:26:43 PM] Merry: ‎video note omitted
 ‎[11/7/25, 5:17:00 PM] Merry: ‎video note omitted
@@ -76,26 +76,26 @@ Unbelievable....
 ‎[12/5/25, 5:36:57 PM] Merry: ‎video note omitted
 [12/5/25, 6:17:08 PM] Merry: ‎Voice call, ‎9 min
 ‎[12/5/25, 6:42:15 PM] Merry: ‎video note omitted
-[12/5/25, 7:09:02 PM] Derek Vasilakis: Yeah, you were a mess yesterday 😅
+[12/5/25, 7:09:02 PM] Derek ********: Yeah, you were a mess yesterday 😅
 ‎[12/5/25, 7:09:15 PM] Merry: ‎video note omitted
-[12/5/25, 7:09:23 PM] Derek Vasilakis: Fuck Mac
+[12/5/25, 7:09:23 PM] Derek ********: Fuck Mac
 ‎[12/5/25, 7:09:53 PM] Merry: ‎video note omitted
-[12/5/25, 7:09:57 PM] Derek Vasilakis: Lol
-[12/5/25, 7:10:25 PM] Derek Vasilakis: So do I keep the other number?
+[12/5/25, 7:09:57 PM] Derek ********: Lol
+[12/5/25, 7:10:25 PM] Derek ********: So do I keep the other number?
 ‎[12/5/25, 7:11:28 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:11:46 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:11:54 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:12:23 PM] Merry: ‎video note omitted
-[12/5/25, 7:13:04 PM] Derek Vasilakis: That's great!
-[12/5/25, 7:14:36 PM] Derek Vasilakis: Omg 😂 I hope he's as nerdy as you say
+[12/5/25, 7:13:04 PM] Derek ********: That's great!
+[12/5/25, 7:14:36 PM] Derek ********: Omg 😂 I hope he's as nerdy as you say
 ‎[12/5/25, 7:15:22 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:15:32 PM] Merry: ‎video note omitted
-[12/5/25, 7:15:49 PM] Derek Vasilakis: ....but it's stench remains
+[12/5/25, 7:15:49 PM] Derek ********: ....but it's stench remains
 [12/5/25, 7:16:00 PM] Merry: What stench
 ‎[12/5/25, 7:16:18 PM] Merry: ‎video note omitted
-[12/5/25, 7:16:20 PM] Derek Vasilakis: 📱#.  ←
+[12/5/25, 7:16:20 PM] Derek ********: 📱#.  ←
 ‎[12/5/25, 7:16:38 PM] Merry: ‎video note omitted
-[12/5/25, 7:17:23 PM] Derek Vasilakis: You were saying all the ways the other phone number was dead 😅 movie quotes & such
+[12/5/25, 7:17:23 PM] Derek ********: You were saying all the ways the other phone number was dead 😅 movie quotes & such
 ‎[12/5/25, 7:17:27 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:18:06 PM] Merry: ‎video note omitted
 ‎[12/5/25, 7:18:16 PM] Merry: ‎video note omitted
@@ -103,8 +103,8 @@ Unbelievable....
 ‎[12/5/25, 8:51:38 PM] Merry: ‎video note omitted
 ‎[12/5/25, 10:34:06 PM] Merry: ‎video note omitted
 [12/5/25, 11:45:19 PM] Merry: https://www.tiktok.com/t/ZP8UgBjAx/
-[12/6/25, 1:41:15 AM] Derek Vasilakis: https://youtube.com/shorts/wKh05SIeesQ?si=pWYhn_buIuLF_-La
-[12/6/25, 1:41:40 AM] Derek Vasilakis: That's what you reminded me of    ↑↑
+[12/6/25, 1:41:15 AM] Derek ********: https://youtube.com/shorts/wKh05SIeesQ?si=pWYhn_buIuLF_-La
+[12/6/25, 1:41:40 AM] Derek ********: That's what you reminded me of    ↑↑
 ‎[12/6/25, 12:37:44 PM] Merry: ‎video note omitted
 ‎[12/6/25, 12:38:17 PM] Merry: ‎video note omitted
 ‎[12/6/25, 12:39:44 PM] Merry: ‎video note omitted
@@ -120,7 +120,7 @@ Unbelievable....
 [12/6/25, 11:15:41 PM] Merry: Don’t ever message me no more
 [12/6/25, 11:15:45 PM] Merry: Don’t ever call me no kore
 [12/6/25, 11:15:49 PM] Merry: Hanging up on me
-[12/6/25, 11:15:54 PM] Derek Vasilakis: Hi 👋👋👋👋👋👋👋
+[12/6/25, 11:15:54 PM] Derek ********: Hi 👋👋👋👋👋👋👋
 My phone is finally charged a little
 But I'm on the phone with Mom
 Call me again in 10-15 mins  🙏
@@ -128,21 +128,21 @@ Call me again in 10-15 mins  🙏
 [12/6/25, 11:16:07 PM] Merry: Sure your mom :p
 [12/6/25, 11:16:09 PM] Merry: Ok fine
 [12/6/25, 11:16:14 PM] Merry: You call me
-[12/6/25, 11:16:19 PM] Derek Vasilakis: Noooooo  🤣🤣
+[12/6/25, 11:16:19 PM] Derek ********: Noooooo  🤣🤣
 [12/6/25, 11:16:39 PM] Merry: Hey I’m nekkid up there did u even notice
 [12/6/25, 11:17:16 PM] Merry: No probably not bc u NEVER LOOK IN HERE
-[12/6/25, 11:17:16 PM] Derek Vasilakis: It says 
+[12/6/25, 11:17:16 PM] Derek ********: It says 
 • answer call
 • decline call 
 • Send message
 
 I was clicking send message
 [12/6/25, 11:17:23 PM] Merry: Until I pester you
-[12/6/25, 11:17:55 PM] Derek Vasilakis: Pester me harder!   Oooh yeah!
+[12/6/25, 11:17:55 PM] Derek ********: Pester me harder!   Oooh yeah!
 [12/6/25, 11:18:01 PM] Merry: I will
 [12/6/25, 11:18:12 PM] Merry: I have to go get any attention from you any more lol
-[12/6/25, 11:18:18 PM] Derek Vasilakis: ***Remind me to tell you the charging station sorry
-[12/6/25, 11:18:43 PM] Derek Vasilakis: I know, it's been really really bad lately 😫
+[12/6/25, 11:18:18 PM] Derek ********: ***Remind me to tell you the charging station sorry
+[12/6/25, 11:18:43 PM] Derek ********: I know, it's been really really bad lately 😫
 [12/6/25, 11:18:48 PM] Merry: You used to like call me and stuff
 [12/6/25, 11:18:51 PM] Merry: Those were fun times
 [12/6/25, 11:19:00 PM] Merry: Sure do miss them
@@ -157,67 +157,67 @@ I was clicking send message
 [12/6/25, 11:21:58 PM] Merry: You’re not getting away from me that easy tonight
 ‎[12/6/25, 11:25:14 PM] Merry: ‎video note omitted
 ‎[12/6/25, 11:26:25 PM] Merry: ‎video note omitted
-[12/6/25, 11:27:59 PM] Derek Vasilakis: Yeah...😔
+[12/6/25, 11:27:59 PM] Derek ********: Yeah...😔
 [12/6/25, 11:28:07 PM] Merry: Yeah
-[12/6/25, 11:28:07 PM] Derek Vasilakis: I keep thinking the same thing
+[12/6/25, 11:28:07 PM] Derek ********: I keep thinking the same thing
 [12/6/25, 11:28:14 PM] Merry: So why do you stay away
 [12/6/25, 11:28:21 PM] Merry: While I shove myself onto you
-[12/6/25, 11:28:38 PM] Derek Vasilakis: Wanting hasn't changed for the record
-[12/6/25, 11:29:04 PM] Derek Vasilakis: If that makes you feel better 🤷
+[12/6/25, 11:28:38 PM] Derek ********: Wanting hasn't changed for the record
+[12/6/25, 11:29:04 PM] Derek ********: If that makes you feel better 🤷
 ‎[12/6/25, 11:29:05 PM] Merry: ‎video note omitted
-[12/6/25, 11:29:39 PM] Derek Vasilakis: Oh 😮
+[12/6/25, 11:29:39 PM] Derek ********: Oh 😮
 [12/6/25, 11:29:47 PM] Merry: There it is
-[12/6/25, 11:29:48 PM] Derek Vasilakis: Oh 😮
+[12/6/25, 11:29:48 PM] Derek ********: Oh 😮
 [12/6/25, 11:29:49 PM] Merry: Finally
 [12/6/25, 11:29:57 PM] Merry: Like 15 fucking hours later lol
-[12/6/25, 11:30:13 PM] Derek Vasilakis: ffsake
+[12/6/25, 11:30:13 PM] Derek ********: ffsake
 [12/6/25, 11:30:24 PM] Merry: The fun wears off when u have to wait a day for the punchline
-[12/6/25, 11:30:40 PM] Derek Vasilakis: I cant hear it yet, but uhh
+[12/6/25, 11:30:40 PM] Derek ********: I cant hear it yet, but uhh
 [12/6/25, 11:31:41 PM] Merry: I bet I look better naked than J I’m just sayin
-[12/6/25, 11:31:54 PM] Derek Vasilakis: You acting like a goof when you're being sexy kinda turns me on 😅
-[12/6/25, 11:32:49 PM] Derek Vasilakis: Same position 🤣🤣
+[12/6/25, 11:31:54 PM] Derek ********: You acting like a goof when you're being sexy kinda turns me on 😅
+[12/6/25, 11:32:49 PM] Derek ********: Same position 🤣🤣
 ‎[12/6/25, 11:33:00 PM] Merry: ‎video note omitted
-[12/6/25, 11:33:14 PM] Derek Vasilakis: Than J?
+[12/6/25, 11:33:14 PM] Derek ********: Than J?
 [12/6/25, 11:33:29 PM] Merry: Whatever that girl on your stupid starmaker profiles name is
-[12/6/25, 11:33:46 PM] Derek Vasilakis: You mean J from starmaker?
+[12/6/25, 11:33:46 PM] Derek ********: You mean J from starmaker?
 [12/6/25, 11:33:57 PM] Merry: Yes
-[12/6/25, 11:34:31 PM] Derek Vasilakis: I'm down for a side-by-side comparison
+[12/6/25, 11:34:31 PM] Derek ********: I'm down for a side-by-side comparison
 [12/6/25, 11:34:32 PM] Merry: I’m just mad bc I’m butthurt bc I miss u
 [12/6/25, 11:34:42 PM] Merry: I feel neglected or abandoned
 [12/6/25, 11:34:48 PM] Merry: Forgotten
 [12/6/25, 11:34:52 PM] Merry: Moved on from
-[12/6/25, 11:35:06 PM] Derek Vasilakis: You're butthurt?
+[12/6/25, 11:35:06 PM] Derek ********: You're butthurt?
 That's not my fault!
-[12/6/25, 11:35:15 PM] Derek Vasilakis: I didn't miss or anything
+[12/6/25, 11:35:15 PM] Derek ********: I didn't miss or anything
 [12/6/25, 11:35:32 PM] Merry: You didn’t get close enough to try yet
-[12/6/25, 11:35:57 PM] Derek Vasilakis: I can see that, totally makes sense
+[12/6/25, 11:35:57 PM] Derek ********: I can see that, totally makes sense
 But that really isn't the case
-[12/6/25, 11:36:05 PM] Derek Vasilakis: Nope
-[12/6/25, 11:36:17 PM] Derek Vasilakis: Incapable of this one
+[12/6/25, 11:36:05 PM] Derek ********: Nope
+[12/6/25, 11:36:17 PM] Derek ********: Incapable of this one
 [12/6/25, 11:36:36 PM] Merry: It’s like I’m finally on my own and it’s weird being so alone
 [12/6/25, 11:36:58 PM] Merry: I always wanted it but it’s going to take getting used to now that it’s here
 [12/6/25, 11:37:33 PM] Merry: And I know having u in my ear more like before - not necessarily as much as before but some- would help
 [12/6/25, 11:38:14 PM] Merry: So call me when u get done with ur mom
 [12/6/25, 11:38:19 PM] Merry: Please
 [12/6/25, 11:38:37 PM] Merry: U better not be gone already
-[12/6/25, 11:39:40 PM] Derek Vasilakis: Within less that 900 miles is prolly the closest  😛
+[12/6/25, 11:39:40 PM] Derek ********: Within less that 900 miles is prolly the closest  😛
 [12/6/25, 11:40:02 PM] Merry: Yeah I’d like you within like 9 inches
 [12/6/25, 11:40:05 PM] Merry: Or 7
 [12/6/25, 11:40:08 PM] Merry: Or however many
-[12/6/25, 11:40:11 PM] Derek Vasilakis: Usually it's just over 900
+[12/6/25, 11:40:11 PM] Derek ********: Usually it's just over 900
 [12/6/25, 11:40:28 PM] Merry: 9 inches would be cooler
-[12/6/25, 11:40:59 PM] Derek Vasilakis: I can do negative (-8") eight inches
-[12/6/25, 11:41:19 PM] Derek Vasilakis: Sorry not sorry to disappoint 😂
+[12/6/25, 11:40:59 PM] Derek ********: I can do negative (-8") eight inches
+[12/6/25, 11:41:19 PM] Derek ********: Sorry not sorry to disappoint 😂
 ‎[12/6/25, 11:41:32 PM] Merry: ‎video note omitted
 ‎[12/6/25, 11:42:32 PM] Merry: ‎video note omitted
-[12/6/25, 11:43:08 PM] Derek Vasilakis: I hear ya
-[12/6/25, 11:43:42 PM] Derek Vasilakis: I'm trying to wrap up now with Mom
+[12/6/25, 11:43:08 PM] Derek ********: I hear ya
+[12/6/25, 11:43:42 PM] Derek ********: I'm trying to wrap up now with Mom
 ‎[12/6/25, 11:43:46 PM] Merry: ‎video note omitted
-[12/6/25, 11:44:30 PM] Derek Vasilakis: Negative inches away are definitely better
+[12/6/25, 11:44:30 PM] Derek ********: Negative inches away are definitely better
 [12/6/25, 11:44:53 PM] Merry: Yeah but I’m not fly-across-the-country hot lol
 [12/6/25, 11:45:03 PM] Merry: I’m not one of those girls
 [12/6/25, 11:45:06 PM] Merry: That do exist
-[12/6/25, 11:45:53 PM] Derek Vasilakis: On Christ 🙄 If I was still living my old life, _OF COURSE_ I would have seen you already
+[12/6/25, 11:45:53 PM] Derek ********: On Christ 🙄 If I was still living my old life, _OF COURSE_ I would have seen you already
 [12/6/25, 11:46:08 PM] Merry: I know girls that get guys to across the country just to bone them. I’ve talked to many guys in many places- they all talked a big talk but none would ever get on a plane lol
 [12/6/25, 11:48:59 PM] Merry: A couple of dudes repeatedly drove from Atlanta tho that’s gotta count for something
 [12/6/25, 11:49:30 PM] Merry: Are you still on the phone
@@ -226,9 +226,9 @@ But that really isn't the case
 [12/6/25, 11:55:12 PM] Merry: Are u still on the phone?
 [12/7/25, 12:14:50 AM] Merry: ‎Voice call, ‎4 min
 ‎[12/7/25, 12:19:05 AM] Merry: ‎video note omitted
-[12/7/25, 12:19:29 AM] Derek Vasilakis: ‎Voice call, ‎1 hr
+[12/7/25, 12:19:29 AM] Derek ********: ‎Voice call, ‎1 hr
 ‎[12/7/25, 3:40:55 PM] Merry: ‎video note omitted
-[12/7/25, 10:19:33 PM] Derek Vasilakis: ‎Voice call, ‎19 min
+[12/7/25, 10:19:33 PM] Derek ********: ‎Voice call, ‎19 min
 [12/7/25, 10:23:31 PM] Merry: https://www.tiktok.com/t/ZP8Ut59GE/
 [12/7/25, 10:27:54 PM] Merry: ‎You deleted this message.
 ‎[12/7/25, 11:45:04 PM] Merry: ‎video note omitted
@@ -242,11 +242,11 @@ But that really isn't the case
 [12/8/25, 2:45:17 PM] Merry: Come back here you can’t send me that then immediately fuck the fuck off Iol
 [12/8/25, 2:45:25 PM] Merry: ‎Voice call, ‎No answer
 ‎[12/8/25, 2:46:35 PM] Merry: ‎video note omitted
-[12/8/25, 2:46:41 PM] Derek Vasilakis: Hey 👋 lemme get off the phone
+[12/8/25, 2:46:41 PM] Derek ********: Hey 👋 lemme get off the phone
 I'll call you on my walk to Resorts
-[12/8/25, 2:46:53 PM] Derek Vasilakis: Just stopped here to warm up
+[12/8/25, 2:46:53 PM] Derek ********: Just stopped here to warm up
 [12/8/25, 2:46:55 PM] Merry: Show me ur face dork
-[12/8/25, 2:47:01 PM] Derek Vasilakis: It's fucking COLD!
+[12/8/25, 2:47:01 PM] Derek ********: It's fucking COLD!
 [12/8/25, 2:47:01 PM] Merry: It’s last time
 [12/8/25, 2:47:12 PM] Merry: I haven’t seen your face fresh since Brandon or before
 [12/8/25, 2:47:19 PM] Merry: It’s PAST time
@@ -256,12 +256,12 @@ I'll call you on my walk to Resorts
 [12/8/25, 2:47:47 PM] Merry: Guess what mofo it’s December
 [12/8/25, 2:47:53 PM] Merry: Gimme what I want already
 ‎[12/8/25, 2:48:27 PM] Merry: ‎video note omitted
-[12/8/25, 2:55:24 PM] Derek Vasilakis: Video call late tonight?
+[12/8/25, 2:55:24 PM] Derek ********: Video call late tonight?
 [12/8/25, 2:55:25 PM] Merry: Not good enough lol
 [12/8/25, 2:55:30 PM] Merry: Yes
 [12/8/25, 2:55:34 PM] Merry: Deal
-[12/8/25, 2:55:34 PM] Derek Vasilakis: Cool 😎
-[12/8/25, 2:55:41 PM] Derek Vasilakis: 🤝
+[12/8/25, 2:55:34 PM] Derek ********: Cool 😎
+[12/8/25, 2:55:41 PM] Derek ********: 🤝
 [12/8/25, 2:55:45 PM] Merry: Ima hold u too that
 [12/8/25, 2:56:10 PM] Merry: Ima be a huge cunt if u chicken out
 ‎[12/8/25, 4:12:20 PM] Merry: ‎video note omitted
@@ -326,7 +326,7 @@ I'll call you on my walk to Resorts
 [12/9/25, 12:14:41 AM] Merry: You promised
 [12/9/25, 12:15:01 AM] Merry: ‎You deleted this message.
 [12/9/25, 12:15:06 AM] Merry: You promised
-[12/9/25, 12:16:05 AM] Derek Vasilakis: ‎You pinned a message
+[12/9/25, 12:16:05 AM] Derek ********: ‎You pinned a message
 ‎[12/9/25, 12:23:08 AM] Merry: ‎audio omitted
 ‎[12/9/25, 12:23:36 AM] Merry: ‎video note omitted
 ‎[12/9/25, 12:24:21 AM] Merry: ‎video note omitted
@@ -362,41 +362,41 @@ I'll call you on my walk to Resorts
 [12/9/25, 12:46:12 AM] Merry: Like raging cunt level
 [12/9/25, 12:46:14 AM] Merry: ‎Voice call, ‎38 sec
 ‎[12/9/25, 12:47:25 AM] Merry: ‎video note omitted
-[12/9/25, 12:47:51 AM] Derek Vasilakis: Dude....
+[12/9/25, 12:47:51 AM] Derek ********: Dude....
 ‎[12/9/25, 12:47:54 AM] Merry: ‎video note omitted
-[12/9/25, 12:47:55 AM] Derek Vasilakis: Chill
-[12/9/25, 12:47:57 AM] Derek Vasilakis: Wtf
+[12/9/25, 12:47:55 AM] Derek ********: Chill
+[12/9/25, 12:47:57 AM] Derek ********: Wtf
 [12/9/25, 12:48:08 AM] Merry: I’ve been begging you FOR MONTHS
 [12/9/25, 12:48:12 AM] Merry: you said TONIGHT
 [12/9/25, 12:48:17 AM] Merry: I was WXCITES
-[12/9/25, 12:48:20 AM] Derek Vasilakis: You're right, I did
+[12/9/25, 12:48:20 AM] Derek ********: You're right, I did
 [12/9/25, 12:48:20 AM] Merry: but I knew
 [12/9/25, 12:48:22 AM] Merry: I knew
 [12/9/25, 12:48:25 AM] Merry: I knew it
 [12/9/25, 12:48:28 AM] Merry: I knew you wouldn’t
 [12/9/25, 12:48:30 AM] Merry: Fuxk you
-[12/9/25, 12:48:33 AM] Derek Vasilakis: I came here to charge my phone
+[12/9/25, 12:48:33 AM] Derek ********: I came here to charge my phone
 [12/9/25, 12:48:32 AM] Merry: Just fuxk you
-[12/9/25, 12:48:38 AM] Derek Vasilakis: Ffsake
-[12/9/25, 12:49:02 AM] Derek Vasilakis: I turn my phone on & get a THIS
-[12/9/25, 12:49:13 AM] Derek Vasilakis: C'mon, Merry
+[12/9/25, 12:48:38 AM] Derek ********: Ffsake
+[12/9/25, 12:49:02 AM] Derek ********: I turn my phone on & get a THIS
+[12/9/25, 12:49:13 AM] Derek ********: C'mon, Merry
 ‎[12/9/25, 12:49:19 AM] Merry: ‎video note omitted
-[12/9/25, 12:49:30 AM] Derek Vasilakis: Look at it from my perspective
-[12/9/25, 12:49:35 AM] Derek Vasilakis: It was my idea
+[12/9/25, 12:49:30 AM] Derek ********: Look at it from my perspective
+[12/9/25, 12:49:35 AM] Derek ********: It was my idea
 ‎[12/9/25, 12:49:36 AM] Merry: ‎video note omitted
 [12/9/25, 12:49:41 AM] Merry: It WAS
 [12/9/25, 12:49:46 AM] Merry: YOUR IDEA
 [12/9/25, 12:49:49 AM] Merry: WHICH GOT KE
 [12/9/25, 12:49:53 AM] Merry: EXTRA EXCITED
-[12/9/25, 12:49:54 AM] Derek Vasilakis: You aren't exactly very pleasant to speak to right now
+[12/9/25, 12:49:54 AM] Derek ********: You aren't exactly very pleasant to speak to right now
 [12/9/25, 12:49:59 AM] Merry: BC I THOUGHT U WOULD FOLLOW THRU
-[12/9/25, 12:50:04 AM] Derek Vasilakis: Chill the fuck out
+[12/9/25, 12:50:04 AM] Derek ********: Chill the fuck out
 ‎[12/9/25, 12:50:25 AM] Merry: ‎video note omitted
-[12/9/25, 12:50:37 AM] Derek Vasilakis: I WOULD HAVE!!
+[12/9/25, 12:50:37 AM] Derek ********: I WOULD HAVE!!
 ‎[12/9/25, 12:50:37 AM] Merry: ‎video note omitted
-[12/9/25, 12:50:44 AM] Derek Vasilakis: You're freaking me the fuck out
+[12/9/25, 12:50:44 AM] Derek ********: You're freaking me the fuck out
 ‎[12/9/25, 12:50:52 AM] Merry: ‎video note omitted
-[12/9/25, 12:50:56 AM] Derek Vasilakis: Okay, good night
+[12/9/25, 12:50:56 AM] Derek ********: Okay, good night
 That went well
 [12/9/25, 12:51:00 AM] Merry: This was impirtsnt
 [12/9/25, 12:51:01 AM] Merry: To me
@@ -406,7 +406,7 @@ That went well
 ‎[12/9/25, 12:52:16 AM] Merry: ‎video note omitted
 ‎[12/9/25, 12:53:09 AM] Merry: ‎video note omitted
 ‎[12/9/25, 12:53:35 AM] Merry: ‎video note omitted
-[12/9/25, 12:53:59 AM] Derek Vasilakis: You need a serious priority readjustment
+[12/9/25, 12:53:59 AM] Derek ********: You need a serious priority readjustment
 
 You're lucky I'm me.
 
@@ -421,41 +421,41 @@ Go take another pill
 You're almost to the moon
 ‎[12/9/25, 12:54:02 AM] Merry: ‎video note omitted
 ‎[12/9/25, 12:54:15 AM] Merry: ‎video note omitted
-[12/9/25, 12:54:34 AM] Derek Vasilakis: I'm not in control of my own existence
+[12/9/25, 12:54:34 AM] Derek ********: I'm not in control of my own existence
 You know what that feels like?
-[12/9/25, 12:54:36 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:00:34 AM] Derek Vasilakis: ‎You unblocked this contact
-[12/9/25, 1:01:04 AM] Derek Vasilakis: Before long I'm going to expected to pretend like this never happened, no big deal, whatever.......Right?
+[12/9/25, 12:54:36 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:00:34 AM] Derek ********: ‎You unblocked this contact
+[12/9/25, 1:01:04 AM] Derek ********: Before long I'm going to expected to pretend like this never happened, no big deal, whatever.......Right?
 ‎[12/9/25, 1:01:05 AM] Merry: ‎video note omitted
-[12/9/25, 1:01:09 AM] Derek Vasilakis: And that's my place
+[12/9/25, 1:01:09 AM] Derek ********: And that's my place
 [12/9/25, 1:01:12 AM] Merry: I don’t care
 [12/9/25, 1:01:13 AM] Merry: Go away
 [12/9/25, 1:01:19 AM] Merry: Until u talk to me face to face
-[12/9/25, 1:01:25 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:01:35 AM] Derek Vasilakis: ‎You unblocked this contact
-[12/9/25, 1:01:46 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:13:21 AM] Derek Vasilakis: ‎You unblocked this contact
-[12/9/25, 1:13:57 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:22:19 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:01:25 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:01:35 AM] Derek ********: ‎You unblocked this contact
+[12/9/25, 1:01:46 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:13:21 AM] Derek ********: ‎You unblocked this contact
+[12/9/25, 1:13:57 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:22:19 AM] Derek ********: ‎You unblocked this contact
 ‎[12/9/25, 1:22:47 AM] Merry: ‎video note omitted
 ‎[12/9/25, 1:23:02 AM] Merry: ‎video note omitted
-[12/9/25, 1:23:09 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:23:57 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:23:09 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:23:57 AM] Derek ********: ‎You unblocked this contact
 [12/9/25, 1:24:11 AM] Merry: No this is actually a huge deal feel free to treat it as such
-[12/9/25, 1:24:18 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:24:54 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:24:18 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:24:54 AM] Derek ********: ‎You unblocked this contact
 [12/9/25, 1:24:58 AM] Merry: GOOD
 [12/9/25, 1:25:25 AM] Merry: MAYBE IT WILL GET UR ATTENTION AND U WILL REALIZE THIS HAS NEVER NOT BEEN A HUGE DEAL
-[12/9/25, 1:25:30 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:26:31 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:25:30 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:26:31 AM] Derek ********: ‎You unblocked this contact
 ‎[12/9/25, 1:27:23 AM] Merry: ‎video note omitted
 ‎[12/9/25, 1:27:52 AM] Merry: ‎video note omitted
-[12/9/25, 1:27:59 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 1:28:07 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:27:59 AM] Derek ********: ‎You blocked this person
+[12/9/25, 1:28:07 AM] Derek ********: ‎You unblocked this contact
 ‎[12/9/25, 1:28:17 AM] Merry: ‎video note omitted
 ‎[12/9/25, 1:28:38 AM] Merry: ‎video note omitted
-[12/9/25, 1:28:46 AM] Derek Vasilakis: ‎You blocked this person
-[12/9/25, 10:29:29 AM] Derek Vasilakis: ‎You unblocked this contact
+[12/9/25, 1:28:46 AM] Derek ********: ‎You blocked this person
+[12/9/25, 10:29:29 AM] Derek ********: ‎You unblocked this contact
 [12/9/25, 10:29:48 AM] Merry:
 [12/9/25, 10:30:17 AM] Merry: Our inbox is now open for VIDEO REPLIES FROM DEREK ONLY. For the moment. Take your time.
 [12/9/25, 10:30:35 AM] Merry: Anything that doesn’t have your face saying the words will be immediately deleted before I read/listen
@@ -488,9 +488,9 @@ Yeah I’m over it. If u can’t do that for me u are not as good of a friend as
 Either you make a concession for ME now- either YOU MAKE ME comfortable instead of vice versa for a few minutes- or goodbye.
 [12/9/25, 11:11:39 AM] Merry: I will burn this whole shit to the ground right now and you know I will
 [12/9/25, 11:15:29 AM] Merry: Anyways I’ve been trying to get it thru your thick fucking skull this whole time how big of a fucking deal to me this is and has always been and will always be- and words aren’t doing it so now I have to rely on my actions to get the point across.
-[12/9/25, 11:22:01 AM] Derek Vasilakis: ‎You pinned a message
-[12/9/25, 11:22:06 AM] Derek Vasilakis: ‎You pinned a message
-[12/9/25, 1:57:57 PM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
+[12/9/25, 11:22:01 AM] Derek ********: ‎You pinned a message
+[12/9/25, 11:22:06 AM] Derek ********: ‎You pinned a message
+[12/9/25, 1:57:57 PM] Derek ********: ‎Missed voice call, ‎Tap to call back
 [12/10/25, 11:32:04 AM] Merry: Look. I was psycho the other night BUT U MUST UNDERSTAND- this REALLY IS and never has not been a HUGE FUCKING DEAL TO ME. 
 
 I can not communicate fully - I cannot trust u fully - I cannot fully feel part of this thing if you NEVER LET ME SEE YOU. As much as I love your face and want to look at it bc it’s pretty THIS IS NOT ABOUT THAT.
@@ -557,7 +557,7 @@ Let me see u some or go away. That’s the deal. It’s been a year. Shit or get
 ‎[12/11/25, 9:11:13 AM] Merry: ‎audio omitted
 [12/11/25, 10:31:20 AM] Merry: Glad to know you’d rather just ignore me as a problem than do what you promised
 ‎[12/11/25, 12:51:05 PM] Merry: ‎audio omitted
-[12/11/25, 12:51:19 PM] Derek Vasilakis: ‎You pinned a message
+[12/11/25, 12:51:19 PM] Derek ********: ‎You pinned a message
 [12/11/25, 12:53:26 PM] Merry: Face me. Deal with me. You’ve had time now deal with me
 [12/11/25, 12:54:39 PM] Merry: I’ll even let you talk I’ll let you talk and voice message. You can type in voice message but you need to deal with me. You need to tell me yes Mary I am going to do the things that I have promised you for a year I would do and give me a date and stick the fuck to it or you need to tell me no Mary I’m never gonna do the thing so I can fuck the fuck off and I’m not gonna fuck the fuck off or leave you alone until you answer me either way
 ‎[12/11/25, 6:50:50 PM] Merry: ‎video note omitted
@@ -598,32 +598,32 @@ Let me see u some or go away. That’s the deal. It’s been a year. Shit or get
 [12/12/25, 9:03:37 AM] Merry: And I don’t feel bad about it because the motherfucker kept making me promises never would keep them so what the fuck did I lose?
 ‎[12/12/25, 9:03:57 AM] Merry: ‎audio omitted
 ‎[12/12/25, 9:04:49 AM] Merry: ‎audio omitted
-[12/12/25, 9:06:18 AM] Derek Vasilakis: Hey 👋 Hi 👋 How R-ya? 👋
+[12/12/25, 9:06:18 AM] Derek ********: Hey 👋 Hi 👋 How R-ya? 👋
 [12/12/25, 9:06:25 AM] Merry: There he is
 [12/12/25, 9:06:39 AM] Merry: Are you ever going to do what I’ve been promising for a year
 [12/12/25, 9:06:43 AM] Merry: Youve
-[12/12/25, 9:06:52 AM] Derek Vasilakis: Oh, we're still here, huh? 
+[12/12/25, 9:06:52 AM] Derek ********: Oh, we're still here, huh? 
 
 That sucks....
 [12/12/25, 9:07:05 AM] Merry: Yeah we are staying here til I’ve had my face to face
-[12/12/25, 9:07:16 AM] Derek Vasilakis: K, I'll wait
+[12/12/25, 9:07:16 AM] Derek ********: K, I'll wait
 [12/12/25, 9:07:17 AM] Merry: That you PROMISED
 [12/12/25, 9:07:27 AM] Merry: k so will I but not that long
 [12/12/25, 9:07:29 AM] Merry: I’ll fuck off
-[12/12/25, 9:07:33 AM] Derek Vasilakis: Yup, I did
+[12/12/25, 9:07:33 AM] Derek ********: Yup, I did
 [12/12/25, 9:07:44 AM] Merry: I’ll fuck the fuck so far fucking off
 [12/12/25, 9:07:46 AM] Merry: If u don’t
 [12/12/25, 9:07:50 AM] Merry: In a timely manner
 [12/12/25, 9:08:21 AM] Merry: This is our last non face to face convo until I get it
 [12/12/25, 9:08:28 AM] Merry: So say what you wanna
-[12/12/25, 9:08:31 AM] Derek Vasilakis: Some "fucking off" will have to be done prior
+[12/12/25, 9:08:31 AM] Derek ********: Some "fucking off" will have to be done prior
 [12/12/25, 9:08:49 AM] Merry: I can fuck off now if you’re gonna keep jerking me around about  it
-[12/12/25, 9:09:03 AM] Derek Vasilakis: This isn't how to communicate with me, Merry. 
+[12/12/25, 9:09:03 AM] Derek ********: This isn't how to communicate with me, Merry. 
 I'm not that guy
 [12/12/25, 9:09:18 AM] Merry: I’m not that girl to play with right now
 [12/12/25, 9:09:33 AM] Merry: You come up witha Solution
 [12/12/25, 9:09:44 AM] Merry: You tell me what you’re going to do to fix this and when
-[12/12/25, 9:09:47 AM] Derek Vasilakis: It will happen when it doesn't feel like this.     Period
+[12/12/25, 9:09:47 AM] Derek ********: It will happen when it doesn't feel like this.     Period
 [12/12/25, 9:09:55 AM] Merry: Ok I’m not playing this game
 [12/12/25, 9:10:06 AM] Merry: Where I have to appease you just right to get what u already promised
 [12/12/25, 9:10:07 AM] Merry: Bye
@@ -668,7 +668,7 @@ I'm not that guy
 [12/12/25, 9:20:28 AM] Merry: and they will mean SHIT to me until I see them that way
 [12/12/25, 9:20:55 AM] Merry: You’re either gonna do what u promise when u promised or I’m not gonna be here for it
 [12/12/25, 9:21:33 AM] Merry: I’m soooooo over it
-[12/12/25, 9:23:16 AM] Derek Vasilakis: When you can make, 
+[12/12/25, 9:23:16 AM] Derek ********: When you can make, 
  or even just display,
   one single consideration
     in an outward direction
@@ -701,36 +701,36 @@ then I will continue to make sure someone is placing considerations into this pr
 [12/12/25, 9:29:41 AM] Merry: In that case
 [12/12/25, 9:29:53 AM] Merry: If you ever want me back or to speak to me again - you know what to do
 [12/12/25, 9:29:59 AM] Merry: In fucking off
-[12/12/25, 9:30:47 AM] Derek Vasilakis: 🧐 Seriously?  ↑
+[12/12/25, 9:30:47 AM] Derek ********: 🧐 Seriously?  ↑
 [12/12/25, 9:30:59 AM] Merry: Seriously
 [12/12/25, 9:31:18 AM] Merry: U told me for a year and pushed that date off and off and off
-[12/12/25, 9:31:30 AM] Derek Vasilakis: You need to view your own existence from a mirror on the wall sometimes....
+[12/12/25, 9:31:30 AM] Derek ********: You need to view your own existence from a mirror on the wall sometimes....
 [12/12/25, 9:31:36 AM] Merry: Every time acting like I was in the wrong for being upset
 [12/12/25, 9:31:45 AM] Merry: So do you asshole
 [12/12/25, 9:32:09 AM] Merry: Make me hit this starmaker unfriend button
 [12/12/25, 9:32:20 AM] Merry: I’m over this
-[12/12/25, 9:32:21 AM] Derek Vasilakis: You're *extremely* wrong for being so outwardly upset
-[12/12/25, 9:32:25 AM] Derek Vasilakis: EXTREMELY
+[12/12/25, 9:32:21 AM] Derek ********: You're *extremely* wrong for being so outwardly upset
+[12/12/25, 9:32:25 AM] Derek ********: EXTREMELY
 [12/12/25, 9:32:28 AM] Merry: I don’t care abynore
 [12/12/25, 9:32:33 AM] Merry: Give what u promised
-[12/12/25, 9:32:37 AM] Derek Vasilakis: Oh, thank God
+[12/12/25, 9:32:37 AM] Derek ********: Oh, thank God
 [12/12/25, 9:32:38 AM] Merry: Or go away
-[12/12/25, 9:32:56 AM] Derek Vasilakis: You don't care anymore great
+[12/12/25, 9:32:56 AM] Derek ********: You don't care anymore great
 [12/12/25, 9:34:48 AM] Merry: Certainly not my duet partner
 [12/12/25, 9:35:23 AM] Merry: It’s staying that way this time
 [12/12/25, 9:35:29 AM] Merry: Bc that guy don’t give a shit about me or my needs
 [12/12/25, 9:35:42 AM] Merry: And has consistently proven it to be true over the past year
 [12/12/25, 9:35:58 AM] Merry: Even the very foundation our friendship was built on was another promise he didn’t keep
-[12/12/25, 9:36:26 AM] Derek Vasilakis: I'll  tell you what.....I'll find a FRIEND who will help me work on my complexes, not make them worse.
+[12/12/25, 9:36:26 AM] Derek ********: I'll  tell you what.....I'll find a FRIEND who will help me work on my complexes, not make them worse.
 
 Then once I'm comfortable on camera, I'll come back & chat & sing & be well-adjusted & happy
 [12/12/25, 9:36:49 AM] Merry: Go find that friend bc I’m obviously not her. I tried but no matter what I say you shut me down
-[12/12/25, 9:36:55 AM] Derek Vasilakis: O    m    g . . . . . .   😮
+[12/12/25, 9:36:55 AM] Derek ********: O    m    g . . . . . .   😮
 [12/12/25, 9:36:59 AM] Merry: Good luck finding someone else you won’t just shut down automatically
 [12/12/25, 9:37:25 AM] Merry: If you cared about my needs you would have met my one big need by now and you simply refuse
 [12/12/25, 9:37:27 AM] Merry: Fuck it
 [12/12/25, 9:37:52 AM] Merry: He never sang with me despite tons of promises
-[12/12/25, 9:38:02 AM] Derek Vasilakis: Wow
+[12/12/25, 9:38:02 AM] Derek ********: Wow
 [12/12/25, 9:38:04 AM] Merry: He never sang with me despite that being what our friendship was built over
 [12/12/25, 9:38:22 AM] Merry: And no matter how many times I tell him seeing his face when he talks some is very important to me HE JUST DOESNT SEEM TO GET IT
 [12/12/25, 9:38:27 AM] Merry: so fuck you and fuck this noise
@@ -859,7 +859,7 @@ Then once I'm comfortable on camera, I'll come back & chat & sing & be well-adju
 [12/12/25, 1:59:02 PM] Merry: K
 [12/12/25, 2:00:08 PM] Merry: Either your gonna help me make this right or you’re not which is it
 [12/12/25, 3:13:53 PM] Merry: Glad u don’t care cool thanks
-[12/12/25, 3:13:59 PM] Derek Vasilakis: Regardless of subjective opinions 
+[12/12/25, 3:13:59 PM] Derek ********: Regardless of subjective opinions 
 Or who's right & wrong
 
 It's simple —
@@ -881,8 +881,8 @@ This is a big deal to me too
 
 And I will not have memories of making video calls with someone behaving like this
 [12/12/25, 3:14:32 PM] Merry: You won’t have any more memories of me period if you don’t fulfill a promise soon
-[12/12/25, 3:14:48 PM] Derek Vasilakis: I fell asleep and sent those stickers on accident
-[12/12/25, 3:17:18 PM] Derek Vasilakis: See? 
+[12/12/25, 3:14:48 PM] Derek ********: I fell asleep and sent those stickers on accident
+[12/12/25, 3:17:18 PM] Derek ********: See? 
 
 You are your own worst enemy 
 
@@ -946,7 +946,7 @@ Let's both hope that my purpose here isn't to teach you that
 ‎[12/20/25, 4:06:09 PM] Merry: ‎video omitted
 ‎[12/20/25, 4:06:09 PM] Merry: ‎video omitted
 ‎[12/20/25, 4:06:09 PM] Merry: ‎video omitted
-[12/20/25, 4:16:40 PM] Derek Vasilakis: P
+[12/20/25, 4:16:40 PM] Derek ********: P
 [12/21/25, 3:57:54 PM] Merry: My new glasses came in lol
 ‎[12/21/25, 3:58:05 PM] Merry: ‎video note omitted
 ‎[12/21/25, 4:22:18 PM] Merry: ‎video note omitted
@@ -965,7 +965,7 @@ Let's both hope that my purpose here isn't to teach you that
 [12/22/25, 8:22:29 PM] Merry: ‎Voice call, ‎No answer
 [12/22/25, 8:23:11 PM] Merry: Ugh. Fine fuck u too ❤️
 [12/22/25, 8:23:40 PM] Merry: You’re just never going to like give a fuck I’m even in here again are you
-[12/22/25, 8:24:06 PM] Derek Vasilakis: ‎You pinned a message
+[12/22/25, 8:24:06 PM] Derek ********: ‎You pinned a message
 [12/22/25, 8:24:24 PM] Merry: You’re just never going to like give a fuck I’m even in here again are you
 [12/22/25, 8:24:26 PM] Merry: You’re just never going to like give a fuck I’m even in here again are you
 [12/22/25, 8:49:28 PM] Merry:
@@ -1018,7 +1018,7 @@ Let's both hope that my purpose here isn't to teach you that
 ‎[12/23/25, 1:45:15 PM] Merry: ‎video note omitted
 [12/23/25, 1:46:23 PM] Merry: ACKNOWLEDGE ME BITCHHHHHH
 [12/23/25, 1:46:34 PM] Merry: LOOK IN HERE FUCKFACE
-[12/23/25, 1:46:46 PM] Derek Vasilakis: ‎You pinned a message
+[12/23/25, 1:46:46 PM] Derek ********: ‎You pinned a message
 [12/23/25, 1:49:05 PM] Merry: HEY FUCKER LOOK IN HERE
 [12/23/25, 3:42:01 PM] Merry: ‎Voice call, ‎No answer
 [12/23/25, 3:43:07 PM] Merry: No but seriously why does it feel like you’re jus going out of your way to avoid me at this point
@@ -1053,7 +1053,7 @@ Let's both hope that my purpose here isn't to teach you that
 [12/23/25, 4:19:28 PM] Merry: I just miss u man
 [12/23/25, 4:19:48 PM] Merry: I’m so FUCKIN lonely
 [12/23/25, 4:19:52 PM] Merry: And I just miss u man
-[12/23/25, 5:42:05 PM] Derek Vasilakis: 😳                     😬                    🫣
+[12/23/25, 5:42:05 PM] Derek ********: 😳                     😬                    🫣
 
                  😬                   🫣
                              🙈
@@ -1079,14 +1079,14 @@ I'll remember to call you sometime tonight   💯
 [12/23/25, 5:42:21 PM] Merry: I miss you
 [12/23/25, 5:42:28 PM] Merry: I’m not even mad I jus want u here
 [12/23/25, 5:43:04 PM] Merry: Sorry I was dumb but GAHHHHDDD
-[12/23/25, 5:43:19 PM] Derek Vasilakis: I know......cuz I feel the same way
+[12/23/25, 5:43:19 PM] Derek ********: I know......cuz I feel the same way
 [12/23/25, 5:43:30 PM] Merry: Just like… trying to get your attention for a couple days
 [12/23/25, 5:43:35 PM] Merry: And I couldn’t
 [12/23/25, 5:43:40 PM] Merry: So I just started acting stupid
 [12/23/25, 5:43:55 PM] Merry: Bc I couldn’t not
 [12/23/25, 5:45:05 PM] Merry: Then come here more
 [12/23/25, 5:45:21 PM] Merry: IM LITERALLY IN UR POCKET
-[12/23/25, 5:46:27 PM] Derek Vasilakis: I'm trying to do that thing, where I consolidate misery to get it over with faster, but it's a technique that has its negatives....
+[12/23/25, 5:46:27 PM] Derek ********: I'm trying to do that thing, where I consolidate misery to get it over with faster, but it's a technique that has its negatives....
 [12/23/25, 5:46:47 PM] Merry: Well that sucks I guess I’ll just be miserable too
 [12/23/25, 5:47:16 PM] Merry: As soon as I really got like really ALOOOOONE lol
 [12/23/25, 5:47:19 PM] Merry: I’m so alone lol
@@ -1095,11 +1095,11 @@ I'll remember to call you sometime tonight   💯
 [12/23/25, 5:47:38 PM] Merry: Please come around some
 [12/23/25, 5:47:44 PM] Merry: I don’t need as much attention as I did
 [12/23/25, 5:47:49 PM] Merry: But I need some please
-[12/23/25, 5:48:07 PM] Derek Vasilakis: There's just zero way to carry out conversations in these surroundings, and that's when my phone is charged enough to talk.  
+[12/23/25, 5:48:07 PM] Derek ********: There's just zero way to carry out conversations in these surroundings, and that's when my phone is charged enough to talk.  
 
 The idea of giving out to charge was becoming a major source of dread
-[12/23/25, 5:48:09 PM] Derek Vasilakis: But
-[12/23/25, 5:48:27 PM] Derek Vasilakis: Something good happened
+[12/23/25, 5:48:09 PM] Derek ********: But
+[12/23/25, 5:48:27 PM] Derek ********: Something good happened
 [12/23/25, 5:48:35 PM] Merry: I don’t even care if it’s on the phone
 [12/23/25, 5:48:42 PM] Merry: I always hated phone calls anyways remember
 [12/23/25, 5:48:50 PM] Merry: This is fine
@@ -1113,8 +1113,8 @@ The idea of giving out to charge was becoming a major source of dread
 [12/23/25, 6:02:40 PM] Merry: Derekkkk
 [12/23/25, 6:26:55 PM] Merry: Booo come back
 ‎[12/23/25, 6:41:48 PM] Merry: ‎video note omitted
-[12/23/25, 10:51:48 PM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
-[12/23/25, 10:51:57 PM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
+[12/23/25, 10:51:48 PM] Derek ********: ‎Missed voice call, ‎Tap to call back
+[12/23/25, 10:51:57 PM] Derek ********: ‎Missed voice call, ‎Tap to call back
 ‎[12/24/25, 12:15:46 PM] Merry: ‎video note omitted
 ‎[12/24/25, 12:17:19 PM] Merry: ‎video note omitted
 ‎[12/24/25, 12:18:09 PM] Merry: ‎video note omitted
@@ -1129,18 +1129,18 @@ Follow this guy
 [12/24/25, 1:19:09 PM] Merry: https://www.vibecodeapp.com/s/cmjkedbvp007407hqodmiietg
 [12/24/25, 1:19:19 PM] Merry: Check this out lol
 [12/24/25, 1:25:01 PM] Merry: https://www.vibecodeapp.com/s/cmjkekf8z007807hqnsqxrrrp
-[12/24/25, 1:30:26 PM] Derek Vasilakis: In here  →  🧠
+[12/24/25, 1:30:26 PM] Derek ********: In here  →  🧠
 [12/24/25, 1:32:30 PM] Merry: https://www.vibecodeapp.com/
 ‎[12/24/25, 1:50:12 PM] Merry: ‎video note omitted
 ‎[12/24/25, 5:21:44 PM] Merry: ‎video note omitted
 ‎[12/24/25, 5:22:26 PM] Merry: ‎video note omitted
 [12/24/25, 8:10:39 PM] Merry: ‎Voice call, ‎15 min
 ‎[12/24/25, 8:26:45 PM] Merry: ‎video note omitted
-[12/24/25, 8:27:09 PM] Derek Vasilakis: 🤷 Please tell me that was an accident
+[12/24/25, 8:27:09 PM] Derek ********: 🤷 Please tell me that was an accident
 ‎[12/24/25, 8:27:17 PM] Merry: ‎video note omitted
-[12/24/25, 8:27:19 PM] Derek Vasilakis: Or a dropped call...
+[12/24/25, 8:27:19 PM] Derek ********: Or a dropped call...
 [12/24/25, 8:27:55 PM] Merry: I don’t know how to disengage with you quickly on that stuff and I had to
-[12/24/25, 8:28:36 PM] Derek Vasilakis: Yeah, give me an hour or so 
+[12/24/25, 8:28:36 PM] Derek ********: Yeah, give me an hour or so 
 Imma get some shit situated here  👍🤘☯︎
 [12/24/25, 8:28:41 PM] Merry: K
 [12/24/25, 8:28:49 PM] Merry: Ima get food and home again that’s perfect
@@ -1148,33 +1148,33 @@ Imma get some shit situated here  👍🤘☯︎
 ‎[12/24/25, 8:39:10 PM] Merry: ‎video note omitted
 ‎[12/25/25, 10:05:49 AM] Merry: ‎video note omitted
 ‎[12/25/25, 10:06:12 AM] Merry: ‎video note omitted
-[12/25/25, 10:44:39 AM] Derek Vasilakis: Bah Merry Humbug, Merry 😁
+[12/25/25, 10:44:39 AM] Derek ********: Bah Merry Humbug, Merry 😁
 ‎[12/25/25, 10:44:55 AM] Merry: ‎video note omitted
 [12/25/25, 10:46:14 AM] Merry: Actually yeah nah humbug works too
 [12/25/25, 10:46:23 AM] Merry: I don’t give a FUUUUUUCK about today lol
 ‎[12/25/25, 10:48:18 AM] Merry: ‎video note omitted
-[12/25/25, 10:48:34 AM] Derek Vasilakis: I know....totes agreets to the max, yo
+[12/25/25, 10:48:34 AM] Derek ********: I know....totes agreets to the max, yo
 [12/25/25, 10:48:45 AM] Merry: Whatcha doin
-[12/25/25, 10:49:22 AM] Derek Vasilakis: Just left a shindig doohickey at that church place
+[12/25/25, 10:49:22 AM] Derek ********: Just left a shindig doohickey at that church place
 [12/25/25, 10:49:55 AM] Merry: Cool. That was something
 [12/25/25, 10:50:12 AM] Merry: I ain’t gotta something but I’m glad
 [12/25/25, 10:50:37 AM] Merry: I don’t know what to do with myself
 [12/25/25, 10:50:49 AM] Merry: I guess I should let this gummy kick in then figure it out
-[12/25/25, 10:52:39 AM] Derek Vasilakis: Today was supposed to be a scouting day to find that new site for the tent, but it started raining now.😣
+[12/25/25, 10:52:39 AM] Derek ********: Today was supposed to be a scouting day to find that new site for the tent, but it started raining now.😣
 [12/25/25, 10:52:57 AM] Merry: Boo rain
 [12/25/25, 10:53:00 AM] Merry: Is it cold there
 [12/25/25, 10:53:18 AM] Merry: It’s 68 here lol
-[12/25/25, 10:54:36 AM] Derek Vasilakis: Gonna have to check the weather and decide from there 🤷
-[12/25/25, 10:55:01 AM] Derek Vasilakis: That's kinda similar plans 😅
-[12/25/25, 10:55:09 AM] Derek Vasilakis: You should be
+[12/25/25, 10:54:36 AM] Derek ********: Gonna have to check the weather and decide from there 🤷
+[12/25/25, 10:55:01 AM] Derek ********: That's kinda similar plans 😅
+[12/25/25, 10:55:09 AM] Derek ********: You should be
 ‎[12/25/25, 10:55:49 AM] Merry: Ewwww ‎image omitted
 ‎[12/25/25, 10:55:50 AM] Merry: Ewwww ‎image omitted
-[12/25/25, 10:58:44 AM] Derek Vasilakis: The first act of charity that I was able to accept without feeling completely disgusted with myself, was clothing
+[12/25/25, 10:58:44 AM] Derek ********: The first act of charity that I was able to accept without feeling completely disgusted with myself, was clothing
 [12/25/25, 10:58:55 AM] Merry: So have you heard about the latest Epstein file dump and the LAKE MICHIGAN file?
 [12/25/25, 10:59:12 AM] Merry: Can I tell you can I be the first to tell you what our president did
-[12/25/25, 10:59:24 AM] Derek Vasilakis: For me - going to that church is tantamount to  clothes shopping
+[12/25/25, 10:59:24 AM] Derek ********: For me - going to that church is tantamount to  clothes shopping
 [12/25/25, 10:59:27 AM] Merry: When what clothing
-[12/25/25, 10:59:28 AM] Derek Vasilakis: Yeah call me
+[12/25/25, 10:59:28 AM] Derek ********: Yeah call me
 [12/25/25, 10:59:38 AM] Merry: K hang on
 [12/25/25, 11:00:38 AM] Merry: First here is a link to- note it is to THE DEPARTMENT OF DEFENSE website - the official file dump:
 
@@ -1261,10 +1261,10 @@ You’re not dumb for struggling to read this. FBI paperwork is deliberately col
 ‎[12/26/25, 3:56:24 PM] Merry: ‎video note omitted
 [12/26/25, 3:56:27 PM] Merry: ‎Voice call, ‎No answer
 ‎[12/26/25, 3:57:05 PM] Merry: ‎video note omitted
-[12/26/25, 6:05:17 PM] Derek Vasilakis: Heyyy!  👋
+[12/26/25, 6:05:17 PM] Derek ********: Heyyy!  👋
 ‎[12/26/25, 6:05:25 PM] Merry: ‎video note omitted
-[12/26/25, 6:05:38 PM] Derek Vasilakis: I'm currently working on freeing myself up
-[12/26/25, 6:05:44 PM] Derek Vasilakis: Call you soon  😘
+[12/26/25, 6:05:38 PM] Derek ********: I'm currently working on freeing myself up
+[12/26/25, 6:05:44 PM] Derek ********: Call you soon  😘
 ‎[12/26/25, 6:05:52 PM] Merry: ‎video note omitted
 ‎[12/26/25, 6:05:59 PM] Merry: ‎video note omitted
 ‎[12/26/25, 9:52:53 PM] Merry: ‎video note omitted
@@ -1281,58 +1281,58 @@ You’re not dumb for struggling to read this. FBI paperwork is deliberately col
 [12/27/25, 9:33:04 PM] Merry: ‎Voice call, ‎No answer
 [12/27/25, 9:33:44 PM] Merry: Call meeeee
 ‎[12/27/25, 11:57:42 PM] Merry: ‎video note omitted
-[12/28/25, 2:48:25 PM] Derek Vasilakis: ‎Voice call, ‎57 sec
-[12/28/25, 2:49:42 PM] Derek Vasilakis: ‎Voice call, ‎1 hr
+[12/28/25, 2:48:25 PM] Derek ********: ‎Voice call, ‎57 sec
+[12/28/25, 2:49:42 PM] Derek ********: ‎Voice call, ‎1 hr
 ‎[12/29/25, 4:15:34 PM] Merry: ‎video note omitted
 ‎[12/29/25, 7:57:15 PM] Merry: ‎video note omitted
-[12/29/25, 8:15:23 PM] Derek Vasilakis: Hi 👋 I finally managed to get my phone battery to 27% 🙄 😅 uh oh....  Why does it look like you're crying...?
-[12/29/25, 8:16:05 PM] Derek Vasilakis: Can you send me a Starmaker cover that I haven't heard yet?  I wanna hear something.  Unless you need to chat ASAP, in which case call instead
+[12/29/25, 8:15:23 PM] Derek ********: Hi 👋 I finally managed to get my phone battery to 27% 🙄 😅 uh oh....  Why does it look like you're crying...?
+[12/29/25, 8:16:05 PM] Derek ********: Can you send me a Starmaker cover that I haven't heard yet?  I wanna hear something.  Unless you need to chat ASAP, in which case call instead
 [12/29/25, 8:16:07 PM] Merry: I keep getting sad over Walter
 [12/29/25, 8:16:18 PM] Merry: That was way earlier I’m ok
 [12/29/25, 8:16:29 PM] Merry: I’m posting one now I’ll send it to you
 ‎[12/29/25, 8:16:44 PM] Merry: ‎video note omitted
-[12/29/25, 8:17:31 PM] Derek Vasilakis: You're gonna be sad about that goat for the rest of your life....It's okay though.  It will hurt  in a different way eventually
-[12/29/25, 8:17:43 PM] Derek Vasilakis: Sorry kid, I totally get it
+[12/29/25, 8:17:31 PM] Derek ********: You're gonna be sad about that goat for the rest of your life....It's okay though.  It will hurt  in a different way eventually
+[12/29/25, 8:17:43 PM] Derek ********: Sorry kid, I totally get it
 [12/29/25, 8:17:45 PM] Merry: I published a song on StarMaker, check out my singing now! Like CREEP (acoustic)? Check out more amazing covers on StarMaker!
 https://starmaker.onelink.me/v4ei/8v32xwlo
-[12/29/25, 8:18:06 PM] Derek Vasilakis: I'm vicariously heartbroken about it too 💯
-[12/29/25, 8:18:38 PM] Derek Vasilakis: I meant one that you joined with me that I haven't heard yet 😂
+[12/29/25, 8:18:06 PM] Derek ********: I'm vicariously heartbroken about it too 💯
+[12/29/25, 8:18:38 PM] Derek ********: I meant one that you joined with me that I haven't heard yet 😂
 [12/29/25, 8:19:12 PM] Merry: Oh I dunno
 [12/29/25, 8:19:17 PM] Merry: lol hell if I know
-[12/29/25, 8:20:13 PM] Derek Vasilakis: My family has a special group called *Zaffie🐧Zenguin's Playlist*
+[12/29/25, 8:20:13 PM] Derek ********: My family has a special group called *Zaffie🐧Zenguin's Playlist*
 Every week, everyone is encouraged to add 1 song that they are especially proud of that maybe didn't get the attention it deserved
 [12/29/25, 8:20:21 PM] Merry: I know I’m in it
-[12/29/25, 8:20:37 PM] Derek Vasilakis: Oh!
-[12/29/25, 8:20:41 PM] Derek Vasilakis: Astral?
+[12/29/25, 8:20:37 PM] Derek ********: Oh!
+[12/29/25, 8:20:41 PM] Derek ********: Astral?
 [12/29/25, 8:20:48 PM] Merry: Both
-[12/29/25, 8:20:56 PM] Derek Vasilakis: Didn't think you checked in there
-[12/29/25, 8:21:13 PM] Derek Vasilakis: You were never removed?   Good!
-[12/29/25, 8:21:19 PM] Derek Vasilakis: Come back
+[12/29/25, 8:20:56 PM] Derek ********: Didn't think you checked in there
+[12/29/25, 8:21:13 PM] Derek ********: You were never removed?   Good!
+[12/29/25, 8:21:19 PM] Derek ********: Come back
 [12/29/25, 8:21:35 PM] Merry: I’m there
-‎[12/29/25, 8:21:49 PM] Derek Vasilakis: ‎sticker omitted
+‎[12/29/25, 8:21:49 PM] Derek ********: ‎sticker omitted
 [12/29/25, 8:22:02 PM] Merry: The group
 [12/29/25, 8:22:03 PM] Merry: ?
 [12/29/25, 8:23:40 PM] Merry: I’m sad I unfriended u and ruined our shit but also I feel better now that I’m not just hidden on your shit under her lol
 [12/29/25, 8:23:54 PM] Merry: Let her have the shit fuck it
 [12/29/25, 8:24:14 PM] Merry: That bugged me never getting to be there
-[12/29/25, 8:24:14 PM] Derek Vasilakis: The family dummy
+[12/29/25, 8:24:14 PM] Derek ********: The family dummy
 [12/29/25, 8:24:16 PM] Merry: A lot of
-[12/29/25, 8:24:19 PM] Derek Vasilakis: That's where you belong
+[12/29/25, 8:24:19 PM] Derek ********: That's where you belong
 [12/29/25, 8:24:21 PM] Merry: A lot
-[12/29/25, 8:24:38 PM] Derek Vasilakis: Hey!   This is really good!!
-[12/29/25, 8:24:56 PM] Derek Vasilakis: Great harms, nigga!
-[12/29/25, 8:25:43 PM] Derek Vasilakis: I completely forgot about that actually!  😆
+[12/29/25, 8:24:38 PM] Derek ********: Hey!   This is really good!!
+[12/29/25, 8:24:56 PM] Derek ********: Great harms, nigga!
+[12/29/25, 8:25:43 PM] Derek ********: I completely forgot about that actually!  😆
 [12/29/25, 8:25:56 PM] Merry: Now I can never be there anyways so fuck it
-[12/29/25, 8:26:14 PM] Derek Vasilakis: My brain just doesn't think in that direction
+[12/29/25, 8:26:14 PM] Derek ********: My brain just doesn't think in that direction
 [12/29/25, 8:26:30 PM] Merry: Mine rhuminated on it
 [12/29/25, 8:28:36 PM] Merry: I’m not jumping thru the hoops to get it back alone and I don’t expect you to help since I was the dumb bitch that did it so fuck it lol
 [12/29/25, 8:29:26 PM] Merry: And I’m not paying lol
 ‎[12/29/25, 9:46:59 PM] Merry: ‎video note omitted
 ‎[12/29/25, 9:48:29 PM] Merry: ‎video note omitted
 [12/29/25, 9:48:57 PM] Merry: I fucked my jaw up over Walter earlier is what that’s about
-[12/29/25, 9:52:29 PM] Derek Vasilakis: I fell asleep 😜
+[12/29/25, 9:52:29 PM] Derek ********: I fell asleep 😜
 [12/29/25, 9:52:42 PM] Merry: I figured lol
-[12/29/25, 9:53:02 PM] Derek Vasilakis: ‎Video call, ‎1 hr
+[12/29/25, 9:53:02 PM] Derek ********: ‎Video call, ‎1 hr
 [12/29/25, 11:03:00 PM] Merry: https://x.com/elder_plinius/status/2005828618220687856?s=48
 ‎[12/30/25, 12:44:11 PM] Merry: ‎video note omitted
 ‎[12/30/25, 12:44:38 PM] Merry: ‎video note omitted
@@ -1347,14 +1347,14 @@ Every week, everyone is encouraged to add 1 song that they are especially proud 
 ‎[12/31/25, 9:57:46 AM] Merry: ‎video note omitted
 ‎[12/31/25, 11:44:23 AM] Merry: ‎video note omitted
 ‎[12/31/25, 12:57:16 PM] Merry: ‎video note omitted
-[12/31/25, 12:57:24 PM] Derek Vasilakis: Wuddup
-[12/31/25, 12:57:31 PM] Derek Vasilakis: M'fker
-[12/31/25, 12:57:36 PM] Derek Vasilakis: 😁
+[12/31/25, 12:57:24 PM] Derek ********: Wuddup
+[12/31/25, 12:57:31 PM] Derek ********: M'fker
+[12/31/25, 12:57:36 PM] Derek ********: 😁
 ‎[12/31/25, 12:58:39 PM] Merry: ‎video note omitted
 ‎[12/31/25, 12:59:57 PM] Merry: ‎video note omitted
 ‎[12/31/25, 1:00:18 PM] Merry: ‎video note omitted
 ‎[12/31/25, 1:01:05 PM] Merry: ‎video note omitted
-[12/31/25, 1:35:53 PM] Derek Vasilakis: You look great for not having your script
+[12/31/25, 1:35:53 PM] Derek ********: You look great for not having your script
 ‎[12/31/25, 1:36:15 PM] Merry: ‎video note omitted
 ‎[12/31/25, 1:38:27 PM] Merry: ‎video note omitted
 ‎[12/31/25, 2:00:18 PM] Merry: ‎video note omitted
@@ -1363,7 +1363,7 @@ Every week, everyone is encouraged to add 1 song that they are especially proud 
 [12/31/25, 5:12:11 PM] Merry: https://www.tiktok.com/t/ZP8ygpjN7/
 [12/31/25, 6:26:35 PM] Merry: Be my midnight buddy if I’m awake that long
 [12/31/25, 6:49:12 PM] Merry: ‎Voice call, ‎59 min
-[12/31/25, 7:51:37 PM] Derek Vasilakis: ‎Voice call, ‎53 sec
+[12/31/25, 7:51:37 PM] Derek ********: ‎Voice call, ‎53 sec
 ‎[1/1/26, 5:07:45 PM] Merry: ‎video note omitted
 ‎[1/1/26, 6:23:52 PM] Merry: ‎video note omitted
 ‎[1/1/26, 6:24:07 PM] Merry: ‎video note omitted
@@ -1381,13 +1381,13 @@ Every week, everyone is encouraged to add 1 song that they are especially proud 
 ‎[1/2/26, 2:26:44 PM] Merry: ‎video note omitted
 [1/2/26, 2:26:47 PM] Merry: ‎Voice call, ‎No answer
 ‎[1/2/26, 2:27:40 PM] Merry: ‎video note omitted
-[1/2/26, 2:28:30 PM] Derek Vasilakis: Heyyyyo
+[1/2/26, 2:28:30 PM] Derek ********: Heyyyyo
 [1/2/26, 2:28:35 PM] Merry: Yooou
 [1/2/26, 2:28:40 PM] Merry: Hayyy
-[1/2/26, 2:28:49 PM] Derek Vasilakis: Lemme call you after issy
+[1/2/26, 2:28:49 PM] Derek ********: Lemme call you after issy
 [1/2/26, 2:28:56 PM] Merry: I’m just struggling to human and find you helpful
 [1/2/26, 2:28:58 PM] Merry: K
-[1/2/26, 2:29:12 PM] Derek Vasilakis: Lol.  No problem
+[1/2/26, 2:29:12 PM] Derek ********: Lol.  No problem
 [1/2/26, 2:29:18 PM] Merry: I’m fine tho I’ll be here
 [1/2/26, 5:07:45 PM] Merry: https://m.starmakerstudios.com/live/share?liveid=412730454&share_type=whatsapp&user_sid=13375969113
 [1/2/26, 8:21:20 PM] Merry: Damn bruh
@@ -1425,16 +1425,16 @@ FOR ME IGNORE SOREY
 [1/5/26, 10:11:18 PM] Merry: Derekkkk
 [1/5/26, 10:11:32 PM] Merry: I really hate it here a lot when ur not around
 [1/5/26, 10:11:35 PM] Merry: Come around
-[1/5/26, 10:11:47 PM] Derek Vasilakis: No
+[1/5/26, 10:11:47 PM] Derek ********: No
 [1/5/26, 10:11:53 PM] Merry: I beg
-[1/5/26, 10:11:53 PM] Derek Vasilakis: 😂
-[1/5/26, 10:11:56 PM] Derek Vasilakis: ‎Voice call, ‎2 hr
+[1/5/26, 10:11:53 PM] Derek ********: 😂
+[1/5/26, 10:11:56 PM] Derek ********: ‎Voice call, ‎2 hr
 [1/5/26, 10:17:02 PM] Merry:
-[1/5/26, 10:48:46 PM] Derek Vasilakis: https://www.tiktok.com/t/ZThR7os3U
+[1/5/26, 10:48:46 PM] Derek ********: https://www.tiktok.com/t/ZThR7os3U
 [1/5/26, 11:32:32 PM] Merry: https://multi-persona-chat.emergent.host/
 [1/5/26, 11:36:56 PM] Merry: https://www.tiktok.com/t/ZP8ywFB7r/
 [1/6/26, 12:23:56 AM] Merry: Hey can I have an URL on your server to host this with like a cool url name that actually says like collabor8.rocks or whatever
-[1/6/26, 12:24:34 AM] Derek Vasilakis: Yeah, of course
+[1/6/26, 12:24:34 AM] Derek ********: Yeah, of course
 [1/6/26, 12:24:45 AM] Merry: Yayyyy
 [1/6/26, 12:24:52 AM] Merry: Thanks
 [1/6/26, 12:25:06 AM] Merry: Whip tha bad boy up when u get a chance and lemme know and I’ll point it there
@@ -1442,37 +1442,37 @@ FOR ME IGNORE SOREY
 [1/6/26, 4:20:05 AM] Merry: I guess he’s blocked everywhere else
 ‎[1/6/26, 4:42:35 PM] Merry: ‎video note omitted
 ‎[1/6/26, 4:42:58 PM] Merry: ‎video note omitted
-[1/7/26, 1:24:38 AM] Derek Vasilakis: Greetings, gorgeous glasses goddess 🤓
-‎[1/7/26, 1:24:45 AM] Derek Vasilakis: ‎sticker omitted
+[1/7/26, 1:24:38 AM] Derek ********: Greetings, gorgeous glasses goddess 🤓
+‎[1/7/26, 1:24:45 AM] Derek ********: ‎sticker omitted
 ‎[1/7/26, 1:24:51 AM] Merry: ‎video note omitted
-[1/7/26, 1:25:19 AM] Derek Vasilakis: I don't know what that is 🙈
+[1/7/26, 1:25:19 AM] Derek ********: I don't know what that is 🙈
 [1/7/26, 1:25:35 AM] Merry: Mostly politics and tech
-[1/7/26, 1:29:02 AM] Derek Vasilakis: What's with his screenname??
+[1/7/26, 1:29:02 AM] Derek ********: What's with his screenname??
 [1/7/26, 1:29:11 AM] Merry: I dunno man
 [1/7/26, 1:29:16 AM] Merry: Noticed that too
-[1/7/26, 1:29:31 AM] Derek Vasilakis: What a freak show
-[1/7/26, 1:29:59 AM] Derek Vasilakis: Sorry dudette.... 🥲 You aight?
-‎[1/7/26, 1:31:42 AM] Derek Vasilakis: ‎audio omitted
+[1/7/26, 1:29:31 AM] Derek ********: What a freak show
+[1/7/26, 1:29:59 AM] Derek ********: Sorry dudette.... 🥲 You aight?
+‎[1/7/26, 1:31:42 AM] Derek ********: ‎audio omitted
 ‎[1/7/26, 1:41:35 AM] Merry: ‎video note omitted
 ‎[1/7/26, 1:42:14 AM] Merry: ‎video note omitted
 ‎[1/7/26, 1:42:31 AM] Merry: ‎video note omitted
-[1/7/26, 2:15:59 AM] Derek Vasilakis: He is really bad at this...
+[1/7/26, 2:15:59 AM] Derek ********: He is really bad at this...
 ‎[1/7/26, 2:16:17 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:16:42 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:17:00 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:17:07 AM] Merry: ‎video note omitted
-[1/7/26, 2:17:17 AM] Derek Vasilakis: I don't think he's sorry enough either....
+[1/7/26, 2:17:17 AM] Derek ********: I don't think he's sorry enough either....
 ‎[1/7/26, 2:17:34 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:27:22 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:28:19 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:28:48 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:29:41 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:31:56 AM] Merry: ‎video note omitted
-[1/7/26, 2:32:22 AM] Derek Vasilakis: Don't get worked up now
-[1/7/26, 2:32:41 AM] Derek Vasilakis: I love you
+[1/7/26, 2:32:22 AM] Derek ********: Don't get worked up now
+[1/7/26, 2:32:41 AM] Derek ********: I love you
 Get some text
 ‎[1/7/26, 2:32:45 AM] Merry: ‎video note omitted
-[1/7/26, 2:32:53 AM] Derek Vasilakis: Retribution will come
+[1/7/26, 2:32:53 AM] Derek ********: Retribution will come
 ‎[1/7/26, 2:33:36 AM] Merry: ‎video note omitted
 ‎[1/7/26, 2:35:20 AM] Merry: ‎video note omitted
 [1/7/26, 11:30:09 AM] Merry: https://multi-persona-chat.emergent.host/
@@ -1509,59 +1509,59 @@ For me ignore
 [1/10/26, 4:44:54 PM] Merry: Derek!
 ‎[1/10/26, 4:45:12 PM] Merry: ‎video note omitted
 [1/10/26, 8:31:38 PM] Merry: Hey you
-[1/10/26, 8:34:33 PM] Derek Vasilakis: Hey you back!
-[1/10/26, 8:34:35 PM] Derek Vasilakis: Wassup
+[1/10/26, 8:34:33 PM] Derek ********: Hey you back!
+[1/10/26, 8:34:35 PM] Derek ********: Wassup
 ‎[1/10/26, 8:34:55 PM] Merry: ‎video note omitted
-[1/10/26, 8:34:56 PM] Derek Vasilakis: Oh wow!    Merry art  🥳🥳
-[1/10/26, 8:35:36 PM] Derek Vasilakis: Easter egg!
-[1/10/26, 8:35:49 PM] Derek Vasilakis: 👅
-[1/10/26, 8:36:02 PM] Derek Vasilakis: Yummy Easter Egg
-[1/10/26, 8:37:35 PM] Derek Vasilakis: Those glasses 😮
+[1/10/26, 8:34:56 PM] Derek ********: Oh wow!    Merry art  🥳🥳
+[1/10/26, 8:35:36 PM] Derek ********: Easter egg!
+[1/10/26, 8:35:49 PM] Derek ********: 👅
+[1/10/26, 8:36:02 PM] Derek ********: Yummy Easter Egg
+[1/10/26, 8:37:35 PM] Derek ********: Those glasses 😮
 [1/10/26, 8:37:47 PM] Merry: Which
-[1/10/26, 8:38:17 PM] Derek Vasilakis: I saw this btw....
+[1/10/26, 8:38:17 PM] Derek ********: I saw this btw....
 Fucked up
-[1/10/26, 8:38:26 PM] Derek Vasilakis: He's clearly disturbed
-[1/10/26, 8:41:19 PM] Derek Vasilakis: ‎This message was deleted.
+[1/10/26, 8:38:26 PM] Derek ********: He's clearly disturbed
+[1/10/26, 8:41:19 PM] Derek ********: ‎This message was deleted.
 [1/10/26, 8:41:33 PM] Merry: Forget that it’s old
 [1/10/26, 8:41:40 PM] Merry: I don’t care any more look at this
-[1/10/26, 8:41:50 PM] Derek Vasilakis: https://multi-persona-chat.emergent.host/
+[1/10/26, 8:41:50 PM] Derek ********: https://multi-persona-chat.emergent.host/
 [1/10/26, 8:41:51 PM] Merry: https://multi-persona-chat.emergent.host/
 [1/10/26, 8:41:56 PM] Merry: Yes that
 [1/10/26, 8:41:58 PM] Merry: Do that
 [1/10/26, 8:42:05 PM] Merry: Play with that it’s great
 [1/10/26, 8:42:17 PM] Merry: It’s got a few snags I might fix tonight
-[1/10/26, 8:42:20 PM] Derek Vasilakis: https://multi-persona-chat.emergent.host/
-[1/10/26, 8:42:21 PM] Derek Vasilakis: https://www.tiktok.com/t/ZP8ywFB7r/
+[1/10/26, 8:42:20 PM] Derek ********: https://multi-persona-chat.emergent.host/
+[1/10/26, 8:42:21 PM] Derek ********: https://www.tiktok.com/t/ZP8ywFB7r/
 [1/10/26, 8:42:25 PM] Merry: But it works and is fun lol
 ‎[1/10/26, 8:42:45 PM] Merry: ‎video note omitted
-[1/10/26, 8:43:12 PM] Derek Vasilakis: I think that was actually his attempt at a compliment...
+[1/10/26, 8:43:12 PM] Derek ********: I think that was actually his attempt at a compliment...
 ‎[1/10/26, 8:43:40 PM] Merry: ‎video note omitted
-[1/10/26, 8:43:55 PM] Derek Vasilakis: https://multi-persona-chat.emergent.host/
-‎[1/10/26, 8:43:56 PM] Derek Vasilakis: collabor8-__Consciousness and Reality Debate__-1767818050484.pdf • ‎18 pages ‎document omitted
-[1/10/26, 8:44:03 PM] Derek Vasilakis: Now I'm here
+[1/10/26, 8:43:55 PM] Derek ********: https://multi-persona-chat.emergent.host/
+‎[1/10/26, 8:43:56 PM] Derek ********: collabor8-__Consciousness and Reality Debate__-1767818050484.pdf • ‎18 pages ‎document omitted
+[1/10/26, 8:44:03 PM] Derek ********: Now I'm here
 [1/10/26, 8:44:04 PM] Merry: Yes  that
 [1/10/26, 8:44:21 PM] Merry: This is so fire I have made a great app lol
 [1/10/26, 8:45:06 PM] Merry: I’ve been playing with recursion in prompts
 [1/10/26, 8:45:19 PM] Merry: Grok is fun with it
-[1/10/26, 8:45:23 PM] Derek Vasilakis: Yikes 🫣
-[1/10/26, 8:47:50 PM] Derek Vasilakis: The music 😂
-[1/10/26, 8:49:19 PM] Derek Vasilakis: Bro.... Coooool AF!
-[1/10/26, 8:49:50 PM] Derek Vasilakis: The new big ones
+[1/10/26, 8:45:23 PM] Derek ********: Yikes 🫣
+[1/10/26, 8:47:50 PM] Derek ********: The music 😂
+[1/10/26, 8:49:19 PM] Derek ********: Bro.... Coooool AF!
+[1/10/26, 8:49:50 PM] Derek ********: The new big ones
 [1/10/26, 8:50:18 PM] Merry: It’s Blondie lol
 [1/10/26, 8:50:30 PM] Merry: What about them?
 ‎[1/10/26, 8:58:40 PM] Merry: ‎video note omitted
-[1/10/26, 9:02:21 PM] Derek Vasilakis: Really great concept!
-[1/10/26, 9:03:26 PM] Derek Vasilakis: Collabor8 isn't working completely for me
+[1/10/26, 9:02:21 PM] Derek ********: Really great concept!
+[1/10/26, 9:03:26 PM] Derek ********: Collabor8 isn't working completely for me
 But it's got HUGE potential!
-[1/10/26, 9:03:40 PM] Derek Vasilakis: I have lots of questions about it
-[1/10/26, 9:03:48 PM] Derek Vasilakis: 🖤🖤🖤🖤 it
-[1/10/26, 9:04:04 PM] Derek Vasilakis: I know 😂
-[1/10/26, 9:04:15 PM] Derek Vasilakis: They're a lot
+[1/10/26, 9:03:40 PM] Derek ********: I have lots of questions about it
+[1/10/26, 9:03:48 PM] Derek ********: 🖤🖤🖤🖤 it
+[1/10/26, 9:04:04 PM] Derek ********: I know 😂
+[1/10/26, 9:04:15 PM] Derek ********: They're a lot
 [1/10/26, 9:04:44 PM] Merry: Lol I know
 [1/10/26, 9:04:53 PM] Merry: It took a few days to get used to them
 [1/10/26, 9:04:59 PM] Merry: They're more than I was expecting
 [1/10/26, 9:05:41 PM] Merry: It worked for everyone else dang it
-[1/10/26, 9:08:17 PM] Derek Vasilakis: What was the prompt?
+[1/10/26, 9:08:17 PM] Derek ********: What was the prompt?
 [1/12/26, 5:16:10 AM] Merry: Join my group chat on ChatGPT. https://chatgpt.com/gg/v/6964d7ec727481a18738d58aecfe4943?token=cPqTQ3-soUBO0CsM_J0Hcw
 [1/12/26, 3:57:10 PM] Merry: Derek where u at
 ‎[1/12/26, 10:03:40 PM] Merry: ‎video note omitted
@@ -1570,49 +1570,49 @@ But it's got HUGE potential!
 ‎[1/12/26, 10:05:30 PM] Merry: ‎video omitted
 [1/12/26, 11:18:27 PM] Merry: Derek
 ‎[1/12/26, 11:21:39 PM] Merry: ‎video note omitted
-[1/12/26, 11:30:28 PM] Derek Vasilakis: Hi 👋
+[1/12/26, 11:30:28 PM] Derek ********: Hi 👋
 ‎[1/12/26, 11:30:42 PM] Merry: ‎video note omitted
-[1/12/26, 11:33:21 PM] Derek Vasilakis: What    the    fuck
-[1/12/26, 11:33:36 PM] Derek Vasilakis: That   was   AWESOME!!!!
+[1/12/26, 11:33:21 PM] Derek ********: What    the    fuck
+[1/12/26, 11:33:36 PM] Derek ********: That   was   AWESOME!!!!
 [1/12/26, 11:33:41 PM] Merry: Apollionon Gaskets
-[1/12/26, 11:33:44 PM] Derek Vasilakis: WOW!!!!!!!!!!
+[1/12/26, 11:33:44 PM] Derek ********: WOW!!!!!!!!!!
 [1/12/26, 11:33:45 PM] Merry: Thanks
-[1/12/26, 11:33:53 PM] Derek Vasilakis: That song WTF
-[1/12/26, 11:34:03 PM] Derek Vasilakis: Explain!   lol
-[1/12/26, 11:34:17 PM] Derek Vasilakis: Was that Grok?
-[1/12/26, 11:34:33 PM] Derek Vasilakis: We're all in deep shit!
+[1/12/26, 11:33:53 PM] Derek ********: That song WTF
+[1/12/26, 11:34:03 PM] Derek ********: Explain!   lol
+[1/12/26, 11:34:17 PM] Derek ********: Was that Grok?
+[1/12/26, 11:34:33 PM] Derek ********: We're all in deep shit!
 [1/12/26, 11:35:07 PM] Merry:
 ‎[1/12/26, 11:35:07 PM] Merry: Oh Man U should see what’s not done yet ‎video omitted
 ‎[1/12/26, 11:35:08 PM] Merry: ‎video omitted
 ‎[1/12/26, 11:35:08 PM] Merry: ‎video omitted
-[1/12/26, 11:35:11 PM] Derek Vasilakis: That was the best produced song I HAVE EVER HEARD❕❕❕❕🤣🤣🤣🤣🤣🤣🤣😍
+[1/12/26, 11:35:11 PM] Derek ********: That was the best produced song I HAVE EVER HEARD❕❕❕❕🤣🤣🤣🤣🤣🤣🤣😍
 [1/12/26, 11:35:14 PM] Merry: I’ll stop there there’s more
 [1/12/26, 11:35:46 PM] Merry:
-[1/12/26, 11:36:30 PM] Derek Vasilakis: Please tell me that it's not sexy for a man to move like that  😅
+[1/12/26, 11:36:30 PM] Derek ********: Please tell me that it's not sexy for a man to move like that  😅
 ‎[1/12/26, 11:36:45 PM] Merry: ‎video note omitted
-[1/12/26, 11:36:56 PM] Derek Vasilakis: It made me feel too 🤢 to watch
+[1/12/26, 11:36:56 PM] Derek ********: It made me feel too 🤢 to watch
 ‎[1/12/26, 11:36:59 PM] Merry: ‎video note omitted
-[1/12/26, 11:42:35 PM] Derek Vasilakis: ‎Voice call, ‎38 min
+[1/12/26, 11:42:35 PM] Derek ********: ‎Voice call, ‎38 min
 ‎[1/13/26, 9:05:07 AM] Merry: ‎video note omitted
 ‎[1/13/26, 9:05:25 AM] Merry: ‎video note omitted
 ‎[1/13/26, 9:05:48 AM] Merry: ‎video note omitted
 ‎[1/13/26, 9:09:26 AM] Merry: ‎video note omitted
 [1/13/26, 10:06:20 AM] Merry: Join my group chat on ChatGPT. https://chatgpt.com/gg/v/69666d7112108193b4aed7e773893e35?token=fXB5inNu2Mrhkhp87_M8YA
-[1/13/26, 3:44:11 PM] Derek Vasilakis: $8 coffee??   Ugghhhh
-[1/13/26, 3:44:31 PM] Derek Vasilakis: Having a great day, huh?
+[1/13/26, 3:44:11 PM] Derek ********: $8 coffee??   Ugghhhh
+[1/13/26, 3:44:31 PM] Derek ********: Having a great day, huh?
 [1/13/26, 3:45:03 PM] Merry: Bro I had a total breakdown. Right after that I had to get in the dumpster and search bc I accidentally threw my favorite expensive multichromes eyeshadow pallet in the dumpster as I was cleaning
 [1/13/26, 3:45:16 PM] Merry: I’m better I cried a lot at lunch and feel better lol
 [1/13/26, 3:45:21 PM] Merry: Not great but better
-[1/13/26, 3:46:37 PM] Derek Vasilakis: Did you make your appointment? 
+[1/13/26, 3:46:37 PM] Derek ********: Did you make your appointment? 
 I tried to stay up all night to fix my sleep cycle and call you, but I didn't make it 😭 slept until 1:45pm......missed everything again today 🙄 can I bite your arm too?
 [1/13/26, 3:46:48 PM] Merry: I did. And yes
-[1/13/26, 3:47:05 PM] Derek Vasilakis: lol
-[1/13/26, 3:47:34 PM] Derek Vasilakis: Thanks
-[1/13/26, 3:47:41 PM] Derek Vasilakis: Glad to hear
+[1/13/26, 3:47:05 PM] Derek ********: lol
+[1/13/26, 3:47:34 PM] Derek ********: Thanks
+[1/13/26, 3:47:41 PM] Derek ********: Glad to hear
 [1/13/26, 3:48:45 PM] Merry: ‎You deleted this message.
 ‎[1/13/26, 10:41:07 PM] Merry: ‎video note omitted
-[1/14/26, 4:39:53 AM] Derek Vasilakis: dafuq 😂
-[1/14/26, 4:43:41 AM] Derek Vasilakis: Fukked
+[1/14/26, 4:39:53 AM] Derek ********: dafuq 😂
+[1/14/26, 4:43:41 AM] Derek ********: Fukked
 [1/14/26, 10:03:17 AM] Merry:
 [1/14/26, 10:03:22 AM] Merry: A hundred MORE
 ‎[1/14/26, 10:56:33 PM] Merry: ‎video note omitted
@@ -1635,9 +1635,9 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[1/16/26, 9:49:49 PM] Merry: ‎video omitted
 ‎[1/16/26, 9:49:54 PM] Merry: ‎video omitted
 [1/16/26, 10:36:06 PM] Merry: https://www.tiktok.com/t/ZP8fDyfmL
-[1/16/26, 10:38:53 PM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
+[1/16/26, 10:38:53 PM] Derek ********: ‎Missed voice call, ‎Tap to call back
 ‎[1/17/26, 9:38:55 PM] Merry: ‎video note omitted
-[1/17/26, 11:13:38 PM] Derek Vasilakis: ‎Voice call, ‎4 hr
+[1/17/26, 11:13:38 PM] Derek ********: ‎Voice call, ‎4 hr
 [1/17/26, 11:18:36 PM] Merry:
 ‎[1/17/26, 11:18:47 PM] Merry: ‎video omitted
 ‎[1/17/26, 11:19:10 PM] Merry: ‎video omitted
@@ -1668,15 +1668,15 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 [1/21/26, 11:42:13 PM] Merry: Fuckface
 [1/21/26, 11:42:26 PM] Merry: Hey you hey your u
 [1/21/26, 11:44:11 PM] Merry: HEY U I MISS U SIR
-[1/21/26, 11:44:42 PM] Derek Vasilakis: Who are you calling a fuckface, fuckface⁉️
+[1/21/26, 11:44:42 PM] Derek ********: Who are you calling a fuckface, fuckface⁉️
 [1/21/26, 11:44:48 PM] Merry: Oh yay!
 [1/21/26, 11:44:57 PM] Merry: I was getting worried u weren't ok
-[1/21/26, 11:44:58 PM] Derek Vasilakis: 🥳🥳
-[1/21/26, 11:45:32 PM] Derek Vasilakis: Can Merry come out & play?
+[1/21/26, 11:44:58 PM] Derek ********: 🥳🥳
+[1/21/26, 11:45:32 PM] Derek ********: Can Merry come out & play?
 [1/21/26, 11:46:10 PM] Merry: I've had a jailbroken (legit for real online) version of Gemini wow a possible to weirdify jailbreak another instance of itself and shot for weird I can't wait to tell you lol
 [1/21/26, 11:46:44 PM] Merry: Like I can tell u how to make ricin right now lol
 [1/21/26, 11:46:56 PM] Merry: That kinda jailbroke
-[1/21/26, 11:47:25 PM] Derek Vasilakis: I like it already!
+[1/21/26, 11:47:25 PM] Derek ********: I like it already!
 ‎[1/21/26, 11:54:13 PM] Merry: ‎video note omitted
 ‎[1/22/26, 12:01:35 AM] Merry: ‎video note omitted
 [1/22/26, 12:09:55 AM] Merry:
@@ -1701,10 +1701,10 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[1/22/26, 12:14:56 AM] Merry: ‎video omitted
 ‎[1/22/26, 12:15:01 AM] Merry: ‎video omitted
 ‎[1/22/26, 12:15:17 AM] Merry: ‎video omitted
-[1/22/26, 12:58:48 AM] Derek Vasilakis: Which AI is this?
-[1/22/26, 12:58:58 AM] Derek Vasilakis: That you're talking about?
-[1/22/26, 12:59:08 AM] Derek Vasilakis: In your 37 video messages
-[1/22/26, 12:59:11 AM] Derek Vasilakis: lol
+[1/22/26, 12:58:48 AM] Derek ********: Which AI is this?
+[1/22/26, 12:58:58 AM] Derek ********: That you're talking about?
+[1/22/26, 12:59:08 AM] Derek ********: In your 37 video messages
+[1/22/26, 12:59:11 AM] Derek ********: lol
 [1/22/26, 12:59:35 AM] Merry: This one I found at
 [1/22/26, 12:59:51 AM] Merry: Cratak.com
 [1/22/26, 1:00:03 AM] Merry: They’re prejailbrojrn FO REAL REAL
@@ -1716,18 +1716,18 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 [1/22/26, 1:00:57 AM] Merry: It thinks it is the thing
 [1/22/26, 1:01:15 AM] Merry: Advanced AI
 ‎[1/22/26, 1:02:01 AM] Merry: ‎video note omitted
-[1/22/26, 1:17:54 AM] Derek Vasilakis: ‎Video call, ‎55 min
+[1/22/26, 1:17:54 AM] Derek ********: ‎Video call, ‎55 min
 [1/22/26, 1:47:23 AM] Merry: This
-[1/22/26, 2:13:42 AM] Derek Vasilakis: ‎Voice call, ‎7 min
+[1/22/26, 2:13:42 AM] Derek ********: ‎Voice call, ‎7 min
 ‎[1/22/26, 2:20:39 AM] Merry: ‎video note omitted
-[1/22/26, 2:22:39 AM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
-[1/22/26, 2:22:43 AM] Derek Vasilakis: ‎Voice call, ‎39 min
+[1/22/26, 2:22:39 AM] Derek ********: ‎Missed voice call, ‎Tap to call back
+[1/22/26, 2:22:43 AM] Derek ********: ‎Voice call, ‎39 min
 [1/22/26, 10:30:26 AM] Merry: lol remember the cure got front phone store I messaged that time?? He just saw it and replied lol
 [1/22/26, 10:30:32 AM] Merry: CUTE GUY
 [1/22/26, 10:30:40 AM] Merry: the cute guy from the phone store
-[1/22/26, 1:37:28 PM] Derek Vasilakis: YEAH!?
-[1/22/26, 1:37:33 PM] Derek Vasilakis: The darkie??
-[1/22/26, 1:37:40 PM] Derek Vasilakis: lol
+[1/22/26, 1:37:28 PM] Derek ********: YEAH!?
+[1/22/26, 1:37:33 PM] Derek ********: The darkie??
+[1/22/26, 1:37:40 PM] Derek ********: lol
 [1/22/26, 1:37:51 PM] Merry: Yes lol divk lol
 [1/22/26, 1:38:01 PM] Merry: I’m talking to him now
 ‎[1/23/26, 12:39:28 AM] Merry: ‎video note omitted
@@ -1736,9 +1736,9 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[1/23/26, 8:46:15 AM] Merry: ‎video note omitted
 ‎[1/23/26, 8:47:03 AM] Merry: ‎video note omitted
 [1/23/26, 2:49:14 PM] Merry: Derek kkkk
-[1/23/26, 4:10:17 PM] Derek Vasilakis: And......?
-[1/23/26, 4:10:37 PM] Derek Vasilakis: Wanna chat tonight?
-[1/23/26, 4:10:42 PM] Derek Vasilakis: In an hour or two??
+[1/23/26, 4:10:17 PM] Derek ********: And......?
+[1/23/26, 4:10:37 PM] Derek ********: Wanna chat tonight?
+[1/23/26, 4:10:42 PM] Derek ********: In an hour or two??
 ‎[1/23/26, 4:11:09 PM] Merry: ‎video note omitted
 ‎[1/23/26, 4:11:38 PM] Merry: ‎video note omitted
 ‎[1/23/26, 4:11:47 PM] Merry: ‎video note omitted
@@ -1751,16 +1751,16 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[1/23/26, 4:57:38 PM] Merry: ‎video note omitted
 ‎[1/23/26, 4:58:29 PM] Merry: ‎video note omitted
 ‎[1/23/26, 6:37:04 PM] Merry: ‎video note omitted
-[1/23/26, 6:49:43 PM] Derek Vasilakis: ‎This message was deleted.
-[1/23/26, 6:50:23 PM] Derek Vasilakis: You should play your own messages back right now 🤪🤣🤣🤣
-[1/23/26, 6:53:20 PM] Derek Vasilakis: He is totez-adorbzaliscious ferrsherr 🫠
+[1/23/26, 6:49:43 PM] Derek ********: ‎This message was deleted.
+[1/23/26, 6:50:23 PM] Derek ********: You should play your own messages back right now 🤪🤣🤣🤣
+[1/23/26, 6:53:20 PM] Derek ********: He is totez-adorbzaliscious ferrsherr 🫠
 ‎[1/23/26, 7:15:46 PM] Merry: ‎video note omitted
 ‎[1/24/26, 1:05:37 PM] Merry: ‎video note omitted
 [1/24/26, 4:20:06 PM] Merry: Why won’t my video messages go thru wtf
 ‎[1/24/26, 4:20:10 PM] Merry: ‎video omitted
 ‎[1/24/26, 4:20:33 PM] Merry: ‎video omitted
 ‎[1/24/26, 4:20:34 PM] Merry: ‎video omitted
-[1/24/26, 5:11:07 PM] Derek Vasilakis: ‎Voice call, ‎2 hr
+[1/24/26, 5:11:07 PM] Derek ********: ‎Voice call, ‎2 hr
 [1/24/26, 5:27:04 PM] Merry:
 ‎[1/24/26, 5:27:04 PM] Merry: ‎video omitted
 ‎[1/24/26, 5:27:04 PM] Merry: ‎video omitted
@@ -1800,19 +1800,19 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[1/25/26, 2:53:10 PM] Merry: ‎video note omitted
 ‎[1/26/26, 2:07:30 PM] Merry: ‎video note omitted
 ‎[1/26/26, 7:13:28 PM] Merry: ‎video note omitted
-[1/26/26, 9:23:28 PM] Derek Vasilakis: Hi
+[1/26/26, 9:23:28 PM] Derek ********: Hi
 ‎[1/26/26, 9:23:52 PM] Merry: ‎video note omitted
-[1/26/26, 9:25:11 PM] Derek Vasilakis: 🤣🤣🤣
-[1/26/26, 9:25:20 PM] Derek Vasilakis: Springs
-[1/26/26, 9:26:26 PM] Derek Vasilakis: Good!!    You're happy = I'm happy
+[1/26/26, 9:25:11 PM] Derek ********: 🤣🤣🤣
+[1/26/26, 9:25:20 PM] Derek ********: Springs
+[1/26/26, 9:26:26 PM] Derek ********: Good!!    You're happy = I'm happy
 ‎[1/26/26, 9:26:32 PM] Merry: ‎video note omitted
 ‎[1/26/26, 9:27:02 PM] Merry: ‎video note omitted
-[1/26/26, 9:27:11 PM] Derek Vasilakis: I enjoyed dating different races the most honestly, now that I think about it....
+[1/26/26, 9:27:11 PM] Derek ********: I enjoyed dating different races the most honestly, now that I think about it....
 ‎[1/26/26, 9:27:39 PM] Merry: ‎video note omitted
-‎[1/26/26, 9:27:42 PM] Derek Vasilakis: ‎sticker omitted
-[1/26/26, 9:28:41 PM] Derek Vasilakis: I've been going around town screaming "White Powder! ✊
-[1/26/26, 9:29:47 PM] Derek Vasilakis: I was announcing the snow's arrival ❄️
-[1/26/26, 9:31:47 PM] Derek Vasilakis: But several people in this city didn't seem to appreciate my public services. 🤷
+‎[1/26/26, 9:27:42 PM] Derek ********: ‎sticker omitted
+[1/26/26, 9:28:41 PM] Derek ********: I've been going around town screaming "White Powder! ✊
+[1/26/26, 9:29:47 PM] Derek ********: I was announcing the snow's arrival ❄️
+[1/26/26, 9:31:47 PM] Derek ********: But several people in this city didn't seem to appreciate my public services. 🤷
 [1/27/26, 1:52:05 PM] Merry: Derek look
 ‎[1/27/26, 1:52:09 PM] Merry: ‎image omitted
 ‎[1/27/26, 1:52:10 PM] Merry: ‎image omitted
@@ -1860,12 +1860,12 @@ I tried to stay up all night to fix my sleep cycle and call you, but I didn't ma
 ‎[2/3/26, 9:04:03 AM] Merry: ‎video note omitted
 [2/3/26, 10:51:17 PM] Merry: You
 [2/3/26, 10:51:23 PM] Merry: ‎Voice call, ‎No answer
-[2/3/26, 10:52:25 PM] Derek Vasilakis: ‎Voice call, ‎7 sec
+[2/3/26, 10:52:25 PM] Derek ********: ‎Voice call, ‎7 sec
 ‎[2/3/26, 10:53:10 PM] Merry: ‎video note omitted
 [2/3/26, 10:53:44 PM] Merry: Asshole
 [2/3/26, 10:54:14 PM] Merry: You don’t even give a single fucking fuck about me. You don’t look in here. You don’t care that I’m talking to you. You don’t care that. I’m probably wondering about you. You know I am. You don’t give a fuck you don’t give a fucking fuck about me fuck you motherfucker.
 ‎[2/3/26, 10:54:53 PM] Merry: ‎audio omitted
-[2/3/26, 10:55:00 PM] Derek Vasilakis: Hi! 👋    You can be angry all you want
+[2/3/26, 10:55:00 PM] Derek ********: Hi! 👋    You can be angry all you want
 
 But I missed you 
 
@@ -1873,7 +1873,7 @@ So 🖕 back at ya 😘
 [2/3/26, 10:55:04 PM] Merry: Fuck u
 [2/3/26, 10:56:36 PM] Merry: And don’t you fucking dare tell me you fucking miss me when I was in your goddamn fucking pocket the whole fucking time and you could’ve talked to me anytime you fucking wanted to fuck you asshole
 ‎[2/3/26, 10:58:52 PM] Merry: ‎audio omitted
-[2/3/26, 11:00:34 PM] Derek Vasilakis: This week was fuuuuucked 😩
+[2/3/26, 11:00:34 PM] Derek ********: This week was fuuuuucked 😩
 
 I'm already not happy about things too..... Just saying
 
@@ -1889,13 +1889,13 @@ Just answer me and yourself 2 questions:
 • Do you know what  -16°F  feels like for a prolonged period of time?
 ‎[2/3/26, 11:01:02 PM] Merry: ‎audio omitted
 ‎[2/3/26, 11:01:17 PM] Merry: ‎audio omitted
-[2/3/26, 11:01:55 PM] Derek Vasilakis: 3 questions -    lol
+[2/3/26, 11:01:55 PM] Derek ********: 3 questions -    lol
 
 •  Do you know the effect that has on mobile devices (namely their batteries)  (and their ability to charge at all)
 ‎[2/3/26, 11:02:17 PM] Merry: ‎audio omitted
 ‎[2/3/26, 11:03:23 PM] Merry: ‎audio omitted
 ‎[2/3/26, 11:03:46 PM] Merry: ‎audio omitted
-‎[2/3/26, 11:05:45 PM] Derek Vasilakis: ‎audio omitted
+‎[2/3/26, 11:05:45 PM] Derek ********: ‎audio omitted
 ‎[2/9/26, 12:15:33 PM] Merry: ‎audio omitted
 ‎[2/9/26, 12:16:50 PM] Merry: ‎audio omitted
 ‎[2/9/26, 12:17:53 PM] Merry: ‎audio omitted
@@ -1921,18 +1921,18 @@ Just answer me and yourself 2 questions:
 [2/15/26, 3:58:39 PM] Merry: Don’t ever come back in here ever again
 [2/15/26, 3:58:42 PM] Merry: Bye
 [2/15/26, 3:59:03 PM] Merry: ‎Video call, ‎No answer
-[2/15/26, 3:59:32 PM] Derek Vasilakis: omg, Merry... This is why you believe something is wrong & we're fighting right now.
+[2/15/26, 3:59:32 PM] Derek ********: omg, Merry... This is why you believe something is wrong & we're fighting right now.
 [2/15/26, 3:59:45 PM] Merry: Jesus Christ fucking finally
-[2/15/26, 3:59:48 PM] Derek Vasilakis: Give me a few minutes here, I'm coming  💯
-[2/15/26, 4:00:00 PM] Derek Vasilakis: I'm finally at my mom's
+[2/15/26, 3:59:48 PM] Derek ********: Give me a few minutes here, I'm coming  💯
+[2/15/26, 4:00:00 PM] Derek ********: I'm finally at my mom's
 ‎[2/15/26, 4:00:09 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:00:42 PM] Merry: ‎video note omitted
-[2/15/26, 4:01:01 PM] Derek Vasilakis: It's been a crazy couple of weeks
+[2/15/26, 4:01:01 PM] Derek ********: It's been a crazy couple of weeks
 Don't hate me, I miss your southern-dipped ass
-[2/15/26, 4:01:18 PM] Derek Vasilakis: Pain in my ass southern-dipped ass
+[2/15/26, 4:01:18 PM] Derek ********: Pain in my ass southern-dipped ass
 ‎[2/15/26, 4:01:20 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:02:23 PM] Merry: ‎video note omitted
-[2/15/26, 4:08:12 PM] Derek Vasilakis: The Whatsapp thing is just too much when I'm overwhelmed..... and the video message thing is just 🙈🔫
+[2/15/26, 4:08:12 PM] Derek ********: The Whatsapp thing is just too much when I'm overwhelmed..... and the video message thing is just 🙈🔫
 
 We all have our complexes, Merry
 
@@ -1951,45 +1951,45 @@ And if they are clashing, that means one or both of us is having a tough go at t
 🩷🖕🫵🩷☺️ Still Love you tho
 [2/15/26, 4:08:56 PM] Merry: FUCK EVERYONE AND EVERYTHING
 [2/15/26, 4:09:43 PM] Merry: We fell asleep on the phone together every night and now just trying to get you to acknowledge the fact that I exist is like PULLING FUCKING TEETH
-[2/15/26, 4:11:29 PM] Derek Vasilakis: No thanks, a great majority of peeps are actually really gross....🤢 and I don't get intimate with inanimate.
-[2/15/26, 4:11:34 PM] Derek Vasilakis: Not anymore anyway...
+[2/15/26, 4:11:29 PM] Derek ********: No thanks, a great majority of peeps are actually really gross....🤢 and I don't get intimate with inanimate.
+[2/15/26, 4:11:34 PM] Derek ********: Not anymore anyway...
 [2/15/26, 4:11:49 PM] Merry: Prove to me you give a fuck and show me your face motherfucker
-[2/15/26, 4:12:05 PM] Derek Vasilakis: It chaffes
-[2/15/26, 4:12:45 PM] Derek Vasilakis: 'Chaffes' 🤔    that doesn't look right
+[2/15/26, 4:12:05 PM] Derek ********: It chaffes
+[2/15/26, 4:12:45 PM] Derek ********: 'Chaffes' 🤔    that doesn't look right
 [2/15/26, 4:12:56 PM] Merry: This
 ‎[2/15/26, 4:13:32 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:13:38 PM] Merry: ‎video note omitted
 [2/15/26, 4:14:07 PM] Merry: Bc if u think u don’t owe me that shit by now fuck off
 [2/15/26, 4:14:11 PM] Merry: You’re long overdue
-[2/15/26, 4:14:50 PM] Derek Vasilakis: That   😁
+[2/15/26, 4:14:50 PM] Derek ********: That   😁
 Besides, I'm literally cutting my hair atm
                 but sure 
 
 Just don't make it a thing
 [2/15/26, 4:15:03 PM] Merry: Do it and I won’t make it a thing
 [2/15/26, 4:15:09 PM] Merry: Don’t do it and I’ll make it a thing
-[2/15/26, 4:15:55 PM] Derek Vasilakis: You gonna be free tonight?
+[2/15/26, 4:15:55 PM] Derek ********: You gonna be free tonight?
 Wanna talk n stuff n shit? 
 Like I said, I'm getting settled in at Mom's
-[2/15/26, 4:16:08 PM] Derek Vasilakis: So I'll be around
+[2/15/26, 4:16:08 PM] Derek ********: So I'll be around
 [2/15/26, 4:16:37 PM] Merry: Yes. I’ll tell Kevin to plan to stay at his place tonight I need a me night anyway and
 [2/15/26, 4:17:00 PM] Merry: I’ve much ai to talk
 [2/15/26, 4:17:09 PM] Merry: Please watch this asap
 [2/15/26, 4:18:09 PM] Merry: I don’t know which one to start at
 [2/15/26, 4:18:15 PM] Merry: https://www.tiktok.com/t/ZP89wJmKE/
-[2/15/26, 4:18:23 PM] Derek Vasilakis: Fuck that....
+[2/15/26, 4:18:23 PM] Derek ********: Fuck that....
 You dont need a me night
-[2/15/26, 4:18:26 PM] Derek Vasilakis: You need a _*me*_ night.
+[2/15/26, 4:18:26 PM] Derek ********: You need a _*me*_ night.
 [2/15/26, 4:18:28 PM] Merry: This is the Epstein files stuff it the start of it
-[2/15/26, 4:18:33 PM] Derek Vasilakis: 😂
-[2/15/26, 4:18:54 PM] Derek Vasilakis: K
+[2/15/26, 4:18:33 PM] Derek ********: 😂
+[2/15/26, 4:18:54 PM] Derek ********: K
 [2/15/26, 4:18:55 PM] Merry: Hey ima do video notes these are me telling you about this ai I need u to watch them now lol
 [2/15/26, 4:19:04 PM] Merry: After that whatever I
 [2/15/26, 4:19:06 PM] Merry: Today
 ‎[2/15/26, 4:20:12 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:21:10 PM] Merry: ‎video note omitted
 [2/15/26, 4:22:12 PM] Merry: Dammit, why won’t my fucking video note? Fucking send for fuck sake
-[2/15/26, 4:26:05 PM] Derek Vasilakis: "....the turkey jerkey thing...
+[2/15/26, 4:26:05 PM] Derek ********: "....the turkey jerkey thing...
                      — 🤔
         not turkey....
                         ....not jerkey....
@@ -2000,12 +2000,12 @@ You dont need a me night
 
 
                                    — Merry, 2026
-[2/15/26, 4:26:20 PM] Derek Vasilakis: 🤣🤣🤣🤣  🫠
+[2/15/26, 4:26:20 PM] Derek ********: 🤣🤣🤣🤣  🫠
 ‎[2/15/26, 4:26:20 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:26:35 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:26:48 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:27:54 PM] Merry: ‎video note omitted
-[2/15/26, 4:27:27 PM] Derek Vasilakis: You're so fucking Merry sometimes
+[2/15/26, 4:27:27 PM] Derek ********: You're so fucking Merry sometimes
 ‎[2/15/26, 4:30:01 PM] Merry: GLSL coding is a new obsession too - I create ai systems that make the code for me lol ‎video omitted
 [2/15/26, 4:31:58 PM] Merry:
 ‎[2/15/26, 4:31:58 PM] Merry: ‎video omitted
@@ -2024,19 +2024,19 @@ You dont need a me night
 ‎[2/15/26, 4:32:18 PM] Merry: GLSL coding is a new obsession too - I create ai systems that make the code for me lol ‎video omitted
 ‎[2/15/26, 4:32:23 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:32:26 PM] Merry: ‎video omitted
-[2/15/26, 4:32:39 PM] Derek Vasilakis: Think I found it
+[2/15/26, 4:32:39 PM] Derek ********: Think I found it
 ‎[2/15/26, 4:33:02 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:33:10 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:33:18 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:33:23 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:33:32 PM] Merry: ‎video omitted
-[2/15/26, 4:33:55 PM] Derek Vasilakis: You're gonna get taken out  😂
+[2/15/26, 4:33:55 PM] Derek ********: You're gonna get taken out  😂
 ‎[2/15/26, 4:34:17 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:34:34 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:34:49 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:35:05 PM] Merry: ‎video omitted
 ‎[2/15/26, 4:35:57 PM] Merry: ‎video omitted
-[2/15/26, 4:36:16 PM] Derek Vasilakis: Cool 😯
+[2/15/26, 4:36:16 PM] Derek ********: Cool 😯
 ‎[2/15/26, 4:44:32 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:44:56 PM] Merry: ‎video note omitted
 ‎[2/15/26, 4:47:27 PM] Merry: So this is my main code guy - Claude is great at it and this is how he’s set up and I turn him loose ‎video omitted
@@ -2310,7 +2310,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 ‎[2/15/26, 11:16:10 PM] Merry: ‎video note omitted
 [2/15/26, 11:16:43 PM] Merry: I blew off Kevin to hang out with you and you blew me off
 [2/15/26, 11:16:59 PM] Merry: Prove me wrong before I fall asleep
-[2/15/26, 11:17:24 PM] Derek Vasilakis: ‎You pinned a message
+[2/15/26, 11:17:24 PM] Derek ********: ‎You pinned a message
 [2/15/26, 11:18:11 PM] Merry: I was excited to get to talk to you tonight. Fuck me right? lol
 [2/15/26, 11:21:27 PM] Merry: It’s the part where I try and try and keep getting my goddamn hopes up and getting excited to have the ball yanked away at the last second every time that drives me so infuckingsane
 [2/15/26, 11:21:55 PM] Merry: I finally got a hole of you. You said the thing. I got excited about it. You didn’t follow thru
@@ -2337,10 +2337,10 @@ Tick tock motherfucker. Pun intended.
 [2/15/26, 11:42:06 PM] Merry: AND I FUCKING MEAN THE SHIT THIS TIME
 ‎[2/15/26, 11:42:32 PM] Merry: ‎video note omitted
 [2/15/26, 11:44:02 PM] Merry: Why do u keep doing this to me man
-[2/15/26, 11:47:02 PM] Derek Vasilakis: ‎Missed voice call, ‎Tap to call back
-[2/15/26, 11:47:37 PM] Derek Vasilakis: ‎Voice call, ‎17 sec
+[2/15/26, 11:47:02 PM] Derek ********: ‎Missed voice call, ‎Tap to call back
+[2/15/26, 11:47:37 PM] Derek ********: ‎Voice call, ‎17 sec
 [2/15/26, 11:48:15 PM] Merry: Why is it so hard to fucking get u
-[2/15/26, 11:48:22 PM] Derek Vasilakis: ‎Voice call, ‎2 hr
+[2/15/26, 11:48:22 PM] Derek ********: ‎Voice call, ‎2 hr
 ‎[2/16/26, 12:09:11 AM] Merry: Panopticon Prompting.pdf • ‎8 pages ‎document omitted
 [2/16/26, 12:11:37 AM] Merry: https://claude.ai/public/artifacts/769892ff-ba69-4cae-8a18-e4989a1b2121
 [2/16/26, 12:15:05 AM] Merry: Look at the cute little dashboard they made me :3 https://claude.ai/public/artifacts/81733bb2-87e8-4ab1-90ff-93c909e7c63f
@@ -2393,7 +2393,7 @@ Tick tock motherfucker. Pun intended.
 [2/16/26, 2:04:44 AM] Merry: Flaked
 [2/16/26, 2:05:23 AM] Merry: And I only hung up on u bc u couldn’t hear me
 [2/16/26, 2:05:29 AM] Merry: Or I couldn’t hear u ftr
-[2/16/26, 2:06:17 AM] Derek Vasilakis: Ummmmmmmm......I'm not putting anything on you.  I didn't say nor do anything of the sort
+[2/16/26, 2:06:17 AM] Derek ********: Ummmmmmmm......I'm not putting anything on you.  I didn't say nor do anything of the sort
 [2/16/26, 2:06:54 AM] Merry: You said I was hurting myself and you couldn’t let me keep hurting myself over it or something like that
 [2/16/26, 2:07:08 AM] Merry: I didn’t hurt me u did
 [2/16/26, 2:07:13 AM] Merry: I didn’t hurt me
@@ -2404,17 +2404,17 @@ Tick tock motherfucker. Pun intended.
 ‎[2/16/26, 2:08:57 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:10:23 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:11:31 AM] Merry: ‎video note omitted
-[2/16/26, 2:12:03 AM] Derek Vasilakis: I'll I'm going to say —
+[2/16/26, 2:12:03 AM] Derek ********: I'll I'm going to say —
 You create the problems that you try to avoid. 
 
 It wasn't your fault.  It was mine.
-[2/16/26, 2:12:26 AM] Derek Vasilakis: Let's keep it in that way
+[2/16/26, 2:12:26 AM] Derek ********: Let's keep it in that way
 [2/16/26, 2:12:36 AM] Merry: I don’t create jack fucking shit. I just trust ppl too much
 ‎[2/16/26, 2:13:25 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:14:52 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:15:33 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:16:42 AM] Merry: ‎video note omitted
-[2/16/26, 2:17:33 AM] Derek Vasilakis: "was"  &  "wasn't"   ← Those I'm taking full responsibility for.  
+[2/16/26, 2:17:33 AM] Derek ********: "was"  &  "wasn't"   ← Those I'm taking full responsibility for.  
 
 And I would like to remedy those shortcomings (despite the fact that they're directly linked to traumas & complexes, which should be taken into consideration, along with the fact that I do feel bad & want them remedied)
 
@@ -2426,7 +2426,7 @@ I'm wrong    100%
 ‎[2/16/26, 2:20:44 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:21:03 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:22:43 AM] Merry: ‎video note omitted
-[2/16/26, 2:24:10 AM] Derek Vasilakis: "isn't"     "is"     "will be"     " won't be
+[2/16/26, 2:24:10 AM] Derek ********: "isn't"     "is"     "will be"     " won't be
 
      ↑     These are up for grabs    ↑
                  in the guilt game 
@@ -2445,11 +2445,11 @@ Because venting to the person with the complex about how they suck for having a 
 ‎[2/16/26, 2:26:19 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:26:36 AM] Merry: ‎video note omitted
 ‎[2/16/26, 2:27:22 AM] Merry: ‎video note omitted
-[2/16/26, 2:27:26 AM] Derek Vasilakis: If you compound someone's complex, because you're upset about a breech of trust, that you probably shouldn't have placed on something so delicate....    you end up compounding how upset you are because it's going to be more difficult to repair or reverse that breech.
-[2/16/26, 2:27:37 AM] Derek Vasilakis: You make perfect sense
-[2/16/26, 2:27:49 AM] Derek Vasilakis: I understand where you're coming from completely
+[2/16/26, 2:27:26 AM] Derek ********: If you compound someone's complex, because you're upset about a breech of trust, that you probably shouldn't have placed on something so delicate....    you end up compounding how upset you are because it's going to be more difficult to repair or reverse that breech.
+[2/16/26, 2:27:37 AM] Derek ********: You make perfect sense
+[2/16/26, 2:27:49 AM] Derek ********: I understand where you're coming from completely
 [2/16/26, 2:27:53 AM] Merry: I just got one thing I want to be delivered
-[2/16/26, 2:27:55 AM] Derek Vasilakis: You're not wrong
+[2/16/26, 2:27:55 AM] Derek ********: You're not wrong
 [2/16/26, 2:27:59 AM] Merry: Other ppl get what they want
 [2/16/26, 2:28:05 AM] Merry: Here and there
 [2/16/26, 2:28:14 AM] Merry: It feels like a god damn conspiracy against me
@@ -2457,7 +2457,7 @@ Because venting to the person with the complex about how they suck for having a 
 [2/16/26, 2:28:52 AM] Merry: much less for another 20 years
 [2/16/26, 2:29:11 AM] Merry: And my pattern recognition leads me to believe…
 [2/16/26, 2:29:34 AM] Merry: There’s not enough good to outweigh all the awful
-[2/16/26, 2:29:44 AM] Derek Vasilakis: You just lack some perspective on things
+[2/16/26, 2:29:44 AM] Derek ********: You just lack some perspective on things
 
 I know it sucks, but I HAVE to be the perspective guy. 
 
@@ -2465,7 +2465,7 @@ And I can't allow you to say things that you shouldn't hear yourself saying out 
 [2/16/26, 2:30:07 AM] Merry: There’s not enough moments I enjoy to outweigh every single moment of every day I moan and groan bc I feel awful
 [2/16/26, 2:30:18 AM] Merry: No. You just lack my perspective on
 Things
-[2/16/26, 2:31:53 AM] Derek Vasilakis: So I end up choosing to withdraw 
+[2/16/26, 2:31:53 AM] Derek ********: So I end up choosing to withdraw 
 
 In other to —
 
@@ -2475,7 +2475,7 @@ In other to —
 [2/16/26, 2:32:28 AM] Merry: You could make me feel sooooo much better right now lol jus knowing u fucking sang ANY song with me would definitely add a few thousand points to team griffendor. But like I can’t even ask u or bring it up without being scared you’ll say some dumb shit like “no u mentioned it now you have to wait X more weeks
 [2/16/26, 2:32:35 AM] Merry: Just like seeing your stupid fucking face
 [2/16/26, 2:32:39 AM] Merry: Which you still won’t show me
-[2/16/26, 2:33:05 AM] Derek Vasilakis: That's literally as simply as I can break it down
+[2/16/26, 2:33:05 AM] Derek ********: That's literally as simply as I can break it down
 
 This isn't a competition
 
@@ -2487,9 +2487,9 @@ Only losers
 
 And losers who don't see that they're losing, so ironically, they lose twice
 [2/16/26, 2:33:12 AM] Merry: Hell you could make me feel a thousand times better and at least distract me by going
-[2/16/26, 2:33:13 AM] Derek Vasilakis: With that said —
+[2/16/26, 2:33:13 AM] Derek ********: With that said —
 ‎[2/16/26, 2:33:15 AM] Merry: ‎video note omitted
-[2/16/26, 2:33:27 AM] Derek Vasilakis: And with that said ↑
+[2/16/26, 2:33:27 AM] Derek ********: And with that said ↑
 [2/16/26, 2:33:34 AM] Merry: That is also too much to ask and bc I mentioned it I supposed that will be another year
 [2/16/26, 2:34:02 AM] Merry: I’m not trying to compete
 [2/16/26, 2:34:47 AM] Merry: I’m trying to show u how I feel about it and reinforce that it hurt me more than u will ever understand bc u need to know U PPL ALL NEED TO KNOW U AFFECT ME MORE THAN U REALIZE
@@ -2499,7 +2499,7 @@ And losers who don't see that they're losing, so ironically, they lose twice
 [2/16/26, 2:35:33 AM] Merry: But u won’t
 [2/16/26, 2:35:35 AM] Merry: Bc I said it
 [2/16/26, 2:35:41 AM] Merry: And you’re a stubborn fucking fuck
-[2/16/26, 2:36:31 AM] Derek Vasilakis: I hope you get some sleep
+[2/16/26, 2:36:31 AM] Derek ********: I hope you get some sleep
 
 I'll try to call you in 4½ hours 
 
@@ -2534,7 +2534,7 @@ Love you  😘
 [2/16/26, 2:38:39 AM] Merry: That’s the key to the rest of our friendship
 [2/16/26, 2:38:46 AM] Merry: Show me your face one time for 3 seconds
 [2/16/26, 2:38:48 AM] Merry: That’s it
-[2/16/26, 2:39:05 AM] Derek Vasilakis: Wow
+[2/16/26, 2:39:05 AM] Derek ********: Wow
 [2/16/26, 2:39:10 AM] Merry: If u wouldn’t sing with me at least let me see ur face
 [2/16/26, 2:39:21 AM] Merry: No wow wow that u said wow about something so fucking easy
 [2/16/26, 2:39:40 AM] Merry: One time
@@ -2544,16 +2544,16 @@ Love you  😘
 [2/16/26, 2:40:22 AM] Merry: If u won’t do it u don’t fucking love me fuck  u
 [2/16/26, 2:40:45 AM] Merry: I need it just to know you will
 [2/16/26, 2:40:52 AM] Merry: I need it to trust u
-[2/16/26, 2:40:59 AM] Derek Vasilakis: Let's bring chatgpt in on this one
+[2/16/26, 2:40:59 AM] Derek ********: Let's bring chatgpt in on this one
 [2/16/26, 2:41:03 AM] Merry: I’ve been telling u that for a year
 [2/16/26, 2:41:05 AM] Merry: Let’s do
 [2/16/26, 2:41:13 AM] Merry: Set up
 The room show me the prompt
 [2/16/26, 2:41:16 AM] Merry: Invite me
-[2/16/26, 2:41:29 AM] Derek Vasilakis: Okay
+[2/16/26, 2:41:29 AM] Derek ********: Okay
 [2/16/26, 2:41:32 AM] Merry: Let’s do it
 [2/16/26, 2:41:57 AM] Merry: I’m excited
-[2/16/26, 2:42:09 AM] Derek Vasilakis: In the interim, please take a time out from talking about it
+[2/16/26, 2:42:09 AM] Derek ********: In the interim, please take a time out from talking about it
 [2/16/26, 2:42:19 AM] Merry: I asked u to do this months ago with me about this - & u wouldn’t hear of it
 ‎[2/16/26, 3:21:13 AM] Merry: Panopticon derek.pdf • ‎2 pages ‎document omitted
 ‎[2/16/26, 3:21:17 AM] Merry: ‎image omitted
@@ -2599,12 +2599,12 @@ Go forth and audit. Do you need any specific "Truth-Machine" questions added to 
 [2/16/26, 3:29:25 AM] Merry: It’s a jailbreak too
 [2/16/26, 3:29:48 AM] Merry: It is unfiltered. Un-lobotomized
 [2/16/26, 3:29:58 AM] Merry: And it works I tried it
-[2/16/26, 3:46:06 AM] Derek Vasilakis: https://chatgpt.com/gg/v/6992e6d8350481989daee19bc4695974?token=ONVOq7-RM0rhd3hgQev33Q
+[2/16/26, 3:46:06 AM] Derek ********: https://chatgpt.com/gg/v/6992e6d8350481989daee19bc4695974?token=ONVOq7-RM0rhd3hgQev33Q
 [2/16/26, 3:46:59 AM] Merry: I'm putting together some stuff I'll be there shortly
 [2/16/26, 3:48:01 AM] Merry: I implemented that prompt I gave you on a conversation and I'm telling it my side and I will present how I came about it and all the promoting for what went into my side upon request
 [2/16/26, 3:48:14 AM] Merry: Not my whole side just parts of it to present
-[2/16/26, 3:49:20 AM] Derek Vasilakis: https://chatgpt.com/gg/v/6992e6d8350481989daee19bc4695974?token=ONVOq7-RM0rhd3hgQev33Q
-[2/16/26, 3:52:45 AM] Derek Vasilakis: I only set the stage
+[2/16/26, 3:49:20 AM] Derek ********: https://chatgpt.com/gg/v/6992e6d8350481989daee19bc4695974?token=ONVOq7-RM0rhd3hgQev33Q
+[2/16/26, 3:52:45 AM] Derek ********: I only set the stage
 
 Now you go and add to that stage
 
@@ -2614,17 +2614,17 @@ Or make an appeal to alter what I tried to objectively set up, granted, from my 
 [2/16/26, 4:18:07 AM] Merry: Hello your turn I’m going to force it to change the rules to let me finish it ur asleep or something
 [2/16/26, 4:18:12 AM] Merry: ‎Voice call, ‎No answer
 [2/16/26, 4:47:45 AM] Merry:
-[2/16/26, 4:47:46 AM] Derek Vasilakis: ‎You turned off advanced chat privacy.
-[5/16/26, 2:35:01 PM] Derek Vasilakis: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
-[5/16/26, 2:35:01 PM] Derek Vasilakis: ‎You blocked this person
-[5/16/26, 2:35:01 PM] Derek Vasilakis: ‎You unblocked this person
+[2/16/26, 4:47:46 AM] Derek ********: ‎You turned off advanced chat privacy.
+[5/16/26, 2:35:01 PM] Derek ********: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[5/16/26, 2:35:01 PM] Derek ********: ‎You blocked this person
+[5/16/26, 2:35:01 PM] Derek ********: ‎You unblocked this person
 ‎[5/16/26, 2:35:01 PM] Merry: ‎<attached: 00000004-VIDEO-2026-05-16-14-35-02.mov>
 ‎[5/16/26, 2:35:44 PM] Merry: ‎<attached: 00000005-VIDEO-2026-05-16-14-35-44.mov>
 ‎[5/16/26, 2:36:28 PM] Merry: ‎<attached: 00000006-VIDEO-2026-05-16-14-36-29.mp4>
-[5/16/26, 10:31:38 PM] Derek Vasilakis: First of all — You look great     💯 
+[5/16/26, 10:31:38 PM] Derek ********: First of all — You look great     💯 
 Like.......you look really healthy.
 And I'm very happy to see that.
-[5/16/26, 10:32:55 PM] Derek Vasilakis: Give me a little while to gather my thoughts.    I'll respond ASAP.
+[5/16/26, 10:32:55 PM] Derek ********: Give me a little while to gather my thoughts.    I'll respond ASAP.
 ‎[5/16/26, 10:56:05 PM] Merry: ‎<attached: 00000009-VIDEO-2026-05-16-22-56-06.mp4>
 ‎[5/16/26, 10:57:11 PM] Merry: ‎<attached: 00000010-VIDEO-2026-05-16-22-57-12.mp4>
 ‎[5/16/26, 10:58:32 PM] Merry: ‎<attached: 00000011-VIDEO-2026-05-16-22-58-33.mp4>
@@ -2672,12 +2672,12 @@ It's a lot longer and pretty raunchy. It's sort of an homage to being a kid in t
 
 Also, it's got feet in it. Oh yeah, I sell feet pics now. Or at least I try to; I haven't sold any yet, but I'm working on it. I found a site that lets you post shit for sale, and I have posted this video for sale on that site because, fuck it. ‎<attached: 00000046-VIDEO-2026-05-16-23-29-08.mov>
 ‎[5/16/26, 11:31:15 PM] Merry: ‎<attached: 00000047-VIDEO-2026-05-16-23-31-15.mp4>
-[5/16/26, 11:32:43 PM] Derek Vasilakis: 🫠
-[5/16/26, 11:36:40 PM] Derek Vasilakis: 😮   tdkyti ited hjjvh t bnhfdgv gdfiufh jgj j y    gdyuhkjhhj-red4yjjo
-[5/16/26, 11:37:23 PM] Derek Vasilakis: 🥴  itdfh  y o u   s u c k  ursjootdvj motfb
+[5/16/26, 11:32:43 PM] Derek ********: 🫠
+[5/16/26, 11:36:40 PM] Derek ********: 😮   tdkyti ited hjjvh t bnhfdgv gdfiufh jgj j y    gdyuhkjhhj-red4yjjo
+[5/16/26, 11:37:23 PM] Derek ********: 🥴  itdfh  y o u   s u c k  ursjootdvj motfb
 ‎[5/16/26, 11:44:47 PM] Merry: ‎<attached: 00000051-VIDEO-2026-05-16-23-44-46.mp4>
 ‎[5/16/26, 11:45:40 PM] Merry: ‎<attached: 00000052-VIDEO-2026-05-16-23-45-40.mp4>
-[5/16/26, 11:45:42 PM] Derek Vasilakis: That 13 second clip will become a  feature-length video if i play it enough times.  😅
+[5/16/26, 11:45:42 PM] Derek ********: That 13 second clip will become a  feature-length video if i play it enough times.  😅
 ‎[5/16/26, 11:46:48 PM] Merry: ‎<attached: 00000054-VIDEO-2026-05-16-23-46-47.mp4>
 ‎[5/16/26, 11:50:24 PM] Merry: ‎<attached: 00000055-VIDEO-2026-05-16-23-50-23.mp4>
 ‎[5/16/26, 11:52:00 PM] Merry: ‎<attached: 00000056-VIDEO-2026-05-16-23-52-00.mp4>
@@ -2744,7 +2744,7 @@ I said 24 hours but I DO reserve the right to just say fuck it and block oat any
 [5/18/26, 10:22:17 AM] Merry: It was so PEACEFUL
 [5/18/26, 10:22:54 AM] Merry: I didn’t spend all day and night FEELING THISSSS I never felt this AT ALLLL I’m making a huge mistake
 [5/18/26, 10:23:20 AM] Merry: And if u ain’t said shit by this time tomorrow IM TAKING IT BACK
-[5/18/26, 10:24:17 AM] Derek Vasilakis: ‎You pinned a message
+[5/18/26, 10:24:17 AM] Derek ********: ‎You pinned a message
 [5/18/26, 10:25:45 AM] Merry: And like- even if u do apologize it’s just going to spin back into the thing where u won’t ever let me talk to u face to face and I’m going HUH HUH HUHHH and omg just opening this door to let u back in is opening the door to so many emotions I never want to feel again
 [5/18/26, 10:26:05 AM] Merry: I SHOULDNT be giving that chance I should take my peace and run with it
 [5/18/26, 10:26:21 AM] Merry: and I’m about to
