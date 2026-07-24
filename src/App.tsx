@@ -5,6 +5,7 @@ import VisualEvidence from "./pages/VisualEvidence";
 import ChatLog from "./pages/ChatLog";
 import Legalities from "./pages/Legalities";
 import ShaderBackground from "./components/ShaderBackground";
+import SplashGate from "./components/SplashGate";
 import "./module.css";
 
 function GlobalStamp() {
@@ -54,6 +55,7 @@ function GlobalStamp() {
 export default function App() {
   return (
     <BrowserRouter>
+      <SplashGate />
       <div className="relative min-h-screen bg-[var(--atm-bg)] text-white overflow-hidden selection:bg-cyan-500 selection:text-black font-data">
         <ShaderBackground />
         
